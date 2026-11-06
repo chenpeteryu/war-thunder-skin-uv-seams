@@ -1,0 +1,32 @@
+[
+  {
+    "model": "j_16",
+    "source_geometry_sha256": "44984654a3ab1d84d7658d85e803cbb4a97ff74f2574d1909667323010be99a3",
+    "native_axes": "+X nose, +Y up, +Z left",
+    "pixel_transform": "x=u*W; y=(1-v)*H; sample pixel centers at x+0.5,y+0.5. W/H are explicit parameters, never inferred from shape.",
+    "surface_rules": "Part + native physical UV island + per-triangle dominant outward facing. No upper/lower or left/right inference from atlas order.",
+    "review_filter": "Coplanar duplicates prefer greater UV area at XYZ quantization 0.1 mm. This is a review heuristic, not proof of game visibility; raw geometry is retained.",
+    "boundary_endpoint_checks": {
+      "endpoints": 285102,
+      "matched_native_island_vertices": 285102,
+      "all_matched": true,
+      "quantization_uv": 1e-06,
+      "equivalent_at_8192_px": 0.008192
+    }
+  },
+  {
+    "model": "j_15t",
+    "source_geometry_sha256": "000b688d7d8dd19d986a16b16f4de56a2a60716962b3e42cfbeb261cfdac966c",
+    "native_axes": "+X nose, +Y up, +Z left",
+    "pixel_transform": "x=u*W; y=(1-v)*H; sample pixel centers at x+0.5,y+0.5. W/H are explicit parameters, never inferred from shape.",
+    "surface_rules": "Part + native physical UV island + per-triangle dominant outward facing. No upper/lower or left/right inference from atlas order.",
+    "review_filter": "Coplanar duplicates prefer greater UV area at XYZ quantization 0.1 mm. This is a review heuristic, not proof of game visibility; raw geometry is retained.",
+    "boundary_endpoint_checks": {
+      "endpoints": 340758,
+      "matched_native_island_vertices": 340758,
+      "all_matched": true,
+      "quantization_uv": 1e-06,
+      "equivalent_at_8192_px": 0.008192
+    }
+  }
+]

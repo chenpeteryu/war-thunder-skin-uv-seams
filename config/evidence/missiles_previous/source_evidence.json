@@ -1,0 +1,276 @@
+{
+  "backend": "https://github.com/NotNekroz/wt-asset-explorer",
+  "commit": "99c794ab102785c39e628033a09bf4ff18dbe64e",
+  "models": {
+    "pl_12_missile": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aces.grp",
+      "entry": {
+        "name": "pl_12_missile",
+        "class_id": 3031947716,
+        "offset": 26681840,
+        "size": 46192
+      },
+      "raw_entry_sha256": "0a12f690412c17706446246a0996de503ad95bafa608078e816a962132629746"
+    },
+    "pl_12a_missile": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aces.grp",
+      "entry": {
+        "name": "pl_12a_missile",
+        "class_id": 3031947716,
+        "offset": 26728208,
+        "size": 44912
+      },
+      "raw_entry_sha256": "6b974e758485a2837788a605deecf0adebe9434f232352ad9344fbee26b201fe"
+    },
+    "su_r_77_missile": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aces.grp",
+      "entry": {
+        "name": "su_r_77_missile",
+        "class_id": 3031947716,
+        "offset": 82772640,
+        "size": 96432
+      },
+      "raw_entry_sha256": "b3f5dbf22feafcf26c7ff74bdf94f0fe24a8eb549fce952f2afcac61a9972f3a"
+    },
+    "su_r_77_1_missile": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aces.grp",
+      "entry": {
+        "name": "su_r_77_1_missile",
+        "class_id": 3031947716,
+        "offset": 82670064,
+        "size": 102400
+      },
+      "raw_entry_sha256": "7f61546d128584e5f889d505795939bf4b8e4a7621dda0bcc36262cbf0b07d51"
+    },
+    "us_aim_120a_missile": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aces.grp",
+      "entry": {
+        "name": "us_aim_120a_missile",
+        "class_id": 3031947716,
+        "offset": 66083360,
+        "size": 50864
+      },
+      "raw_entry_sha256": "60b448d22c2e86f4fd3c9c45405f61eebaf74a4babe6cb2cdf519dacccb5d592"
+    },
+    "us_aim_120b_missile": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aces.grp",
+      "entry": {
+        "name": "us_aim_120b_missile",
+        "class_id": 3031947716,
+        "offset": 66134400,
+        "size": 50864
+      },
+      "raw_entry_sha256": "60b448d22c2e86f4fd3c9c45405f61eebaf74a4babe6cb2cdf519dacccb5d592"
+    },
+    "us_aim_120c_missile": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aces.grp",
+      "entry": {
+        "name": "us_aim_120c_missile",
+        "class_id": 3031947716,
+        "offset": 66185440,
+        "size": 50992
+      },
+      "raw_entry_sha256": "a7dd0dacf8cbce7bf6bb71e24984c1bd2f5eeae7a7caeba83b0b60ac15ac43de"
+    },
+    "us_aim_120d_missile": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aces.grp",
+      "entry": {
+        "name": "us_aim_120d_missile",
+        "class_id": 3031947716,
+        "offset": 66236608,
+        "size": 50992
+      },
+      "raw_entry_sha256": "a7dd0dacf8cbce7bf6bb71e24984c1bd2f5eeae7a7caeba83b0b60ac15ac43de"
+    },
+    "jp_aam4_missile": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aces.grp",
+      "entry": {
+        "name": "jp_aam4_missile",
+        "class_id": 3031947716,
+        "offset": 47701104,
+        "size": 61488
+      },
+      "raw_entry_sha256": "d526558e2e3516218d403a0670fdf068e12fa5b96c93c6d41afd2fe9938653fe"
+    },
+    "fr_mbda_mica_em_missile": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aces.grp",
+      "entry": {
+        "name": "fr_mbda_mica_em_missile",
+        "class_id": 3031947716,
+        "offset": 39474016,
+        "size": 165568
+      },
+      "raw_entry_sha256": "e81dfe7e3c47e993a66f73b84fda819e815fe24a976e6e8fa92723697dba8dcd"
+    },
+    "fr_mbda_mica_ir_missile": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aces.grp",
+      "entry": {
+        "name": "fr_mbda_mica_ir_missile",
+        "class_id": 3031947716,
+        "offset": 39639760,
+        "size": 204544
+      },
+      "raw_entry_sha256": "d3d5b4e63b5b7f5725fd2f9b45a8184a761610a6b26a4dfe9343dbeb154be2fe"
+    },
+    "is_derby_missile": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aces.grp",
+      "entry": {
+        "name": "is_derby_missile",
+        "class_id": 3031947716,
+        "offset": 44791104,
+        "size": 56176
+      },
+      "raw_entry_sha256": "e74b578db45b294412aca62c7a946a8e2a01354d133bb5f1b1f0987668cd9a4c"
+    },
+    "r_darter": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aces.grp",
+      "entry": {
+        "name": "r_darter",
+        "class_id": 3031947716,
+        "offset": 49946416,
+        "size": 61120
+      },
+      "raw_entry_sha256": "ba985e00839c2ca65dffc4ca9ce1d5d15ff64ae434a2bd88631990f8ae89d542"
+    },
+    "cn_ld_10_missile": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aces.grp",
+      "entry": {
+        "name": "cn_ld_10_missile",
+        "class_id": 3031947716,
+        "offset": 28654704,
+        "size": 38080
+      },
+      "raw_entry_sha256": "6471699adc14b8c75c4af4b705f6e2072507432363defc576e06c1c6fb1336d5"
+    },
+    "su_kh_29l_missile": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aces.grp",
+      "entry": {
+        "name": "su_kh_29l_missile",
+        "class_id": 3031947716,
+        "offset": 81822528,
+        "size": 84096
+      },
+      "raw_entry_sha256": "b8af47d84cf8ae61998da53b0154a5d8b4e26d583631c5df6ffec620a670d19b"
+    },
+    "su_kh_29t_missile": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aces.grp",
+      "entry": {
+        "name": "su_kh_29t_missile",
+        "class_id": 3031947716,
+        "offset": 81906800,
+        "size": 85632
+      },
+      "raw_entry_sha256": "16812195b11a695ff1dceca54c6a825196c179d91ad4fd96a9b5e661ffa2b46f"
+    },
+    "su_r_27er_missile": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aces.grp",
+      "entry": {
+        "name": "su_r_27er_missile",
+        "class_id": 3031947716,
+        "offset": 85006416,
+        "size": 116096
+      },
+      "raw_entry_sha256": "43ca0c92f98787bcde9682ab9e76e498ae6744adbe039adaded9d57dd3161e6b"
+    },
+    "su_r_27et_missile": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aces.grp",
+      "entry": {
+        "name": "su_r_27et_missile",
+        "class_id": 3031947716,
+        "offset": 85122688,
+        "size": 165616
+      },
+      "raw_entry_sha256": "1109be13dc8a2a2435dae79ca98d9175d000170185865549b224e35e7ff80e65"
+    },
+    "su_r_27r_missile": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aces.grp",
+      "entry": {
+        "name": "su_r_27r_missile",
+        "class_id": 3031947716,
+        "offset": 85288480,
+        "size": 104912
+      },
+      "raw_entry_sha256": "3a1656d38f990d185428c50b0a105955cf5656f98569bec41422931cfe5935b8"
+    },
+    "su_r_27t_missile": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aces.grp",
+      "entry": {
+        "name": "su_r_27t_missile",
+        "class_id": 3031947716,
+        "offset": 85393568,
+        "size": 126992
+      },
+      "raw_entry_sha256": "1cce1dd28d07503ad2ee7ec3e54cc7550faa8b1f225eaa570ca29e8b0f7bfc77"
+    },
+    "su_r_73": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aces.grp",
+      "entry": {
+        "name": "su_r_73",
+        "class_id": 3031947716,
+        "offset": 82459872,
+        "size": 107952
+      },
+      "raw_entry_sha256": "6f4c918b30c2916270b2e8e09c450af3e17aeb5c96b91e876a94f36fbd6da479"
+    },
+    "su_r_73l": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aces.grp",
+      "entry": {
+        "name": "su_r_73l",
+        "class_id": 3031947716,
+        "offset": 82568000,
+        "size": 101888
+      },
+      "raw_entry_sha256": "f1675d8256e47b89e775064a871e512c8bb4e832945f20c252a3b3cde78d5239"
+    },
+    "pl_8": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aces.grp",
+      "entry": {
+        "name": "pl_8",
+        "class_id": 3031947716,
+        "offset": 26943744,
+        "size": 49376
+      },
+      "raw_entry_sha256": "b20c928dceb53eb27fa49be3fbc4c3708e1f94843da0bc17e126d586e5891e9c"
+    },
+    "pl_8b": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aces.grp",
+      "entry": {
+        "name": "pl_8b",
+        "class_id": 3031947716,
+        "offset": 26993296,
+        "size": 49488
+      },
+      "raw_entry_sha256": "15ffb25607ce6710777865a80122380d9a77f01cf9c360593de7c6906d74bd4d"
+    },
+    "su_kh38_ml_missile": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aces.grp",
+      "entry": {
+        "name": "su_kh38_ml_missile",
+        "class_id": 3031947716,
+        "offset": 81440704,
+        "size": 71536
+      },
+      "raw_entry_sha256": "94bb9cd0e9df3d7f9af0182cd35538393e0cfecdc64bb85fa5fcc92883626e59"
+    },
+    "su_kh38_mt_missile": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aces.grp",
+      "entry": {
+        "name": "su_kh38_mt_missile",
+        "class_id": 3031947716,
+        "offset": 81512416,
+        "size": 77792
+      },
+      "raw_entry_sha256": "94816ae8662e1de95eb9c79895d3a8d6dd017e01a566b74512c6cc44da95a890"
+    },
+    "su_grom_e1_missile": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aces.grp",
+      "entry": {
+        "name": "su_grom_e1_missile",
+        "class_id": 3031947716,
+        "offset": 72049360,
+        "size": 87072
+      },
+      "raw_entry_sha256": "fc60552afd8b4f8e79cf768d8566d6c984bb66d2aa97736df528740df2c046f9"
+    }
+  }
+}

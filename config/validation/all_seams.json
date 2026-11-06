@@ -1,0 +1,813 @@
+{
+  "databases": 35,
+  "checked_stub_pixels": 229091,
+  "all_checks_passed": true,
+  "runtime_verified": false,
+  "results": [
+    {
+      "models": [
+        {
+          "model": "jp_aam4_missile",
+          "paintable_charts": 256,
+          "links": 255,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 1516,
+      "max_local_transform_roundtrip_error_px": 3.637978807091713e-12,
+      "max_continuous_anchor_registration_error_px": 7.673861546209082e-13,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/aam4/jp_aam4_missile_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "us_aim_120a_missile",
+          "paintable_charts": 262,
+          "links": 261,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 2306,
+      "max_local_transform_roundtrip_error_px": 2.7284841053187847e-12,
+      "max_continuous_anchor_registration_error_px": 1.1368683772161603e-12,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/aim120a/us_aim_120a_missile_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "us_aim_120b_missile",
+          "paintable_charts": 262,
+          "links": 261,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 2306,
+      "max_local_transform_roundtrip_error_px": 2.7284841053187847e-12,
+      "max_continuous_anchor_registration_error_px": 1.1368683772161603e-12,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/aim120b/us_aim_120b_missile_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "us_aim_120c_missile",
+          "paintable_charts": 262,
+          "links": 261,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 2274,
+      "max_local_transform_roundtrip_error_px": 3.637978807091713e-12,
+      "max_continuous_anchor_registration_error_px": 1.1368683772161603e-12,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/aim120c/us_aim_120c_missile_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "us_aim_120d_missile",
+          "paintable_charts": 262,
+          "links": 261,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 2274,
+      "max_local_transform_roundtrip_error_px": 3.637978807091713e-12,
+      "max_continuous_anchor_registration_error_px": 1.1368683772161603e-12,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/aim120d/us_aim_120d_missile_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "is_derby_missile",
+          "paintable_charts": 290,
+          "links": 289,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 2206,
+      "max_local_transform_roundtrip_error_px": 2.7284841053187847e-12,
+      "max_continuous_anchor_registration_error_px": 9.094947017729282e-13,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/derby/is_derby_missile_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "su_grom_e1_missile",
+          "paintable_charts": 297,
+          "links": 296,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 1569,
+      "max_local_transform_roundtrip_error_px": 2.7284841053187847e-12,
+      "max_continuous_anchor_registration_error_px": 4.547473508864641e-13,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/grom_e1/su_grom_e1_missile_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "su_kh_29l_missile",
+          "paintable_charts": 416,
+          "links": 415,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 3104,
+      "max_local_transform_roundtrip_error_px": 1.8189894035458565e-12,
+      "max_continuous_anchor_registration_error_px": 9.094947017729282e-13,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/kh29l/su_kh_29_missile_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "su_kh_29l_missile",
+          "paintable_charts": 1,
+          "links": 0,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 0,
+      "max_local_transform_roundtrip_error_px": 0.0,
+      "max_continuous_anchor_registration_error_px": 0.0,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/kh29l/su_kh_29_missile_grid_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "su_kh_29t_missile",
+          "paintable_charts": 459,
+          "links": 458,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 3484,
+      "max_local_transform_roundtrip_error_px": 1.8189894035458565e-12,
+      "max_continuous_anchor_registration_error_px": 1.3642420526593924e-12,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/kh29t/su_kh_29_missile_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "su_kh38_ml_missile",
+          "paintable_charts": 194,
+          "links": 193,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 1052,
+      "max_local_transform_roundtrip_error_px": 2.7284841053187847e-12,
+      "max_continuous_anchor_registration_error_px": 4.547473508864641e-13,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/kh38ml/su_kh38_ml_missile_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "su_kh38_ml_missile",
+          "paintable_charts": 1,
+          "links": 0,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 0,
+      "max_local_transform_roundtrip_error_px": 0.0,
+      "max_continuous_anchor_registration_error_px": 0.0,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/kh38ml/su_kh_29_missile_grid_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "su_kh38_mt_missile",
+          "paintable_charts": 244,
+          "links": 243,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 1319,
+      "max_local_transform_roundtrip_error_px": 2.7284841053187847e-12,
+      "max_continuous_anchor_registration_error_px": 6.821210263296962e-13,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/kh38mt/su_kh38_mt_missile_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "cn_ld_10_missile",
+          "paintable_charts": 124,
+          "links": 123,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 1208,
+      "max_local_transform_roundtrip_error_px": 3.637978807091713e-12,
+      "max_continuous_anchor_registration_error_px": 1.3642420526593924e-12,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/ld10/cn_ld_10_missile_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "fr_mbda_mica_em_missile",
+          "paintable_charts": 726,
+          "links": 725,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 4456,
+      "max_local_transform_roundtrip_error_px": 2.7284841053187847e-12,
+      "max_continuous_anchor_registration_error_px": 5.9117155615240335e-12,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/mica_em/fr_mbda_mica_ir_missile_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "fr_mbda_mica_ir_missile",
+          "paintable_charts": 805,
+          "links": 804,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 4933,
+      "max_local_transform_roundtrip_error_px": 3.637978807091713e-12,
+      "max_continuous_anchor_registration_error_px": 3.637978807091713e-12,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/mica_ir/fr_mbda_mica_ir_missile_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "pl_12_missile",
+          "paintable_charts": 143,
+          "links": 142,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 1133,
+      "max_local_transform_roundtrip_error_px": 3.637978807091713e-12,
+      "max_continuous_anchor_registration_error_px": 6.821210263296962e-13,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/pl12/pl_12_missile_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "pl_12a_missile",
+          "paintable_charts": 140,
+          "links": 139,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 1107,
+      "max_local_transform_roundtrip_error_px": 3.637978807091713e-12,
+      "max_continuous_anchor_registration_error_px": 1.3642420526593924e-12,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/pl12a/pl_12a_missile_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "pl_8",
+          "paintable_charts": 252,
+          "links": 251,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 2759,
+      "max_local_transform_roundtrip_error_px": 5.4569682106375694e-12,
+      "max_continuous_anchor_registration_error_px": 2.2737367544323206e-12,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/pl8/pl_8_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "pl_8b",
+          "paintable_charts": 252,
+          "links": 251,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 2758,
+      "max_local_transform_roundtrip_error_px": 5.4569682106375694e-12,
+      "max_continuous_anchor_registration_error_px": 2.2737367544323206e-12,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/pl8b/pl_8_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "su_r_27er_missile",
+          "paintable_charts": 257,
+          "links": 256,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 2193,
+      "max_local_transform_roundtrip_error_px": 2.7284841053187847e-12,
+      "max_continuous_anchor_registration_error_px": 2.2737367544323206e-12,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/r27er/su_r_27er_27et_missile_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "su_r_27et_missile",
+          "paintable_charts": 289,
+          "links": 288,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 2442,
+      "max_local_transform_roundtrip_error_px": 2.7284841053187847e-12,
+      "max_continuous_anchor_registration_error_px": 1.8189894035458565e-12,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/r27et/su_r_27er_27et_missile_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "su_r_27r_missile",
+          "paintable_charts": 251,
+          "links": 250,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 1186,
+      "max_local_transform_roundtrip_error_px": 4.547473508864641e-12,
+      "max_continuous_anchor_registration_error_px": 4.263256414560601e-13,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/r27r/su_r_27r_27t_missile_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "su_r_27t_missile",
+          "paintable_charts": 282,
+          "links": 281,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 1263,
+      "max_local_transform_roundtrip_error_px": 3.637978807091713e-12,
+      "max_continuous_anchor_registration_error_px": 5.684341886080801e-13,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/r27t/su_r_27r_27t_missile_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "su_r_73",
+          "paintable_charts": 547,
+          "links": 546,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 5499,
+      "max_local_transform_roundtrip_error_px": 2.7284841053187847e-12,
+      "max_continuous_anchor_registration_error_px": 2.0463630789890885e-12,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/r73/su_r_73_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "su_r_73l",
+          "paintable_charts": 455,
+          "links": 454,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 2968,
+      "max_local_transform_roundtrip_error_px": 5.820766091346741e-11,
+      "max_continuous_anchor_registration_error_px": 4.092726157978177e-12,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/r73l/su_r_73l_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "su_r_77_missile",
+          "paintable_charts": 355,
+          "links": 354,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 2922,
+      "max_local_transform_roundtrip_error_px": 2.7284841053187847e-12,
+      "max_continuous_anchor_registration_error_px": 1.3642420526593924e-12,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/r77/su_r_77_missile_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "su_r_77_1_missile",
+          "paintable_charts": 335,
+          "links": 334,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 2821,
+      "max_local_transform_roundtrip_error_px": 5.4569682106375694e-12,
+      "max_continuous_anchor_registration_error_px": 1.8189894035458565e-12,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/r77_1/su_r_77_1_missile_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "r_darter",
+          "paintable_charts": 294,
+          "links": 293,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 2266,
+      "max_local_transform_roundtrip_error_px": 2.7284841053187847e-12,
+      "max_continuous_anchor_registration_error_px": 9.094947017729282e-13,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/missile_seams/r_darter/r_darter_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "j_15t",
+          "paintable_charts": 2579,
+          "links": 2578,
+          "connected": true,
+          "acyclic": true
+        },
+        {
+          "model": "j_16",
+          "paintable_charts": 2892,
+          "links": 2891,
+          "connected": true,
+          "acyclic": true
+        },
+        {
+          "model": "j_10c",
+          "paintable_charts": 787,
+          "links": 786,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 41815,
+      "max_local_transform_roundtrip_error_px": 1.3096723705530167e-10,
+      "max_continuous_anchor_registration_error_px": 1.1641532182693481e-10,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/data/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "j_16",
+          "paintable_charts": 2236,
+          "links": 2235,
+          "connected": true,
+          "acyclic": true
+        },
+        {
+          "model": "j_10c",
+          "paintable_charts": 728,
+          "links": 727,
+          "connected": true,
+          "acyclic": true
+        },
+        {
+          "model": "su_30sm",
+          "paintable_charts": 1591,
+          "links": 1590,
+          "connected": true,
+          "acyclic": true
+        },
+        {
+          "model": "su_30sm2",
+          "paintable_charts": 1594,
+          "links": 1593,
+          "connected": true,
+          "acyclic": true
+        },
+        {
+          "model": "f_15ex",
+          "paintable_charts": 1828,
+          "links": 1827,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 57292,
+      "max_local_transform_roundtrip_error_px": 2.9103830456733704e-11,
+      "max_continuous_anchor_registration_error_px": 1.8189894035458565e-11,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/reviews/2026-11-06/data/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "j_10c",
+          "paintable_charts": 731,
+          "links": 730,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 7098,
+      "max_local_transform_roundtrip_error_px": 7.275957614183426e-12,
+      "max_continuous_anchor_registration_error_px": 2.9103830456733704e-11,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/reviews/2026-11-06/evidence/auxiliary_seams/j_10c__j_10c_nozzle_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "su_30sm2",
+          "paintable_charts": 17,
+          "links": 16,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 135,
+      "max_local_transform_roundtrip_error_px": 1.8189894035458565e-12,
+      "max_continuous_anchor_registration_error_px": 1.1368683772161603e-13,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/reviews/2026-11-06/evidence/auxiliary_seams/su_30sm2__su_30sm_1_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "su_30sm",
+          "paintable_charts": 17,
+          "links": 16,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 135,
+      "max_local_transform_roundtrip_error_px": 1.8189894035458565e-12,
+      "max_continuous_anchor_registration_error_px": 1.1368683772161603e-13,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/reviews/2026-11-06/evidence/auxiliary_seams/su_30sm__su_30sm_1_c/seam_links.sqlite3"
+    },
+    {
+      "models": [
+        {
+          "model": "j_16",
+          "paintable_charts": 2236,
+          "links": 2235,
+          "connected": true,
+          "acyclic": true
+        },
+        {
+          "model": "j_10c",
+          "paintable_charts": 728,
+          "links": 727,
+          "connected": true,
+          "acyclic": true
+        },
+        {
+          "model": "su_30sm",
+          "paintable_charts": 1591,
+          "links": 1590,
+          "connected": true,
+          "acyclic": true
+        },
+        {
+          "model": "su_30sm2",
+          "paintable_charts": 1594,
+          "links": 1593,
+          "connected": true,
+          "acyclic": true
+        },
+        {
+          "model": "f_15ex",
+          "paintable_charts": 1828,
+          "links": 1827,
+          "connected": true,
+          "acyclic": true
+        }
+      ],
+      "checked_stub_pixels": 57292,
+      "max_local_transform_roundtrip_error_px": 2.9103830456733704e-11,
+      "max_continuous_anchor_registration_error_px": 1.8189894035458565e-11,
+      "stub_width_px": 1,
+      "stub_max_grid_steps": 6,
+      "raster_topology": "8-connected, independently local to each connection",
+      "all_checks_passed": true,
+      "images_modified": false,
+      "runtime_verified": false,
+      "database": "config/reviews/2026-11-06/evidence/core_occlusion/seam_links.sqlite3"
+    }
+  ]
+}

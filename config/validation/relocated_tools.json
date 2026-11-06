@@ -1,0 +1,21 @@
+{
+  "PL12A_relocated_atlas_identity": {
+    "model_alias": "pl12a",
+    "native_model": "pl_12a_missile",
+    "texture": "pl_12a_missile_c",
+    "test_resolution": [
+      64,
+      32
+    ],
+    "painted_pixels": 1476,
+    "covered_pixels_error_max_code_value": 1,
+    "transparent_outside_coverage": true,
+    "passed": true
+  },
+  "relocated_SM_SM2_comparison_matches_previous_report": true,
+  "analytic_registration_tests": {
+    "tests": 3,
+    "passed": true
+  },
+  "runtime_verified": false
+}

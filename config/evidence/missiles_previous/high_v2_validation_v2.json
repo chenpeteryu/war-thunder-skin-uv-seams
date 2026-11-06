@@ -1,0 +1,676 @@
+{
+  "revision": "HIGH v2 measured palette + sparse fluorescent accents; complete installed missile coverage",
+  "palette": {
+    "body_from_J10C": [
+      180,
+      180,
+      180
+    ],
+    "dark_from_J16": [
+      79,
+      79,
+      79
+    ],
+    "lit_gray": [
+      187,
+      187,
+      187
+    ],
+    "fluorescent_from_J10C": [
+      234.0,
+      246.0,
+      88.0
+    ]
+  },
+  "material_R": 102,
+  "material_B": 178,
+  "files": [
+    {
+      "name": "cn_ld_10_missile_c.dds",
+      "source": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\UserSkins\\Endfield_Fresh_Contours\\J15T\\cn_ld_10_missile_c.dds",
+      "size": [
+        1024,
+        512
+      ],
+      "mips": 1,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": null,
+      "alpha_exact_all_mips": true,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "45b841044462840db501245141bffa7d3b23879467c3af12bff83926788d7996",
+      "fluorescent_fraction": 0.009000778198242188,
+      "source_gray_modes": [
+        56,
+        229
+      ]
+    },
+    {
+      "name": "cn_ld_10_missile_n.dds",
+      "source": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\UserSkins\\Endfield_Fresh_Contours\\J15T\\cn_ld_10_missile_n.dds",
+      "size": [
+        1024,
+        512
+      ],
+      "mips": 1,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": true,
+      "alpha_exact_all_mips": null,
+      "DXT_decoded_to_lossless_RGBA": true,
+      "sha256": "e8ee8d37023b5c700b0a62b8d957df23fe8336a0e0d3e481dc0c1ed0a77ce3fa"
+    },
+    {
+      "name": "fr_mbda_mica_ir_missile_c.dds",
+      "source": "C:\\Users\\ROG\\Desktop\\Endfield_Originium_Active_AAM_v02_Compact\\Texture_Library\\fr_mbda_mica_ir_missile_c.dds",
+      "size": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": null,
+      "alpha_exact_all_mips": true,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "5bc871e8ca3d78504b276db3f3943820c8c8757301bb514d15eb847f1416aca0",
+      "fluorescent_fraction": 0.00462651252746582,
+      "source_gray_modes": [
+        56,
+        229
+      ]
+    },
+    {
+      "name": "fr_mbda_mica_ir_missile_n.dds",
+      "source": "C:\\Users\\ROG\\Desktop\\Endfield_Originium_Active_AAM_v02_Compact\\Texture_Library\\fr_mbda_mica_ir_missile_n.dds",
+      "size": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": true,
+      "alpha_exact_all_mips": null,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "e757260fd4b773f4e7fb163c1317e4217731b2c5ae4be1bc64aa26752419c05c"
+    },
+    {
+      "name": "is_derby_missile_c.dds",
+      "source": "C:\\Users\\ROG\\Desktop\\Endfield_Originium_Active_AAM_v02_Compact\\Texture_Library\\is_derby_missile_c.dds",
+      "size": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": null,
+      "alpha_exact_all_mips": true,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "0d1433b832ee89856b8031f75953897c5707c1f8f376abe0e7034942f22591ae",
+      "fluorescent_fraction": 0.0071070194244384766,
+      "source_gray_modes": [
+        56,
+        229
+      ]
+    },
+    {
+      "name": "is_derby_missile_n.dds",
+      "source": "C:\\Users\\ROG\\Desktop\\Endfield_Originium_Active_AAM_v02_Compact\\Texture_Library\\is_derby_missile_n.dds",
+      "size": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": true,
+      "alpha_exact_all_mips": null,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "ba04b64b97cc516fd441ab08bc390adbe75075a8d044a8234a6b1d6257587154"
+    },
+    {
+      "name": "jp_aam4_missile_c.dds",
+      "source": "C:\\Users\\ROG\\Desktop\\Endfield_Originium_Active_AAM_v02_Compact\\Texture_Library\\jp_aam4_missile_c.dds",
+      "size": [
+        2048,
+        1024
+      ],
+      "mips": 12,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": null,
+      "alpha_exact_all_mips": true,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "04979c71ac7530004677a1584af936e5e4ffaeb297644f8a6f14af40ffe756cc",
+      "fluorescent_fraction": 0.007660865783691406,
+      "source_gray_modes": [
+        56,
+        229
+      ]
+    },
+    {
+      "name": "jp_aam4_missile_n.dds",
+      "source": "C:\\Users\\ROG\\Desktop\\Endfield_Originium_Active_AAM_v02_Compact\\Texture_Library\\jp_aam4_missile_n.dds",
+      "size": [
+        2048,
+        1024
+      ],
+      "mips": 12,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": true,
+      "alpha_exact_all_mips": null,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "84ec5abf9c7179de999712586c48c844cc3fb6cf24fbec0af56bb08ea36019d4"
+    },
+    {
+      "name": "pl_12_missile_c.dds",
+      "source": "C:\\Users\\ROG\\Desktop\\Endfield_Originium_Active_AAM_v02_Compact\\Texture_Library\\pl_12_missile_c.dds",
+      "size": [
+        2048,
+        1024
+      ],
+      "mips": 12,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": null,
+      "alpha_exact_all_mips": true,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "bd85b6f62d6ecbec15c559537ffbbe5bab147311f1f7ad5a57cf88b6c312a99d",
+      "fluorescent_fraction": 0.006891727447509766,
+      "source_gray_modes": [
+        56,
+        229
+      ]
+    },
+    {
+      "name": "pl_12_missile_n.dds",
+      "source": "C:\\Users\\ROG\\Desktop\\Endfield_Originium_Active_AAM_v02_Compact\\Texture_Library\\pl_12_missile_n.dds",
+      "size": [
+        2048,
+        1024
+      ],
+      "mips": 12,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": true,
+      "alpha_exact_all_mips": null,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "2cd96c83bbc7e860fb138b393b65cbbc8114ea1b90af1ef9b18493dfcca1d5b1"
+    },
+    {
+      "name": "pl_12a_missile_c.dds",
+      "source": "C:\\Users\\ROG\\Desktop\\Endfield_Originium_Active_AAM_v02_Compact\\Texture_Library\\pl_12a_missile_c.dds",
+      "size": [
+        2048,
+        1024
+      ],
+      "mips": 12,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": null,
+      "alpha_exact_all_mips": true,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "2ab74fbe2b982d22b206e91874abf0874b594c60715fe78f8370f87b76bbd20e",
+      "fluorescent_fraction": 0.006891727447509766,
+      "source_gray_modes": [
+        56,
+        229
+      ]
+    },
+    {
+      "name": "pl_12a_missile_n.dds",
+      "source": "C:\\Users\\ROG\\Desktop\\Endfield_Originium_Active_AAM_v02_Compact\\Texture_Library\\pl_12a_missile_n.dds",
+      "size": [
+        2048,
+        1024
+      ],
+      "mips": 12,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": true,
+      "alpha_exact_all_mips": null,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "32b33e1d0ced79d3ba9b308b1541950bd3526847419dce41c00c4df84e390e54"
+    },
+    {
+      "name": "pl_8_c.dds",
+      "source": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\UserSkins\\Endfield_Fresh_Contours\\J15T\\pl_8_c.dds",
+      "size": [
+        1024,
+        512
+      ],
+      "mips": 1,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": null,
+      "alpha_exact_all_mips": true,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "7a326f47d9c4affee1c9ad61e49a5c2315bfbb5ba6e034ec3cb30793dd53423e",
+      "fluorescent_fraction": 0.009000778198242188,
+      "source_gray_modes": [
+        56,
+        229
+      ]
+    },
+    {
+      "name": "pl_8_n.dds",
+      "source": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\UserSkins\\Endfield_Fresh_Contours\\J15T\\pl_8_n.dds",
+      "size": [
+        1024,
+        512
+      ],
+      "mips": 1,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": true,
+      "alpha_exact_all_mips": null,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "f205075f14b19c82010bf4f7bbc0339922eec304abc69c61157b88f39e0068bf"
+    },
+    {
+      "name": "r_darter_c.dds",
+      "source": "C:\\Users\\ROG\\Desktop\\Endfield_Originium_Active_AAM_v02_Compact\\Texture_Library\\r_darter_c.dds",
+      "size": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": null,
+      "alpha_exact_all_mips": true,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "59c10059df95fedf3d65f580a71cc4acd58e1b3482c0fb032c2b1042996585a3",
+      "fluorescent_fraction": 0.007236957550048828,
+      "source_gray_modes": [
+        56,
+        229
+      ]
+    },
+    {
+      "name": "r_darter_n.dds",
+      "source": "C:\\Users\\ROG\\Desktop\\Endfield_Originium_Active_AAM_v02_Compact\\Texture_Library\\r_darter_n.dds",
+      "size": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": true,
+      "alpha_exact_all_mips": null,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "50e665cd03645932c2a418c6aa3806721bd9f8fd32da210286cd35967c208c3d"
+    },
+    {
+      "name": "su_kh_29_missile_c.dds",
+      "source": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\UserSkins\\Endfield_Fresh_Contours\\J15T\\su_kh_29_missile_c.dds",
+      "size": [
+        1024,
+        1024
+      ],
+      "mips": 1,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": null,
+      "alpha_exact_all_mips": true,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "5f7c4f57ae19b65934f606b74d84d92f2fc3d4f7d1a2248eea31f346d8978304",
+      "fluorescent_fraction": 0.011643409729003906,
+      "source_gray_modes": [
+        56,
+        229
+      ]
+    },
+    {
+      "name": "su_kh_29_missile_n.dds",
+      "source": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\UserSkins\\Endfield_Fresh_Contours\\J15T\\su_kh_29_missile_n.dds",
+      "size": [
+        1024,
+        1024
+      ],
+      "mips": 1,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": true,
+      "alpha_exact_all_mips": null,
+      "DXT_decoded_to_lossless_RGBA": true,
+      "sha256": "9929cbe2033c2e4ffbd26221c4dab992eb908daf36a27676389119fbdf0048bb"
+    },
+    {
+      "name": "su_r_27er_27et_missile_c.dds",
+      "source": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\UserSkins\\Endfield_Fresh_Contours\\J15T\\su_r_27er_27et_missile_c.dds",
+      "size": [
+        1024,
+        1024
+      ],
+      "mips": 1,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": null,
+      "alpha_exact_all_mips": true,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "71f67b6cc0417bd1d81f1ddd2b69647b124042570f2b23e3a6ebef97f160aefb",
+      "fluorescent_fraction": 0.008999824523925781,
+      "source_gray_modes": [
+        56,
+        229
+      ]
+    },
+    {
+      "name": "su_r_27er_27et_missile_n.dds",
+      "source": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\UserSkins\\Endfield_Fresh_Contours\\J15T\\su_r_27er_27et_missile_n.dds",
+      "size": [
+        1024,
+        1024
+      ],
+      "mips": 1,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": true,
+      "alpha_exact_all_mips": null,
+      "DXT_decoded_to_lossless_RGBA": true,
+      "sha256": "3085918eaf1046577ae9a61345273fa5bc01556400bd2e5db808647b5e1275a2"
+    },
+    {
+      "name": "su_r_73_c.dds",
+      "source": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\UserSkins\\Endfield_Fresh_Contours\\J15T\\su_r_73_c.dds",
+      "size": [
+        1024,
+        1024
+      ],
+      "mips": 1,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": null,
+      "alpha_exact_all_mips": true,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "bcbe26a189beffb98257ae82a4a587f3add1b4cc99f71f80d9407496c5886e70",
+      "fluorescent_fraction": 0.008999824523925781,
+      "source_gray_modes": [
+        56,
+        229
+      ]
+    },
+    {
+      "name": "su_r_73_n.dds",
+      "source": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\UserSkins\\Endfield_Fresh_Contours\\J15T\\su_r_73_n.dds",
+      "size": [
+        1024,
+        1024
+      ],
+      "mips": 1,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": true,
+      "alpha_exact_all_mips": null,
+      "DXT_decoded_to_lossless_RGBA": true,
+      "sha256": "09db4d358c9b9ab491428eef4f0601f4022cac295c1a448cca41971cb76e33a8"
+    },
+    {
+      "name": "su_r_77_1_missile_c.dds",
+      "source": "C:\\Users\\ROG\\Desktop\\Endfield_Originium_Active_AAM_v02_Compact\\Texture_Library\\su_r_77_1_missile_c.dds",
+      "size": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": null,
+      "alpha_exact_all_mips": true,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "757fe983b03ffe2655d32025896b1be199d42344220cf0cad6a7dd594a34ac4e",
+      "fluorescent_fraction": 0.00838923454284668,
+      "source_gray_modes": [
+        56,
+        229
+      ]
+    },
+    {
+      "name": "su_r_77_1_missile_n.dds",
+      "source": "C:\\Users\\ROG\\Desktop\\Endfield_Originium_Active_AAM_v02_Compact\\Texture_Library\\su_r_77_1_missile_n.dds",
+      "size": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": true,
+      "alpha_exact_all_mips": null,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "469143b9700d59851ece267bbdc7310649eb9a244a93b4a1adbe04c24f539513"
+    },
+    {
+      "name": "su_r_77_missile_c.dds",
+      "source": "C:\\Users\\ROG\\Desktop\\Endfield_Originium_Active_AAM_v02_Compact\\Texture_Library\\su_r_77_missile_c.dds",
+      "size": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": null,
+      "alpha_exact_all_mips": true,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "654c6c0a4620f18b4d4b89b8bb57f9042e11e9463bbf7200704e236d440f8863",
+      "fluorescent_fraction": 0.008235454559326172,
+      "source_gray_modes": [
+        56,
+        229
+      ]
+    },
+    {
+      "name": "su_r_77_missile_n.dds",
+      "source": "C:\\Users\\ROG\\Desktop\\Endfield_Originium_Active_AAM_v02_Compact\\Texture_Library\\su_r_77_missile_n.dds",
+      "size": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": true,
+      "alpha_exact_all_mips": null,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "55934f08f33a169da0cd237b24818ecc05a6ec63de04e04c04033ea33b800dcd"
+    },
+    {
+      "name": "us_aim_120_missile_n.dds",
+      "source": "C:\\Users\\ROG\\Desktop\\Endfield_Originium_Active_AAM_v02_Compact\\Texture_Library\\us_aim_120_missile_n.dds",
+      "size": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": true,
+      "alpha_exact_all_mips": null,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "4ba1e9c69402d3d5c5e3026b8b09c1dc67deed2fe0d91f9b0427494525436690"
+    },
+    {
+      "name": "us_aim_120a_missile_c.dds",
+      "source": "C:\\Users\\ROG\\Desktop\\Endfield_Originium_Active_AAM_v02_Compact\\Texture_Library\\us_aim_120a_missile_c.dds",
+      "size": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": null,
+      "alpha_exact_all_mips": true,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "75354ba57127e813a26ad034278e894425de91278fe04ac89afad099ad53c4a6",
+      "fluorescent_fraction": 0.00800466537475586,
+      "source_gray_modes": [
+        56,
+        229
+      ]
+    },
+    {
+      "name": "us_aim_120b_missile_c.dds",
+      "source": "C:\\Users\\ROG\\Desktop\\Endfield_Originium_Active_AAM_v02_Compact\\Texture_Library\\us_aim_120b_missile_c.dds",
+      "size": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": null,
+      "alpha_exact_all_mips": true,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "b3f81418de2995f4adddde4910f3d51e8f7a4f6514844378f7d5644a6487c48f",
+      "fluorescent_fraction": 0.00800466537475586,
+      "source_gray_modes": [
+        56,
+        229
+      ]
+    },
+    {
+      "name": "us_aim_120c_missile_c.dds",
+      "source": "C:\\Users\\ROG\\Desktop\\Endfield_Originium_Active_AAM_v02_Compact\\Texture_Library\\us_aim_120c_missile_c.dds",
+      "size": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": null,
+      "alpha_exact_all_mips": true,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "d051f2c8da73b94d8e555682f74617a7e7a64c4fdcdc05c3472c3a2c52cbc332",
+      "fluorescent_fraction": 0.00800466537475586,
+      "source_gray_modes": [
+        56,
+        229
+      ]
+    },
+    {
+      "name": "us_aim_120c_missile_n.dds",
+      "source": "C:\\Users\\ROG\\Desktop\\Endfield_Originium_Active_AAM_v02_Compact\\Texture_Library\\us_aim_120c_missile_n.dds",
+      "size": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": true,
+      "alpha_exact_all_mips": null,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "2d41566b7f039b3afaa206c3730558e483ac3f99a7b3dd70ba001d094468d24b"
+    },
+    {
+      "name": "us_aim_120d_missile_c.dds",
+      "source": "C:\\Users\\ROG\\Desktop\\Endfield_Originium_Active_AAM_v02_Compact\\Texture_Library\\us_aim_120d_missile_c.dds",
+      "size": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "all_mips_pixel_addresses_unchanged": true,
+      "GA_exact_all_mips": null,
+      "alpha_exact_all_mips": true,
+      "DXT_decoded_to_lossless_RGBA": false,
+      "sha256": "2d1b8c2b096caf9708323aacef4aa25227dc1648db1bfa12ffbf0cbf888a9f91",
+      "fluorescent_fraction": 0.00800466537475586,
+      "source_gray_modes": [
+        56,
+        229
+      ]
+    }
+  ],
+  "installed": [
+    {
+      "skin": "J_16_ENDFIELD_HIGH",
+      "file": "pl_12_missile_c.dds"
+    },
+    {
+      "skin": "J_16_ENDFIELD_HIGH",
+      "file": "pl_12_missile_n.dds"
+    },
+    {
+      "skin": "J_16_ENDFIELD_HIGH",
+      "file": "pl_12a_missile_c.dds"
+    },
+    {
+      "skin": "J_16_ENDFIELD_HIGH",
+      "file": "pl_12a_missile_n.dds"
+    },
+    {
+      "skin": "J10C_ENDFIELD_8K",
+      "file": "pl_12_missile_c.dds"
+    },
+    {
+      "skin": "J10C_ENDFIELD_8K",
+      "file": "pl_12_missile_n.dds"
+    },
+    {
+      "skin": "J10C_ENDFIELD_8K",
+      "file": "pl_12a_missile_c.dds"
+    },
+    {
+      "skin": "J10C_ENDFIELD_8K",
+      "file": "pl_12a_missile_n.dds"
+    },
+    {
+      "skin": "J15T_ENDFIELD_HIGH",
+      "file": "cn_ld_10_missile_c.dds"
+    },
+    {
+      "skin": "J15T_ENDFIELD_HIGH",
+      "file": "cn_ld_10_missile_n.dds"
+    },
+    {
+      "skin": "J15T_ENDFIELD_HIGH",
+      "file": "pl_12_missile_c.dds"
+    },
+    {
+      "skin": "J15T_ENDFIELD_HIGH",
+      "file": "pl_12_missile_n.dds"
+    },
+    {
+      "skin": "J15T_ENDFIELD_HIGH",
+      "file": "pl_12a_missile_c.dds"
+    },
+    {
+      "skin": "J15T_ENDFIELD_HIGH",
+      "file": "pl_12a_missile_n.dds"
+    },
+    {
+      "skin": "J15T_ENDFIELD_HIGH",
+      "file": "pl_8_c.dds"
+    },
+    {
+      "skin": "J15T_ENDFIELD_HIGH",
+      "file": "pl_8_n.dds"
+    },
+    {
+      "skin": "J15T_ENDFIELD_HIGH",
+      "file": "su_kh_29_missile_c.dds"
+    },
+    {
+      "skin": "J15T_ENDFIELD_HIGH",
+      "file": "su_kh_29_missile_n.dds"
+    },
+    {
+      "skin": "J15T_ENDFIELD_HIGH",
+      "file": "su_r_27er_27et_missile_c.dds"
+    },
+    {
+      "skin": "J15T_ENDFIELD_HIGH",
+      "file": "su_r_27er_27et_missile_n.dds"
+    },
+    {
+      "skin": "J15T_ENDFIELD_HIGH",
+      "file": "su_r_73_c.dds"
+    },
+    {
+      "skin": "J15T_ENDFIELD_HIGH",
+      "file": "su_r_73_n.dds"
+    },
+    {
+      "skin": "J15T_ENDFIELD_HIGH",
+      "file": "su_r_77_missile_c.dds"
+    },
+    {
+      "skin": "J15T_ENDFIELD_HIGH",
+      "file": "su_r_77_missile_n.dds"
+    }
+  ],
+  "legacy_added": [
+    "cn_ld_10_missile_c.dds",
+    "cn_ld_10_missile_n.dds",
+    "su_kh_29_missile_c.dds",
+    "su_kh_29_missile_n.dds",
+    "su_r_27er_27et_missile_c.dds",
+    "su_r_27er_27et_missile_n.dds",
+    "su_r_73_c.dds",
+    "su_r_73_n.dds",
+    "pl_8_c.dds",
+    "pl_8_n.dds"
+  ],
+  "fresh_unchanged": true,
+  "runtime_verified": false,
+  "fresh_files_verified": 655,
+  "preview": "C:\\Users\\ROG\\.codex\\visualizations\\2026\\10\\28\\01a181a0-8e51-7b11-a779-8a4ba3896d81\\HIGH_missile_v2_comparison.jpg"
+}

@@ -1,0 +1,33 @@
+{
+  "model": "su_r_73",
+  "external_triangles": 15766,
+  "charts": 547,
+  "paintable_charts": 547,
+  "subpixel_charts_excluded_from_tree": 0,
+  "connections": 546,
+  "tree_connected": true,
+  "tree_acyclic": true,
+  "edge_only_components": 198,
+  "physical_contact_components": 194,
+  "relations": {
+    "shared_edge": 349,
+    "shared_vertex": 4,
+    "near_gap": 161,
+    "assembly_reference": 32
+  },
+  "uv_alias_groups": 4083,
+  "reference_anchor_fallbacks": 4,
+  "max_raster_anchor_error_px": 5.522680508593631,
+  "max_measured_gap_m": 0.10356948370919507,
+  "required_review_links": 95,
+  "width_px": 1,
+  "stub_length_limit_px": 6,
+  "image_overlays_written": false,
+  "runtime_verified": false,
+  "geometry_scope": {
+    "scope": "all native LOD0 geometry in this texture; no visibility filtering",
+    "texture": "su_r_73_c",
+    "runtime_verified": false
+  },
+  "database_sha256": "84d4808079a0d074f8d9a892f385a5dfb0be081bd56ea24eb13366b3075aa20b"
+}

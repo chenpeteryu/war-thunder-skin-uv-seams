@@ -1,0 +1,86 @@
+{
+  "models": [
+    {
+      "model": "j_15t",
+      "external_triangles": 84493,
+      "charts": 2579,
+      "paintable_charts": 2579,
+      "subpixel_charts_excluded_from_tree": 0,
+      "connections": 2578,
+      "tree_connected": true,
+      "tree_acyclic": true,
+      "edge_only_components": 1856,
+      "physical_contact_components": 1516,
+      "relations": {
+        "shared_edge": 720,
+        "assembly_reference": 933,
+        "shared_vertex": 152,
+        "near_gap": 773
+      },
+      "uv_alias_groups": 8256,
+      "reference_anchor_fallbacks": 486,
+      "max_raster_anchor_error_px": 5.70087712549569,
+      "max_measured_gap_m": 4.213130850253838,
+      "required_review_links": 1252,
+      "width_px": 1,
+      "stub_length_limit_px": 6,
+      "image_overlays_written": false,
+      "runtime_verified": false
+    },
+    {
+      "model": "j_16",
+      "external_triangles": 97832,
+      "charts": 2892,
+      "paintable_charts": 2892,
+      "subpixel_charts_excluded_from_tree": 0,
+      "connections": 2891,
+      "tree_connected": true,
+      "tree_acyclic": true,
+      "edge_only_components": 2203,
+      "physical_contact_components": 2008,
+      "relations": {
+        "shared_edge": 683,
+        "assembly_reference": 935,
+        "shared_vertex": 189,
+        "near_gap": 1084
+      },
+      "uv_alias_groups": 5395,
+      "reference_anchor_fallbacks": 241,
+      "max_raster_anchor_error_px": 5.522680508593631,
+      "max_measured_gap_m": 2.7822220441881655,
+      "required_review_links": 1461,
+      "width_px": 1,
+      "stub_length_limit_px": 6,
+      "image_overlays_written": false,
+      "runtime_verified": false
+    },
+    {
+      "model": "j_10c",
+      "external_triangles": 52949,
+      "charts": 787,
+      "paintable_charts": 787,
+      "subpixel_charts_excluded_from_tree": 0,
+      "connections": 786,
+      "tree_connected": true,
+      "tree_acyclic": true,
+      "edge_only_components": 298,
+      "physical_contact_components": 282,
+      "relations": {
+        "shared_edge": 487,
+        "assembly_reference": 140,
+        "shared_vertex": 16,
+        "near_gap": 143
+      },
+      "uv_alias_groups": 4935,
+      "reference_anchor_fallbacks": 21,
+      "max_raster_anchor_error_px": 5.522680508593631,
+      "max_measured_gap_m": 4.673872742629027,
+      "required_review_links": 208,
+      "width_px": 1,
+      "stub_length_limit_px": 6,
+      "image_overlays_written": false,
+      "runtime_verified": false
+    }
+  ],
+  "database_sha256": "e7753f8c0189c76666dedaf9d6ec0c134df43b9082dd755df69fd5db84f24dd6"
+}

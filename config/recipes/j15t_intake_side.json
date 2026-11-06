@@ -1,0 +1,41 @@
+{
+  "baseline_sha256": {
+    "j_15t_c.dds": "8f72b328dd3b9c24f3d6b9caa2ac79b7ec675b38cc5ea9a9f864cdd3088c3a7c",
+    "j_15t_n.dds": "ec715fc8a0006ea1ecd63633738fc4b42a86e1034b6be3b45f60cc991c08deed"
+  },
+  "groups": [
+    {
+      "target_side_island": 4607,
+      "source_side_island": 4256,
+      "separate_light_panel": 4876,
+      "pixels": 2085814,
+      "native_side_normal_cosine_min": 0.65
+    },
+    {
+      "target_side_island": 4608,
+      "source_side_island": 4257,
+      "separate_light_panel": 4877,
+      "pixels": 2086514,
+      "native_side_normal_cosine_min": 0.65
+    }
+  ],
+  "method": "Color-grid probe; native XY visible-source UV projection, outward depth test and nearest sampling across chart boundaries",
+  "native_geometry_changed": false,
+  "runtime_verified": false,
+  "color_source": "LOCAL_SOURCE/body_c.dds",
+  "normal_source": "LOCAL_SOURCE/body_n.dds",
+  "protected_prior_region_excluded_pixels": 0,
+  "intentional_grille_overlap": "Only lower intake/body join X2.5..4.35 Y-0.40..-0.15 absZ>1.2; overlapping prior grille band replaced by matched intake source surface",
+  "normal_rule": "Packed R/B follows visible source; G/A only on paired main side source island; separate light and upper join retain target G/A",
+  "rear_small_protrusions": {
+    "target_islands": [
+      5042,
+      5043
+    ],
+    "color_and_RB_source": "J16 HIGH clean background swatch xyxy [5350,1160,5420,1240] median",
+    "G_A": "preserve target",
+    "reason": "Native J15T protrusion differs from J16 hatch geometry; do not project another aircraft hatch hardware across it"
+  },
+  "internal_chart_correction": "4876/4877 contain duct wall surfaces as well as the outer small panel; never repaint an entire island from the outer side projection",
+  "internal_wall_superseded_by": "j15t_canard_intake_underside.json"
+}

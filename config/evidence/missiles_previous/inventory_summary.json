@@ -1,0 +1,8 @@
+{
+  "high_v2_files_total": 32,
+  "files_matched_by_texture_name": 31,
+  "other_historical_texture_files": [
+    "us_aim_120_missile_n.dds"
+  ],
+  "note": "us_aim_120_missile_n.dds is a historical generic normal/material name. No per-variant binding or UV equivalence is inferred here; resolve by material binding and simulation when needed."
+}

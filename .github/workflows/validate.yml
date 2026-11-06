@@ -1,4 +1,4 @@
-name: Validate seam database
+name: Validate UV library
 on: [push, workflow_dispatch]
 jobs:
   validate:
@@ -8,11 +8,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: pip install -r requirements.txt
-      - run: python tools/test_registration.py
-      - run: python tools/validate_seam_db.py
-      - name: Validate reviewed primary and auxiliary seam trees
-        run: |
-          for database in reviewed/2026-11-06/data/seam_links.sqlite3 reviewed/2026-11-06/evidence/auxiliary_seams/*/seam_links.sqlite3; do
-            python tools/validate_seam_db.py --db "$database"
-          done
+      - run: pip install -r config/requirements.txt
+      - run: python config/tools/test_registration.py
+      - run: python config/tools/validate_library.py
+      - run: python config/tools/validate_all_seams.py

@@ -1,0 +1,29 @@
+{
+  "model": "su_r_73",
+  "texture": "su_r_73_c",
+  "authoring_resolution": [
+    4096,
+    4096
+  ],
+  "dimension_reference": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\UserSkins\\j11HUAn\\su_r_73_c.dds",
+  "resource_pack": "content/base/res/aces.grp",
+  "asset_name": "su_r_73",
+  "lod": 0,
+  "part_names": [
+    "@root"
+  ],
+  "triangles": 15766,
+  "islands": 547,
+  "boundary_segments": 10794,
+  "boundary_quantization_uv": 1e-06,
+  "coordinate_convention": "raw UV bottom-left origin; image x=u*W, y=(1-v)*H; image sample centers are x+0.5,y+0.5",
+  "uv_outside_unit_triangle_count": 0,
+  "source": "native game LOD0 geometry; no texture colors or custom-skin edge detection",
+  "overlaps": "All physical islands retained, including stacked UVs; no covering islands suppressed.",
+  "geometry_sha256": "1a162669df6e683c45195aad47589db76f20a8dfe64bf9c19f7e60a846d49807",
+  "native_texture_header_resolution": [
+    1024,
+    1024
+  ],
+  "native_texture_header_pack": "content.hq/hq_tex/res/hq_tex_aircrafts/weaponry.dxp.bin"
+}

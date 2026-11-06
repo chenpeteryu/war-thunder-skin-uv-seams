@@ -1,0 +1,29 @@
+{
+  "model": "su_r_77_1_missile",
+  "texture": "su_r_77_1_missile_c",
+  "authoring_resolution": [
+    2048,
+    2048
+  ],
+  "dimension_reference": "C:\\Users\\ROG\\Desktop\\Endfield_Originium_Active_AAM_v02_Compact\\Texture_Library\\su_r_77_1_missile_c.dds",
+  "resource_pack": "content/base/res/aces.grp",
+  "asset_name": "su_r_77_1_missile",
+  "lod": 0,
+  "part_names": [
+    "@root"
+  ],
+  "triangles": 16837,
+  "islands": 335,
+  "boundary_segments": 7233,
+  "boundary_quantization_uv": 1e-06,
+  "coordinate_convention": "raw UV bottom-left origin; image x=u*W, y=(1-v)*H; image sample centers are x+0.5,y+0.5",
+  "uv_outside_unit_triangle_count": 0,
+  "source": "native game LOD0 geometry; no texture colors or custom-skin edge detection",
+  "overlaps": "All physical islands retained, including stacked UVs; no covering islands suppressed.",
+  "geometry_sha256": "b191f71bc6740dbdfb37a9397d066565d35697c9917789b10fed2c2de98bc44b",
+  "native_texture_header_resolution": [
+    1024,
+    1024
+  ],
+  "native_texture_header_pack": "content.hq/hq_tex/res/hq_tex_aircrafts/weaponry.dxp.bin"
+}

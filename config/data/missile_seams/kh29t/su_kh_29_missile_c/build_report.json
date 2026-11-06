@@ -1,0 +1,33 @@
+{
+  "model": "su_kh_29t_missile",
+  "external_triangles": 13681,
+  "charts": 459,
+  "paintable_charts": 459,
+  "subpixel_charts_excluded_from_tree": 0,
+  "connections": 458,
+  "tree_connected": true,
+  "tree_acyclic": true,
+  "edge_only_components": 154,
+  "physical_contact_components": 153,
+  "relations": {
+    "shared_edge": 300,
+    "assembly_reference": 52,
+    "shared_vertex": 1,
+    "near_gap": 105
+  },
+  "uv_alias_groups": 1779,
+  "reference_anchor_fallbacks": 17,
+  "max_raster_anchor_error_px": 4.527692569068709,
+  "max_measured_gap_m": 1.2867324705179455,
+  "required_review_links": 80,
+  "width_px": 1,
+  "stub_length_limit_px": 6,
+  "image_overlays_written": false,
+  "runtime_verified": false,
+  "geometry_scope": {
+    "scope": "all native LOD0 geometry in this texture; no visibility filtering",
+    "texture": "su_kh_29_missile_c",
+    "runtime_verified": false
+  },
+  "database_sha256": "38aba237e68285e70473d154770d57eefe38cf01c8a7538faeceb1c9d5189a62"
+}

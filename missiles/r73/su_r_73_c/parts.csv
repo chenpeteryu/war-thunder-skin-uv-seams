@@ -1,0 +1,2 @@
+﻿part_id,part_name,triangles,u_min,v_min,u_max,v_max,x_min_px,y_min_px,x_max_px,y_max_px,world_x_min,world_x_max,world_y_min,world_y_max,world_z_min,world_z_max
+0,@root,15766,0.003662109375,0.00341796875,0.998046875,0.99609375,15.0,16.0,4088.0,4082.0,-1.156917691230774,1.7114228010177612,-0.1897815763950348,0.1897815465927124,-0.18978138267993927,0.18978175520896912

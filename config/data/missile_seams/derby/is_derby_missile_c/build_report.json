@@ -1,0 +1,32 @@
+{
+  "model": "is_derby_missile",
+  "external_triangles": 9988,
+  "charts": 290,
+  "paintable_charts": 290,
+  "subpixel_charts_excluded_from_tree": 0,
+  "connections": 289,
+  "tree_connected": true,
+  "tree_acyclic": true,
+  "edge_only_components": 82,
+  "physical_contact_components": 82,
+  "relations": {
+    "shared_edge": 208,
+    "near_gap": 70,
+    "assembly_reference": 11
+  },
+  "uv_alias_groups": 1703,
+  "reference_anchor_fallbacks": 0,
+  "max_raster_anchor_error_px": 4.031128874149275,
+  "max_measured_gap_m": 0.3464029356646507,
+  "required_review_links": 29,
+  "width_px": 1,
+  "stub_length_limit_px": 6,
+  "image_overlays_written": false,
+  "runtime_verified": false,
+  "geometry_scope": {
+    "scope": "all native LOD0 geometry in this texture; no visibility filtering",
+    "texture": "is_derby_missile_c",
+    "runtime_verified": false
+  },
+  "database_sha256": "6b118fe2f4a46696f12ec2379c22757bee05819fbf157f9d865df69daa79316b"
+}

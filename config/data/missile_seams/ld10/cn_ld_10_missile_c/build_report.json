@@ -1,0 +1,32 @@
+{
+  "model": "cn_ld_10_missile",
+  "external_triangles": 5590,
+  "charts": 124,
+  "paintable_charts": 124,
+  "subpixel_charts_excluded_from_tree": 0,
+  "connections": 123,
+  "tree_connected": true,
+  "tree_acyclic": true,
+  "edge_only_components": 33,
+  "physical_contact_components": 33,
+  "relations": {
+    "shared_edge": 91,
+    "near_gap": 12,
+    "assembly_reference": 20
+  },
+  "uv_alias_groups": 1176,
+  "reference_anchor_fallbacks": 0,
+  "max_raster_anchor_error_px": 4.527692569068709,
+  "max_measured_gap_m": 0.5107123238412191,
+  "required_review_links": 24,
+  "width_px": 1,
+  "stub_length_limit_px": 6,
+  "image_overlays_written": false,
+  "runtime_verified": false,
+  "geometry_scope": {
+    "scope": "all native LOD0 geometry in this texture; no visibility filtering",
+    "texture": "cn_ld_10_missile_c",
+    "runtime_verified": false
+  },
+  "database_sha256": "22b4f83f04cfc71e8c6bb7e04f00bea0ac32a7b80c6f622e6f030fdd874b9c34"
+}

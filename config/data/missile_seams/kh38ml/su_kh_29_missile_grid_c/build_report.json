@@ -1,0 +1,28 @@
+{
+  "model": "su_kh38_ml_missile",
+  "external_triangles": 396,
+  "charts": 1,
+  "paintable_charts": 1,
+  "subpixel_charts_excluded_from_tree": 0,
+  "connections": 0,
+  "tree_connected": true,
+  "tree_acyclic": true,
+  "edge_only_components": 1,
+  "physical_contact_components": 1,
+  "relations": {},
+  "uv_alias_groups": 0,
+  "reference_anchor_fallbacks": 0,
+  "max_raster_anchor_error_px": 0,
+  "max_measured_gap_m": 0,
+  "required_review_links": 0,
+  "width_px": 1,
+  "stub_length_limit_px": 6,
+  "image_overlays_written": false,
+  "runtime_verified": false,
+  "geometry_scope": {
+    "scope": "all native LOD0 geometry in this texture; no visibility filtering",
+    "texture": "su_kh_29_missile_grid_c",
+    "runtime_verified": false
+  },
+  "database_sha256": "26bfcbc150de3193822441e83fb77b908f8b2058bb4419d30768d5658b017781"
+}

@@ -1,0 +1,32 @@
+{
+  "model": "jp_aam4_missile",
+  "external_triangles": 11724,
+  "charts": 256,
+  "paintable_charts": 256,
+  "subpixel_charts_excluded_from_tree": 0,
+  "connections": 255,
+  "tree_connected": true,
+  "tree_acyclic": true,
+  "edge_only_components": 83,
+  "physical_contact_components": 83,
+  "relations": {
+    "shared_edge": 171,
+    "assembly_reference": 19,
+    "near_gap": 65
+  },
+  "uv_alias_groups": 2126,
+  "reference_anchor_fallbacks": 5,
+  "max_raster_anchor_error_px": 3.092329219213245,
+  "max_measured_gap_m": 1.0434435326569598,
+  "required_review_links": 34,
+  "width_px": 1,
+  "stub_length_limit_px": 6,
+  "image_overlays_written": false,
+  "runtime_verified": false,
+  "geometry_scope": {
+    "scope": "all native LOD0 geometry in this texture; no visibility filtering",
+    "texture": "jp_aam4_missile_c",
+    "runtime_verified": false
+  },
+  "database_sha256": "4e40dfab8c7f003770a43d2b1d8418bfaea9952cccf748dfd381b775c646de7a"
+}

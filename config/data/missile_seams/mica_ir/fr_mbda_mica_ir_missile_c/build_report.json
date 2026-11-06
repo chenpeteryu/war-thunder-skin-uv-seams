@@ -1,0 +1,32 @@
+{
+  "model": "fr_mbda_mica_ir_missile",
+  "external_triangles": 28409,
+  "charts": 805,
+  "paintable_charts": 805,
+  "subpixel_charts_excluded_from_tree": 0,
+  "connections": 804,
+  "tree_connected": true,
+  "tree_acyclic": true,
+  "edge_only_components": 226,
+  "physical_contact_components": 226,
+  "relations": {
+    "shared_edge": 575,
+    "assembly_reference": 67,
+    "near_gap": 162
+  },
+  "uv_alias_groups": 7756,
+  "reference_anchor_fallbacks": 12,
+  "max_raster_anchor_error_px": 5.024937810560445,
+  "max_measured_gap_m": 0.8668038283242957,
+  "required_review_links": 109,
+  "width_px": 1,
+  "stub_length_limit_px": 6,
+  "image_overlays_written": false,
+  "runtime_verified": false,
+  "geometry_scope": {
+    "scope": "all native LOD0 geometry in this texture; no visibility filtering",
+    "texture": "fr_mbda_mica_ir_missile_c",
+    "runtime_verified": false
+  },
+  "database_sha256": "84fb6ab6b3eefc17f3b32947c796398bd4452bf2b15291e1fd1117862373a98f"
+}

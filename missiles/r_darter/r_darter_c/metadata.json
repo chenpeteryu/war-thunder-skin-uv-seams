@@ -1,0 +1,30 @@
+{
+  "model": "r_darter",
+  "texture": "r_darter_c",
+  "authoring_resolution": [
+    2048,
+    2048
+  ],
+  "dimension_reference": "C:\\Users\\ROG\\Desktop\\Endfield_Originium_Active_AAM_v02_Compact\\Texture_Library\\r_darter_c.dds",
+  "resource_pack": "content/base/res/aces.grp",
+  "asset_name": "r_darter",
+  "lod": 0,
+  "part_names": [
+    "@root",
+    "r_darter_cap"
+  ],
+  "triangles": 10566,
+  "islands": 294,
+  "boundary_segments": 6186,
+  "boundary_quantization_uv": 1e-06,
+  "coordinate_convention": "raw UV bottom-left origin; image x=u*W, y=(1-v)*H; image sample centers are x+0.5,y+0.5",
+  "uv_outside_unit_triangle_count": 0,
+  "source": "native game LOD0 geometry; no texture colors or custom-skin edge detection",
+  "overlaps": "All physical islands retained, including stacked UVs; no covering islands suppressed.",
+  "geometry_sha256": "4d53e480f9c05b8c1f454d5a26f2d7ec26d7bfe93a260a158926484baff9dc8e",
+  "native_texture_header_resolution": [
+    1024,
+    1024
+  ],
+  "native_texture_header_pack": "content.hq/hq_tex/res/hq_tex_aircrafts/weaponry.dxp.bin"
+}

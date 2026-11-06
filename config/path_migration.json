@@ -1,0 +1,145 @@
+{
+  "baseline_commit": "d076ec54dd86f5e6f228c8c8f420573bf0ff8b9d",
+  "entries": [
+    {
+      "old": "reviewed/2026-11-06/assets/f_15ex",
+      "new": "aircraft/f15ex"
+    },
+    {
+      "old": "reviewed/2026-11-06/assets/j_10c",
+      "new": "aircraft/j10c"
+    },
+    {
+      "old": "reviewed/2026-11-06/assets/j_15t",
+      "new": "aircraft/j15t"
+    },
+    {
+      "old": "reviewed/2026-11-06/assets/j_16",
+      "new": "aircraft/j16"
+    },
+    {
+      "old": "reviewed/2026-11-06/assets/su_30sm",
+      "new": "aircraft/su30sm"
+    },
+    {
+      "old": "reviewed/2026-11-06/assets/su_30sm2",
+      "new": "aircraft/su30sm2"
+    },
+    {
+      "old": "Reusable_Skin_UV_Kit/assets/pl_12_missile",
+      "new": "missiles/pl12"
+    },
+    {
+      "old": "Reusable_Skin_UV_Kit/assets/pl_12a_missile",
+      "new": "missiles/pl12a"
+    },
+    {
+      "old": "Reusable_Skin_UV_Kit/assets/pl_8",
+      "new": "missiles/pl8"
+    },
+    {
+      "old": "Reusable_Skin_UV_Kit/assets/pl_8b",
+      "new": "missiles/pl8b"
+    },
+    {
+      "old": "Reusable_Skin_UV_Kit/assets/cn_ld_10_missile",
+      "new": "missiles/ld10"
+    },
+    {
+      "old": "Reusable_Skin_UV_Kit/assets/fr_mbda_mica_em_missile",
+      "new": "missiles/mica_em"
+    },
+    {
+      "old": "Reusable_Skin_UV_Kit/assets/fr_mbda_mica_ir_missile",
+      "new": "missiles/mica_ir"
+    },
+    {
+      "old": "Reusable_Skin_UV_Kit/assets/is_derby_missile",
+      "new": "missiles/derby"
+    },
+    {
+      "old": "Reusable_Skin_UV_Kit/assets/jp_aam4_missile",
+      "new": "missiles/aam4"
+    },
+    {
+      "old": "Reusable_Skin_UV_Kit/assets/r_darter",
+      "new": "missiles/r_darter"
+    },
+    {
+      "old": "Reusable_Skin_UV_Kit/assets/su_grom_e1_missile",
+      "new": "missiles/grom_e1"
+    },
+    {
+      "old": "Reusable_Skin_UV_Kit/assets/su_kh38_ml_missile",
+      "new": "missiles/kh38ml"
+    },
+    {
+      "old": "Reusable_Skin_UV_Kit/assets/su_kh38_mt_missile",
+      "new": "missiles/kh38mt"
+    },
+    {
+      "old": "Reusable_Skin_UV_Kit/assets/su_kh_29l_missile",
+      "new": "missiles/kh29l"
+    },
+    {
+      "old": "Reusable_Skin_UV_Kit/assets/su_kh_29t_missile",
+      "new": "missiles/kh29t"
+    },
+    {
+      "old": "Reusable_Skin_UV_Kit/assets/su_r_27er_missile",
+      "new": "missiles/r27er"
+    },
+    {
+      "old": "Reusable_Skin_UV_Kit/assets/su_r_27et_missile",
+      "new": "missiles/r27et"
+    },
+    {
+      "old": "Reusable_Skin_UV_Kit/assets/su_r_27r_missile",
+      "new": "missiles/r27r"
+    },
+    {
+      "old": "Reusable_Skin_UV_Kit/assets/su_r_27t_missile",
+      "new": "missiles/r27t"
+    },
+    {
+      "old": "Reusable_Skin_UV_Kit/assets/su_r_73",
+      "new": "missiles/r73"
+    },
+    {
+      "old": "Reusable_Skin_UV_Kit/assets/su_r_73l",
+      "new": "missiles/r73l"
+    },
+    {
+      "old": "Reusable_Skin_UV_Kit/assets/su_r_77_1_missile",
+      "new": "missiles/r77_1"
+    },
+    {
+      "old": "Reusable_Skin_UV_Kit/assets/su_r_77_missile",
+      "new": "missiles/r77"
+    },
+    {
+      "old": "Reusable_Skin_UV_Kit/assets/us_aim_120a_missile",
+      "new": "missiles/aim120a"
+    },
+    {
+      "old": "Reusable_Skin_UV_Kit/assets/us_aim_120b_missile",
+      "new": "missiles/aim120b"
+    },
+    {
+      "old": "Reusable_Skin_UV_Kit/assets/us_aim_120c_missile",
+      "new": "missiles/aim120c"
+    },
+    {
+      "old": "Reusable_Skin_UV_Kit/assets/us_aim_120d_missile",
+      "new": "missiles/aim120d"
+    }
+  ],
+  "groups": {
+    "data": "config/data",
+    "tools": "config/tools",
+    "recipes": "config/recipes",
+    "docs": "config/docs",
+    "reviewed/2026-11-06": "config/reviews/2026-11-06"
+  },
+  "historical_evidence": "Absolute paths and old asset identifiers inside historical camera/report files are retained as provenance, not current executable paths."
+}

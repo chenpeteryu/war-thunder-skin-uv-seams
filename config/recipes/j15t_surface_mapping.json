@@ -1,0 +1,72 @@
+{
+  "target_model": "j_15t",
+  "source_model": "j_16",
+  "geometry_changed": false,
+  "notes": [
+    "Native boundary data retained. Never use centroid-selected triangle subsets as whole-part paint masks.",
+    "Use coherent island mapping; keep fin roots fixed.",
+    "Runtime validation remains open."
+  ],
+  "regions": [
+    {
+      "name": "dorsal_fuselage",
+      "target_islands": [
+        4272
+      ]
+    },
+    {
+      "name": "wing_junction_right",
+      "target_islands": [
+        4785
+      ]
+    },
+    {
+      "name": "wing_junction_left",
+      "target_islands": [
+        4786
+      ]
+    },
+    {
+      "name": "tail_roof",
+      "target_islands": [
+        7733
+      ]
+    },
+    {
+      "name": "fin_left_inner",
+      "target_islands": [
+        7902
+      ]
+    },
+    {
+      "name": "fin_right_inner",
+      "target_islands": [
+        7903
+      ]
+    },
+    {
+      "name": "fin_right_outer",
+      "target_islands": [
+        7927
+      ]
+    },
+    {
+      "name": "fin_left_outer",
+      "target_islands": [
+        7928
+      ]
+    },
+    {
+      "name": "rudder_left",
+      "target_islands": [
+        2276
+      ]
+    },
+    {
+      "name": "rudder_right",
+      "target_islands": [
+        2254
+      ]
+    }
+  ]
+}

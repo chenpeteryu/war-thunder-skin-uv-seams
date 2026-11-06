@@ -1,0 +1,64 @@
+{
+  "baseline_sha256": {
+    "j_15t_c.dds": "7f89b3ce0ff0ed60f616c874673631178e3dfe56b6bef0280ca6796ecbd1fa03",
+    "j_15t_n.dds": "855cd1104203c9c2834a09f87c5bd0bdb8a2edcd121d3b78bf41d596537d01d6"
+  },
+  "groups": [
+    {
+      "group": "nozzle1_",
+      "source_axial_range": [
+        -6.652822971343994,
+        -5.890161514282227
+      ],
+      "target_axial_range": [
+        -6.870138645172119,
+        -6.1385273933410645
+      ],
+      "source_center": [
+        -6.2714080810546875,
+        -0.5170155167579651,
+        1.202651858329773
+      ],
+      "target_center": [
+        -6.504376411437988,
+        -0.5371484756469727,
+        1.2026317119598389
+      ],
+      "source_outer_triangles": 9330,
+      "target_outer_triangles": 5138,
+      "lookup_missing_fraction": 0.03584925333658854
+    },
+    {
+      "group": "nozzle2_",
+      "source_axial_range": [
+        -6.652822971343994,
+        -5.890161514282227
+      ],
+      "target_axial_range": [
+        -6.870140552520752,
+        -6.138529300689697
+      ],
+      "source_center": [
+        -6.2714080810546875,
+        -0.5170155167579651,
+        -1.2040843963623047
+      ],
+      "target_center": [
+        -6.504378318786621,
+        -0.536539614200592,
+        -1.2026618719100952
+      ],
+      "source_outer_triangles": 9331,
+      "target_outer_triangles": 5140,
+      "lookup_missing_fraction": 0.03584925333658854
+    }
+  ],
+  "method": "Outward nozzle surface, normalized axial position and full cylinder angle, source outermost radius depth test",
+  "normal_rule": "Restore source spatial R/B material variation; retain J15T G/A on differently shaped nozzle petals",
+  "native_geometry_changed": false,
+  "runtime_verified": false,
+  "source_sha256": {
+    "body_c.dds": "e577e615bb8aff00045e55822fe66553d487311ceb765d22d75ce281d07a4c49",
+    "body_n.dds": "afb3c0b8b4a33d79aceb19ffcdc07917ce8d32eda07fd8afe467d8dcb25e858e"
+  }
+}

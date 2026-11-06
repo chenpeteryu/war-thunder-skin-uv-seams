@@ -1,0 +1,32 @@
+{
+  "model": "su_grom_e1_missile",
+  "external_triangles": 17563,
+  "charts": 305,
+  "paintable_charts": 297,
+  "subpixel_charts_excluded_from_tree": 8,
+  "connections": 296,
+  "tree_connected": true,
+  "tree_acyclic": true,
+  "edge_only_components": 99,
+  "physical_contact_components": 99,
+  "relations": {
+    "assembly_reference": 55,
+    "shared_edge": 166,
+    "near_gap": 75
+  },
+  "uv_alias_groups": 2269,
+  "reference_anchor_fallbacks": 47,
+  "max_raster_anchor_error_px": 4.2793106921559225,
+  "max_measured_gap_m": 1.1431033336642993,
+  "required_review_links": 79,
+  "width_px": 1,
+  "stub_length_limit_px": 6,
+  "image_overlays_written": false,
+  "runtime_verified": false,
+  "geometry_scope": {
+    "scope": "all native LOD0 geometry in this texture; no visibility filtering",
+    "texture": "su_grom_e1_missile_c",
+    "runtime_verified": false
+  },
+  "database_sha256": "0be4cf3a49d3bf1b86f17f2d65747dae03e4afe7efab49aaf34e859607504180"
+}

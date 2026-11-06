@@ -1,0 +1,280 @@
+{
+  "pl_12_missile": {
+    "id": "pl12",
+    "native_model": "pl_12_missile",
+    "layouts": [
+      "pl_12_missile_c"
+    ],
+    "high_v2_texture_files": [
+      "pl_12_missile_c.dds",
+      "pl_12_missile_n.dds"
+    ]
+  },
+  "pl_12a_missile": {
+    "id": "pl12a",
+    "native_model": "pl_12a_missile",
+    "layouts": [
+      "pl_12a_missile_c"
+    ],
+    "high_v2_texture_files": [
+      "pl_12a_missile_c.dds",
+      "pl_12a_missile_n.dds"
+    ]
+  },
+  "pl_8": {
+    "id": "pl8",
+    "native_model": "pl_8",
+    "layouts": [
+      "pl_8_c"
+    ],
+    "high_v2_texture_files": [
+      "pl_8_c.dds",
+      "pl_8_n.dds"
+    ]
+  },
+  "pl_8b": {
+    "id": "pl8b",
+    "native_model": "pl_8b",
+    "layouts": [
+      "pl_8_c"
+    ],
+    "high_v2_texture_files": [
+      "pl_8_c.dds",
+      "pl_8_n.dds"
+    ]
+  },
+  "cn_ld_10_missile": {
+    "id": "ld10",
+    "native_model": "cn_ld_10_missile",
+    "layouts": [
+      "cn_ld_10_missile_c"
+    ],
+    "high_v2_texture_files": [
+      "cn_ld_10_missile_c.dds",
+      "cn_ld_10_missile_n.dds"
+    ]
+  },
+  "fr_mbda_mica_em_missile": {
+    "id": "mica_em",
+    "native_model": "fr_mbda_mica_em_missile",
+    "layouts": [
+      "fr_mbda_mica_ir_missile_c"
+    ],
+    "high_v2_texture_files": [
+      "fr_mbda_mica_ir_missile_c.dds",
+      "fr_mbda_mica_ir_missile_n.dds"
+    ]
+  },
+  "fr_mbda_mica_ir_missile": {
+    "id": "mica_ir",
+    "native_model": "fr_mbda_mica_ir_missile",
+    "layouts": [
+      "fr_mbda_mica_ir_missile_c"
+    ],
+    "high_v2_texture_files": [
+      "fr_mbda_mica_ir_missile_c.dds",
+      "fr_mbda_mica_ir_missile_n.dds"
+    ]
+  },
+  "is_derby_missile": {
+    "id": "derby",
+    "native_model": "is_derby_missile",
+    "layouts": [
+      "is_derby_missile_c"
+    ],
+    "high_v2_texture_files": [
+      "is_derby_missile_c.dds",
+      "is_derby_missile_n.dds"
+    ]
+  },
+  "jp_aam4_missile": {
+    "id": "aam4",
+    "native_model": "jp_aam4_missile",
+    "layouts": [
+      "jp_aam4_missile_c"
+    ],
+    "high_v2_texture_files": [
+      "jp_aam4_missile_c.dds",
+      "jp_aam4_missile_n.dds"
+    ]
+  },
+  "r_darter": {
+    "id": "r_darter",
+    "native_model": "r_darter",
+    "layouts": [
+      "r_darter_c"
+    ],
+    "high_v2_texture_files": [
+      "r_darter_c.dds",
+      "r_darter_n.dds"
+    ]
+  },
+  "su_grom_e1_missile": {
+    "id": "grom_e1",
+    "native_model": "su_grom_e1_missile",
+    "layouts": [
+      "su_grom_e1_missile_c"
+    ],
+    "high_v2_texture_files": []
+  },
+  "su_kh38_ml_missile": {
+    "id": "kh38ml",
+    "native_model": "su_kh38_ml_missile",
+    "layouts": [
+      "su_kh38_ml_missile_c",
+      "su_kh_29_missile_grid_c"
+    ],
+    "high_v2_texture_files": []
+  },
+  "su_kh38_mt_missile": {
+    "id": "kh38mt",
+    "native_model": "su_kh38_mt_missile",
+    "layouts": [
+      "su_kh38_mt_missile_c"
+    ],
+    "high_v2_texture_files": []
+  },
+  "su_kh_29l_missile": {
+    "id": "kh29l",
+    "native_model": "su_kh_29l_missile",
+    "layouts": [
+      "su_kh_29_missile_c",
+      "su_kh_29_missile_grid_c"
+    ],
+    "high_v2_texture_files": [
+      "su_kh_29_missile_c.dds",
+      "su_kh_29_missile_n.dds"
+    ]
+  },
+  "su_kh_29t_missile": {
+    "id": "kh29t",
+    "native_model": "su_kh_29t_missile",
+    "layouts": [
+      "su_kh_29_missile_c"
+    ],
+    "high_v2_texture_files": [
+      "su_kh_29_missile_c.dds",
+      "su_kh_29_missile_n.dds"
+    ]
+  },
+  "su_r_27er_missile": {
+    "id": "r27er",
+    "native_model": "su_r_27er_missile",
+    "layouts": [
+      "su_r_27er_27et_missile_c"
+    ],
+    "high_v2_texture_files": [
+      "su_r_27er_27et_missile_c.dds",
+      "su_r_27er_27et_missile_n.dds"
+    ]
+  },
+  "su_r_27et_missile": {
+    "id": "r27et",
+    "native_model": "su_r_27et_missile",
+    "layouts": [
+      "su_r_27er_27et_missile_c"
+    ],
+    "high_v2_texture_files": [
+      "su_r_27er_27et_missile_c.dds",
+      "su_r_27er_27et_missile_n.dds"
+    ]
+  },
+  "su_r_27r_missile": {
+    "id": "r27r",
+    "native_model": "su_r_27r_missile",
+    "layouts": [
+      "su_r_27r_27t_missile_c"
+    ],
+    "high_v2_texture_files": []
+  },
+  "su_r_27t_missile": {
+    "id": "r27t",
+    "native_model": "su_r_27t_missile",
+    "layouts": [
+      "su_r_27r_27t_missile_c"
+    ],
+    "high_v2_texture_files": []
+  },
+  "su_r_73": {
+    "id": "r73",
+    "native_model": "su_r_73",
+    "layouts": [
+      "su_r_73_c"
+    ],
+    "high_v2_texture_files": [
+      "su_r_73_c.dds",
+      "su_r_73_n.dds"
+    ]
+  },
+  "su_r_73l": {
+    "id": "r73l",
+    "native_model": "su_r_73l",
+    "layouts": [
+      "su_r_73l_c"
+    ],
+    "high_v2_texture_files": []
+  },
+  "su_r_77_1_missile": {
+    "id": "r77_1",
+    "native_model": "su_r_77_1_missile",
+    "layouts": [
+      "su_r_77_1_missile_c"
+    ],
+    "high_v2_texture_files": [
+      "su_r_77_1_missile_c.dds",
+      "su_r_77_1_missile_n.dds"
+    ]
+  },
+  "su_r_77_missile": {
+    "id": "r77",
+    "native_model": "su_r_77_missile",
+    "layouts": [
+      "su_r_77_missile_c"
+    ],
+    "high_v2_texture_files": [
+      "su_r_77_missile_c.dds",
+      "su_r_77_missile_n.dds"
+    ]
+  },
+  "us_aim_120a_missile": {
+    "id": "aim120a",
+    "native_model": "us_aim_120a_missile",
+    "layouts": [
+      "us_aim_120a_missile_c"
+    ],
+    "high_v2_texture_files": [
+      "us_aim_120a_missile_c.dds"
+    ]
+  },
+  "us_aim_120b_missile": {
+    "id": "aim120b",
+    "native_model": "us_aim_120b_missile",
+    "layouts": [
+      "us_aim_120b_missile_c"
+    ],
+    "high_v2_texture_files": [
+      "us_aim_120b_missile_c.dds"
+    ]
+  },
+  "us_aim_120c_missile": {
+    "id": "aim120c",
+    "native_model": "us_aim_120c_missile",
+    "layouts": [
+      "us_aim_120c_missile_c"
+    ],
+    "high_v2_texture_files": [
+      "us_aim_120c_missile_c.dds",
+      "us_aim_120c_missile_n.dds"
+    ]
+  },
+  "us_aim_120d_missile": {
+    "id": "aim120d",
+    "native_model": "us_aim_120d_missile",
+    "layouts": [
+      "us_aim_120d_missile_c"
+    ],
+    "high_v2_texture_files": [
+      "us_aim_120d_missile_c.dds"
+    ]
+  }
+}

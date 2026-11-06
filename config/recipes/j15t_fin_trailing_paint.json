@@ -1,0 +1,266 @@
+{
+  "baseline_sha256": {
+    "j_15t_c.dds": "8528eea038dfbbbabaa419327a199374d1572fb88a4c93a59d48d42ad4ffab9b",
+    "j_15t_n.dds": "ce72188ce25f56115453f257b5ed958544503dc2de1f592890a6f6ac9cf0a277"
+  },
+  "reference": "Current HIGH fin theme, corresponding J16 comparisons",
+  "groups": [
+    {
+      "island": 7902,
+      "auxiliary": false,
+      "paint_pixels": 35367,
+      "cone_pixels": 5794
+    },
+    {
+      "island": 7903,
+      "auxiliary": false,
+      "paint_pixels": 35085,
+      "cone_pixels": 5801
+    },
+    {
+      "island": 7927,
+      "auxiliary": false,
+      "paint_pixels": 38262,
+      "cone_pixels": 6320
+    },
+    {
+      "island": 7928,
+      "auxiliary": false,
+      "paint_pixels": 39046,
+      "cone_pixels": 6378
+    },
+    {
+      "island": 7811,
+      "auxiliary": true,
+      "paint_pixels": 96,
+      "cone_pixels": 0
+    },
+    {
+      "island": 7812,
+      "auxiliary": true,
+      "paint_pixels": 96,
+      "cone_pixels": 0
+    },
+    {
+      "island": 7818,
+      "auxiliary": true,
+      "paint_pixels": 4224,
+      "cone_pixels": 0
+    },
+    {
+      "island": 7933,
+      "auxiliary": true,
+      "paint_pixels": 4224,
+      "cone_pixels": 0
+    },
+    {
+      "island": 7940,
+      "auxiliary": true,
+      "paint_pixels": 752,
+      "cone_pixels": 0
+    },
+    {
+      "island": 7941,
+      "auxiliary": true,
+      "paint_pixels": 752,
+      "cone_pixels": 0
+    },
+    {
+      "island": 7957,
+      "auxiliary": true,
+      "paint_pixels": 2074,
+      "cone_pixels": 0
+    },
+    {
+      "island": 7958,
+      "auxiliary": true,
+      "paint_pixels": 467,
+      "cone_pixels": 0
+    },
+    {
+      "island": 7959,
+      "auxiliary": true,
+      "paint_pixels": 463,
+      "cone_pixels": 0
+    },
+    {
+      "island": 7961,
+      "auxiliary": true,
+      "paint_pixels": 878,
+      "cone_pixels": 0
+    },
+    {
+      "island": 7962,
+      "auxiliary": true,
+      "paint_pixels": 878,
+      "cone_pixels": 0
+    },
+    {
+      "island": 7963,
+      "auxiliary": true,
+      "paint_pixels": 307,
+      "cone_pixels": 0
+    },
+    {
+      "island": 7970,
+      "auxiliary": true,
+      "paint_pixels": 2129,
+      "cone_pixels": 0
+    },
+    {
+      "island": 7971,
+      "auxiliary": true,
+      "paint_pixels": 1308,
+      "cone_pixels": 0
+    },
+    {
+      "island": 7975,
+      "auxiliary": true,
+      "paint_pixels": 328,
+      "cone_pixels": 0
+    },
+    {
+      "island": 7976,
+      "auxiliary": true,
+      "paint_pixels": 2704,
+      "cone_pixels": 0
+    },
+    {
+      "island": 7977,
+      "auxiliary": true,
+      "paint_pixels": 518,
+      "cone_pixels": 0
+    },
+    {
+      "island": 7978,
+      "auxiliary": true,
+      "paint_pixels": 500,
+      "cone_pixels": 0
+    },
+    {
+      "island": 7980,
+      "auxiliary": true,
+      "paint_pixels": 2138,
+      "cone_pixels": 0
+    },
+    {
+      "island": 7982,
+      "auxiliary": true,
+      "paint_pixels": 2049,
+      "cone_pixels": 0
+    },
+    {
+      "island": 7983,
+      "auxiliary": true,
+      "paint_pixels": 114,
+      "cone_pixels": 0
+    },
+    {
+      "island": 7984,
+      "auxiliary": true,
+      "paint_pixels": 114,
+      "cone_pixels": 0
+    },
+    {
+      "island": 7986,
+      "auxiliary": true,
+      "paint_pixels": 678,
+      "cone_pixels": 0
+    },
+    {
+      "island": 7987,
+      "auxiliary": true,
+      "paint_pixels": 584,
+      "cone_pixels": 0
+    }
+  ],
+  "theme_boundary_fits": [
+    {
+      "island": 7902,
+      "theme_boundary_Y_from_X": [
+        -0.40751586909185994,
+        0.2871689356928188
+      ],
+      "retained": 93,
+      "background_dark_RGB": [
+        74.0,
+        74.0,
+        74.0
+      ],
+      "background_light_RGB": [
+        163.0,
+        163.0,
+        163.0
+      ]
+    },
+    {
+      "island": 7903,
+      "theme_boundary_Y_from_X": [
+        -0.4124967056677227,
+        0.27134876814356734
+      ],
+      "retained": 101,
+      "background_dark_RGB": [
+        74.0,
+        74.0,
+        74.0
+      ],
+      "background_light_RGB": [
+        163.0,
+        163.0,
+        163.0
+      ]
+    },
+    {
+      "island": 7927,
+      "theme_boundary_Y_from_X": [
+        -0.41673862834914016,
+        0.2471399971729592
+      ],
+      "retained": 92,
+      "background_dark_RGB": [
+        82.0,
+        82.0,
+        82.0
+      ],
+      "background_light_RGB": [
+        181.0,
+        181.0,
+        181.0
+      ]
+    },
+    {
+      "island": 7928,
+      "theme_boundary_Y_from_X": [
+        -0.42307368635468773,
+        0.2141550308083629
+      ],
+      "retained": 92,
+      "background_dark_RGB": [
+        82.0,
+        82.0,
+        82.0
+      ],
+      "background_light_RGB": [
+        181.0,
+        181.0,
+        181.0
+      ]
+    }
+  ],
+  "cone_native_XY_box": [
+    -5.08,
+    2.48,
+    -4.77,
+    2.625
+  ],
+  "rear_strip": {
+    "X_max": -5.055,
+    "Y_min": 2.14,
+    "X_fade": 0.055,
+    "Y_fade": 0.05
+  },
+  "native_geometry_changed": false,
+  "original_narrow_structural_gap_remains": true,
+  "runtime_verified": false
+}

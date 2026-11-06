@@ -1,0 +1,33 @@
+{
+  "model": "su_kh38_mt_missile",
+  "external_triangles": 13362,
+  "charts": 245,
+  "paintable_charts": 244,
+  "subpixel_charts_excluded_from_tree": 1,
+  "connections": 243,
+  "tree_connected": true,
+  "tree_acyclic": true,
+  "edge_only_components": 99,
+  "physical_contact_components": 98,
+  "relations": {
+    "assembly_reference": 41,
+    "shared_edge": 137,
+    "shared_vertex": 1,
+    "near_gap": 64
+  },
+  "uv_alias_groups": 2318,
+  "reference_anchor_fallbacks": 11,
+  "max_raster_anchor_error_px": 4.2793106921559225,
+  "max_measured_gap_m": 1.1833525790445327,
+  "required_review_links": 44,
+  "width_px": 1,
+  "stub_length_limit_px": 6,
+  "image_overlays_written": false,
+  "runtime_verified": false,
+  "geometry_scope": {
+    "scope": "all native LOD0 geometry in this texture; no visibility filtering",
+    "texture": "su_kh38_mt_missile_c",
+    "runtime_verified": false
+  },
+  "database_sha256": "03c8d03363a0300ae64aa4d48ab735d164d94c4a9dd7cf8aee9469edcb6743aa"
+}

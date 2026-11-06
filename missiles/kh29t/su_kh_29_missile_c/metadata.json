@@ -1,0 +1,29 @@
+{
+  "model": "su_kh_29t_missile",
+  "texture": "su_kh_29_missile_c",
+  "authoring_resolution": [
+    1024,
+    1024
+  ],
+  "dimension_reference": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\UserSkins\\Endfield_Fresh_Contours\\J11\\su_kh_29_missile_c.dds",
+  "resource_pack": "content/base/res/aces.grp",
+  "asset_name": "su_kh_29t_missile",
+  "lod": 0,
+  "part_names": [
+    "@root"
+  ],
+  "triangles": 13681,
+  "islands": 459,
+  "boundary_segments": 8498,
+  "boundary_quantization_uv": 1e-06,
+  "coordinate_convention": "raw UV bottom-left origin; image x=u*W, y=(1-v)*H; image sample centers are x+0.5,y+0.5",
+  "uv_outside_unit_triangle_count": 0,
+  "source": "native game LOD0 geometry; no texture colors or custom-skin edge detection",
+  "overlaps": "All physical islands retained, including stacked UVs; no covering islands suppressed.",
+  "geometry_sha256": "7b2a791985ada5972ef96c939ac3bd5f5c63883a0f024a83658818596e665b07",
+  "native_texture_header_resolution": [
+    1024,
+    1024
+  ],
+  "native_texture_header_pack": "content.hq/hq_tex/res/hq_tex_aircrafts/weaponry.dxp.bin"
+}

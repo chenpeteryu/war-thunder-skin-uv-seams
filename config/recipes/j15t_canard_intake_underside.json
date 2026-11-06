@@ -1,0 +1,80 @@
+{
+  "baseline_sha256": {
+    "j_15t_c.dds": "ada318db771bed53bac9d89f9100279b8912b7b3755082917cbc7a983fdc21bf",
+    "j_15t_n.dds": "f891ec07f911eb8fb8a6032c9069502570cf202400652dab755272d1a6e894d4"
+  },
+  "groups": [
+    {
+      "target_island": 198,
+      "source_lower_tail_island": 545,
+      "source_span_fraction": [
+        0.38,
+        0.95
+      ],
+      "source_chord_fraction": [
+        0.05,
+        0.95
+      ],
+      "target": "underside only",
+      "G_A": "preserved target"
+    },
+    {
+      "target_island": 202,
+      "source_lower_tail_island": 5583,
+      "source_span_fraction": [
+        0.38,
+        0.95
+      ],
+      "source_chord_fraction": [
+        0.05,
+        0.95
+      ],
+      "target": "underside only",
+      "G_A": "preserved target"
+    },
+    {
+      "group": "duct",
+      "method": "nearest native surface matched normal cosine >=.75 and maximum vertex distance <=.018m",
+      "target_triangles": 4326,
+      "rejected_unmatched_triangles": 5347,
+      "maximum_match_error_m": 0.017995261956908107
+    },
+    {
+      "group": "inboard_mouth_wall",
+      "side": -1,
+      "source_islands": [
+        4709,
+        4256
+      ],
+      "target_islands": [
+        4876,
+        4607
+      ],
+      "rule": "native XY plane with side-facing normal and absZ<1.2; nearest per-island UV lookup"
+    },
+    {
+      "group": "inboard_mouth_wall",
+      "side": 1,
+      "source_islands": [
+        4710,
+        4257
+      ],
+      "target_islands": [
+        4877,
+        4608
+      ],
+      "rule": "native XY plane with side-facing normal and absZ<1.2; nearest per-island UV lookup"
+    }
+  ],
+  "normal_rule": "Source R/B material; target G/A retained for differently oriented/model-specific structures",
+  "native_geometry_changed": false,
+  "runtime_verified": false,
+  "inboard_wall_full_depth_update": {
+    "native_X": [
+      -1.9,
+      4.3
+    ],
+    "source_includes_backface_visible_wall": true,
+    "source_never_outer_wall_absZ_limit": 1.2
+  }
+}

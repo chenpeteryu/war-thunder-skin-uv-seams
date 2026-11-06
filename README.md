@@ -1,59 +1,55 @@
-# 战雷涂装 UV 接缝与模拟渲染库
+# 战雷涂装轮廓库
 
-## 2026-11-06 静态复核版
+飞机、导弹分组存放，配置、代码和复核证据集中存放。下载仓库后打开 [index.html 离线索引](index.html)，可按分类、型号和贴图名搜索。
 
-新增[独立复核版目录](reviewed/2026-11-06/README.md)：107张布局，包含J15T主贴图基准、J16/J10C复核副本、Su-30SM/SM2和测试服F-15EX。下载仓库后打开[离线轮廓索引](reviewed/2026-11-06/打开轮廓索引.html)。
-
-- J16修正两个蒙皮部件432个三角形的字段解码，默认绑定姿态经261顶点检查；原有基线数据保留。
-- J10C分别记录全几何与静态外表面，补充独立喷口树。
-- [SM/SM2比较](docs/su30sm_sm2_layout_comparison.md)：主贴图大部分共用布局，但机身、左右前缘缝翼及部分挂架/吊舱有差异，保留两套。
-- 新主树使用机体静态可见性，包含J16 2236、J10C 728、SM 1591、SM2 1594、F15EX 1828个可定位分区；每树连接数为分区数减1。J15T基准仍为原版数据。
-- 单像素短线仍只保存于数据库；主树57292采样、辅树7368采样通过结构验证。所选48个纹素回读通过，不扩大为全库像素级精准结论。
-
-查询新版时显式指定数据库：
-
-```powershell
-python tools/query_seams.py --db reviewed/2026-11-06/data/seam_links.sqlite3 --model su_30sm
-python tools/validate_seam_db.py --db reviewed/2026-11-06/data/seam_links.sqlite3
+```text
+aircraft/                 飞机
+  f15ex/ su30sm/ su30sm2/ j15t/ j16/ j10c/
+missiles/                 导弹
+  pl12/ pl12a/ r77/ aim120a/ ……
+config/                   配置文件、代码和证据
+  catalog.json            统一目录，path 以仓库根目录为基准
+  catalog.csv
+  tools/                  查询、映射、模拟渲染、建库和校验
+  data/                   初版飞机数据库及导弹分贴图接缝数据库
+  recipes/                已制作的 J15T 修正配方
+  reviews/2026-11-06/      飞机复核数据库和原有证据
+  evidence/               已制作导弹的来源、历史校验与代码
+  docs/                   方法、限制和型号差异
+README.md                 使用说明
+index.html                离线索引
 ```
 
-详细[验收范围与限制](reviewed/2026-11-06/验收范围.md)随库保存。透明裁切、部件激活、动画、损伤和实际游戏材质未完成游戏内验证；附件布局未逐项外观审查。
+飞机 6 型、107 张布局；导弹 27 型、29 张布局，共 136 张。目录使用短型号名，原生模型名与贴图名保留在目录表和元数据中。同贴图名不代表三维几何相同，MICA EM/IR、PL-8/8B、R-27 各型等均独立保存。
 
-## 初版基线（保留用于回查）
+每张布局提供矢量/图片轮廓、覆盖蒙版、分区编号图、边界/分区坐标、原始 UV/XYZ 数据及来源。制作尺寸与原生贴图尺寸可能不同，应读取该张 `metadata.json`。坐标为 `x=u×W, y=(1-v)×H`，纹素中心为 `x+0.5,y+0.5`。
 
-为 J15T、J16、J10C 的机体外表面保存可遍历的接缝定位树。短连线只存于 SQLite，**不画在涂装、轮廓图或渲染图上**。座舱、座椅等内饰不在本次范围内，武器贴图也不在本次数据库范围内。
+目前收录 `_c` 轮廓。`_n` 暂按共用布局处理，实际制作时再通过模拟渲染确认绑定、覆盖和像素对齐，未标记为已独立验证。
 
-| 模型 | 外表面 UV 分区 | 树连接 |
-|---|---:|---:|
-| J15T | 2579 | 2578 |
-| J16 | 2892 | 2891 |
-| J10C | 787 | 786 |
+## 接缝定位与模拟渲染
 
-每个分区是原始 part + island。每个模型只保留一棵生成树：A-B-C 已可遍历时不添加 A-C。每条连接两侧各存一段宽 1 像素、最多 7 个采样像素的短线，它们不必与同一分区上的其他短线相接。
+保留此前的细小单像素连线方法：每条连接两侧各宽 1 像素、1–7 个采样点，只存 SQLite，不画入涂装、轮廓或渲染图。每张导弹贴图独立建立可遍历树；`assembly_reference` 是跨部件间隙的定位参考，不是物理共边。分区上各短线无需彼此相连。亚像素误差、待复核标记与空间距离均保留。
 
-浮点锚点保留亚像素相位；整数短线用于定位。两侧纹素密度不同或边界没有恰好穿过像素中心时，不能宣称两个整数像素是同一空间点。`anchor_error_px` 和 `needs_review` 记录这些例外。真正分离的部件用 `assembly_reference` 联系，保存两侧独立空间坐标和距离，**不是物理共边**。详见 [数据库约定](docs/database.md)。
-
-## 使用
-
-Python 3.11+，安装 `requirements.txt`。已有数据库可直接查询，不需要 Blender。
+Python 3.11+，从仓库根目录运行：
 
 ```powershell
-python tools/query_seams.py --model j_15t --chart 1
-python tools/query_seams.py --connection 1
-python tools/validate_seam_db.py --report data/reports/independent_validation.json
-python tools/build_seam_db.py
+python -m pip install -r config/requirements.txt
+python config/tools/query_seams.py --db config/data/missile_seams/pl12a/pl_12a_missile_c/seam_links.sqlite3 --model pl_12a_missile
+python config/tools/validate_seam_db.py --db config/data/missile_seams/pl12a/pl_12a_missile_c/seam_links.sqlite3
+python config/tools/query_seams.py --db config/reviews/2026-11-06/data/seam_links.sqlite3 --model su_30sm
+python config/tools/validate_library.py
 ```
 
-用查询所得的两个 chart ID 可组合树路径：`--chart A --to C --pixel X Y`。增加 `--contacts-only` 可排除跨装配间隙的参考桥，届时不保证全图连通。转换是局部切平面配准，不能代替整片曲面展开。
+`map_design.py --help` 提供图案到原生 UV 的映射，支持短型号名或原生型号名。`render_preview.py` 由 Blender 运行，读取所选布局的 `geometry.npz` 与指定诊断贴图；见 [模拟渲染说明](config/docs/rendering.md)。重建导弹短线库可运行 `python config/tools/build_missile_seams.py --model pl12a`，写入对应数据库，不修改轮廓或贴图。
 
-- [模拟渲染方法](docs/rendering.md)：相机统一、上下与斜角检查、法线诊断和证据边界。
-- [易错点](docs/pitfalls.md)：UV 镜像、跨岛采样、内外侧、喷口材质及真实模型间隙。
-- `data/geometry/`：静态外表面筛选输入及来源校验值。
-- `data/reports/`：连通性、像素连续性、空间回算、转换往返误差的独立检查。
-- `recipes/`：本地轮廓库已有修复配方和坐标；不包含整张涂装或 DDS。配方中的 baseline 哈希是其制作时的来源，不代表当前安装文件。
+## 验证范围
 
-外表面筛选使用几何遮挡测试、双向法线和多个观察方向，并结合已审查的座舱区域排除规则。它是静态近似；动画、玻璃、损伤、游戏材质可见性仍需游戏内确认。数据库验证通过不等于游戏效果已验证。
+- J15T 保留反复修正后的主贴图基准。J16/J10C 保留独立复核及已记录修正，不因曾用于参考而宣称整库像素级精准。
+- [SM/SM2 差异说明](config/docs/su30sm_sm2_layout_comparison.md)：机身、左右前缘缝翼和部分外挂有差异，保留两套。
+- 导弹复用既有原生 LOD0 轮廓，逐文件核对原件，检查几何/坐标并建立分贴图短线树。[历史制作范围和限制](config/docs/missiles.md)单独记录。HIGH v2 涂装制作与轮廓提取分别记录，不把 27 个轮廓型号等同于 27 套 HIGH v2 成品。
+- 导弹树保留整张贴图原生几何，未做飞机库那样的外表面可见性筛选。单分区辅贴图树连接数为零。结构、坐标、完整性检查通过不等于整库逐像素或游戏外观已验证。
+- 飞机的[验收范围](config/reviews/2026-11-06/验收范围.md)和所选模拟渲染证据保留。动画、损伤、玻璃及实际游戏材质等仍以游戏内测试为准。
 
-## 来源与分发
+原目录迁移关系见 [path_migration.json](config/path_migration.json)。历史报告内的绝对路径保留为来源证据，当前入口以统一目录表和本说明为准。迁移前版本可通过 Git 历史 `d076ec5` 回查。
 
-工具为本项目编写。几何与 UV 坐标派生自本机游戏资源，仅供已授权的涂装定位研究；游戏资源权利仍归其权利人。仓库不提供游戏贴图、完整模型、账号凭据或游戏资源的再许可。仓库初次发布设为私有。
+工具为本项目编写；UV/几何派生自本机游戏资源，游戏资源权利归其权利人。本仓库不包含原版 DDS、GRP、完整引擎模型或账号凭据。

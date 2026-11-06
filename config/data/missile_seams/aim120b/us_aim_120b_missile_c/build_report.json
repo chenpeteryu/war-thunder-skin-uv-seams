@@ -1,0 +1,32 @@
+{
+  "model": "us_aim_120b_missile",
+  "external_triangles": 8934,
+  "charts": 262,
+  "paintable_charts": 262,
+  "subpixel_charts_excluded_from_tree": 0,
+  "connections": 261,
+  "tree_connected": true,
+  "tree_acyclic": true,
+  "edge_only_components": 111,
+  "physical_contact_components": 111,
+  "relations": {
+    "shared_edge": 151,
+    "assembly_reference": 51,
+    "near_gap": 59
+  },
+  "uv_alias_groups": 606,
+  "reference_anchor_fallbacks": 4,
+  "max_raster_anchor_error_px": 2.5495097567963922,
+  "max_measured_gap_m": 0.9552296230410303,
+  "required_review_links": 67,
+  "width_px": 1,
+  "stub_length_limit_px": 6,
+  "image_overlays_written": false,
+  "runtime_verified": false,
+  "geometry_scope": {
+    "scope": "all native LOD0 geometry in this texture; no visibility filtering",
+    "texture": "us_aim_120b_missile_c",
+    "runtime_verified": false
+  },
+  "database_sha256": "8722036280779ac7640328505e1dee424b9b25b3527496140ef5ed03a398b129"
+}

@@ -1,0 +1,15 @@
+{
+  "aircraft_models": 6,
+  "missile_models": 27,
+  "texture_layouts": 136,
+  "triangles": 4865418,
+  "original_asset_files_unchanged": 1255,
+  "missile_native_boundary_endpoints_checked": 401290,
+  "missile_csv_boundary_rows_checked": 200645,
+  "max_missile_csv_formula_error_px": 0.0,
+  "local_index_links_checked": 1121,
+  "manifest_files_checked": 1751,
+  "all_checks_passed": true,
+  "runtime_verified": false,
+  "normal_layout_verified": false
+}

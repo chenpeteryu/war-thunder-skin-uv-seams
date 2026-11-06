@@ -1,0 +1,35 @@
+{
+  "limit": "Union of native fin/rudder geometry in XY for positive-Z fin; no material alpha or simulated fill",
+  "samples": [
+    {
+      "native_X": -5.29,
+      "native_Y": 2.245,
+      "projected_native_mesh_coverage": true
+    },
+    {
+      "native_X": -5.2,
+      "native_Y": 2.245,
+      "projected_native_mesh_coverage": true
+    },
+    {
+      "native_X": -5.15,
+      "native_Y": 2.245,
+      "projected_native_mesh_coverage": true
+    },
+    {
+      "native_X": -5.25,
+      "native_Y": 2.255,
+      "projected_native_mesh_coverage": false
+    },
+    {
+      "native_X": -5.25,
+      "native_Y": 2.265,
+      "projected_native_mesh_coverage": true
+    },
+    {
+      "native_X": -5.25,
+      "native_Y": 2.235,
+      "projected_native_mesh_coverage": true
+    }
+  ]
+}

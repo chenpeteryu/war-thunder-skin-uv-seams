@@ -1,0 +1,36 @@
+{
+  "regions": [
+    {
+      "side": "left",
+      "face": "outer",
+      "target_triangles": 2768,
+      "pixels": 1224040
+    },
+    {
+      "side": "left",
+      "face": "inner",
+      "target_triangles": 2007,
+      "pixels": 1122244
+    },
+    {
+      "side": "right",
+      "face": "outer",
+      "target_triangles": 2235,
+      "pixels": 1205668
+    },
+    {
+      "side": "right",
+      "face": "inner",
+      "target_triangles": 2244,
+      "pixels": 1125137
+    }
+  ],
+  "method": "Native XY projection of complete J16 fin and rudder on each side separately; shared vertical scaling around root .2; pad from actual source surface to avoid atlas padding sampling.",
+  "source_height_scale": 1.1817295188556567,
+  "native_diffuse_used": false,
+  "source": "J_16_ENDFIELD_HIGH/body_c.dds and body_n.dds",
+  "target_mask": "LOCAL_SOURCE/fin_mask.png",
+  "uv_padding_rule": "Clamp world-map sample coordinates to its padded bounds; upper/lower atlas rectangles must never be sampled as unrelated islands.",
+  "superseded_by": "j15t_final_detail_coordinates.json",
+  "status": "Historical height-only projection; use latest leading-edge anchored similarity projection instead."
+}

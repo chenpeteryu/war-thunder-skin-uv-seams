@@ -1,0 +1,23 @@
+{
+  "models": 30,
+  "texture_layouts": 100,
+  "native_triangles_retained": 2657226,
+  "boundary_segments_retained": 1280873,
+  "native_edge_endpoint_membership": "all passed at 1e-6 UV quantization",
+  "CSV_uv_to_pixel_formula": "all rows passed",
+  "atlas_identity_synthetic": "passed <=1 code value; full coverage",
+  "atlas_identity_native_PL12A": "passed <=1 code value; no paint outside UV coverage",
+  "native_projection_PL12A": "passed; covered UV pixels and transparency verified",
+  "repeat_uv_clipping": "passed area conservation and interpolated attributes; no triangles silently dropped",
+  "all_layout_images_no_color": "L mode black/white line and mask only",
+  "out_of_unit_triangles": 917,
+  "fallback_authoring_resolution": [],
+  "extraction_failures": [],
+  "validation_errors": [],
+  "limits": [
+    "UV coordinates are extracted from native LOD0; parser accuracy is not engine-runtime validation.",
+    "CSV/NPZ contains native node names; descriptive anatomical labels are not invented for root-only meshes.",
+    "A diagnostic projection was tested, not arbitrary photos/perspective camera recovery.",
+    "Native mesh coverage can overlap in UV; no overlapping physical islands were silently discarded."
+  ]
+}

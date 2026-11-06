@@ -1,0 +1,32 @@
+{
+  "model": "su_r_27r_missile",
+  "external_triangles": 20736,
+  "charts": 251,
+  "paintable_charts": 251,
+  "subpixel_charts_excluded_from_tree": 0,
+  "connections": 250,
+  "tree_connected": true,
+  "tree_acyclic": true,
+  "edge_only_components": 129,
+  "physical_contact_components": 129,
+  "relations": {
+    "shared_edge": 88,
+    "assembly_reference": 74,
+    "near_gap": 88
+  },
+  "uv_alias_groups": 5132,
+  "reference_anchor_fallbacks": 63,
+  "max_raster_anchor_error_px": 5.618051263561058,
+  "max_measured_gap_m": 0.3042476545406059,
+  "required_review_links": 115,
+  "width_px": 1,
+  "stub_length_limit_px": 6,
+  "image_overlays_written": false,
+  "runtime_verified": false,
+  "geometry_scope": {
+    "scope": "all native LOD0 geometry in this texture; no visibility filtering",
+    "texture": "su_r_27r_27t_missile_c",
+    "runtime_verified": false
+  },
+  "database_sha256": "5d1fce4e2f45e7462b984c299ad5a8a46fd38dc36b2e7ce44d284fccb2a3a458"
+}

@@ -1,0 +1,35 @@
+{
+  "model": "su_grom_e1_missile",
+  "texture": "su_grom_e1_missile_c",
+  "authoring_resolution": [
+    1024,
+    1024
+  ],
+  "dimension_reference": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\UserSkins\\Endfield_Fresh_Contours\\Su34\\su_grom_e1_missile_c.dds",
+  "resource_pack": "content/base/res/aces.grp",
+  "asset_name": "su_grom_e1_missile",
+  "lod": 0,
+  "part_names": [
+    "su_grom_e1_missile",
+    "fin2",
+    "fin1",
+    "fin3",
+    "fin4",
+    "fin5",
+    "fin6"
+  ],
+  "triangles": 17563,
+  "islands": 305,
+  "boundary_segments": 8101,
+  "boundary_quantization_uv": 1e-06,
+  "coordinate_convention": "raw UV bottom-left origin; image x=u*W, y=(1-v)*H; image sample centers are x+0.5,y+0.5",
+  "uv_outside_unit_triangle_count": 0,
+  "source": "native game LOD0 geometry; no texture colors or custom-skin edge detection",
+  "overlaps": "All physical islands retained, including stacked UVs; no covering islands suppressed.",
+  "geometry_sha256": "a3fbefa7068cd6a61f20273813bf5fa7b5fd9ba40043716a4050fa561b94cb94",
+  "native_texture_header_resolution": [
+    1024,
+    1024
+  ],
+  "native_texture_header_pack": "content.hq/hq_tex/res/hq_tex_aircrafts/weaponry.dxp.bin"
+}
