@@ -1,0 +1,9 @@
+{
+  "geometry_sha256": "000b688d7d8dd19d986a16b16f4de56a2a60716962b3e42cfbeb261cfdac966c",
+  "triangle_index_file": "j16_j15t_upper_fold_triangles.npz",
+  "left_source_island": 635,
+  "right_source_island": 648,
+  "method": "Native XZ to source UV piecewise interpolation, shared with upper wing skins",
+  "reason": "Upper wing-fold hardware islands were omitted from skin transfer, creating black stripes across both graphics.",
+  "limits": "Measured upper exposed geometry only; no change to raw boundaries, mesh, lower folding mechanism or game visibility claims."
+}

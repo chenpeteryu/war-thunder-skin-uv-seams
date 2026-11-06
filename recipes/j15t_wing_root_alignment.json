@@ -1,0 +1,26 @@
+{
+  "baseline_sha256": {
+    "j_15t_c.dds": "69d170b03df052707cf9f4b85895360bd9d111ab8d2f157444326519eb23b535",
+    "j_15t_n.dds": "55f25e39c62d6b8dc4f9691ab0f10c2eeda998911b511b492bc0baee88765b5b"
+  },
+  "reference": "J16 HIGH native XZ, source dorsal island 3894",
+  "target_island": 4272,
+  "world_bounds": {
+    "X": [
+      0.5,
+      3.0
+    ],
+    "abs_Z": [
+      1.0,
+      2.58
+    ]
+  },
+  "feather_m": 0.16,
+  "method": "smooth UV displacement to native XZ source; no dissolve of displaced lines",
+  "pixels": 786549,
+  "sides": {
+    "-1": 393448,
+    "1": 393101
+  },
+  "runtime_verified": false
+}

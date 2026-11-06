@@ -1,0 +1,347 @@
+{
+  "files": [
+    {
+      "path": ".github/workflows/validate.yml",
+      "bytes": 372,
+      "sha256": "902f904bb00a41ef38af3796a2a1d04002f323b1367e26d96b072152d418ddd7"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 72,
+      "sha256": "afe2695d91ff8c79acc7048ee84d9254c0f41452a115de0b2f464fb2ad895de6"
+    },
+    {
+      "path": "data/geometry/j_10c.json",
+      "bytes": 10192,
+      "sha256": "ac8fab150360d40b7d4ef2f680cc11222e67c4646820f68965080ad97708c9f2"
+    },
+    {
+      "path": "data/geometry/j_10c.npz",
+      "bytes": 778133,
+      "sha256": "b9bd1f93801a21be44ebd6a5d46c38821e654dccda8a8aa8585de6f24354c37c"
+    },
+    {
+      "path": "data/geometry/j_15t.json",
+      "bytes": 10624,
+      "sha256": "c5d595532ffc8176a12f12b30ca55cf45a38bcd01c0b233e3ce737112d9f4d12"
+    },
+    {
+      "path": "data/geometry/j_15t.npz",
+      "bytes": 1338455,
+      "sha256": "1b0c58338e25e07c26c80d3f4f0153719ba450bbb87104a6e15c18d2f76adccb"
+    },
+    {
+      "path": "data/geometry/j_16.json",
+      "bytes": 15035,
+      "sha256": "2286bf3bb67abd8e297ae163412d8b60729fb553a6a60f02eb131473cc39cd56"
+    },
+    {
+      "path": "data/geometry/j_16.npz",
+      "bytes": 1556679,
+      "sha256": "21a7807de7974e288428078236513e8ba78e06dbebd42ba792dfdc1dae935979"
+    },
+    {
+      "path": "data/reports/independent_validation.json",
+      "bytes": 846,
+      "sha256": "95a79891619b595d3c34e5081ff1290347167d12fe1248c691cd4b1b44cc4482"
+    },
+    {
+      "path": "data/reports/seam_graph_validation.json",
+      "bytes": 2646,
+      "sha256": "d4f189091370482ba4d451f422f81d0656946e0e6f8a6ac0d661e166629c4355"
+    },
+    {
+      "path": "data/seam_links.sqlite3",
+      "bytes": 17072128,
+      "sha256": "e7753f8c0189c76666dedaf9d6ec0c134df43b9082dd755df69fd5db84f24dd6"
+    },
+    {
+      "path": "docs/database.md",
+      "bytes": 3383,
+      "sha256": "99a84f78b406208fb595415b85b06ff5047d777b561684dde3dd5f1ee2cbcefc"
+    },
+    {
+      "path": "docs/pitfalls.md",
+      "bytes": 2355,
+      "sha256": "4a02e4a13b05bde69fb08d68a9284280bb56bcb448bc15e16e5823aa9120247a"
+    },
+    {
+      "path": "docs/rendering.md",
+      "bytes": 3077,
+      "sha256": "58f0cfac73308490cbb5228b40fd841ed7ac2371b30bb658d0c952d4bca2c092"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2814,
+      "sha256": "cc7c30b46af4a43a8c00a3bf7947b57946e2e23f2b7e1b5769f730e0278f6179"
+    },
+    {
+      "path": "recipes/j15t_canard_intake_underside.json",
+      "bytes": 2082,
+      "sha256": "cd0f879609d266a37d5e952b7a962c71b5c3d35a5682336633a312a506c26304"
+    },
+    {
+      "path": "recipes/j15t_canard_intake_underside.npz",
+      "bytes": 32108624,
+      "sha256": "db61583b062093c3cccccbc188dde1a651613529a6d1879b1fdffddbfc6fd9e7"
+    },
+    {
+      "path": "recipes/j15t_center_join_continuity.json",
+      "bytes": 2143,
+      "sha256": "e1cb78092a5787caf801294819c2de5cb4159dff9099dfee4cc80bd8761dc99a"
+    },
+    {
+      "path": "recipes/j15t_center_join_continuity.npz",
+      "bytes": 153668,
+      "sha256": "62722b9b7e38f083ea13fd89e4f5b36545af5d4a123393c4615ec09604a25ac9"
+    },
+    {
+      "path": "recipes/j15t_cylindrical_reference.json",
+      "bytes": 2786,
+      "sha256": "5496c3ca43967944b5a466beb837fd786895f089796878494f90d56a38ebeb89"
+    },
+    {
+      "path": "recipes/j15t_cylindrical_reference.npz",
+      "bytes": 12550,
+      "sha256": "d208169f774db94839aef5fde67027862dfe83cbbe6b79aa2cbc2537b7a3fffe"
+    },
+    {
+      "path": "recipes/j15t_deep_coordinates.csv",
+      "bytes": 366161,
+      "sha256": "17f4b5daacd1c775f51077eba747f46e00bfce8422950f8670ff13b9f8478f02"
+    },
+    {
+      "path": "recipes/j15t_deep_coordinates.json",
+      "bytes": 4123887,
+      "sha256": "e4f1274d520f15d8de230f4f30d25ec628c59253e1456ed3435b62333e5f555a"
+    },
+    {
+      "path": "recipes/j15t_deep_coordinates.npz",
+      "bytes": 3456395,
+      "sha256": "81542808fcf9ee014c64729e9ce3a86c823f655a2f0854ebe2e89e90738592ba"
+    },
+    {
+      "path": "recipes/j15t_deep_review_belly.npy",
+      "bytes": 3403688,
+      "sha256": "04431690777c08a132395d9fef3d44ce88091d1b202f09563b3240a312c25ba4"
+    },
+    {
+      "path": "recipes/j15t_deep_review_controls.npy",
+      "bytes": 668000,
+      "sha256": "afed50dc2e9588a2b7e92d885036c197d3c1f2be96b691fb9f376cb878b0e322"
+    },
+    {
+      "path": "recipes/j15t_deep_review_cylinder.npy",
+      "bytes": 72704,
+      "sha256": "500663e6a91bb43e0c92a087a8fe54768831dfbc873942f9ea86fb4dd68ed7d6"
+    },
+    {
+      "path": "recipes/j15t_deep_review_engines.npy",
+      "bytes": 2652216,
+      "sha256": "a0469644a879787e37006eb1ce6d3e5ce6db8e5dd2c66f4e1fbf47cdbc06ea7c"
+    },
+    {
+      "path": "recipes/j15t_deep_review_gear.npy",
+      "bytes": 1353872,
+      "sha256": "a00d76145267044828ba3b9515b78212067b9069aeff408819c94b9ddcddb59f"
+    },
+    {
+      "path": "recipes/j15t_fin_native_gap_check.json",
+      "bytes": 815,
+      "sha256": "49c4605c9261fddb83869e9ad6cb13a50047833ef18b169988a718e386ede6a1"
+    },
+    {
+      "path": "recipes/j15t_fin_root_clipped_uv.npz",
+      "bytes": 7462,
+      "sha256": "bc8c7582e5f3cbf2b4fdd5eee92e5e2fc98ac3d151a842545524fb9ef6abd463"
+    },
+    {
+      "path": "recipes/j15t_fin_trailing_paint.json",
+      "bytes": 5283,
+      "sha256": "daa6937c0830b89a97bd5c6b46c39fc385e852d757c3f4065ca40c4277f50b05"
+    },
+    {
+      "path": "recipes/j15t_fin_trailing_paint.npz",
+      "bytes": 80005,
+      "sha256": "0f005e75661c7a70fe755941e373678b67a118832b7d79f32aa23269eb77a5db"
+    },
+    {
+      "path": "recipes/j15t_final_detail_coordinates.json",
+      "bytes": 14324,
+      "sha256": "bb0778629f90ff02f72376da4ee7f01db9dbf22a29b02bc9299336486d7a95d2"
+    },
+    {
+      "path": "recipes/j15t_final_detail_coordinates.npz",
+      "bytes": 494141,
+      "sha256": "becd98188e3a1ee270c7206e5bb2a5fdee18e07e4e89d1dce4ebaaee9314e533"
+    },
+    {
+      "path": "recipes/j15t_inner_fin_patterns.json",
+      "bytes": 3401,
+      "sha256": "1d60630bfa6774ffc1dc7cfd2613926e72456cf4682ce8fd6616523aa6c70d34"
+    },
+    {
+      "path": "recipes/j15t_inner_fin_patterns.npz",
+      "bytes": 91792,
+      "sha256": "73f20a3df53da0481f979e98397a971f1eff875b55eb974830ccfd905672b9d1"
+    },
+    {
+      "path": "recipes/j15t_inner_fin_seam.json",
+      "bytes": 1602,
+      "sha256": "1e06ff28936823b60fc42b4bae2ee81df4e1712a5fe8c6afb85ac061b8281df9"
+    },
+    {
+      "path": "recipes/j15t_inner_fin_seam.npz",
+      "bytes": 23213672,
+      "sha256": "c8ba8c39940c945c10473f39dd74e8723593c87a4e7d4ac24914257d149c8fea"
+    },
+    {
+      "path": "recipes/j15t_intake_side.json",
+      "bytes": 1872,
+      "sha256": "d63d8e5adc100435cd1ba2860225273200a9d4d6beee322d2fbdaacd5ec59aa5"
+    },
+    {
+      "path": "recipes/j15t_intake_side.npz",
+      "bytes": 86548492,
+      "sha256": "4f7a52fd4bf14d4523bc23409793990be2a5eccf8ae58514ae6b3a3f237f8718"
+    },
+    {
+      "path": "recipes/j15t_native_nose.json",
+      "bytes": 1167,
+      "sha256": "e20d604e01fcaa2034ecae7bec08099d72bf86a425b09fd0e3aa3df18f0b0cf4"
+    },
+    {
+      "path": "recipes/j15t_nose_grille_alignment.json",
+      "bytes": 1922,
+      "sha256": "d3eaba5fbb90465e35b9eb8c698f03544b64fc5f3067b5decd1656f5ed5a1cf6"
+    },
+    {
+      "path": "recipes/j15t_nose_grille_alignment.npz",
+      "bytes": 164646,
+      "sha256": "51fb8aea8b3311576460dc0f865e8f5214282ac223dacb17af963de89234196d"
+    },
+    {
+      "path": "recipes/j15t_nose_ring.json",
+      "bytes": 1836,
+      "sha256": "54dd569e53bbe478eecf778b3aadf5ca628b03349090926b95f33f1e68a47b85"
+    },
+    {
+      "path": "recipes/j15t_nose_ring.npz",
+      "bytes": 35366934,
+      "sha256": "c97388e772c531c812a7009abe96d288166f52839714d1b94318ba394df67eb7"
+    },
+    {
+      "path": "recipes/j15t_nozzle_material.json",
+      "bytes": 1979,
+      "sha256": "176d2acb72bd8f89d92126f084064d0e73ff7644e679c8661b776524e70776fc"
+    },
+    {
+      "path": "recipes/j15t_nozzle_material.npz",
+      "bytes": 18903594,
+      "sha256": "0ac2cd2ceb88fdadc2e7bcf884a78fb6d4defd1986a115e8f3972dc9b750c356"
+    },
+    {
+      "path": "recipes/j15t_rear_material_groups.json",
+      "bytes": 5747,
+      "sha256": "b66f239f11c255c4d8193a8295cdc0c67b2fd537be8f319e13a04392c128281f"
+    },
+    {
+      "path": "recipes/j15t_rear_material_groups.npz",
+      "bytes": 48420,
+      "sha256": "9dfd9b3001eca54de4a3e53e194dd9545c049bd2fa16345aa63f27ea99d8978a"
+    },
+    {
+      "path": "recipes/j15t_surface_mapping.json",
+      "bytes": 1321,
+      "sha256": "72f957f96f7c114e6ce936e634d8792fda070d567c50fef7145969e4315bb60a"
+    },
+    {
+      "path": "recipes/j15t_wing_root_alignment.json",
+      "bytes": 636,
+      "sha256": "44e8665eaa899268e67b0ec7e52700b0794d15aff2fc25e07be220e9802c4d43"
+    },
+    {
+      "path": "recipes/j15t_wing_root_alignment.npz",
+      "bytes": 12246,
+      "sha256": "8ca0e00031f870eb31c6cc8777590c5de32b5801b90d08ee3f49fb2c57835b91"
+    },
+    {
+      "path": "recipes/j16_j15t_control_surfaces.json",
+      "bytes": 10367,
+      "sha256": "eb51994378b0384f3cb0bc3c98056428abb99a2d10eb504c75bf967b37180dc0"
+    },
+    {
+      "path": "recipes/j16_j15t_control_triangles.npz",
+      "bytes": 13889,
+      "sha256": "87cb833d8a894340adc3cd8a73ab0971f1e8b52e5b7abe317a0da30c19a8e78c"
+    },
+    {
+      "path": "recipes/j16_j15t_fin_high_projection.json",
+      "bytes": 1218,
+      "sha256": "851c3260921f90c3cd2875d3cbb1537afd7bf1a627185947b5c30fd7d9334622"
+    },
+    {
+      "path": "recipes/j16_j15t_surface_sides.json",
+      "bytes": 1402,
+      "sha256": "29f7ed329c51de16ca5051d20284e4797aaccf113fdaf306d133b715525c5c70"
+    },
+    {
+      "path": "recipes/j16_j15t_upper_fold.json",
+      "bytes": 577,
+      "sha256": "0930d71067d1fd4adfa8ce4c5fde50584dcc930b521a5e4e997300b9eb0cad88"
+    },
+    {
+      "path": "recipes/j16_j15t_upper_fold_triangles.npz",
+      "bytes": 25719,
+      "sha256": "5178f5f7de4d1f301f9b5029a8ddec6a6d6a57ad2d4496037166569a932e6da1"
+    },
+    {
+      "path": "recipes/manifest.json",
+      "bytes": 11276,
+      "sha256": "2e669d8b414d48c473c9051eaf474baa3669da0f1787120acfe202c5c496c8cc"
+    },
+    {
+      "path": "recipes/repair_masks.npz",
+      "bytes": 601114,
+      "sha256": "041142292c6a5bccfa02845387c9abafa2b90ada0813f6e0b0ab8e89ff9ac5ea"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 45,
+      "sha256": "8e9a3ef8dde965dad92234b1840df874212a11c332c27fb6326d052c8b7d5e65"
+    },
+    {
+      "path": "tools/build_seam_db.py",
+      "bytes": 15593,
+      "sha256": "7a3a9e862b58048de1894d829f81d7a567c6c0a485859ebeeb672b669162106e"
+    },
+    {
+      "path": "tools/extract_exterior.py",
+      "bytes": 3688,
+      "sha256": "9252338e93615eacf7faa7865b48d10183ab7b761678a3ef61b05a97a369fc91"
+    },
+    {
+      "path": "tools/query_seams.py",
+      "bytes": 2822,
+      "sha256": "57abebdb780c0cb28c5d0ac87f32ea05703fcc14da814f5a20fc92e8002496de"
+    },
+    {
+      "path": "tools/render_preview.py",
+      "bytes": 3812,
+      "sha256": "9544b55c2db88e6915d91b9418656ba8d96e827c099777aadb33dcc8ea2a15c7"
+    },
+    {
+      "path": "tools/test_registration.py",
+      "bytes": 1599,
+      "sha256": "f6686b3d448cdafd0a43f2992efac2635fbcdb99ae3a98b3cb33671589312fb4"
+    },
+    {
+      "path": "tools/validate_seam_db.py",
+      "bytes": 3775,
+      "sha256": "2b89c9489b579e88e00f828db04cf248e07a9fde20161593c8e5b3957731861b"
+    }
+  ],
+  "images_changed": false,
+  "interior_scope": "excluded from seam graph",
+  "validation": "independent database checks and analytic fixtures passed; Blender emission smoke render passed"
+}

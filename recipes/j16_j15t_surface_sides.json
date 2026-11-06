@@ -1,0 +1,70 @@
+{
+  "native_coordinate_axes": "+X nose,+Y up,+Z left",
+  "method": "Physical side and outward face direction, checked against numbered diagnostic top/bottom renders. Never infer matching from atlas order or contour shape alone.",
+  "pairs": [
+    {
+      "surface": "left_wing_top",
+      "j16_island": 635,
+      "j15t_islands": [
+        8712,
+        3641
+      ]
+    },
+    {
+      "surface": "right_wing_top",
+      "j16_island": 648,
+      "j15t_islands": [
+        8224,
+        3828
+      ]
+    },
+    {
+      "surface": "left_wing_bottom",
+      "j16_island": 636,
+      "j15t_islands": [
+        8713,
+        3694
+      ]
+    },
+    {
+      "surface": "right_wing_bottom",
+      "j16_island": 646,
+      "j15t_islands": [
+        8225,
+        3850
+      ]
+    },
+    {
+      "surface": "left_stabilizer_top",
+      "j16_island": 5582,
+      "j15t_islands": [
+        2280,
+        2306
+      ]
+    },
+    {
+      "surface": "right_stabilizer_top",
+      "j16_island": 544,
+      "j15t_islands": [
+        137,
+        163
+      ]
+    },
+    {
+      "surface": "left_stabilizer_bottom",
+      "j16_island": 5583,
+      "j15t_islands": [
+        2281,
+        2305
+      ]
+    },
+    {
+      "surface": "right_stabilizer_bottom",
+      "j16_island": 545,
+      "j15t_islands": [
+        138,
+        162
+      ]
+    }
+  ]
+}

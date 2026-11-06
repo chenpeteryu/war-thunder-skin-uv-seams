@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.building.sqlite3
+preview*.png
+preview*.json
+.venv/

@@ -1,0 +1,108 @@
+{
+  "baseline_sha256": {
+    "j_15t_c.dds": "a3bbc40868f44b899a1987a0c36edea487d2b6b1bd286dcfe02d188d7a98408c",
+    "j_15t_n.dds": "a6b79d111f1eb845c7f1461338f55954738b1927444279d17857a282a231cbee"
+  },
+  "reference": "J16 HIGH",
+  "cylinder_method": "Continuous normalized axial coordinate plus angular coordinate around native X, periodic angular sampling; native J15T GA, corresponding HIGH RB.",
+  "source_x_bounds": [
+    -8.248953819274902,
+    -2.4822092056274414
+  ],
+  "target_x_bounds": [
+    -8.042760848999023,
+    -2.482203960418701
+  ],
+  "roots": [
+    {
+      "island": 7902,
+      "pixels": 149473,
+      "xy_to_uv": [
+        [
+          0.043194287148227824,
+          -0.007910699327543493
+        ],
+        [
+          0.006910271380949906,
+          0.04206837881606623
+        ],
+        [
+          0.846319244018737,
+          0.21413684054483034
+        ]
+      ]
+    },
+    {
+      "island": 7903,
+      "pixels": 121558,
+      "xy_to_uv": [
+        [
+          0.04330764094436852,
+          0.006851493138381496
+        ],
+        [
+          0.007066046961725747,
+          -0.043156575135244735
+        ],
+        [
+          0.8462279773064755,
+          0.8258958121446346
+        ]
+      ]
+    },
+    {
+      "island": 7927,
+      "pixels": 263528,
+      "xy_to_uv": [
+        [
+          -0.04552643781845308,
+          0.0059039335852380075
+        ],
+        [
+          -0.005035215154341688,
+          -0.04626284937996916
+        ],
+        [
+          0.5937449880197022,
+          0.42803174691431867
+        ]
+      ]
+    },
+    {
+      "island": 7928,
+      "pixels": 230876,
+      "xy_to_uv": [
+        [
+          -0.0452840395469312,
+          -0.004537977339927663
+        ],
+        [
+          -0.005207687783093384,
+          0.04716796712217297
+        ],
+        [
+          0.5942899915512261,
+          0.6189906484857857
+        ]
+      ]
+    }
+  ],
+  "runtime_verified": false,
+  "cylinder_center_Y_m": -0.1,
+  "radial_normal_alignment_min": 0.8,
+  "max_vertex_radius_m": 0.43,
+  "target_min_vertex_Y_m": -0.1,
+  "lower_wall_and_shared_UV_protected": true,
+  "flat_plates_excluded": true,
+  "review_mesh_visible_selection": true,
+  "root_clip_Y_m": [
+    -0.5,
+    0.2
+  ],
+  "root_sample_Y_m": 0.215,
+  "native_geometry_and_UV_changed": false,
+  "central_cylinder_superseded_by": "j15t_center_join_continuity.json",
+  "superseded_reason": "Central curved-surface-only mapping omitted the shoulders and neighboring flare casings.",
+  "inner_fin_root_background_superseded_by": "j15t_inner_fin_patterns.json",
+  "inner_root_note": "Do not extend a filtered plain row across 7902/7903: restore the paired source artwork."
+}

@@ -1,0 +1,94 @@
+{
+  "baseline_sha256": {
+    "j_15t_c.dds": "bcc9c310930b2a249071a513c7f98d45e95dceadd05499e89a6a592e9bf8d96c",
+    "j_15t_n.dds": "649e68f1f115b5ae920e650aebcd41e0daead4bab5b418bd5f623a7ab6a2f59f"
+  },
+  "reference": "J16 HIGH paired inner faces; source aircraft numerals replaced with approved 015 asset",
+  "groups": [
+    {
+      "group": "root_plus",
+      "target_island": 7902,
+      "source_island": 5217,
+      "inner_facing_sign_Z": -1,
+      "pixels": 183740,
+      "source_hull_fallback_pixels": 28687,
+      "height_scale_about_Y_0_2": 1.1817295188556567,
+      "source_leading_edge_yx_fit": [
+        -0.837374272679848,
+        -1.2956177130296245
+      ],
+      "target_leading_edge_yx_fit": [
+        -0.8403654726563735,
+        -1.6442201041885425
+      ],
+      "method": "uniform native XY transform continuing the approved upper fin; original source root included"
+    },
+    {
+      "group": "root_minus",
+      "target_island": 7903,
+      "source_island": 5215,
+      "inner_facing_sign_Z": 1,
+      "pixels": 156784,
+      "source_hull_fallback_pixels": 23100,
+      "height_scale_about_Y_0_2": 1.1817295188556567,
+      "source_leading_edge_yx_fit": [
+        -0.8372936485506964,
+        -1.2957931348618048
+      ],
+      "target_leading_edge_yx_fit": [
+        -0.8403654726563735,
+        -1.6442201041885425
+      ],
+      "method": "uniform native XY transform continuing the approved upper fin; original source root included"
+    },
+    {
+      "group": "rudder_plus",
+      "target_island": 2276,
+      "source_island": 5472,
+      "inner_facing_sign_Z": -1,
+      "pixels": 235666,
+      "source_hull_fallback_pixels": 2,
+      "height_scale_about_Y_0_2": 1.1817295188556567,
+      "source_leading_edge_yx_fit": [
+        -0.837374272679848,
+        -1.2956177130296245
+      ],
+      "target_leading_edge_yx_fit": [
+        -0.8403654726563735,
+        -1.6442201041885425
+      ],
+      "method": "actual source/target section chord normalization"
+    },
+    {
+      "group": "rudder_minus",
+      "target_island": 2254,
+      "source_island": 5499,
+      "inner_facing_sign_Z": 1,
+      "pixels": 242342,
+      "source_hull_fallback_pixels": 0,
+      "height_scale_about_Y_0_2": 1.1817295188556567,
+      "source_leading_edge_yx_fit": [
+        -0.8372936485506964,
+        -1.2957931348618048
+      ],
+      "target_leading_edge_yx_fit": [
+        -0.8403654726563735,
+        -1.6442201041885425
+      ],
+      "method": "actual source/target section chord normalization"
+    }
+  ],
+  "root_target_Y_max": 0.32,
+  "root_upper_fade_m": 0.1,
+  "source_hull_extension": "Continuous nearest-edge projection; background-only fade to neutral 165 outside the actual source hull over 18 atlas pixels, never text-row stretching",
+  "color_alpha_preserved": true,
+  "rudder_normal_reorientation": "Source/target U axis mirrored: decoded normal X (G) becomes 255-G; A preserved",
+  "rudder_non_panel_dark_samples_removed": {
+    "rudder_plus": 13910,
+    "rudder_minus": 17938
+  },
+  "native_geometry_changed": false,
+  "runtime_verified": false,
+  "inner_rudder_chord_mapping_superseded_by": "j15t_inner_fin_seam.json",
+  "new_rule": "Use one fixed-fin XY mapping through the inner rudder. Reorient G/A with saved chart basis instead of retaining old chord-mapped engraving."
+}
