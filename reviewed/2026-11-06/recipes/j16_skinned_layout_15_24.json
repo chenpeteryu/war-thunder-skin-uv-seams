@@ -1,0 +1,35 @@
+{
+  "model": "j_16",
+  "affected_parts": [
+    "gear_c13",
+    "gear_c14"
+  ],
+  "changed_triangles": 432,
+  "vertex_format": 15,
+  "stride_bytes": 24,
+  "prior_position_byte_offset": 8,
+  "prior_uv_byte_offset": 20,
+  "corrected_position": {
+    "offset": 0,
+    "type": "int16x3",
+    "scale": 3.0517578125e-05
+  },
+  "corrected_uv": {
+    "offset": 12,
+    "type": "int16x2",
+    "scale": 0.000244140625,
+    "v": "1-vraw/4096"
+  },
+  "bone_indices_offset": 16,
+  "bone_weights_offset": 20,
+  "bone_weight_denominator": 255,
+  "position_model_transform": "Multiply by native bpC255, add native bpC254; no additional rigid-node transform for skinned objects.",
+  "bone_node_mapping": "boneNodeId -> resource skinNodes -> nodeNames -> skeleton by name",
+  "evidence": [
+    "evidence/skin_field_evidence.json",
+    "evidence/j16_bind_pose_audit.json",
+    "evidence/layout_correction_comparison.json",
+    "evidence/j16_original_vertex_stream.npz"
+  ],
+  "limits": "Verified current J16 stream only, not a global decoder rule for every format15/stride24 asset; animation unverified."
+}

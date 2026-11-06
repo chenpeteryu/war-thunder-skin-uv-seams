@@ -1,0 +1,1205 @@
+{
+  "probes": [
+    {
+      "model": "j_15t",
+      "group": "wing",
+      "connection": 19,
+      "side": 0,
+      "source_triangle": 241962,
+      "integer_pixel": [
+        2045,
+        1854
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        117.76526403956625,
+        193.6421492664564,
+        103.58093798086557
+      ],
+      "image": "j_15t_wing_19_0.png",
+      "triangle_part": "fuse",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "j_15t",
+      "group": "wing",
+      "connection": 19,
+      "side": 1,
+      "source_triangle": 408360,
+      "integer_pixel": [
+        1771,
+        6070
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        243.21135626014816,
+        202.82981014957608,
+        215.94265242579186
+      ],
+      "image": "j_15t_wing_19_1.png",
+      "triangle_part": "wing_r",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "j_15t",
+      "group": "control",
+      "connection": 5,
+      "side": 0,
+      "source_triangle": 11239,
+      "integer_pixel": [
+        566,
+        2440
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        153.65837378313043,
+        168.8698474547755,
+        114.11343673552108
+      ],
+      "image": "j_15t_control_5_0.png",
+      "triangle_part": "elevator1",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "j_15t",
+      "group": "control",
+      "connection": 5,
+      "side": 1,
+      "source_triangle": 10786,
+      "integer_pixel": [
+        1146,
+        2951
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        152.80327379384812,
+        226.54897990711635,
+        227.06226007319347
+      ],
+      "image": "j_15t_control_5_1.png",
+      "triangle_part": "elevator1",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "j_15t",
+      "group": "body",
+      "connection": 3,
+      "side": 0,
+      "source_triangle": 366321,
+      "integer_pixel": [
+        7734,
+        7068
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        201.03609038248595,
+        213.73770440263718,
+        96.26464894509404
+      ],
+      "image": "j_15t_body_3_0.png",
+      "triangle_part": "tail",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "j_15t",
+      "group": "body",
+      "connection": 3,
+      "side": 1,
+      "source_triangle": 369226,
+      "integer_pixel": [
+        7799,
+        7079
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        81.03378762542016,
+        179.732442661304,
+        232.11313562502454
+      ],
+      "image": "j_15t_body_3_1.png",
+      "triangle_part": "tail",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "j_15t",
+      "group": "nozzle",
+      "connection": 239,
+      "side": 0,
+      "source_triangle": 273395,
+      "integer_pixel": [
+        19,
+        2468
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        202.23421701607103,
+        182.4888137386646,
+        210.3731170107598
+      ],
+      "image": "j_15t_nozzle_239_0.png",
+      "triangle_part": "nozzle2_23",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "j_15t",
+      "group": "nozzle",
+      "connection": 239,
+      "side": 1,
+      "source_triangle": 273202,
+      "integer_pixel": [
+        29,
+        2296
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        242.27287498732173,
+        240.38133673674994,
+        174.7720796933591
+      ],
+      "image": "j_15t_nozzle_239_1.png",
+      "triangle_part": "nozzle2_23",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "j_16",
+      "group": "wing",
+      "connection": 6,
+      "side": 0,
+      "source_triangle": 42826,
+      "integer_pixel": [
+        231,
+        8113
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        240.38133673674994,
+        226.54897990711635,
+        188.50060778611672
+      ],
+      "image": "j_16_wing_6_0.png",
+      "triangle_part": "wing_l",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "j_16",
+      "group": "wing",
+      "connection": 6,
+      "side": 1,
+      "source_triangle": 42142,
+      "integer_pixel": [
+        4480,
+        6903
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        110.30976025412534,
+        202.23421701607103,
+        237.02292022458897
+      ],
+      "image": "j_16_wing_6_1.png",
+      "triangle_part": "wing_l",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "j_16",
+      "group": "control",
+      "connection": 5,
+      "side": 0,
+      "source_triangle": 329107,
+      "integer_pixel": [
+        828,
+        5151
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        238.94965670508938,
+        112.86325821149612,
+        226.54897990711635
+      ],
+      "image": "j_16_control_5_0.png",
+      "triangle_part": "elevator0",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "j_16",
+      "group": "control",
+      "connection": 5,
+      "side": 1,
+      "source_triangle": 329679,
+      "integer_pixel": [
+        888,
+        5155
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        227.57401488218332,
+        240.38133673674994,
+        102.1690207856811
+      ],
+      "image": "j_16_control_5_1.png",
+      "triangle_part": "elevator0",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "j_16",
+      "group": "body",
+      "connection": 1,
+      "side": 0,
+      "source_triangle": 298542,
+      "integer_pixel": [
+        5943,
+        2182
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        228.0842565756963,
+        209.23576065258314,
+        199.22117737385972
+      ],
+      "image": "j_16_body_1_0.png",
+      "triangle_part": "tail",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "j_16",
+      "group": "body",
+      "connection": 1,
+      "side": 1,
+      "source_triangle": 298541,
+      "integer_pixel": [
+        5888,
+        5535
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        107.6806471931167,
+        230.61318576230246,
+        164.2617495160013
+      ],
+      "image": "j_16_body_1_1.png",
+      "triangle_part": "tail",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "j_16",
+      "group": "nozzle",
+      "connection": 12,
+      "side": 0,
+      "source_triangle": 47896,
+      "integer_pixel": [
+        5370,
+        4308
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        234.58499677380757,
+        228.0842565756963,
+        196.14732496006312
+      ],
+      "image": "j_16_nozzle_12_0.png",
+      "triangle_part": "nozzle3_10",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "j_16",
+      "group": "nozzle",
+      "connection": 12,
+      "side": 1,
+      "source_triangle": 47908,
+      "integer_pixel": [
+        5550,
+        4299
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        151.07440936223796,
+        118.95153299178777,
+        243.21135626014816
+      ],
+      "image": "j_16_nozzle_12_1.png",
+      "triangle_part": "nozzle3_10",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "j_10c",
+      "group": "wing",
+      "connection": 2236,
+      "side": 0,
+      "source_triangle": 89610,
+      "integer_pixel": [
+        3870,
+        6219
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        140.12093131858157,
+        200.43350769532452,
+        193.00920834707043
+      ],
+      "image": "j_10c_wing_2236_0.png",
+      "triangle_part": "wing_l",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "j_10c",
+      "group": "wing",
+      "connection": 2236,
+      "side": 1,
+      "source_triangle": 90412,
+      "integer_pixel": [
+        2145,
+        696
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        213.73770440263718,
+        211.50245956682295,
+        94.71768798239658
+      ],
+      "image": "j_10c_wing_2236_1.png",
+      "triangle_part": "wing_l",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "j_10c",
+      "group": "control",
+      "connection": 2239,
+      "side": 0,
+      "source_triangle": 4549,
+      "integer_pixel": [
+        5605,
+        2276
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        238.94965670508938,
+        235.56416779991923,
+        130.08100816283132
+      ],
+      "image": "j_10c_control_2239_0.png",
+      "triangle_part": "elevator1",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "j_10c",
+      "group": "control",
+      "connection": 2239,
+      "side": 1,
+      "source_triangle": 4477,
+      "integer_pixel": [
+        6414,
+        2271
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        99.27069012010578,
+        191.7351324821996,
+        212.6239397567925
+      ],
+      "image": "j_10c_control_2239_1.png",
+      "triangle_part": "elevator1",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "su_30sm",
+      "group": "wing",
+      "connection": 2969,
+      "side": 0,
+      "source_triangle": 50555,
+      "integer_pixel": [
+        2365,
+        6902
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        209.23576065258314,
+        170.37025524810338,
+        212.0641731753645
+      ],
+      "image": "su_30sm_wing_2969_0.png",
+      "triangle_part": "wing_r",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "su_30sm",
+      "group": "wing",
+      "connection": 2969,
+      "side": 1,
+      "source_triangle": 50687,
+      "integer_pixel": [
+        2051,
+        7846
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        223.4365600320723,
+        229.10024878817703,
+        178.3334429210995
+      ],
+      "image": "su_30sm_wing_2969_1.png",
+      "triangle_part": "wing_r",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "su_30sm",
+      "group": "control",
+      "connection": 2968,
+      "side": 0,
+      "source_triangle": 44510,
+      "integer_pixel": [
+        828,
+        5151
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        238.94965670508938,
+        112.86325821149612,
+        226.54897990711635
+      ],
+      "image": "su_30sm_control_2968_0.png",
+      "triangle_part": "elevator0",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "su_30sm",
+      "group": "control",
+      "connection": 2968,
+      "side": 1,
+      "source_triangle": 45076,
+      "integer_pixel": [
+        888,
+        5155
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        227.57401488218332,
+        240.38133673674994,
+        102.1690207856811
+      ],
+      "image": "su_30sm_control_2968_1.png",
+      "triangle_part": "elevator0",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "su_30sm",
+      "group": "body",
+      "connection": 2963,
+      "side": 0,
+      "source_triangle": 346081,
+      "integer_pixel": [
+        5988,
+        5725
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        228.0842565756963,
+        238.94965670508938,
+        168.11314041336473
+      ],
+      "image": "su_30sm_body_2963_0.png",
+      "triangle_part": "tail",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "su_30sm",
+      "group": "body",
+      "connection": 2963,
+      "side": 1,
+      "source_triangle": 345257,
+      "integer_pixel": [
+        5833,
+        2380
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        222.91224557026055,
+        206.3562715166485,
+        123.55494714283527
+      ],
+      "image": "su_30sm_body_2963_1.png",
+      "triangle_part": "tail",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "su_30sm",
+      "group": "nozzle",
+      "connection": 2976,
+      "side": 0,
+      "source_triangle": 55558,
+      "integer_pixel": [
+        5370,
+        4308
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        234.58499677380757,
+        228.0842565756963,
+        196.14732496006312
+      ],
+      "image": "su_30sm_nozzle_2976_0.png",
+      "triangle_part": "nozzle3_10",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "su_30sm",
+      "group": "nozzle",
+      "connection": 2976,
+      "side": 1,
+      "source_triangle": 55570,
+      "integer_pixel": [
+        5550,
+        4299
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        151.07440936223796,
+        118.95153299178777,
+        243.21135626014816
+      ],
+      "image": "su_30sm_nozzle_2976_1.png",
+      "triangle_part": "nozzle3_10",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "su_30sm2",
+      "group": "wing",
+      "connection": 4559,
+      "side": 0,
+      "source_triangle": 50645,
+      "integer_pixel": [
+        2365,
+        6902
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        209.23576065258314,
+        170.37025524810338,
+        212.0641731753645
+      ],
+      "image": "su_30sm2_wing_4559_0.png",
+      "triangle_part": "wing_r",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "su_30sm2",
+      "group": "wing",
+      "connection": 4559,
+      "side": 1,
+      "source_triangle": 50777,
+      "integer_pixel": [
+        2051,
+        7846
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        223.4365600320723,
+        229.10024878817703,
+        178.3334429210995
+      ],
+      "image": "su_30sm2_wing_4559_1.png",
+      "triangle_part": "wing_r",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "su_30sm2",
+      "group": "control",
+      "connection": 4558,
+      "side": 0,
+      "source_triangle": 44600,
+      "integer_pixel": [
+        828,
+        5151
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        238.94965670508938,
+        112.86325821149612,
+        226.54897990711635
+      ],
+      "image": "su_30sm2_control_4558_0.png",
+      "triangle_part": "elevator0",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "su_30sm2",
+      "group": "control",
+      "connection": 4558,
+      "side": 1,
+      "source_triangle": 45166,
+      "integer_pixel": [
+        888,
+        5155
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        227.57401488218332,
+        240.38133673674994,
+        102.1690207856811
+      ],
+      "image": "su_30sm2_control_4558_1.png",
+      "triangle_part": "elevator0",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "su_30sm2",
+      "group": "body",
+      "connection": 4553,
+      "side": 0,
+      "source_triangle": 346825,
+      "integer_pixel": [
+        5988,
+        5725
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        228.0842565756963,
+        238.94965670508938,
+        168.11314041336473
+      ],
+      "image": "su_30sm2_body_4553_0.png",
+      "triangle_part": "tail",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "su_30sm2",
+      "group": "body",
+      "connection": 4553,
+      "side": 1,
+      "source_triangle": 346001,
+      "integer_pixel": [
+        5833,
+        2380
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        222.91224557026055,
+        206.3562715166485,
+        123.55494714283527
+      ],
+      "image": "su_30sm2_body_4553_1.png",
+      "triangle_part": "tail",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "su_30sm2",
+      "group": "nozzle",
+      "connection": 4566,
+      "side": 0,
+      "source_triangle": 55738,
+      "integer_pixel": [
+        5370,
+        4308
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        234.58499677380757,
+        228.0842565756963,
+        196.14732496006312
+      ],
+      "image": "su_30sm2_nozzle_4566_0.png",
+      "triangle_part": "nozzle3_10",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "su_30sm2",
+      "group": "nozzle",
+      "connection": 4566,
+      "side": 1,
+      "source_triangle": 55750,
+      "integer_pixel": [
+        5550,
+        4299
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        151.07440936223796,
+        118.95153299178777,
+        243.21135626014816
+      ],
+      "image": "su_30sm2_nozzle_4566_1.png",
+      "triangle_part": "nozzle3_10",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "f_15ex",
+      "group": "wing",
+      "connection": 6150,
+      "side": 0,
+      "source_triangle": 37397,
+      "integer_pixel": [
+        2609,
+        869
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        194.27240088055106,
+        193.00920834707043,
+        110.30976025412534
+      ],
+      "image": "f_15ex_wing_6150_0.png",
+      "triangle_part": "wing_l",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "f_15ex",
+      "group": "wing",
+      "connection": 6150,
+      "side": 1,
+      "source_triangle": 38500,
+      "integer_pixel": [
+        3192,
+        1400
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        106.33576791253269,
+        144.813619940129,
+        124.67260379676821
+      ],
+      "image": "f_15ex_wing_6150_1.png",
+      "triangle_part": "wing_l",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "f_15ex",
+      "group": "control",
+      "connection": 6170,
+      "side": 0,
+      "source_triangle": 525,
+      "integer_pixel": [
+        5506,
+        6092
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        141.07540976098846,
+        190.44991495076695,
+        79.12082559526077
+      ],
+      "image": "f_15ex_control_6170_0.png",
+      "triangle_part": "elevator0",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "f_15ex",
+      "group": "control",
+      "connection": 6170,
+      "side": 1,
+      "source_triangle": 219,
+      "integer_pixel": [
+        5932,
+        5966
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        218.6578861260494,
+        233.1060348633549,
+        166.5863739562374
+      ],
+      "image": "f_15ex_control_6170_1.png",
+      "triangle_part": "elevator0",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "f_15ex",
+      "group": "body",
+      "connection": 6147,
+      "side": 0,
+      "source_triangle": 8746,
+      "integer_pixel": [
+        1425,
+        4612
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        168.8698474547755,
+        185.85993823040036,
+        175.49185920584222
+      ],
+      "image": "f_15ex_body_6147_0.png",
+      "triangle_part": "tail",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "f_15ex",
+      "group": "body",
+      "connection": 6147,
+      "side": 1,
+      "source_triangle": 3868,
+      "integer_pixel": [
+        6156,
+        4907
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        217.57713888064634,
+        219.19563370757095,
+        193.6421492664564
+      ],
+      "image": "f_15ex_body_6147_1.png",
+      "triangle_part": "tail",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "f_15ex",
+      "group": "nozzle",
+      "connection": 6160,
+      "side": 0,
+      "source_triangle": 134751,
+      "integer_pixel": [
+        254,
+        2397
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        192.37354674527202,
+        155.3505040869231,
+        114.11343673552108
+      ],
+      "image": "f_15ex_nozzle_6160_0.png",
+      "triangle_part": "nozzle4_1",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "f_15ex",
+      "group": "nozzle",
+      "connection": 6160,
+      "side": 1,
+      "source_triangle": 134248,
+      "integer_pixel": [
+        7611,
+        5576
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        184.5211002710936,
+        127.95222566777754,
+        94.71768798239658
+      ],
+      "image": "f_15ex_nozzle_6160_1.png",
+      "triangle_part": "nozzle4_1",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    }
+  ],
+  "missing_groups": [
+    {
+      "model": "j_10c",
+      "group": "body",
+      "reason": "no qualifying shared-edge connection in this primary-texture tree"
+    },
+    {
+      "model": "j_10c",
+      "group": "nozzle",
+      "reason": "no qualifying shared-edge connection in this primary-texture tree"
+    }
+  ],
+  "line_overlays": false
+}

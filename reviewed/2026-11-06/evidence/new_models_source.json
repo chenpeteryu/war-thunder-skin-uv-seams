@@ -1,0 +1,36 @@
+{
+  "models": {
+    "su_30sm": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aircrafts\\air.grp",
+      "entry": {
+        "name": "su_30sm",
+        "class_id": 3031947716,
+        "offset": 201332528,
+        "size": 3838096
+      },
+      "raw_entry_sha256": "10cd075b8bae27bd3d65a9464757bd55946586f5c826e30b875d3910b9b2406f"
+    },
+    "su_30sm2": {
+      "pack": "D:\\SteamLibrary\\steamapps\\common\\War Thunder\\content\\base\\res\\aircrafts\\air.grp",
+      "entry": {
+        "name": "su_30sm2",
+        "class_id": 3031947716,
+        "offset": 218922960,
+        "size": 3940800
+      },
+      "raw_entry_sha256": "50232b798b8a3a8fddba398de9eef29646ebada794af637c32c537348429ea9a"
+    },
+    "f_15ex": {
+      "pack": "E:\\WarThunder\\content\\base\\res\\aircrafts\\air.grp",
+      "entry": {
+        "name": "f_15ex",
+        "class_id": 3031947716,
+        "offset": 150630448,
+        "size": 3291376
+      },
+      "raw_entry_sha256": "e6b85f667d1696a848cdf2935ec01d62a4fc8966a09f7872e0167fd7e0453f0c"
+    }
+  },
+  "backend": "WT Asset Explorer; fixed local backend",
+  "status": "raw game entry checksums; no runtime validation"
+}

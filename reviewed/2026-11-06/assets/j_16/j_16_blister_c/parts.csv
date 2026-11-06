@@ -1,0 +1,2 @@
+﻿part_id,part_name,triangles,u_min,v_min,u_max,v_max,x_min_px,y_min_px,x_max_px,y_max_px,world_x_min,world_x_max,world_y_min,world_y_max,world_z_min,world_z_max
+109,blister1,14674,0.0048828125,0.01171875,0.9951171875,0.98828125,5.0,6.0,1019.0,506.0,4.781600475311279,8.513043403625488,0.7031175494194031,1.780596375465393,-0.48462069034576416,0.48462188243865967

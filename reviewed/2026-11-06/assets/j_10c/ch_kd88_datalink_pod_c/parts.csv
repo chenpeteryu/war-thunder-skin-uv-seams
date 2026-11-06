@@ -1,0 +1,2 @@
+﻿part_id,part_name,triangles,u_min,v_min,u_max,v_max,x_min_px,y_min_px,x_max_px,y_max_px,world_x_min,world_x_max,world_y_min,world_y_max,world_z_min,world_z_max
+261,ch_kd88_datalink_pod,3116,0.003662109375,0.00146484375,0.99853515625,0.997802734375,3.75,1.125,1022.5,511.25,1.9158194065093994,5.070156574249268,-1.3853895664215088,-0.9169589281082153,0.5322675108909607,0.9589988589286804

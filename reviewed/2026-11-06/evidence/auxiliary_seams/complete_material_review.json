@@ -1,0 +1,32 @@
+[
+  {
+    "model": "j_10c",
+    "texture": "j_10c_nozzle_c",
+    "single_texture_candidates": 13116,
+    "visible_with_core_materials": 12753,
+    "blocked_with_core_materials": 363,
+    "geometry_preserved": true,
+    "scene_sha256": "fd9a16bd4d6830e811dff5f395b933650bd4f2a34b96574c6ad482838d078097",
+    "limits": "Static centroids, optional-attachment name rules, alpha cutouts not resolved. Visibility annotates original texture tree; no hidden source geometry deleted."
+  },
+  {
+    "model": "su_30sm",
+    "texture": "su_30sm_1_c",
+    "single_texture_candidates": 3734,
+    "visible_with_core_materials": 339,
+    "blocked_with_core_materials": 3395,
+    "geometry_preserved": true,
+    "scene_sha256": "10fb7b5f038e33beebd3f427a13f5785b59baa70b006021fbcd86c984cedc38c",
+    "limits": "Static centroids, optional-attachment name rules, alpha cutouts not resolved. Visibility annotates original texture tree; no hidden source geometry deleted."
+  },
+  {
+    "model": "su_30sm2",
+    "texture": "su_30sm_1_c",
+    "single_texture_candidates": 3734,
+    "visible_with_core_materials": 339,
+    "blocked_with_core_materials": 3395,
+    "geometry_preserved": true,
+    "scene_sha256": "e6a1a6b1f043f957c0fd59572d7d54993c7ba5c05a18d4b8bf1ff2d2d3d02360",
+    "limits": "Static centroids, optional-attachment name rules, alpha cutouts not resolved. Visibility annotates original texture tree; no hidden source geometry deleted."
+  }
+]

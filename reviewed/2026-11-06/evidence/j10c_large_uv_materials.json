@@ -1,0 +1,56 @@
+[
+  {
+    "part": "tail",
+    "start": 0,
+    "end": 12,
+    "material_id": 1,
+    "shader_class": "dynamic_masked_chrome_bump",
+    "params": {
+      "": ""
+    },
+    "slots": [
+      "j_10c_c*",
+      null,
+      "j_10c_n*",
+      null,
+      "aircraft_normal_detail_lo_n*",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "large_triangles": 12,
+    "example_uv": [
+      [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ]
+    ]
+  }
+]

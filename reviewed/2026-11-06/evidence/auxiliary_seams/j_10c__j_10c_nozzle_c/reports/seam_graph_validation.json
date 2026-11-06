@@ -1,0 +1,32 @@
+{
+  "models": [
+    {
+      "model": "j_10c",
+      "external_triangles": 13116,
+      "charts": 731,
+      "paintable_charts": 731,
+      "subpixel_charts_excluded_from_tree": 0,
+      "connections": 730,
+      "tree_connected": true,
+      "tree_acyclic": true,
+      "edge_only_components": 559,
+      "physical_contact_components": 459,
+      "relations": {
+        "shared_edge": 172,
+        "assembly_reference": 365,
+        "shared_vertex": 74,
+        "near_gap": 119
+      },
+      "uv_alias_groups": 1191,
+      "reference_anchor_fallbacks": 203,
+      "max_raster_anchor_error_px": 3.5355339059327378,
+      "max_measured_gap_m": 0.38371484987825916,
+      "required_review_links": 406,
+      "width_px": 1,
+      "stub_length_limit_px": 6,
+      "image_overlays_written": false,
+      "runtime_verified": false
+    }
+  ],
+  "database_sha256": "f118953be72cff723575987a18adeae393476b357c2cce5a7c7d9bb0c58503e6"
+}

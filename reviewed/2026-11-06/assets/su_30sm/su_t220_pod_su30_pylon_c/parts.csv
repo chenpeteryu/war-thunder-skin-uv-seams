@@ -1,0 +1,2 @@
+﻿part_id,part_name,triangles,u_min,v_min,u_max,v_max,x_min_px,y_min_px,x_max_px,y_max_px,world_x_min,world_x_max,world_y_min,world_y_max,world_z_min,world_z_max
+573,su_t220_pod_su30_pylon,1740,0.004150390625,0.021484375,0.99267578125,0.99462890625,4.25,1.375,1016.5,250.5,-0.7148312330245972,1.0251288414001465,-1.4637842178344727,-1.3265228271484375,-1.294769048690796,-1.1916239261627197

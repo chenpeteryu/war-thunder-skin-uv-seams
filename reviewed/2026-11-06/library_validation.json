@@ -1,0 +1,12 @@
+{
+  "layouts_checked": 107,
+  "boundary_coordinate_rows_checked": 2072735,
+  "max_uv_to_pixel_coordinate_error": 0.0,
+  "index_links_checked": 758,
+  "files_hashed": 1296,
+  "errors": [],
+  "checks": "Geometry hashes, finite arrays, material/part index bounds, dimensions, all CSV boundary formulas, images, local index links and database integrity. Render/texel/seam evidence is separately recorded.",
+  "runtime_verified": false,
+  "universal_pixel_perfect_claim": false,
+  "additional_evidence": "SM/SM2 per-part UV comparison included; underlying geometry validation unchanged"
+}

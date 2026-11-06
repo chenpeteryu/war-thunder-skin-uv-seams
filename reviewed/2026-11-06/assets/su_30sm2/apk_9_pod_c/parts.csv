@@ -1,0 +1,2 @@
+﻿part_id,part_name,triangles,u_min,v_min,u_max,v_max,x_min_px,y_min_px,x_max_px,y_max_px,world_x_min,world_x_max,world_y_min,world_y_max,world_z_min,world_z_max
+676,apk_9_pod,2096,0.0029296875,0.0029296875,0.9970703125,0.97216796875,3.0,14.25,1021.0,510.5,-1.4378511905670166,2.509046792984009,-2.009675979614258,-1.3205735683441162,1.0108280181884766,1.474541425704956

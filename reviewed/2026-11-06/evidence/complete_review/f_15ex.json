@@ -1,0 +1,499 @@
+{
+  "model": "f_15ex",
+  "scene_sha256": "4ecc600822b61b79cf17c684719ac31e60c81f95f821c31363c417c0b12717d4",
+  "materials": [
+    {
+      "id": 0,
+      "texture": "f_15ex_pylon_c",
+      "block_pattern": false,
+      "triangles": 44247
+    },
+    {
+      "id": 2,
+      "texture": "f_15ex_c",
+      "block_pattern": true,
+      "triangles": 451102
+    },
+    {
+      "id": 6,
+      "texture": "f_15ex_interior_c",
+      "block_pattern": false,
+      "triangles": 55896
+    },
+    {
+      "id": 9,
+      "texture": "f_15e_seat_c",
+      "block_pattern": false,
+      "triangles": 18836
+    },
+    {
+      "id": 11,
+      "texture": "f_15ex_fuel_tank_opt_c",
+      "block_pattern": false,
+      "triangles": 30323
+    },
+    {
+      "id": 13,
+      "texture": "f_15ex_lattice_c",
+      "block_pattern": false,
+      "triangles": 82
+    },
+    {
+      "id": 15,
+      "texture": "lau_7_c",
+      "block_pattern": false,
+      "triangles": 55896
+    },
+    {
+      "id": 16,
+      "texture": "us_lau_129aa_c",
+      "block_pattern": false,
+      "triangles": 59552
+    },
+    {
+      "id": 17,
+      "texture": "f_15ex_pylon1_c",
+      "block_pattern": false,
+      "triangles": 3624
+    },
+    {
+      "id": 18,
+      "texture": "us_lantirn_pod_anaaq14_c",
+      "block_pattern": false,
+      "triangles": 11378
+    },
+    {
+      "id": 21,
+      "texture": "mesh1_a",
+      "block_pattern": false,
+      "triangles": 18
+    },
+    {
+      "id": 22,
+      "texture": "f_15ex_pylon2_c",
+      "block_pattern": false,
+      "triangles": 13414
+    },
+    {
+      "id": 23,
+      "texture": "us_lau_117_c",
+      "block_pattern": false,
+      "triangles": 12938
+    },
+    {
+      "id": 24,
+      "texture": "us_adu578_adapter_c",
+      "block_pattern": false,
+      "triangles": 6252
+    },
+    {
+      "id": 25,
+      "texture": "f_15ex_pylon3_c",
+      "block_pattern": false,
+      "triangles": 12390
+    },
+    {
+      "id": 26,
+      "texture": "an_aaq_33_sniper_atp_c",
+      "block_pattern": false,
+      "triangles": 13789
+    },
+    {
+      "id": 28,
+      "texture": "an_aaq_33_sniper_atp_grid_c",
+      "block_pattern": false,
+      "triangles": 4
+    }
+  ],
+  "excluded_transparent_glass": [
+    {
+      "id": 3,
+      "shader": "dynamic_glass_chrome",
+      "triangles": 2720,
+      "reason": "transparent, null, or effect shader omitted from opaque diagnostic"
+    },
+    {
+      "id": 4,
+      "shader": "propeller_front",
+      "triangles": 48,
+      "reason": "transparent, null, or effect shader omitted from opaque diagnostic"
+    },
+    {
+      "id": 5,
+      "shader": "propeller_front",
+      "triangles": 140,
+      "reason": "transparent, null, or effect shader omitted from opaque diagnostic"
+    },
+    {
+      "id": 7,
+      "shader": "dynamic_glass_chrome",
+      "triangles": 96,
+      "reason": "transparent, null, or effect shader omitted from opaque diagnostic"
+    },
+    {
+      "id": 8,
+      "shader": "dynamic_glass_chrome",
+      "triangles": 96,
+      "reason": "transparent, null, or effect shader omitted from opaque diagnostic"
+    },
+    {
+      "id": 10,
+      "shader": "dynamic_glass_chrome",
+      "triangles": 320,
+      "reason": "transparent, null, or effect shader omitted from opaque diagnostic"
+    },
+    {
+      "id": 12,
+      "shader": "dynamic_glass_chrome",
+      "triangles": 228,
+      "reason": "transparent, null, or effect shader omitted from opaque diagnostic"
+    },
+    {
+      "id": 14,
+      "shader": "aces_weapon_fire",
+      "triangles": 1176,
+      "reason": "transparent, null, or effect shader omitted from opaque diagnostic"
+    },
+    {
+      "id": 19,
+      "shader": "dynamic_glass_chrome",
+      "triangles": 28,
+      "reason": "transparent, null, or effect shader omitted from opaque diagnostic"
+    },
+    {
+      "id": 20,
+      "shader": "dynamic_glass_chrome",
+      "triangles": 24,
+      "reason": "transparent, null, or effect shader omitted from opaque diagnostic"
+    },
+    {
+      "id": 27,
+      "shader": "dynamic_glass_chrome",
+      "triangles": 47,
+      "reason": "transparent, null, or effect shader omitted from opaque diagnostic"
+    }
+  ],
+  "limits": "Opaque geometry diagnostic with explicit glass exclusion; alpha cutouts, Dagor materials, animation and skinned pose are not runtime verified. Grid is 2K and does not prove 8K pixel precision.",
+  "views": [
+    {
+      "name": "top",
+      "native_eye": [
+        0,
+        35,
+        0
+      ],
+      "native_target": [
+        0,
+        0,
+        0
+      ],
+      "scale": 32,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          35.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "bottom",
+      "native_eye": [
+        0,
+        -35,
+        0
+      ],
+      "native_target": [
+        0,
+        0,
+        0
+      ],
+      "scale": 32,
+      "matrix_world": [
+        [
+          -1.0,
+          8.74227694680485e-08,
+          -8.742279078433057e-08,
+          0.0
+        ],
+        [
+          8.742277657347586e-08,
+          1.0,
+          -8.74227694680485e-08,
+          0.0
+        ],
+        [
+          8.742277657347586e-08,
+          -8.742277657347586e-08,
+          -1.0,
+          -35.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "intake",
+      "native_eye": [
+        18,
+        -7,
+        10
+      ],
+      "native_target": [
+        4,
+        0,
+        0
+      ],
+      "scale": 10,
+      "matrix_world": [
+        [
+          -0.5812381505966187,
+          0.3066695034503937,
+          0.7537347078323364,
+          18.0
+        ],
+        [
+          0.8137335181236267,
+          0.21904981136322021,
+          0.538381814956665,
+          10.0
+        ],
+        [
+          -1.7508573080249334e-07,
+          0.9262672662734985,
+          -0.3768673539161682,
+          -7.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "foreplane_under",
+      "native_eye": [
+        15,
+        -9,
+        9
+      ],
+      "native_target": [
+        6,
+        0,
+        0
+      ],
+      "scale": 8,
+      "matrix_world": [
+        [
+          -0.7071067690849304,
+          0.40824830532073975,
+          0.5773502588272095,
+          15.0
+        ],
+        [
+          0.7071067690849304,
+          0.4082484543323517,
+          0.5773501396179199,
+          9.0
+        ],
+        [
+          -1.1501398944346874e-07,
+          0.8164964914321899,
+          -0.577350378036499,
+          -9.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "fin_inner",
+      "native_eye": [
+        -18,
+        8,
+        9
+      ],
+      "native_target": [
+        -6,
+        1,
+        0
+      ],
+      "scale": 11,
+      "matrix_world": [
+        [
+          -0.6000000834465027,
+          0.3383086025714874,
+          -0.7249463200569153,
+          -18.0
+        ],
+        [
+          -0.7999999523162842,
+          -0.25373125076293945,
+          0.5437099933624268,
+          9.0
+        ],
+        [
+          2.0850639259606396e-07,
+          0.9061830639839172,
+          0.42288562655448914,
+          8.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "fin_opposite",
+      "native_eye": [
+        -18,
+        8,
+        -9
+      ],
+      "native_target": [
+        -6,
+        1,
+        0
+      ],
+      "scale": 11,
+      "matrix_world": [
+        [
+          0.5999998450279236,
+          0.33830833435058594,
+          -0.7249466776847839,
+          -18.0
+        ],
+        [
+          -0.8000001311302185,
+          0.25373125076293945,
+          -0.5437096953392029,
+          -9.0
+        ],
+        [
+          1.0626346380604446e-07,
+          0.9061831831932068,
+          0.4228854179382324,
+          8.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "nozzle",
+      "native_eye": [
+        -30,
+        0,
+        0
+      ],
+      "native_target": [
+        -8,
+        0,
+        0
+      ],
+      "scale": 8,
+      "matrix_world": [
+        [
+          -4.371138828673793e-08,
+          -4.371138828673793e-08,
+          -1.0,
+          -30.0
+        ],
+        [
+          -1.0,
+          1.910685676922942e-15,
+          4.371138828673793e-08,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "side",
+      "native_eye": [
+        2,
+        4,
+        35
+      ],
+      "native_target": [
+        1,
+        0,
+        0
+      ],
+      "scale": 32,
+      "matrix_world": [
+        [
+          -0.9995920658111572,
+          -0.0032415452878922224,
+          0.028375212103128433,
+          2.0
+        ],
+        [
+          0.028559766709804535,
+          -0.11345446854829788,
+          0.9931326508522034,
+          35.0
+        ],
+        [
+          1.0225936541985448e-08,
+          0.9935379028320312,
+          0.11350076645612717,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

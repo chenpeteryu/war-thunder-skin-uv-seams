@@ -1,0 +1,28 @@
+{
+  "j_16": {
+    "resolution": [
+      8192,
+      8192
+    ],
+    "wrapped_triangles": 97842,
+    "center_covered_pixels": 40064387,
+    "full_polygon_pixels_outside_center_union": 7680318,
+    "center_pixels_missing_from_full_polygon_union": 29454,
+    "seconds": 8.7,
+    "convention": "pixel center x+.5,y+.5; scanline inclusive geometry; no antialias dilation",
+    "scope": "candidate exterior-filtered primary texture"
+  },
+  "j_10c": {
+    "resolution": [
+      8192,
+      8192
+    ],
+    "wrapped_triangles": 52949,
+    "center_covered_pixels": 42816264,
+    "full_polygon_pixels_outside_center_union": 24292600,
+    "center_pixels_missing_from_full_polygon_union": 0,
+    "seconds": 9.02,
+    "convention": "pixel center x+.5,y+.5; scanline inclusive geometry; no antialias dilation",
+    "scope": "candidate exterior-filtered primary texture"
+  }
+}

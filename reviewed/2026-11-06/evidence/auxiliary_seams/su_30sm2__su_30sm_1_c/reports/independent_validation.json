@@ -1,0 +1,20 @@
+{
+  "models": [
+    {
+      "model": "su_30sm2",
+      "paintable_charts": 17,
+      "links": 16,
+      "connected": true,
+      "acyclic": true
+    }
+  ],
+  "checked_stub_pixels": 135,
+  "max_local_transform_roundtrip_error_px": 1.8189894035458565e-12,
+  "max_continuous_anchor_registration_error_px": 1.1368683772161603e-13,
+  "stub_width_px": 1,
+  "stub_max_grid_steps": 6,
+  "raster_topology": "8-connected, independently local to each connection",
+  "all_checks_passed": true,
+  "images_modified": false,
+  "runtime_verified": false
+}

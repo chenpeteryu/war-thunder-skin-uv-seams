@@ -1,0 +1,161 @@
+{
+  "bounds": [
+    [
+      -2.5575473308563232,
+      -0.0499623566865921,
+      -0.05002433806657791
+    ],
+    [
+      -2.4574615955352783,
+      0.0499623566865921,
+      0.05002433806657791
+    ]
+  ],
+  "triangles": [
+    {
+      "source_triangle": 20750,
+      "clear_directions": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "blocked_count": 25,
+      "minimum_blocker_distance_m": 0.6065818645171099
+    },
+    {
+      "source_triangle": 20751,
+      "clear_directions": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "blocked_count": 25,
+      "minimum_blocker_distance_m": 0.6188294263396699
+    },
+    {
+      "source_triangle": 20752,
+      "clear_directions": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "blocked_count": 25,
+      "minimum_blocker_distance_m": 0.6188256217521602
+    },
+    {
+      "source_triangle": 20753,
+      "clear_directions": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "blocked_count": 25,
+      "minimum_blocker_distance_m": 0.6065818645171099
+    },
+    {
+      "source_triangle": 20754,
+      "clear_directions": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "blocked_count": 25,
+      "minimum_blocker_distance_m": 0.6536056967237813
+    },
+    {
+      "source_triangle": 20755,
+      "clear_directions": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "blocked_count": 25,
+      "minimum_blocker_distance_m": 0.6529190587517455
+    },
+    {
+      "source_triangle": 20756,
+      "clear_directions": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "blocked_count": 25,
+      "minimum_blocker_distance_m": 0.6311588934502903
+    },
+    {
+      "source_triangle": 20757,
+      "clear_directions": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "blocked_count": 25,
+      "minimum_blocker_distance_m": 0.6527512014561337
+    },
+    {
+      "source_triangle": 20758,
+      "clear_directions": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "blocked_count": 25,
+      "minimum_blocker_distance_m": 0.6059799128537968
+    },
+    {
+      "source_triangle": 20759,
+      "clear_directions": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "blocked_count": 25,
+      "minimum_blocker_distance_m": 0.6062280754175582
+    },
+    {
+      "source_triangle": 20760,
+      "clear_directions": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "blocked_count": 25,
+      "minimum_blocker_distance_m": 0.6507942619717302
+    },
+    {
+      "source_triangle": 20761,
+      "clear_directions": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "blocked_count": 25,
+      "minimum_blocker_distance_m": 0.6303766488230131
+    }
+  ],
+  "scope": "26-direction static visibility with all other main-color triangles as blockers; no runtime or full solid-containment proof"
+}

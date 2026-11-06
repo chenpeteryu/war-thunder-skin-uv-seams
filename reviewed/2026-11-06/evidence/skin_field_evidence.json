@@ -1,0 +1,11 @@
+{
+  "vertices": 261,
+  "last_four_byte_weight_sums": {
+    "255": 261
+  },
+  "bone_index_max": 2,
+  "position_short4_w_unique": [
+    32767
+  ],
+  "status": "byte-layout evidence; candidate interpretation, no bone animation validation"
+}

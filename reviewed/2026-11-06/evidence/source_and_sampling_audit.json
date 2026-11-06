@@ -1,0 +1,1233 @@
+{
+  "j_15t": {
+    "relations": {
+      "assembly_reference": 933,
+      "near_gap": 773,
+      "shared_edge": 720,
+      "shared_vertex": 152
+    },
+    "needs_review": 1252,
+    "integer_anchor_error_px_percentiles": {
+      "p50": 0.7071067811865476,
+      "p90": 1.5811388300841898,
+      "p99": 5.31650451763849,
+      "max": 5.70087712549569
+    },
+    "database_dimensions": [
+      8192,
+      8192
+    ],
+    "geometries": [
+      {
+        "texture": "ch_df_4_launcher_c",
+        "sha256": "976329d797d4010207359fa8836721415c096783a77e1e034187779c35b86ff2",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          512
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "ch_jdc03a_c",
+        "sha256": "ccdcafaba0ffa611d8aa2a564832b3adbbae72d14b678eed8874aa53255f35da",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "ch_kd88_datalink_pod_c",
+        "sha256": "ce916f0169a9a27117db3adaf8d03a9109367174430971e86af593004439112d",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          512
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "ch_pl12_launcher_c",
+        "sha256": "87852bae5eae7f1c2d23ffd34f75b03eefcc461eaa2bb372f4c301f89b65c972",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "ch_triple_bomb_adapter_j10c_c",
+        "sha256": "618b45d438894cf6118428f7a289182bcdd43c6a3dc8af9a1b6fa8eb974c2ff2",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_10a_wing_twin_pylon_c",
+        "sha256": "17e4ce94f598fbb17562dc50181aba520b60010d5c9ae67fc27d4c95a7140297",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_11_dbz_uskm_adapter_c",
+        "sha256": "f7c9c821a7828aff2171849c0da690723c88036e7c87cf0c686e6099ccb2c862",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          256
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_11_pylon1_c",
+        "sha256": "486a44ad4ecc9f78b644881b110b8a0d182b694915fb8cb922d1719a00555879",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_11a_pylon1_c",
+        "sha256": "54e37b4258c5210a6c5e81c5e8fadbf0b431ce9aa7efb85902b0ad8dbcd98168",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          512
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_11b_pylon2_c",
+        "sha256": "c437dd0f0abd037ea4b6fcc371da91a95de6cdc7bd3175a8e1d0b7789129f0b0",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          512
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_11b_pylon3_c",
+        "sha256": "16e2dfcdd9808f2ff04388a0146e54ae8ada4a6b584873e33ab6cf023ccafc89",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          512
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_11b_pylon4_c",
+        "sha256": "0a3573dc21326f4ee6e61aa224ab4e559d697304fbc56616af6c7bb041e17428",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          256
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_11b_pylon5_c",
+        "sha256": "377e008b93c7d50f8cfbc9ae82b269350046c3ce635dacda117392d90f5cca7c",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          512
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_11b_pylon6_c",
+        "sha256": "dd32804c71a52e718fb93e478ec6e1a77cb960cf4f547ee1251308d6873589f7",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          512
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_11b_pylon7_c",
+        "sha256": "dfb3737de959db3dc351521d59562d2eb3429d9f2d5da0d9d8e9244679bf05d3",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_15t_c",
+        "sha256": "000b688d7d8dd19d986a16b16f4de56a2a60716962b3e42cfbeb261cfdac966c",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_15t_pf8k_pylon1_c",
+        "sha256": "d5366f1a671c10881fa144b29bfcd3a5a614ae20cabd95e8e86fcf1d42ed42ad",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          512
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_15t_pylon1_c",
+        "sha256": "6514342e8446655af085a54d71c431473e3a115e532cd8a8b8d9447b345233f3",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          256
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "jh_7_bomb_adapter_c",
+        "sha256": "98861c513af4f79534b6caa30699058affee1e18dfa85ee53351ae523e2d1bc4",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          2048,
+          1024
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "su_aku_58_c",
+        "sha256": "ae603ca9c5b7680dfca62b60cb22e1a0092df3693bff5ec881191c1ffe242ecc",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          512
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "su_bdz_uskm_s_a_c",
+        "sha256": "16f0d564f41a6486d9c9655b9778b0683eaa1167f6347e05bcade78fc3d8f80c",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          512
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "su_dbz_uskm_adapter_j_15t_c",
+        "sha256": "495b4453021fbfb461bcfac6d7c852c3c518e0f83a11f4770a7b1aa26c012b43",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          256
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "su_dz_um_c",
+        "sha256": "915eae0aa57d1d7d01dc4b3cc13f393927ff401f7c03d311334a1908f0e70720",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          512,
+          512
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "su_pbs_pylon_j_15t_c",
+        "sha256": "7bf5dad9d6d1259ba9bce6ffabc912740d75a9f4da0017c44c432a29d1edf574",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      }
+    ]
+  },
+  "j_16": {
+    "relations": {
+      "assembly_reference": 935,
+      "near_gap": 1084,
+      "shared_edge": 683,
+      "shared_vertex": 189
+    },
+    "needs_review": 1461,
+    "integer_anchor_error_px_percentiles": {
+      "p50": 0.7071067811865476,
+      "p90": 1.5811388300841898,
+      "p99": 4.527692569068709,
+      "max": 5.522680508593631
+    },
+    "database_dimensions": [
+      8192,
+      8192
+    ],
+    "geometries": [
+      {
+        "texture": "ch_df_4_launcher_c",
+        "sha256": "79755fb9d513c96d0d717259ba4f69a27efe0393c32eaee7eecb930219e7695e",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          512
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "ch_kd88_datalink_pod_c",
+        "sha256": "33cc4e0657dcb1d624114df49465e7a082bfbae2a3a6ce98fa0842caa5119d5e",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          512
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "ch_pft15_launcher_c",
+        "sha256": "3673c1f334bf28ed53d177fd992425d3664489fc80dd904b2525a3f56d005a68",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "ch_pl12_launcher_c",
+        "sha256": "f4f8050bfad3707b75093f89fc76e275dc1428dc0e52e581993386f06994948e",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "ch_triple_bomb_adapter_j10c_c",
+        "sha256": "fb6a6a4e981380e7bb7d4533bd2a7a4a7fa42dab464ad7f3e1121cd2d62af582",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "ch_yings_3_pod_c",
+        "sha256": "077d0597ff22220221eb6dfcbfe2472f0c69c0605826c5b8450fa93540df84d2",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "cn_pylon_adapter_gdj_49b_short_c",
+        "sha256": "49a6e43ad21800df3175a886a07b95976e3775e993344afca2d95f503b9d5323",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          512
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "cn_pylon_adapter_gdl_iii_7_c",
+        "sha256": "0ddf7309974ed4c8b70dc82fac2c76416f1e743fe156dbbb4cd9138e16f5e39b",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          256
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_10a_wing_twin_pylon_c",
+        "sha256": "50987ceb6f0c844a8363dd51dc0ab9f03bedea06f68bfc2692dee07b46616adc",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_11_dbz_uskm_adapter_c",
+        "sha256": "d9859369db62c6c7c2d9aad342b3fae1b894942d266e86bdd2266117ab3f9e41",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          256
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_11b_pylon2_c",
+        "sha256": "394a49b65df7494ec6228a21ecfe0e222f8b1ff6de3b8059cb31ff7c6c4456d4",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          512
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_11b_pylon4_c",
+        "sha256": "e4aff3ecdbbf1bfa8e89f8e43f6926c0b974d4cb775afda6aba99877a7df4b28",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          256
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_11b_pylon7_c",
+        "sha256": "b763ecf97095b23c0e94728dc451a6b2eb09001c080b3b21cb2f63429ce984fa",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_15t_pf8k_pylon1_c",
+        "sha256": "5af9cb80d0f761f2844178c8267df8a76a840c605406cf09b9fab6b426cbcc12",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          512
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_16_blister_c",
+        "sha256": "b66c501497814d63a3b63e53b5ce9e1865f91755f24c082e51462b0377cc6592",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          512
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_16_c",
+        "sha256": "44984654a3ab1d84d7658d85e803cbb4a97ff74f2574d1909667323010be99a3",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          8192,
+          8192
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_16_pylon1_c",
+        "sha256": "0dce1415db2a923f15a7d5ea406068a4728db878776edffac4d2af5b456ec436",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          2048,
+          1024
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_16_pylon2_c",
+        "sha256": "b1c49e100096cd657c521318d938c40d4e43b1e9225fed72a16b64a737753108",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "jh_7_bomb_adapter_c",
+        "sha256": "3f68ee7fdfa738858d2e1b25f828c22cd7abddbb508b9b86b55222b69f4388a4",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          2048,
+          1024
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "su_30mk2v_venezuela_dbz_uskm_adapter_c",
+        "sha256": "b85861a11bc51b6512cbf96250483cc4dc53dd8f39a851a683839d775706f67d",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          256
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "su_30mk2v_venezuela_pbs_pylon_c",
+        "sha256": "8a967437910297db39f5c8c21f517babe6ae63a0c4f39c68a036b2ce4973780c",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "su_30sm_1_c",
+        "sha256": "f218589cf2322f34d4621c8aefda50eda36413454513244202a3ac9d18bf0008",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          512,
+          256
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "su_aku_58_c",
+        "sha256": "841f9c3aa3137dd0401adc3fa4f7d7aee55e5735f5949b460cd85b1d3aa5bdb7",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          512
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "su_bdz_uskm_s_a_c",
+        "sha256": "0306c2eb90227ca8c36b1f5c8a27719395627c9a828b542546694e09de4a1198",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          512
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "su_dz_um_c",
+        "sha256": "09226c40a0803dbd7fe10b08ac230aad45eb896d6b074ecaa4ad33b0360f7689",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          512,
+          512
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      }
+    ]
+  },
+  "j_10c": {
+    "relations": {
+      "assembly_reference": 140,
+      "near_gap": 143,
+      "shared_edge": 487,
+      "shared_vertex": 16
+    },
+    "needs_review": 208,
+    "integer_anchor_error_px_percentiles": {
+      "p50": 0.7071067811865476,
+      "p90": 0.7071067811865476,
+      "p99": 3.5355339059327378,
+      "max": 5.522680508593631
+    },
+    "database_dimensions": [
+      8192,
+      8192
+    ],
+    "geometries": [
+      {
+        "texture": "apu_13_c",
+        "sha256": "16468b7c057f2876280cb662ab3f2722d36d7aa8ab62fba669dd3e86093e0c27",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          256
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "ch_1140l_drop_tank_pylon_bluegrey_c",
+        "sha256": "7dc0197415dd1fb7bdb297920f7eb4e5535bdfcda9802d104eb9c7b7d1963166",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          512
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "ch_1600l_drop_tank_pylon_c",
+        "sha256": "b32c358d9bc816b8c439afeb4a9073775fa4012cd59bc300f724b0b18b5152bf",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          256
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "ch_df_4_launcher_c",
+        "sha256": "6e76f28adfc0484376d7376772284c7809eb6b492b8bd17878e38e691e694939",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          512
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "ch_jdc03a_c",
+        "sha256": "47196b07de4a9d379532091a6ed5509e9a2f94a8c62acfebed2ead692955e31c",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "ch_kd88_datalink_pod_c",
+        "sha256": "7573543deede264ba2aa14ee82cfde31b56a72053c0a50305612bd786cea3db2",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          512
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "ch_pft15_launcher_c",
+        "sha256": "290f8f1ca666aadada7a76a3c0ea9d829bbc48792f1512321778e6d1332082c0",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "ch_pl12_launcher_c",
+        "sha256": "476e5ca17e0b43f4e6ee6de40cb0bda89ee4b795238439b0baeadd6204efed4c",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "ch_triple_bomb_adapter_j10c_c",
+        "sha256": "82dcac7191072e23ab43e51993057df9218aad26c3635f031193f884be914321",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "ch_yings_3_pod_c",
+        "sha256": "739d0753bc4ec38f2621b6b4876a95a0be8b58c404fd7a5ef5a9cf45b890fc65",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "ch_zl4_launcher_double_adapter_c",
+        "sha256": "d55514f1a69098631b7cb71802f2271d133dd7dc4c48187615533686ac87d58c",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_10a_fuse_pylon_c",
+        "sha256": "d02db795dfe550404c1eca26f14fa8adaa3fd227a268a7cbb7adf4e0d0b6f1e5",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_10a_pylon_gdj_1_c",
+        "sha256": "0514bd651b5dae4ef352c7bf810b0bde473a74d44565026a7d5a3208388d9f8d",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_10a_pylon_gdj_6_c",
+        "sha256": "f791a971a9ce6a6cea86ab925a31816e2692bd4b49e958ab2caec426ab38bf4a",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_10a_twin_bomb_pylon_c",
+        "sha256": "258ef63a7135a8fd49c944524ce1aa4d095628223ef2417547db4391de8cc632",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          512,
+          512
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_10a_wing_twin_pylon_c",
+        "sha256": "40c41efb3087039b5725ead7c3d73fe9266cec66c4cee7e0130c3c7463b9942a",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_10c_c",
+        "sha256": "70dfafc7900c8aa6874d4ed700eea4528234f449fa217a0ad11cd07c1ae1be10",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          8192,
+          8192
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "j_10c_nozzle_c",
+        "sha256": "aa37fd094d1b4be0e2e88bf0f3547d0e4d3011a846baf721a52adcda9f19a372",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          8192,
+          8192
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "lanciamissili_mraam_white_c",
+        "sha256": "9cc049f670f11ef906a7554f7490a27bff20e0be92fd8cf0bc5d06a3dee91a6f",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          512
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "lau_7_c",
+        "sha256": "1c4c0c6c89be6f3dda8b9889e2e3084efd5a1e25e391b20ceaf5e7aea539a06e",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "seat_martin_baker_mk16_c",
+        "sha256": "26f8883067e08ebbba0c1c81b29f35b8949bc88764696d5cd5ed5ac780509660",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          512,
+          512
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      },
+      {
+        "texture": "su_aku_58_c",
+        "sha256": "b835e7bb68d30dbf8e0fbbe5d07b359112b8dc9ca5e1c4fac64d9cfc3a09c9c2",
+        "matches_recorded_hash": true,
+        "dimensions": [
+          1024,
+          512
+        ],
+        "source": "content/base/res/aircrafts/air.grp"
+      }
+    ]
+  },
+  "cached_candidates_not_current_source_verification": [
+    {
+      "pack": "content/base/res/aircrafts/air.grp",
+      "name": "su_30sm_char",
+      "class_id": 2801302171,
+      "offset": 201044720,
+      "size": 32
+    },
+    {
+      "pack": "content/base/res/aircrafts/air.grp",
+      "name": "su_30sm_animtree",
+      "class_id": 2401923098,
+      "offset": 201044752,
+      "size": 110192
+    },
+    {
+      "pack": "content/base/res/aircrafts/air.grp",
+      "name": "su_30sm_skeleton",
+      "class_id": 1459100525,
+      "offset": 201154944,
+      "size": 177584
+    },
+    {
+      "pack": "content/base/res/aircrafts/air.grp",
+      "name": "su_30sm",
+      "class_id": 3031947716,
+      "offset": 201332528,
+      "size": 3838096
+    },
+    {
+      "pack": "content/base/res/aircrafts/air.grp",
+      "name": "su_30sm_anim",
+      "class_id": 1086686969,
+      "offset": 205170624,
+      "size": 231088
+    },
+    {
+      "pack": "content/base/res/aircrafts/air.grp",
+      "name": "su_30mk2v_venezuela_char",
+      "class_id": 2801302171,
+      "offset": 205401712,
+      "size": 32
+    },
+    {
+      "pack": "content/base/res/aircrafts/air.grp",
+      "name": "su_30mk2v_venezuela_animtree",
+      "class_id": 2401923098,
+      "offset": 205401744,
+      "size": 107824
+    },
+    {
+      "pack": "content/base/res/aircrafts/air.grp",
+      "name": "su_30mk2v_venezuela_skeleton",
+      "class_id": 1459100525,
+      "offset": 205509568,
+      "size": 176560
+    },
+    {
+      "pack": "content/base/res/aircrafts/air.grp",
+      "name": "su_30mk2v_venezuela",
+      "class_id": 3031947716,
+      "offset": 205686128,
+      "size": 3854656
+    },
+    {
+      "pack": "content/base/res/aircrafts/air.grp",
+      "name": "su_30mk2v_venezuela_anim",
+      "class_id": 1086686969,
+      "offset": 209540784,
+      "size": 246768
+    },
+    {
+      "pack": "content/base/res/aircrafts/air.grp",
+      "name": "su_30mkk_char",
+      "class_id": 2801302171,
+      "offset": 209787552,
+      "size": 32
+    },
+    {
+      "pack": "content/base/res/aircrafts/air.grp",
+      "name": "su_30mkk_animtree",
+      "class_id": 2401923098,
+      "offset": 209787584,
+      "size": 107824
+    },
+    {
+      "pack": "content/base/res/aircrafts/air.grp",
+      "name": "su_30mkk_skeleton",
+      "class_id": 1459100525,
+      "offset": 209895408,
+      "size": 180688
+    },
+    {
+      "pack": "content/base/res/aircrafts/air.grp",
+      "name": "su_30mkk",
+      "class_id": 3031947716,
+      "offset": 210076096,
+      "size": 3930320
+    },
+    {
+      "pack": "content/base/res/aircrafts/air.grp",
+      "name": "su_30mkk_anim",
+      "class_id": 1086686969,
+      "offset": 214006416,
+      "size": 246864
+    },
+    {
+      "pack": "content/base/res/aircrafts/air.grp",
+      "name": "su_30mkm_char",
+      "class_id": 2801302171,
+      "offset": 214253280,
+      "size": 32
+    },
+    {
+      "pack": "content/base/res/aircrafts/air.grp",
+      "name": "su_30mkm_animtree",
+      "class_id": 2401923098,
+      "offset": 214253312,
+      "size": 110192
+    },
+    {
+      "pack": "content/base/res/aircrafts/air.grp",
+      "name": "su_30mkm_skeleton",
+      "class_id": 1459100525,
+      "offset": 214363504,
+      "size": 176720
+    },
+    {
+      "pack": "content/base/res/aircrafts/air.grp",
+      "name": "su_30mkm",
+      "class_id": 3031947716,
+      "offset": 214540224,
+      "size": 3861600
+    },
+    {
+      "pack": "content/base/res/aircrafts/air.grp",
+      "name": "su_30mkm_anim",
+      "class_id": 1086686969,
+      "offset": 218401824,
+      "size": 233664
+    },
+    {
+      "pack": "content/base/res/aircrafts/air.grp",
+      "name": "su_30sm2_char",
+      "class_id": 2801302171,
+      "offset": 218635488,
+      "size": 32
+    },
+    {
+      "pack": "content/base/res/aircrafts/air.grp",
+      "name": "su_30sm2_animtree",
+      "class_id": 2401923098,
+      "offset": 218635520,
+      "size": 110192
+    },
+    {
+      "pack": "content/base/res/aircrafts/air.grp",
+      "name": "su_30sm2_skeleton",
+      "class_id": 1459100525,
+      "offset": 218745712,
+      "size": 177248
+    },
+    {
+      "pack": "content/base/res/aircrafts/air.grp",
+      "name": "su_30sm2",
+      "class_id": 3031947716,
+      "offset": 218922960,
+      "size": 3940800
+    },
+    {
+      "pack": "content/base/res/aircrafts/air.grp",
+      "name": "su_30sm2_anim",
+      "class_id": 1086686969,
+      "offset": 222863760,
+      "size": 242896
+    },
+    {
+      "pack": "content/base/res/aircrafts/aircraft_logic.grp",
+      "name": "su_30sm_collision",
+      "class_id": 2900688896,
+      "offset": 4302096,
+      "size": 46320
+    },
+    {
+      "pack": "content/base/res/aircrafts/aircraft_logic.grp",
+      "name": "su_30sm_xray_skeleton",
+      "class_id": 1459100525,
+      "offset": 4348416,
+      "size": 3696
+    },
+    {
+      "pack": "content/base/res/aircrafts/aircraft_logic.grp",
+      "name": "su_30mk2v_venezuela_collision",
+      "class_id": 2900688896,
+      "offset": 4352112,
+      "size": 45968
+    },
+    {
+      "pack": "content/base/res/aircrafts/aircraft_logic.grp",
+      "name": "su_30mk2v_venezuela_xray_skeleton",
+      "class_id": 1459100525,
+      "offset": 4398080,
+      "size": 3696
+    },
+    {
+      "pack": "content/base/res/aircrafts/aircraft_logic.grp",
+      "name": "su_30mkk_collision",
+      "class_id": 2900688896,
+      "offset": 4401776,
+      "size": 45936
+    },
+    {
+      "pack": "content/base/res/aircrafts/aircraft_logic.grp",
+      "name": "su_30mkk_xray_skeleton",
+      "class_id": 1459100525,
+      "offset": 4447712,
+      "size": 3696
+    },
+    {
+      "pack": "content/base/res/aircrafts/aircraft_logic.grp",
+      "name": "su_30mkm_collision",
+      "class_id": 2900688896,
+      "offset": 4451408,
+      "size": 46864
+    },
+    {
+      "pack": "content/base/res/aircrafts/aircraft_logic.grp",
+      "name": "su_30mkm_xray_skeleton",
+      "class_id": 1459100525,
+      "offset": 4498272,
+      "size": 3696
+    },
+    {
+      "pack": "content/base/res/aircrafts/aircraft_logic.grp",
+      "name": "su_30sm2_collision",
+      "class_id": 2900688896,
+      "offset": 4501968,
+      "size": 47040
+    },
+    {
+      "pack": "content/base/res/aircrafts/aircraft_logic.grp",
+      "name": "su_30sm2_xray_skeleton",
+      "class_id": 1459100525,
+      "offset": 4549008,
+      "size": 3696
+    },
+    {
+      "pack": "content/base/res/aircrafts/aircraft_xray.grp",
+      "name": "su_30sm_xray",
+      "class_id": 3031947716,
+      "offset": 35857920,
+      "size": 1453040
+    },
+    {
+      "pack": "content/base/res/aircrafts/aircraft_xray.grp",
+      "name": "su_30mk2v_venezuela_xray",
+      "class_id": 3031947716,
+      "offset": 37310960,
+      "size": 1468656
+    },
+    {
+      "pack": "content/base/res/aircrafts/aircraft_xray.grp",
+      "name": "su_30mkk_xray",
+      "class_id": 3031947716,
+      "offset": 38779616,
+      "size": 1468656
+    },
+    {
+      "pack": "content/base/res/aircrafts/aircraft_xray.grp",
+      "name": "su_30mkm_xray",
+      "class_id": 3031947716,
+      "offset": 40248272,
+      "size": 1453040
+    },
+    {
+      "pack": "content/base/res/aircrafts/aircraft_xray.grp",
+      "name": "su_30sm2_xray",
+      "class_id": 3031947716,
+      "offset": 41701312,
+      "size": 1547168
+    },
+    {
+      "pack": "content.hq/pkg_cockpits/res/pkg_cockpits_aircrafts/su_30.grp",
+      "name": "su_30sm_cockpit_char",
+      "class_id": 2801302171,
+      "offset": 400,
+      "size": 32
+    },
+    {
+      "pack": "content.hq/pkg_cockpits/res/pkg_cockpits_aircrafts/su_30.grp",
+      "name": "su_30sm_cockpit_animtree",
+      "class_id": 2401923098,
+      "offset": 432,
+      "size": 147488
+    },
+    {
+      "pack": "content.hq/pkg_cockpits/res/pkg_cockpits_aircrafts/su_30.grp",
+      "name": "su_30sm_cockpit_skeleton",
+      "class_id": 1459100525,
+      "offset": 147920,
+      "size": 187840
+    },
+    {
+      "pack": "content.hq/pkg_cockpits/res/pkg_cockpits_aircrafts/su_30.grp",
+      "name": "su_30sm_cockpit",
+      "class_id": 3031947716,
+      "offset": 335760,
+      "size": 5411552
+    },
+    {
+      "pack": "content.hq/pkg_cockpits/res/pkg_cockpits_aircrafts/su_30.grp",
+      "name": "su_30sm_cockpit_anim",
+      "class_id": 1086686969,
+      "offset": 5747312,
+      "size": 227601
+    },
+    {
+      "pack": "content.hq/pkg_cockpits/res/pkg_cockpits_aircrafts/su_30mk2v_venezuela.grp",
+      "name": "su_30mk2v_venezuela_cockpit_char",
+      "class_id": 2801302171,
+      "offset": 464,
+      "size": 32
+    },
+    {
+      "pack": "content.hq/pkg_cockpits/res/pkg_cockpits_aircrafts/su_30mk2v_venezuela.grp",
+      "name": "su_30mk2v_venezuela_cockpit_animtree",
+      "class_id": 2401923098,
+      "offset": 496,
+      "size": 147488
+    },
+    {
+      "pack": "content.hq/pkg_cockpits/res/pkg_cockpits_aircrafts/su_30mk2v_venezuela.grp",
+      "name": "su_30mk2v_venezuela_cockpit_skeleton",
+      "class_id": 1459100525,
+      "offset": 147984,
+      "size": 214000
+    },
+    {
+      "pack": "content.hq/pkg_cockpits/res/pkg_cockpits_aircrafts/su_30mk2v_venezuela.grp",
+      "name": "su_30mk2v_venezuela_cockpit",
+      "class_id": 3031947716,
+      "offset": 361984,
+      "size": 5576496
+    },
+    {
+      "pack": "content.hq/pkg_cockpits/res/pkg_cockpits_aircrafts/su_30mk2v_venezuela.grp",
+      "name": "su_30mk2v_venezuela_cockpit_anim",
+      "class_id": 1086686969,
+      "offset": 5938480,
+      "size": 271927
+    },
+    {
+      "pack": "content.hq/pkg_cockpits/res/pkg_cockpits_aircrafts/su_30mkk.grp",
+      "name": "su_30mkk_cockpit_char",
+      "class_id": 2801302171,
+      "offset": 416,
+      "size": 32
+    },
+    {
+      "pack": "content.hq/pkg_cockpits/res/pkg_cockpits_aircrafts/su_30mkk.grp",
+      "name": "su_30mkk_cockpit_animtree",
+      "class_id": 2401923098,
+      "offset": 448,
+      "size": 147488
+    },
+    {
+      "pack": "content.hq/pkg_cockpits/res/pkg_cockpits_aircrafts/su_30mkk.grp",
+      "name": "su_30mkk_cockpit_skeleton",
+      "class_id": 1459100525,
+      "offset": 147936,
+      "size": 218112
+    },
+    {
+      "pack": "content.hq/pkg_cockpits/res/pkg_cockpits_aircrafts/su_30mkk.grp",
+      "name": "su_30mkk_cockpit",
+      "class_id": 3031947716,
+      "offset": 366048,
+      "size": 5646160
+    },
+    {
+      "pack": "content.hq/pkg_cockpits/res/pkg_cockpits_aircrafts/su_30mkk.grp",
+      "name": "su_30mkk_cockpit_anim",
+      "class_id": 1086686969,
+      "offset": 6012208,
+      "size": 272402
+    },
+    {
+      "pack": "content.hq/pkg_cockpits/res/pkg_cockpits_aircrafts/su_30mkm.grp",
+      "name": "su_30mkm_cockpit_char",
+      "class_id": 2801302171,
+      "offset": 416,
+      "size": 32
+    },
+    {
+      "pack": "content.hq/pkg_cockpits/res/pkg_cockpits_aircrafts/su_30mkm.grp",
+      "name": "su_30mkm_cockpit_animtree",
+      "class_id": 2401923098,
+      "offset": 448,
+      "size": 147488
+    },
+    {
+      "pack": "content.hq/pkg_cockpits/res/pkg_cockpits_aircrafts/su_30mkm.grp",
+      "name": "su_30mkm_cockpit_skeleton",
+      "class_id": 1459100525,
+      "offset": 147936,
+      "size": 202528
+    },
+    {
+      "pack": "content.hq/pkg_cockpits/res/pkg_cockpits_aircrafts/su_30mkm.grp",
+      "name": "su_30mkm_cockpit",
+      "class_id": 3031947716,
+      "offset": 350464,
+      "size": 5388496
+    },
+    {
+      "pack": "content.hq/pkg_cockpits/res/pkg_cockpits_aircrafts/su_30mkm.grp",
+      "name": "su_30mkm_cockpit_anim",
+      "class_id": 1086686969,
+      "offset": 5738960,
+      "size": 253246
+    },
+    {
+      "pack": "content.hq/pkg_cockpits/res/pkg_cockpits_aircrafts/su_30sm2.grp",
+      "name": "su_30sm2_cockpit_char",
+      "class_id": 2801302171,
+      "offset": 416,
+      "size": 32
+    },
+    {
+      "pack": "content.hq/pkg_cockpits/res/pkg_cockpits_aircrafts/su_30sm2.grp",
+      "name": "su_30sm2_cockpit_animtree",
+      "class_id": 2401923098,
+      "offset": 448,
+      "size": 147488
+    },
+    {
+      "pack": "content.hq/pkg_cockpits/res/pkg_cockpits_aircrafts/su_30sm2.grp",
+      "name": "su_30sm2_cockpit_skeleton",
+      "class_id": 1459100525,
+      "offset": 147936,
+      "size": 199424
+    },
+    {
+      "pack": "content.hq/pkg_cockpits/res/pkg_cockpits_aircrafts/su_30sm2.grp",
+      "name": "su_30sm2_cockpit",
+      "class_id": 3031947716,
+      "offset": 347360,
+      "size": 5470336
+    },
+    {
+      "pack": "content.hq/pkg_cockpits/res/pkg_cockpits_aircrafts/su_30sm2.grp",
+      "name": "su_30sm2_cockpit_anim",
+      "class_id": 1086686969,
+      "offset": 5817696,
+      "size": 245807
+    }
+  ],
+  "scope": "Read-only audit; structural consistency and integer sampling errors do not prove contour accuracy."
+}

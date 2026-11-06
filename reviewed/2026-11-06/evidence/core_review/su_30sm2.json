@@ -1,0 +1,523 @@
+{
+  "model": "su_30sm2",
+  "scene_sha256": "e6a1a6b1f043f957c0fd59572d7d54993c7ba5c05a18d4b8bf1ff2d2d3d02360",
+  "materials": [
+    {
+      "id": 1,
+      "texture": "su_30sm2_c",
+      "block_pattern": true,
+      "triangles": 382466
+    },
+    {
+      "id": 4,
+      "texture": "su_27sm_inside_c",
+      "block_pattern": false,
+      "triangles": 5674
+    },
+    {
+      "id": 5,
+      "texture": "su_30sm_interior_c",
+      "block_pattern": false,
+      "triangles": 80043
+    },
+    {
+      "id": 10,
+      "texture": "su_30sm_1_c",
+      "block_pattern": true,
+      "triangles": 6487
+    },
+    {
+      "id": 14,
+      "texture": "su_30sm_seat_c",
+      "block_pattern": false,
+      "triangles": 9514
+    },
+    {
+      "id": 28,
+      "texture": "su_dz_um_c",
+      "block_pattern": false,
+      "triangles": 7312
+    }
+  ],
+  "excluded_transparent_glass": [
+    {
+      "id": 2,
+      "shader": "dynamic_glass_chrome",
+      "triangles": 1857,
+      "reason": "transparent, null, or effect shader omitted from opaque diagnostic"
+    },
+    {
+      "id": 3,
+      "shader": "dynamic_glass_chrome",
+      "triangles": 932,
+      "reason": "transparent, null, or effect shader omitted from opaque diagnostic"
+    },
+    {
+      "id": 8,
+      "shader": "dynamic_masked_chrome_bump",
+      "texture": "su_30sm2_pylon1_c",
+      "reason": "optional attachment texture excluded in core diagnostic"
+    },
+    {
+      "id": 9,
+      "shader": "dynamic_glass_chrome",
+      "triangles": 418,
+      "reason": "transparent, null, or effect shader omitted from opaque diagnostic"
+    },
+    {
+      "id": 11,
+      "shader": "dynamic_glass_chrome",
+      "triangles": 32,
+      "reason": "transparent, null, or effect shader omitted from opaque diagnostic"
+    },
+    {
+      "id": 12,
+      "shader": "propeller_front",
+      "triangles": 88,
+      "reason": "transparent, null, or effect shader omitted from opaque diagnostic"
+    },
+    {
+      "id": 13,
+      "shader": "propeller_front",
+      "triangles": 88,
+      "reason": "transparent, null, or effect shader omitted from opaque diagnostic"
+    },
+    {
+      "id": 15,
+      "shader": "aces_weapon_fire",
+      "triangles": 27,
+      "reason": "transparent, null, or effect shader omitted from opaque diagnostic"
+    },
+    {
+      "id": 17,
+      "shader": "dynamic_masked_chrome_bump",
+      "texture": "su_30sm_pylon2_c",
+      "reason": "optional attachment texture excluded in core diagnostic"
+    },
+    {
+      "id": 18,
+      "shader": "dynamic_masked_chrome_bump",
+      "texture": "aku_170_launcher_c",
+      "reason": "optional attachment texture excluded in core diagnostic"
+    },
+    {
+      "id": 19,
+      "shader": "dynamic_masked_chrome_bump",
+      "texture": "apu_27_c",
+      "reason": "optional attachment texture excluded in core diagnostic"
+    },
+    {
+      "id": 20,
+      "shader": "dynamic_masked_chrome_bump",
+      "texture": "apu_73_c",
+      "reason": "optional attachment texture excluded in core diagnostic"
+    },
+    {
+      "id": 21,
+      "shader": "dynamic_masked_chrome_bump",
+      "texture": "su_aku_58_c",
+      "reason": "optional attachment texture excluded in core diagnostic"
+    },
+    {
+      "id": 22,
+      "shader": "dynamic_masked_chrome_bump",
+      "texture": "su_apu_68um3_c",
+      "reason": "optional attachment texture excluded in core diagnostic"
+    },
+    {
+      "id": 23,
+      "shader": "dynamic_masked_chrome_bump",
+      "texture": "su_o_25_l_pod_c",
+      "reason": "optional attachment texture excluded in core diagnostic"
+    },
+    {
+      "id": 25,
+      "shader": "dynamic_masked_chrome_bump",
+      "texture": "su_pbs_pylon_c",
+      "reason": "optional attachment texture excluded in core diagnostic"
+    },
+    {
+      "id": 26,
+      "shader": "dynamic_masked_chrome_bump",
+      "texture": "su_dbz_uskm_adapter_c",
+      "reason": "optional attachment texture excluded in core diagnostic"
+    },
+    {
+      "id": 27,
+      "shader": "dynamic_masked_chrome_bump",
+      "texture": "su_bdz_uskm_s_a_c",
+      "reason": "optional attachment texture excluded in core diagnostic"
+    },
+    {
+      "id": 29,
+      "shader": "dynamic_masked_chrome_bump",
+      "texture": "su_30sm2_ecm_pod_c",
+      "reason": "optional attachment texture excluded in core diagnostic"
+    },
+    {
+      "id": 30,
+      "shader": "dynamic_masked_chrome_bump",
+      "texture": "su_33_pylon1_c",
+      "reason": "optional attachment texture excluded in core diagnostic"
+    },
+    {
+      "id": 31,
+      "shader": "dynamic_masked_chrome_bump",
+      "texture": "damocles_pod_c",
+      "reason": "optional attachment texture excluded in core diagnostic"
+    },
+    {
+      "id": 34,
+      "shader": "dynamic_masked_chrome_bump",
+      "texture": "su_t220_pod_su30_pylon_c",
+      "reason": "optional attachment texture excluded in core diagnostic"
+    },
+    {
+      "id": 35,
+      "shader": "dynamic_masked_chrome_bump",
+      "texture": "su_t220_pod_su30_c",
+      "reason": "optional attachment texture excluded in core diagnostic"
+    },
+    {
+      "id": 37,
+      "shader": "dynamic_masked_chrome_bump",
+      "texture": "su_30sm_pylon1_c",
+      "reason": "optional attachment texture excluded in core diagnostic"
+    },
+    {
+      "id": 38,
+      "shader": "dynamic_masked_chrome_bump",
+      "texture": "su_paired_aku170_adapter_c",
+      "reason": "optional attachment texture excluded in core diagnostic"
+    },
+    {
+      "id": 39,
+      "shader": "dynamic_masked_chrome_bump",
+      "texture": "apk_9_pod_c",
+      "reason": "optional attachment texture excluded in core diagnostic"
+    }
+  ],
+  "limits": "Opaque geometry diagnostic with explicit glass exclusion; alpha cutouts, Dagor materials, animation and skinned pose are not runtime verified. Grid is 2K and does not prove 8K pixel precision.",
+  "views": [
+    {
+      "name": "top",
+      "native_eye": [
+        0,
+        35,
+        0
+      ],
+      "native_target": [
+        0,
+        0,
+        0
+      ],
+      "scale": 32,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          35.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "bottom",
+      "native_eye": [
+        0,
+        -35,
+        0
+      ],
+      "native_target": [
+        0,
+        0,
+        0
+      ],
+      "scale": 32,
+      "matrix_world": [
+        [
+          -1.0,
+          8.74227694680485e-08,
+          -8.742279078433057e-08,
+          0.0
+        ],
+        [
+          8.742277657347586e-08,
+          1.0,
+          -8.74227694680485e-08,
+          0.0
+        ],
+        [
+          8.742277657347586e-08,
+          -8.742277657347586e-08,
+          -1.0,
+          -35.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "intake",
+      "native_eye": [
+        18,
+        -7,
+        10
+      ],
+      "native_target": [
+        4,
+        0,
+        0
+      ],
+      "scale": 10,
+      "matrix_world": [
+        [
+          -0.5812381505966187,
+          0.3066695034503937,
+          0.7537347078323364,
+          18.0
+        ],
+        [
+          0.8137335181236267,
+          0.21904981136322021,
+          0.538381814956665,
+          10.0
+        ],
+        [
+          -1.7508573080249334e-07,
+          0.9262672662734985,
+          -0.3768673539161682,
+          -7.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "foreplane_under",
+      "native_eye": [
+        15,
+        -9,
+        9
+      ],
+      "native_target": [
+        6,
+        0,
+        0
+      ],
+      "scale": 8,
+      "matrix_world": [
+        [
+          -0.7071067690849304,
+          0.40824830532073975,
+          0.5773502588272095,
+          15.0
+        ],
+        [
+          0.7071067690849304,
+          0.4082484543323517,
+          0.5773501396179199,
+          9.0
+        ],
+        [
+          -1.1501398944346874e-07,
+          0.8164964914321899,
+          -0.577350378036499,
+          -9.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "fin_inner",
+      "native_eye": [
+        -18,
+        8,
+        9
+      ],
+      "native_target": [
+        -6,
+        1,
+        0
+      ],
+      "scale": 11,
+      "matrix_world": [
+        [
+          -0.6000000834465027,
+          0.3383086025714874,
+          -0.7249463200569153,
+          -18.0
+        ],
+        [
+          -0.7999999523162842,
+          -0.25373125076293945,
+          0.5437099933624268,
+          9.0
+        ],
+        [
+          2.0850639259606396e-07,
+          0.9061830639839172,
+          0.42288562655448914,
+          8.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "fin_opposite",
+      "native_eye": [
+        -18,
+        8,
+        -9
+      ],
+      "native_target": [
+        -6,
+        1,
+        0
+      ],
+      "scale": 11,
+      "matrix_world": [
+        [
+          0.5999998450279236,
+          0.33830833435058594,
+          -0.7249466776847839,
+          -18.0
+        ],
+        [
+          -0.8000001311302185,
+          0.25373125076293945,
+          -0.5437096953392029,
+          -9.0
+        ],
+        [
+          1.0626346380604446e-07,
+          0.9061831831932068,
+          0.4228854179382324,
+          8.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "nozzle",
+      "native_eye": [
+        -30,
+        0,
+        0
+      ],
+      "native_target": [
+        -8,
+        0,
+        0
+      ],
+      "scale": 8,
+      "matrix_world": [
+        [
+          -4.371138828673793e-08,
+          -4.371138828673793e-08,
+          -1.0,
+          -30.0
+        ],
+        [
+          -1.0,
+          1.910685676922942e-15,
+          4.371138828673793e-08,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "side",
+      "native_eye": [
+        2,
+        4,
+        35
+      ],
+      "native_target": [
+        1,
+        0,
+        0
+      ],
+      "scale": 32,
+      "matrix_world": [
+        [
+          -0.9995920658111572,
+          -0.0032415452878922224,
+          0.028375212103128433,
+          2.0
+        ],
+        [
+          0.028559766709804535,
+          -0.11345446854829788,
+          0.9931326508522034,
+          35.0
+        ],
+        [
+          1.0225936541985448e-08,
+          0.9935379028320312,
+          0.11350076645612717,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "j_15t": {
+    "streams": [],
+    "skinned_parts": []
+  },
+  "j_16": {
+    "streams": [
+      {
+        "format": 15,
+        "stride": 24,
+        "vertices": 261,
+        "weight_sum_255_fraction_at20": 1.0,
+        "bone_index_max_at16": 2,
+        "short4_w_32767_fraction": 1.0
+      }
+    ],
+    "skinned_parts": [
+      "gear_c13",
+      "gear_c14"
+    ]
+  },
+  "j_10c": {
+    "streams": [],
+    "skinned_parts": []
+  },
+  "su_30sm": {
+    "streams": [],
+    "skinned_parts": []
+  },
+  "su_30sm2": {
+    "streams": [],
+    "skinned_parts": []
+  },
+  "f_15ex": {
+    "streams": [],
+    "skinned_parts": []
+  }
+}

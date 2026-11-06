@@ -1,0 +1,3134 @@
+{
+  "scope": "Current native LOD0 UV layouts; comparing UV triangle sets by part does not prove corresponding physical geometry or whole-skin interchangeability.",
+  "common_texture_files": [
+    {
+      "texture": "aku_170_launcher_c",
+      "triangles_sm": 149948,
+      "triangles_sm2": 149948,
+      "uv_array_equal": false,
+      "xyz_array_equal": false,
+      "boundary_uv_equal": false,
+      "dimensions_sm": [
+        2048,
+        2048
+      ],
+      "dimensions_sm2": [
+        2048,
+        2048
+      ],
+      "same_uv_triangle_sets_by_part": true
+    },
+    {
+      "texture": "apk_9_pod_c",
+      "triangles_sm": 2096,
+      "triangles_sm2": 2096,
+      "uv_array_equal": true,
+      "xyz_array_equal": true,
+      "boundary_uv_equal": true,
+      "dimensions_sm": [
+        1024,
+        512
+      ],
+      "dimensions_sm2": [
+        1024,
+        512
+      ],
+      "same_uv_triangle_sets_by_part": true
+    },
+    {
+      "texture": "apu_27_c",
+      "triangles_sm": 6780,
+      "triangles_sm2": 6780,
+      "uv_array_equal": true,
+      "xyz_array_equal": true,
+      "boundary_uv_equal": true,
+      "dimensions_sm": [
+        1024,
+        512
+      ],
+      "dimensions_sm2": [
+        1024,
+        512
+      ],
+      "same_uv_triangle_sets_by_part": true
+    },
+    {
+      "texture": "apu_73_c",
+      "triangles_sm": 5376,
+      "triangles_sm2": 5376,
+      "uv_array_equal": true,
+      "xyz_array_equal": true,
+      "boundary_uv_equal": true,
+      "dimensions_sm": [
+        1024,
+        512
+      ],
+      "dimensions_sm2": [
+        1024,
+        512
+      ],
+      "same_uv_triangle_sets_by_part": true
+    },
+    {
+      "texture": "bd4_uskm_1_b_c",
+      "triangles_sm": 22320,
+      "triangles_sm2": 22320,
+      "uv_array_equal": true,
+      "xyz_array_equal": true,
+      "boundary_uv_equal": true,
+      "dimensions_sm": [
+        1024,
+        256
+      ],
+      "dimensions_sm2": [
+        1024,
+        256
+      ],
+      "same_uv_triangle_sets_by_part": true
+    },
+    {
+      "texture": "damocles_pod_c",
+      "triangles_sm": 6464,
+      "triangles_sm2": 6464,
+      "uv_array_equal": true,
+      "xyz_array_equal": true,
+      "boundary_uv_equal": true,
+      "dimensions_sm": [
+        1024,
+        1024
+      ],
+      "dimensions_sm2": [
+        1024,
+        1024
+      ],
+      "same_uv_triangle_sets_by_part": true
+    },
+    {
+      "texture": "su_30sm_1_c",
+      "triangles_sm": 6487,
+      "triangles_sm2": 6487,
+      "uv_array_equal": true,
+      "xyz_array_equal": true,
+      "boundary_uv_equal": true,
+      "dimensions_sm": [
+        512,
+        256
+      ],
+      "dimensions_sm2": [
+        512,
+        256
+      ],
+      "same_uv_triangle_sets_by_part": true
+    },
+    {
+      "texture": "su_30sm_pylon1_c",
+      "triangles_sm": 3409,
+      "triangles_sm2": 49,
+      "uv_array_equal": false,
+      "xyz_array_equal": false,
+      "boundary_uv_equal": false,
+      "dimensions_sm": [
+        2048,
+        2048
+      ],
+      "dimensions_sm2": [
+        2048,
+        2048
+      ],
+      "same_uv_triangle_sets_by_part": false
+    },
+    {
+      "texture": "su_30sm_pylon2_c",
+      "triangles_sm": 5792,
+      "triangles_sm2": 5792,
+      "uv_array_equal": true,
+      "xyz_array_equal": true,
+      "boundary_uv_equal": true,
+      "dimensions_sm": [
+        2048,
+        2048
+      ],
+      "dimensions_sm2": [
+        2048,
+        2048
+      ],
+      "same_uv_triangle_sets_by_part": true
+    },
+    {
+      "texture": "su_33_pylon1_c",
+      "triangles_sm": 15368,
+      "triangles_sm2": 15368,
+      "uv_array_equal": true,
+      "xyz_array_equal": true,
+      "boundary_uv_equal": true,
+      "dimensions_sm": [
+        2048,
+        2048
+      ],
+      "dimensions_sm2": [
+        2048,
+        2048
+      ],
+      "same_uv_triangle_sets_by_part": true
+    },
+    {
+      "texture": "su_aku_58_c",
+      "triangles_sm": 34916,
+      "triangles_sm2": 34916,
+      "uv_array_equal": true,
+      "xyz_array_equal": true,
+      "boundary_uv_equal": true,
+      "dimensions_sm": [
+        1024,
+        512
+      ],
+      "dimensions_sm2": [
+        1024,
+        512
+      ],
+      "same_uv_triangle_sets_by_part": true
+    },
+    {
+      "texture": "su_apu_68um3_c",
+      "triangles_sm": 14004,
+      "triangles_sm2": 14004,
+      "uv_array_equal": true,
+      "xyz_array_equal": true,
+      "boundary_uv_equal": true,
+      "dimensions_sm": [
+        1024,
+        256
+      ],
+      "dimensions_sm2": [
+        1024,
+        256
+      ],
+      "same_uv_triangle_sets_by_part": true
+    },
+    {
+      "texture": "su_bdz_uskm_s_a_c",
+      "triangles_sm": 85488,
+      "triangles_sm2": 85488,
+      "uv_array_equal": true,
+      "xyz_array_equal": true,
+      "boundary_uv_equal": true,
+      "dimensions_sm": [
+        1024,
+        512
+      ],
+      "dimensions_sm2": [
+        1024,
+        512
+      ],
+      "same_uv_triangle_sets_by_part": true
+    },
+    {
+      "texture": "su_dbz_uskm_adapter_c",
+      "triangles_sm": 13760,
+      "triangles_sm2": 13760,
+      "uv_array_equal": true,
+      "xyz_array_equal": true,
+      "boundary_uv_equal": true,
+      "dimensions_sm": [
+        2048,
+        2048
+      ],
+      "dimensions_sm2": [
+        2048,
+        2048
+      ],
+      "same_uv_triangle_sets_by_part": true
+    },
+    {
+      "texture": "su_dz_um_c",
+      "triangles_sm": 10968,
+      "triangles_sm2": 10968,
+      "uv_array_equal": true,
+      "xyz_array_equal": true,
+      "boundary_uv_equal": true,
+      "dimensions_sm": [
+        512,
+        512
+      ],
+      "dimensions_sm2": [
+        512,
+        512
+      ],
+      "same_uv_triangle_sets_by_part": true
+    },
+    {
+      "texture": "su_o_25_l_pod_c",
+      "triangles_sm": 120032,
+      "triangles_sm2": 120032,
+      "uv_array_equal": true,
+      "xyz_array_equal": true,
+      "boundary_uv_equal": true,
+      "dimensions_sm": [
+        1024,
+        1024
+      ],
+      "dimensions_sm2": [
+        1024,
+        1024
+      ],
+      "same_uv_triangle_sets_by_part": true
+    },
+    {
+      "texture": "su_paired_aku170_adapter_c",
+      "triangles_sm": 8068,
+      "triangles_sm2": 8068,
+      "uv_array_equal": true,
+      "xyz_array_equal": true,
+      "boundary_uv_equal": true,
+      "dimensions_sm": [
+        1024,
+        1024
+      ],
+      "dimensions_sm2": [
+        1024,
+        1024
+      ],
+      "same_uv_triangle_sets_by_part": true
+    },
+    {
+      "texture": "su_pbs_pylon_c",
+      "triangles_sm": 5970,
+      "triangles_sm2": 5970,
+      "uv_array_equal": true,
+      "xyz_array_equal": true,
+      "boundary_uv_equal": true,
+      "dimensions_sm": [
+        1024,
+        1024
+      ],
+      "dimensions_sm2": [
+        1024,
+        1024
+      ],
+      "same_uv_triangle_sets_by_part": true
+    },
+    {
+      "texture": "su_t220_pod_su30_c",
+      "triangles_sm": 6129,
+      "triangles_sm2": 6129,
+      "uv_array_equal": true,
+      "xyz_array_equal": true,
+      "boundary_uv_equal": true,
+      "dimensions_sm": [
+        1024,
+        1024
+      ],
+      "dimensions_sm2": [
+        1024,
+        1024
+      ],
+      "same_uv_triangle_sets_by_part": true
+    },
+    {
+      "texture": "su_t220_pod_su30_pylon_c",
+      "triangles_sm": 1740,
+      "triangles_sm2": 1740,
+      "uv_array_equal": true,
+      "xyz_array_equal": true,
+      "boundary_uv_equal": true,
+      "dimensions_sm": [
+        1024,
+        256
+      ],
+      "dimensions_sm2": [
+        1024,
+        256
+      ],
+      "same_uv_triangle_sets_by_part": true
+    }
+  ],
+  "textures_only_sm": [
+    "su_30sm_c",
+    "su_33_ecm_pod_c"
+  ],
+  "textures_only_sm2": [
+    "su_30sm2_c",
+    "su_30sm2_ecm_pod_c",
+    "su_30sm2_pylon1_c"
+  ],
+  "main_atlas": {
+    "sm_texture": "su_30sm_c",
+    "sm2_texture": "su_30sm2_c",
+    "triangles_sm": 383448,
+    "triangles_sm2": 384192,
+    "parts": [
+      {
+        "part": "airbrake_l",
+        "unique_uv_triangles_sm": 895,
+        "unique_uv_triangles_sm2": 895,
+        "common_uv_triangles": 895,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "airbrake_l1",
+        "unique_uv_triangles_sm": 1841,
+        "unique_uv_triangles_sm2": 1841,
+        "common_uv_triangles": 1841,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "airbrake_l2",
+        "unique_uv_triangles_sm": 292,
+        "unique_uv_triangles_sm2": 292,
+        "common_uv_triangles": 292,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "blister1",
+        "unique_uv_triangles_sm": 947,
+        "unique_uv_triangles_sm2": 947,
+        "common_uv_triangles": 947,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "chute1",
+        "unique_uv_triangles_sm": 1135,
+        "unique_uv_triangles_sm2": 1135,
+        "common_uv_triangles": 1135,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "chute2",
+        "unique_uv_triangles_sm": 152,
+        "unique_uv_triangles_sm2": 152,
+        "common_uv_triangles": 152,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "chute3",
+        "unique_uv_triangles_sm": 221,
+        "unique_uv_triangles_sm2": 221,
+        "common_uv_triangles": 221,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "elevator0",
+        "unique_uv_triangles_sm": 2287,
+        "unique_uv_triangles_sm2": 2287,
+        "common_uv_triangles": 2287,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "elevator1",
+        "unique_uv_triangles_sm": 2279,
+        "unique_uv_triangles_sm2": 2279,
+        "common_uv_triangles": 2279,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "flaperon1_l",
+        "unique_uv_triangles_sm": 90,
+        "unique_uv_triangles_sm2": 90,
+        "common_uv_triangles": 90,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "flaperon1_r",
+        "unique_uv_triangles_sm": 90,
+        "unique_uv_triangles_sm2": 90,
+        "common_uv_triangles": 90,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "flaperon_l",
+        "unique_uv_triangles_sm": 1031,
+        "unique_uv_triangles_sm2": 1031,
+        "common_uv_triangles": 1031,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "flaperon_r",
+        "unique_uv_triangles_sm": 937,
+        "unique_uv_triangles_sm2": 937,
+        "common_uv_triangles": 937,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "fuse",
+        "unique_uv_triangles_sm": 72957,
+        "unique_uv_triangles_sm2": 73348,
+        "common_uv_triangles": 72351,
+        "only_sm": 606,
+        "only_sm2": 997,
+        "same_uv_triangle_set": false
+      },
+      {
+        "part": "gear_c",
+        "unique_uv_triangles_sm": 2454,
+        "unique_uv_triangles_sm2": 2454,
+        "common_uv_triangles": 2454,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_c1",
+        "unique_uv_triangles_sm": 671,
+        "unique_uv_triangles_sm2": 671,
+        "common_uv_triangles": 671,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_c10",
+        "unique_uv_triangles_sm": 151,
+        "unique_uv_triangles_sm2": 151,
+        "common_uv_triangles": 151,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_c11",
+        "unique_uv_triangles_sm": 2303,
+        "unique_uv_triangles_sm2": 2303,
+        "common_uv_triangles": 2303,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_c12",
+        "unique_uv_triangles_sm": 1742,
+        "unique_uv_triangles_sm2": 1742,
+        "common_uv_triangles": 1742,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_c2",
+        "unique_uv_triangles_sm": 13875,
+        "unique_uv_triangles_sm2": 13875,
+        "common_uv_triangles": 13875,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_c3",
+        "unique_uv_triangles_sm": 712,
+        "unique_uv_triangles_sm2": 712,
+        "common_uv_triangles": 712,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_c4",
+        "unique_uv_triangles_sm": 422,
+        "unique_uv_triangles_sm2": 422,
+        "common_uv_triangles": 422,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_c5",
+        "unique_uv_triangles_sm": 3107,
+        "unique_uv_triangles_sm2": 3107,
+        "common_uv_triangles": 3107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_c6",
+        "unique_uv_triangles_sm": 3091,
+        "unique_uv_triangles_sm2": 3091,
+        "common_uv_triangles": 3091,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_c7",
+        "unique_uv_triangles_sm": 367,
+        "unique_uv_triangles_sm2": 367,
+        "common_uv_triangles": 367,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_c8",
+        "unique_uv_triangles_sm": 343,
+        "unique_uv_triangles_sm2": 343,
+        "common_uv_triangles": 343,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_c9",
+        "unique_uv_triangles_sm": 170,
+        "unique_uv_triangles_sm2": 170,
+        "common_uv_triangles": 170,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_l",
+        "unique_uv_triangles_sm": 6767,
+        "unique_uv_triangles_sm2": 6767,
+        "common_uv_triangles": 6767,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_l1",
+        "unique_uv_triangles_sm": 6199,
+        "unique_uv_triangles_sm2": 6199,
+        "common_uv_triangles": 6199,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_l10",
+        "unique_uv_triangles_sm": 256,
+        "unique_uv_triangles_sm2": 256,
+        "common_uv_triangles": 256,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_l11",
+        "unique_uv_triangles_sm": 2330,
+        "unique_uv_triangles_sm2": 2330,
+        "common_uv_triangles": 2330,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_l12",
+        "unique_uv_triangles_sm": 255,
+        "unique_uv_triangles_sm2": 255,
+        "common_uv_triangles": 255,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_l13",
+        "unique_uv_triangles_sm": 2343,
+        "unique_uv_triangles_sm2": 2343,
+        "common_uv_triangles": 2343,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_l14",
+        "unique_uv_triangles_sm": 3136,
+        "unique_uv_triangles_sm2": 3136,
+        "common_uv_triangles": 3136,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_l15",
+        "unique_uv_triangles_sm": 1954,
+        "unique_uv_triangles_sm2": 1954,
+        "common_uv_triangles": 1954,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_l16",
+        "unique_uv_triangles_sm": 463,
+        "unique_uv_triangles_sm2": 463,
+        "common_uv_triangles": 463,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_l17",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_l18",
+        "unique_uv_triangles_sm": 102,
+        "unique_uv_triangles_sm2": 102,
+        "common_uv_triangles": 102,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_l2",
+        "unique_uv_triangles_sm": 1837,
+        "unique_uv_triangles_sm2": 1837,
+        "common_uv_triangles": 1837,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_l3",
+        "unique_uv_triangles_sm": 1732,
+        "unique_uv_triangles_sm2": 1732,
+        "common_uv_triangles": 1732,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_l4",
+        "unique_uv_triangles_sm": 152,
+        "unique_uv_triangles_sm2": 152,
+        "common_uv_triangles": 152,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_l5",
+        "unique_uv_triangles_sm": 503,
+        "unique_uv_triangles_sm2": 503,
+        "common_uv_triangles": 503,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_l6",
+        "unique_uv_triangles_sm": 3526,
+        "unique_uv_triangles_sm2": 3526,
+        "common_uv_triangles": 3526,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_l7",
+        "unique_uv_triangles_sm": 112,
+        "unique_uv_triangles_sm2": 112,
+        "common_uv_triangles": 112,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_l9",
+        "unique_uv_triangles_sm": 1866,
+        "unique_uv_triangles_sm2": 1866,
+        "common_uv_triangles": 1866,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_r",
+        "unique_uv_triangles_sm": 6767,
+        "unique_uv_triangles_sm2": 6767,
+        "common_uv_triangles": 6767,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_r1",
+        "unique_uv_triangles_sm": 6199,
+        "unique_uv_triangles_sm2": 6199,
+        "common_uv_triangles": 6199,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_r10",
+        "unique_uv_triangles_sm": 248,
+        "unique_uv_triangles_sm2": 248,
+        "common_uv_triangles": 248,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_r11",
+        "unique_uv_triangles_sm": 2330,
+        "unique_uv_triangles_sm2": 2330,
+        "common_uv_triangles": 2330,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_r12",
+        "unique_uv_triangles_sm": 255,
+        "unique_uv_triangles_sm2": 255,
+        "common_uv_triangles": 255,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_r13",
+        "unique_uv_triangles_sm": 2343,
+        "unique_uv_triangles_sm2": 2343,
+        "common_uv_triangles": 2343,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_r14",
+        "unique_uv_triangles_sm": 3136,
+        "unique_uv_triangles_sm2": 3136,
+        "common_uv_triangles": 3136,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_r15",
+        "unique_uv_triangles_sm": 1954,
+        "unique_uv_triangles_sm2": 1954,
+        "common_uv_triangles": 1954,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_r16",
+        "unique_uv_triangles_sm": 463,
+        "unique_uv_triangles_sm2": 463,
+        "common_uv_triangles": 463,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_r17",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_r18",
+        "unique_uv_triangles_sm": 102,
+        "unique_uv_triangles_sm2": 102,
+        "common_uv_triangles": 102,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_r2",
+        "unique_uv_triangles_sm": 1837,
+        "unique_uv_triangles_sm2": 1837,
+        "common_uv_triangles": 1837,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_r3",
+        "unique_uv_triangles_sm": 1732,
+        "unique_uv_triangles_sm2": 1732,
+        "common_uv_triangles": 1732,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_r4",
+        "unique_uv_triangles_sm": 152,
+        "unique_uv_triangles_sm2": 152,
+        "common_uv_triangles": 152,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_r5",
+        "unique_uv_triangles_sm": 503,
+        "unique_uv_triangles_sm2": 503,
+        "common_uv_triangles": 503,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_r6",
+        "unique_uv_triangles_sm": 3526,
+        "unique_uv_triangles_sm2": 3526,
+        "common_uv_triangles": 3526,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_r7",
+        "unique_uv_triangles_sm": 112,
+        "unique_uv_triangles_sm2": 112,
+        "common_uv_triangles": 112,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "gear_r9",
+        "unique_uv_triangles_sm": 1858,
+        "unique_uv_triangles_sm2": 1858,
+        "common_uv_triangles": 1858,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_1",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_10",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_11",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_12",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_13",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_14",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_15",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_16",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_17",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_18",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_19",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_2",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_20",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_21",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_22",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_23",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_24",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_25",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_26",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_27",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_28",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_29",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_3",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_30",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_31",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_32",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_33",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_34",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_35",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_36",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_37",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_38",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_39",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_4",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_40",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_41",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_42",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_43",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_44",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_45",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_46",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_47",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_48",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_49",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_5",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_50",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_51",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_52",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_53",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_54",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_55",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_56",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_57",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_58",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_59",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_6",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_60",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_61",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_62",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_63",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_64",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_65",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_66",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_67",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_68",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_69",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_7",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_70",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_71",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_72",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_73",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_74",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_75",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_76",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_77",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_78",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_79",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_8",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_80",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_81",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_82",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_83",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_84",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_85",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_86",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_87",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_88",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_89",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_9",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_90",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_91",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_92",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_93",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_94",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_95",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_96",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle1_main",
+        "unique_uv_triangles_sm": 3936,
+        "unique_uv_triangles_sm2": 3936,
+        "common_uv_triangles": 3936,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_1",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_10",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_11",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_12",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_13",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_14",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_15",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_16",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_17",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_18",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_19",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_2",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_20",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_21",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_22",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_23",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_24",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_25",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_26",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_27",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_28",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_29",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_3",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_30",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_31",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_32",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_33",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_34",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_35",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_36",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_37",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_38",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_39",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_4",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_40",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_41",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_42",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_43",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_44",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_45",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_46",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_47",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_48",
+        "unique_uv_triangles_sm": 266,
+        "unique_uv_triangles_sm2": 266,
+        "common_uv_triangles": 266,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_49",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_5",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_50",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_51",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_52",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_53",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_54",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_55",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_56",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_57",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_58",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_59",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_6",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_60",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_61",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_62",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_63",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_64",
+        "unique_uv_triangles_sm": 107,
+        "unique_uv_triangles_sm2": 107,
+        "common_uv_triangles": 107,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_65",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_66",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_67",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_68",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_69",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_7",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_70",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_71",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_72",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_73",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_74",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_75",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_76",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_77",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_78",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_79",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_8",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_80",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_81",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_82",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_83",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_84",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_85",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_86",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_87",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_88",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_89",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_9",
+        "unique_uv_triangles_sm": 89,
+        "unique_uv_triangles_sm2": 89,
+        "common_uv_triangles": 89,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_90",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_91",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_92",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_93",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_94",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_95",
+        "unique_uv_triangles_sm": 150,
+        "unique_uv_triangles_sm2": 150,
+        "common_uv_triangles": 150,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_96",
+        "unique_uv_triangles_sm": 85,
+        "unique_uv_triangles_sm2": 85,
+        "common_uv_triangles": 85,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle2_main",
+        "unique_uv_triangles_sm": 3936,
+        "unique_uv_triangles_sm2": 3936,
+        "common_uv_triangles": 3936,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle3_1",
+        "unique_uv_triangles_sm": 42,
+        "unique_uv_triangles_sm2": 42,
+        "common_uv_triangles": 42,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle3_10",
+        "unique_uv_triangles_sm": 20,
+        "unique_uv_triangles_sm2": 20,
+        "common_uv_triangles": 20,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle3_11",
+        "unique_uv_triangles_sm": 24,
+        "unique_uv_triangles_sm2": 24,
+        "common_uv_triangles": 24,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle3_12",
+        "unique_uv_triangles_sm": 20,
+        "unique_uv_triangles_sm2": 20,
+        "common_uv_triangles": 20,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle3_13",
+        "unique_uv_triangles_sm": 28,
+        "unique_uv_triangles_sm2": 28,
+        "common_uv_triangles": 28,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle3_14",
+        "unique_uv_triangles_sm": 43,
+        "unique_uv_triangles_sm2": 43,
+        "common_uv_triangles": 43,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle3_15",
+        "unique_uv_triangles_sm": 2110,
+        "unique_uv_triangles_sm2": 2110,
+        "common_uv_triangles": 2110,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle3_2",
+        "unique_uv_triangles_sm": 50,
+        "unique_uv_triangles_sm2": 50,
+        "common_uv_triangles": 50,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle3_3",
+        "unique_uv_triangles_sm": 28,
+        "unique_uv_triangles_sm2": 28,
+        "common_uv_triangles": 28,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle3_4",
+        "unique_uv_triangles_sm": 28,
+        "unique_uv_triangles_sm2": 28,
+        "common_uv_triangles": 28,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle3_5",
+        "unique_uv_triangles_sm": 16,
+        "unique_uv_triangles_sm2": 16,
+        "common_uv_triangles": 16,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle3_6",
+        "unique_uv_triangles_sm": 20,
+        "unique_uv_triangles_sm2": 20,
+        "common_uv_triangles": 20,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle3_7",
+        "unique_uv_triangles_sm": 12,
+        "unique_uv_triangles_sm2": 12,
+        "common_uv_triangles": 12,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle3_8",
+        "unique_uv_triangles_sm": 12,
+        "unique_uv_triangles_sm2": 12,
+        "common_uv_triangles": 12,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle3_9",
+        "unique_uv_triangles_sm": 20,
+        "unique_uv_triangles_sm2": 20,
+        "common_uv_triangles": 20,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle4_1",
+        "unique_uv_triangles_sm": 42,
+        "unique_uv_triangles_sm2": 42,
+        "common_uv_triangles": 42,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle4_10",
+        "unique_uv_triangles_sm": 20,
+        "unique_uv_triangles_sm2": 20,
+        "common_uv_triangles": 20,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle4_11",
+        "unique_uv_triangles_sm": 24,
+        "unique_uv_triangles_sm2": 24,
+        "common_uv_triangles": 24,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle4_12",
+        "unique_uv_triangles_sm": 20,
+        "unique_uv_triangles_sm2": 20,
+        "common_uv_triangles": 20,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle4_13",
+        "unique_uv_triangles_sm": 28,
+        "unique_uv_triangles_sm2": 28,
+        "common_uv_triangles": 28,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle4_14",
+        "unique_uv_triangles_sm": 43,
+        "unique_uv_triangles_sm2": 43,
+        "common_uv_triangles": 43,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle4_15",
+        "unique_uv_triangles_sm": 2110,
+        "unique_uv_triangles_sm2": 2110,
+        "common_uv_triangles": 2110,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle4_2",
+        "unique_uv_triangles_sm": 50,
+        "unique_uv_triangles_sm2": 50,
+        "common_uv_triangles": 50,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle4_3",
+        "unique_uv_triangles_sm": 28,
+        "unique_uv_triangles_sm2": 28,
+        "common_uv_triangles": 28,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle4_4",
+        "unique_uv_triangles_sm": 28,
+        "unique_uv_triangles_sm2": 28,
+        "common_uv_triangles": 28,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle4_5",
+        "unique_uv_triangles_sm": 16,
+        "unique_uv_triangles_sm2": 16,
+        "common_uv_triangles": 16,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle4_6",
+        "unique_uv_triangles_sm": 20,
+        "unique_uv_triangles_sm2": 20,
+        "common_uv_triangles": 20,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle4_7",
+        "unique_uv_triangles_sm": 12,
+        "unique_uv_triangles_sm2": 12,
+        "common_uv_triangles": 12,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle4_8",
+        "unique_uv_triangles_sm": 12,
+        "unique_uv_triangles_sm2": 12,
+        "common_uv_triangles": 12,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "nozzle4_9",
+        "unique_uv_triangles_sm": 20,
+        "unique_uv_triangles_sm2": 20,
+        "common_uv_triangles": 20,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "optic1_gun",
+        "unique_uv_triangles_sm": 680,
+        "unique_uv_triangles_sm2": 680,
+        "common_uv_triangles": 680,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "optic1_turret",
+        "unique_uv_triangles_sm": 244,
+        "unique_uv_triangles_sm2": 244,
+        "common_uv_triangles": 244,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "pgo_l",
+        "unique_uv_triangles_sm": 120,
+        "unique_uv_triangles_sm2": 120,
+        "common_uv_triangles": 120,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "pgo_r",
+        "unique_uv_triangles_sm": 120,
+        "unique_uv_triangles_sm2": 120,
+        "common_uv_triangles": 120,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "prop01_1",
+        "unique_uv_triangles_sm": 36,
+        "unique_uv_triangles_sm2": 36,
+        "common_uv_triangles": 36,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "prop01_2",
+        "unique_uv_triangles_sm": 36,
+        "unique_uv_triangles_sm2": 36,
+        "common_uv_triangles": 36,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "refueling1",
+        "unique_uv_triangles_sm": 2418,
+        "unique_uv_triangles_sm2": 2418,
+        "common_uv_triangles": 2418,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "refueling2",
+        "unique_uv_triangles_sm": 1204,
+        "unique_uv_triangles_sm2": 1204,
+        "common_uv_triangles": 1204,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "refueling3",
+        "unique_uv_triangles_sm": 1204,
+        "unique_uv_triangles_sm2": 1204,
+        "common_uv_triangles": 1204,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "rudder0",
+        "unique_uv_triangles_sm": 1119,
+        "unique_uv_triangles_sm2": 1119,
+        "common_uv_triangles": 1119,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "rudder0_1",
+        "unique_uv_triangles_sm": 164,
+        "unique_uv_triangles_sm2": 164,
+        "common_uv_triangles": 164,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "rudder1",
+        "unique_uv_triangles_sm": 1122,
+        "unique_uv_triangles_sm2": 1122,
+        "common_uv_triangles": 1122,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "rudder1_1",
+        "unique_uv_triangles_sm": 164,
+        "unique_uv_triangles_sm2": 164,
+        "common_uv_triangles": 164,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "slat_l",
+        "unique_uv_triangles_sm": 1199,
+        "unique_uv_triangles_sm2": 1235,
+        "common_uv_triangles": 568,
+        "only_sm": 631,
+        "only_sm2": 667,
+        "same_uv_triangle_set": false
+      },
+      {
+        "part": "slat_r",
+        "unique_uv_triangles_sm": 1287,
+        "unique_uv_triangles_sm2": 1337,
+        "common_uv_triangles": 737,
+        "only_sm": 550,
+        "only_sm2": 600,
+        "same_uv_triangle_set": false
+      },
+      {
+        "part": "tail",
+        "unique_uv_triangles_sm": 20241,
+        "unique_uv_triangles_sm2": 20241,
+        "common_uv_triangles": 20241,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "wheel_c",
+        "unique_uv_triangles_sm": 6979,
+        "unique_uv_triangles_sm2": 6979,
+        "common_uv_triangles": 6979,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "wheel_l",
+        "unique_uv_triangles_sm": 9089,
+        "unique_uv_triangles_sm2": 9089,
+        "common_uv_triangles": 9089,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "wheel_r",
+        "unique_uv_triangles_sm": 9089,
+        "unique_uv_triangles_sm2": 9089,
+        "common_uv_triangles": 9089,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "wing_l",
+        "unique_uv_triangles_sm": 796,
+        "unique_uv_triangles_sm2": 796,
+        "common_uv_triangles": 796,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      },
+      {
+        "part": "wing_r",
+        "unique_uv_triangles_sm": 796,
+        "unique_uv_triangles_sm2": 796,
+        "common_uv_triangles": 796,
+        "only_sm": 0,
+        "only_sm2": 0,
+        "same_uv_triangle_set": true
+      }
+    ]
+  }
+}

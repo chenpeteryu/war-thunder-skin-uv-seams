@@ -1,0 +1,353 @@
+{
+  "j_16": {
+    "source_entry": {
+      "name": "j_16",
+      "class_id": 3031947716,
+      "offset": 33388688,
+      "size": 3920960
+    },
+    "sha256": "51373e037bb321e9e3bbca69471fa0081598f2e3b3e9a79b59bfbfc711c0c477",
+    "textures": [
+      {
+        "texture": "j_16_c",
+        "triangles": 384843,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "su_30sm_1_c",
+        "triangles": 6487,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "j_16_blister_c",
+        "triangles": 14674,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "j_15t_pf8k_pylon1_c",
+        "triangles": 2612,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "ch_pl12_launcher_c",
+        "triangles": 57120,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "j_10a_wing_twin_pylon_c",
+        "triangles": 7436,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "ch_pft15_launcher_c",
+        "triangles": 159768,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "ch_df_4_launcher_c",
+        "triangles": 30768,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "su_aku_58_c",
+        "triangles": 72,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "ch_kd88_datalink_pod_c",
+        "triangles": 6232,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "su_30mk2v_venezuela_pbs_pylon_c",
+        "triangles": 5970,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "su_30mk2v_venezuela_dbz_uskm_adapter_c",
+        "triangles": 6880,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "su_bdz_uskm_s_a_c",
+        "triangles": 24840,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "su_dz_um_c",
+        "triangles": 7312,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "ch_triple_bomb_adapter_j10c_c",
+        "triangles": 58120,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "j_11b_pylon4_c",
+        "triangles": 5256,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "j_11b_pylon2_c",
+        "triangles": 4628,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "ch_yings_3_pod_c",
+        "triangles": 9454,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "j_11b_pylon7_c",
+        "triangles": 6904,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "j_16_pylon1_c",
+        "triangles": 3310,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "j_16_pylon2_c",
+        "triangles": 3200,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "cn_pylon_adapter_gdj_49b_short_c",
+        "triangles": 43304,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "cn_pylon_adapter_gdl_iii_7_c",
+        "triangles": 1800,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "j_11_dbz_uskm_adapter_c",
+        "triangles": 6048,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "jh_7_bomb_adapter_c",
+        "triangles": 25396,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      }
+    ]
+  },
+  "j_10c": {
+    "source_entry": {
+      "name": "j_10c",
+      "class_id": 3031947716,
+      "offset": 30044832,
+      "size": 2963072
+    },
+    "sha256": "74aa9ebd47426faf098245d245b758e18d1d2380dffa97d211166210d72e8ccf",
+    "textures": [
+      {
+        "texture": "seat_martin_baker_mk16_c",
+        "triangles": 16552,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "j_10c_c",
+        "triangles": 199388,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "j_10a_pylon_gdj_1_c",
+        "triangles": 2686,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "j_10a_pylon_gdj_6_c",
+        "triangles": 6064,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "j_10a_wing_twin_pylon_c",
+        "triangles": 7436,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "apu_13_c",
+        "triangles": 9216,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "j_10a_fuse_pylon_c",
+        "triangles": 11660,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "ch_pl12_launcher_c",
+        "triangles": 32640,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "lau_7_c",
+        "triangles": 42594,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "ch_jdc03a_c",
+        "triangles": 9128,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "ch_1140l_drop_tank_pylon_bluegrey_c",
+        "triangles": 2770,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "lanciamissili_mraam_white_c",
+        "triangles": 2148,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "j_10a_twin_bomb_pylon_c",
+        "triangles": 18466,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "ch_1600l_drop_tank_pylon_c",
+        "triangles": 8192,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "ch_triple_bomb_adapter_j10c_c",
+        "triangles": 58120,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "ch_zl4_launcher_double_adapter_c",
+        "triangles": 15492,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "ch_pft15_launcher_c",
+        "triangles": 125532,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "ch_yings_3_pod_c",
+        "triangles": 9454,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "ch_df_4_launcher_c",
+        "triangles": 21272,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "su_aku_58_c",
+        "triangles": 48,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "ch_kd88_datalink_pod_c",
+        "triangles": 3116,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      },
+      {
+        "texture": "j_10c_nozzle_c",
+        "triangles": 23358,
+        "uv_exact_equal": true,
+        "xyz_exact_equal": true,
+        "part_ids_exact_equal": true
+      }
+    ]
+  }
+}

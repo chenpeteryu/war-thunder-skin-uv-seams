@@ -1,0 +1,82 @@
+{
+  "probes": [
+    {
+      "model": "j_10c",
+      "group": "body",
+      "connection": 2238,
+      "side": 0,
+      "source_triangle": 120334,
+      "integer_pixel": [
+        5879,
+        5779
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        226.54897990711635,
+        145.72912833807706,
+        109.0050360173314
+      ],
+      "image": "j_10c_body_2238_0.png",
+      "sample_rule": "stored short-stub pixel",
+      "barycentric_margin": null,
+      "triangle_part": "fuse",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        226.0,
+        146.0,
+        109.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.5489799071163475,
+      "passed": true
+    },
+    {
+      "model": "j_10c",
+      "group": "body",
+      "connection": 2238,
+      "side": 1,
+      "source_triangle": 120547,
+      "integer_pixel": [
+        6955,
+        7332
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        199.8285452536482,
+        91.52764808687868,
+        181.80480830958174
+      ],
+      "image": "j_10c_body_2238_1.png",
+      "sample_rule": "stored short-stub pixel",
+      "barycentric_margin": null,
+      "triangle_part": "fuse",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        200.0,
+        91.0,
+        182.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.5276480868786848,
+      "passed": true
+    }
+  ],
+  "passed": 2,
+  "failed": 0,
+  "missing_groups": [],
+  "scope": "Readback of independently rendered texel colors at world-projected sample centres. Local samples only, not whole-library accuracy proof."
+}

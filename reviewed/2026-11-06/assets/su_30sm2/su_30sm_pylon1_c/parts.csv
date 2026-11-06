@@ -1,0 +1,2 @@
+﻿part_id,part_name,triangles,u_min,v_min,u_max,v_max,x_min_px,y_min_px,x_max_px,y_max_px,world_x_min,world_x_max,world_y_min,world_y_max,world_z_min,world_z_max
+553,pylon_2_dbz_uskm_adapter,49,0.00390625,0.50439453125,0.607177734375,0.593994140625,8.0,831.5,1243.5,1015.0,-4.364373683929443,-2.330639123916626,-0.5251390337944031,-0.38387638330459595,-0.032892823219299316,0.03287405148148537

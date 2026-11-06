@@ -1,0 +1,2 @@
+﻿part_id,part_name,triangles,u_min,v_min,u_max,v_max,x_min_px,y_min_px,x_max_px,y_max_px,world_x_min,world_x_max,world_y_min,world_y_max,world_z_min,world_z_max
+572,damocles_pod,6464,0.0048828125,0.0048828125,0.984619140625,0.9951171875,5.0,5.0,1008.25,1019.0,-0.6512564420700073,1.8036009073257446,-2.0082736015319824,-1.4510126113891602,-1.4650291204452515,-1.013814926147461

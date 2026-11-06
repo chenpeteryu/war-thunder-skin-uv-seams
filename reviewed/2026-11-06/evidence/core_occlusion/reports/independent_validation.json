@@ -1,0 +1,48 @@
+{
+  "models": [
+    {
+      "model": "j_16",
+      "paintable_charts": 2236,
+      "links": 2235,
+      "connected": true,
+      "acyclic": true
+    },
+    {
+      "model": "j_10c",
+      "paintable_charts": 728,
+      "links": 727,
+      "connected": true,
+      "acyclic": true
+    },
+    {
+      "model": "su_30sm",
+      "paintable_charts": 1591,
+      "links": 1590,
+      "connected": true,
+      "acyclic": true
+    },
+    {
+      "model": "su_30sm2",
+      "paintable_charts": 1594,
+      "links": 1593,
+      "connected": true,
+      "acyclic": true
+    },
+    {
+      "model": "f_15ex",
+      "paintable_charts": 1828,
+      "links": 1827,
+      "connected": true,
+      "acyclic": true
+    }
+  ],
+  "checked_stub_pixels": 57292,
+  "max_local_transform_roundtrip_error_px": 2.9103830456733704e-11,
+  "max_continuous_anchor_registration_error_px": 1.8189894035458565e-11,
+  "stub_width_px": 1,
+  "stub_max_grid_steps": 6,
+  "raster_topology": "8-connected, independently local to each connection",
+  "all_checks_passed": true,
+  "images_modified": false,
+  "runtime_verified": false
+}

@@ -1,0 +1,31 @@
+{
+  "models": [
+    {
+      "model": "su_30sm2",
+      "external_triangles": 3734,
+      "charts": 18,
+      "paintable_charts": 17,
+      "subpixel_charts_excluded_from_tree": 1,
+      "connections": 16,
+      "tree_connected": true,
+      "tree_acyclic": true,
+      "edge_only_components": 7,
+      "physical_contact_components": 7,
+      "relations": {
+        "shared_edge": 8,
+        "assembly_reference": 7,
+        "near_gap": 1
+      },
+      "uv_alias_groups": 1084,
+      "reference_anchor_fallbacks": 3,
+      "max_raster_anchor_error_px": 3.881043674065006,
+      "max_measured_gap_m": 2.639911610170748,
+      "required_review_links": 9,
+      "width_px": 1,
+      "stub_length_limit_px": 6,
+      "image_overlays_written": false,
+      "runtime_verified": false
+    }
+  ],
+  "database_sha256": "1c86757c59a751ec594acb98bdcb8b5d6de76911acf010bd8c3711330ab4cc8b"
+}

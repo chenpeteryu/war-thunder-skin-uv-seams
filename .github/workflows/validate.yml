@@ -11,3 +11,8 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python tools/test_registration.py
       - run: python tools/validate_seam_db.py
+      - name: Validate reviewed primary and auxiliary seam trees
+        run: |
+          for database in reviewed/2026-11-06/data/seam_links.sqlite3 reviewed/2026-11-06/evidence/auxiliary_seams/*/seam_links.sqlite3; do
+            python tools/validate_seam_db.py --db "$database"
+          done

@@ -1,0 +1,67 @@
+{
+  "j_16": {
+    "changed_triangles": 432,
+    "affected_parts": [
+      {
+        "part": "gear_c13",
+        "changed_triangles": 208,
+        "new_xyz_bounds": [
+          [
+            6.202755451202393,
+            -0.011511530727148056,
+            -0.025892261415719986
+          ],
+          [
+            6.411495208740234,
+            0.11313067376613617,
+            0.006773028988391161
+          ]
+        ],
+        "new_uv_bounds": [
+          [
+            0.92236328125,
+            0.52490234375
+          ],
+          [
+            0.924072265625,
+            0.535888671875
+          ]
+        ],
+        "max_edge_m": 0.02493135631084442
+      },
+      {
+        "part": "gear_c14",
+        "changed_triangles": 224,
+        "new_xyz_bounds": [
+          [
+            6.482570171356201,
+            0.13128459453582764,
+            -0.07298736274242401
+          ],
+          [
+            6.6571526527404785,
+            0.2041216939687729,
+            -0.0044853962026536465
+          ]
+        ],
+        "new_uv_bounds": [
+          [
+            0.925537109375,
+            0.504638671875
+          ],
+          [
+            0.92724609375,
+            0.51416015625
+          ]
+        ],
+        "max_edge_m": 0.028419261798262596
+      }
+    ],
+    "layout": "candidate only; skin bind-pose handling remains to audit"
+  },
+  "j_10c": {
+    "changed_triangles": 0,
+    "affected_parts": [],
+    "layout": "candidate only; skin bind-pose handling remains to audit"
+  }
+}

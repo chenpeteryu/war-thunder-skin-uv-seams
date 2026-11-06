@@ -1,0 +1,2 @@
+﻿part_id,part_name,triangles,u_min,v_min,u_max,v_max,x_min_px,y_min_px,x_max_px,y_max_px,world_x_min,world_x_max,world_y_min,world_y_max,world_z_min,world_z_max
+574,su_t220_pod_su30,6129,0.0048828125,0.00341796875,0.99365234375,0.99658203125,5.0,3.5,1017.5,1020.5,-0.7325395941734314,1.4490522146224976,-1.7932331562042236,-1.3812274932861328,-1.4160242080688477,-1.0728378295898438

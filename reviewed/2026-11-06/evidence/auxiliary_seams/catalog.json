@@ -1,0 +1,35 @@
+[
+  {
+    "model": "j_10c",
+    "texture": "j_10c_nozzle_c",
+    "path": "evidence/auxiliary_seams/j_10c__j_10c_nozzle_c",
+    "reference_resolution": [
+      8192,
+      8192
+    ],
+    "scope": "Separate texture-scoped seam tree; no cross-atlas links inferred. Main material only visibility filter, complete-material audit pending.",
+    "complete_material_visibility": "complete_material_visibility.npz"
+  },
+  {
+    "model": "su_30sm",
+    "texture": "su_30sm_1_c",
+    "path": "evidence/auxiliary_seams/su_30sm__su_30sm_1_c",
+    "reference_resolution": [
+      512,
+      256
+    ],
+    "scope": "Separate texture-scoped seam tree; no cross-atlas links inferred. Main material only visibility filter, complete-material audit pending.",
+    "complete_material_visibility": "complete_material_visibility.npz"
+  },
+  {
+    "model": "su_30sm2",
+    "texture": "su_30sm_1_c",
+    "path": "evidence/auxiliary_seams/su_30sm2__su_30sm_1_c",
+    "reference_resolution": [
+      512,
+      256
+    ],
+    "scope": "Separate texture-scoped seam tree; no cross-atlas links inferred. Main material only visibility filter, complete-material audit pending.",
+    "complete_material_visibility": "complete_material_visibility.npz"
+  }
+]

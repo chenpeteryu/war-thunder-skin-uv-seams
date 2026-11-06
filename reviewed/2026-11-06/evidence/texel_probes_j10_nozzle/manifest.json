@@ -1,0 +1,64 @@
+{
+  "probes": [
+    {
+      "model": "j_10c",
+      "group": "nozzle",
+      "connection": 17,
+      "side": 0,
+      "source_triangle": 16920,
+      "integer_pixel": [
+        1801,
+        405
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        230.11033150498318,
+        226.03416197992163,
+        212.0641731753645
+      ],
+      "image": "j_10c_nozzle_17_0.png",
+      "sample_rule": "stored short-stub pixel",
+      "barycentric_margin": null,
+      "triangle_part": "nozzle1_20",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    },
+    {
+      "model": "j_10c",
+      "group": "nozzle",
+      "connection": 17,
+      "side": 1,
+      "source_triangle": 16823,
+      "integer_pixel": [
+        4752,
+        253
+      ],
+      "resolution": [
+        8192,
+        8192
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        180.42666848559458,
+        132.16665064659819,
+        142.9600931039087
+      ],
+      "image": "j_10c_nozzle_17_1.png",
+      "sample_rule": "stored short-stub pixel",
+      "barycentric_margin": null,
+      "triangle_part": "nozzle1_20",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself"
+    }
+  ],
+  "missing_groups": [],
+  "line_overlays": false
+}
