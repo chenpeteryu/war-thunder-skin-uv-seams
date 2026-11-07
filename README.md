@@ -46,6 +46,8 @@ python config/tools/validate_library.py
 
 ## 验证范围
 
+- [SM/SM2 表面适配与微调回写](config/docs/su30_surface_adaptation.md)：包括机鼻/方向舵采样校正、翼面和垂尾连续性、细节保护与实际舱门涂层蒙版。这些是图案适配配方，不修改原生轮廓/UV。
+
 - [SM/SM2 ENDFIELD HIGH 标识布局与复检](config/docs/su30_endfield_high_markings.md)：保留型号、短编号和 ENDFIELD，区分机鼻设计品牌、尾翼型号与生产厂、翼根工厂说明；提供两机独立坐标配方及栅格方向。此项不修改原生轮廓/接缝，也不代表实际游戏或全库 `_n` 已验证。可运行 `python config/tools/validate_marking_recipes.py` 检查这两份配方。
 
 - J15T 保留反复修正后的主贴图基准。J16/J10C 保留独立复核及已记录修正，不因曾用于参考而宣称整库像素级精准。

@@ -229,6 +229,26 @@
       "file": "su30sm2_endfield_high_markings.json",
       "source_sha256": "408c153f7b37d134776f8923b2118a948b2642c38f6401b3c7ef9f37eb843c7b",
       "published_sha256": "408c153f7b37d134776f8923b2118a948b2642c38f6401b3c7ef9f37eb843c7b"
+    },
+    {
+      "file": "su30sm_surface_adaptation.json",
+      "source_sha256": "e024db3c7a374a70278b23685fd419e206c575e0e3a5fb87728e738ef74451e3",
+      "published_sha256": "e024db3c7a374a70278b23685fd419e206c575e0e3a5fb87728e738ef74451e3"
+    },
+    {
+      "file": "su30sm_surface_adaptation.npz",
+      "source_sha256": "e02fa1c3305b7157bdb1097b1a53f79217b784b2040f8d4cffe5ea8734bde923",
+      "published_sha256": "e02fa1c3305b7157bdb1097b1a53f79217b784b2040f8d4cffe5ea8734bde923"
+    },
+    {
+      "file": "su30sm2_surface_adaptation.json",
+      "source_sha256": "9a2969564fc9b21644a1f14d08bcd6b2e992fb7efbcc5265f98e26e6da394614",
+      "published_sha256": "9a2969564fc9b21644a1f14d08bcd6b2e992fb7efbcc5265f98e26e6da394614"
+    },
+    {
+      "file": "su30sm2_surface_adaptation.npz",
+      "source_sha256": "fca31252970a0014c8c962cd2ce60e0e5cda2ff0cb70a85b99e5b87109c11cf0",
+      "published_sha256": "fca31252970a0014c8c962cd2ce60e0e5cda2ff0cb70a85b99e5b87109c11cf0"
     }
   ],
   "mask_sources": [

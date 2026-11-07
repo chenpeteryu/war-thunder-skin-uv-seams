@@ -1,0 +1,55 @@
+{
+  "scope": "subset replay of published part-aware projection against actual saved mapping; not a full new mapping or render run",
+  "samples": [
+    {
+      "model": "su_30sm",
+      "part": "fuse",
+      "samples": 8,
+      "max_source_uv_error": 0.0
+    },
+    {
+      "model": "su_30sm",
+      "part": "tail",
+      "samples": 8,
+      "max_source_uv_error": 0.0
+    },
+    {
+      "model": "su_30sm",
+      "part": "wing_l",
+      "samples": 8,
+      "max_source_uv_error": 0.0
+    },
+    {
+      "model": "su_30sm",
+      "part": "rudder0",
+      "samples": 8,
+      "max_source_uv_error": 0.0
+    },
+    {
+      "model": "su_30sm2",
+      "part": "fuse",
+      "samples": 8,
+      "max_source_uv_error": 0.0
+    },
+    {
+      "model": "su_30sm2",
+      "part": "tail",
+      "samples": 8,
+      "max_source_uv_error": 0.0
+    },
+    {
+      "model": "su_30sm2",
+      "part": "wing_l",
+      "samples": 8,
+      "max_source_uv_error": 0.0
+    },
+    {
+      "model": "su_30sm2",
+      "part": "rudder0",
+      "samples": 8,
+      "max_source_uv_error": 0.0
+    }
+  ],
+  "surface_recipe_validation_passed": true,
+  "game_verified": false
+}

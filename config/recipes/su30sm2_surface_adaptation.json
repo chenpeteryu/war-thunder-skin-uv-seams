@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "model": "su_30sm2",
+  "geometry": "aircraft/su30sm2/su_30sm2_c/geometry.npz",
+  "geometry_sha256": "4bcc23ed9099d68f505e13e2ef2d2693f78a80a1221ae8b5473c114fd61d8132",
+  "native_triangle_count": 384192,
+  "native_geometry_and_uv_changed": false,
+  "array_bundle": "config/recipes/su30sm2_surface_adaptation.npz",
+  "array_bundle_sha256": "fca31252970a0014c8c962cd2ce60e0e5cda2ff0cb70a85b99e5b87109c11cf0",
+  "authoring_resolution": [
+    4096,
+    4096
+  ],
+  "source_model": "j16",
+  "source_geometry_sha256": "f9b677482d5f1b148f490842b93ca1203232ef60d7469a6a7a8b7b5e53d6d701",
+  "source_artwork_required_but_not_included": true,
+  "base_projection": {
+    "tool": "config/tools/prepare_sm_design_mapping.py",
+    "nearest_source_candidates": 24,
+    "nose_projection_only": "x = 9 + (x-9)*(13.078754-9)/(13.797441-9) for x>9; sampling positions only, not native geometry",
+    "rudder_projection_only": "Normalize X/Y extent of rudder0/rudder1/rudder0_1/rudder1_1 to same source part before correspondence.",
+    "same_part_correspondence": true
+  },
+  "continuity_groups": [
+    {
+      "region": "wing_1",
+      "triangle_ids_array": "wing_1_triangle_ids",
+      "count": 3209,
+      "source_calibration": {
+        "raw_corners": [
+          [
+            2214.286208152771,
+            2928.572064265609
+          ],
+          [
+            785.7147753238678,
+            2928.5719748586416
+          ],
+          [
+            785.7150435447693,
+            71.42919301986694
+          ],
+          [
+            2214.2863869667053,
+            71.42919301986694
+          ]
+        ],
+        "size": 3000,
+        "axes": [
+          0,
+          2
+        ],
+        "bounds": [
+          -4.5,
+          -7.5,
+          3,
+          7.5
+        ]
+      },
+      "baked_source_plane_size": 2300,
+      "source_render_direction_native": [
+        0,
+        -1,
+        0
+      ],
+      "historical_painted_pixels": 1204172
+    },
+    {
+      "region": "wing_-1",
+      "triangle_ids_array": "wing_-1_triangle_ids",
+      "count": 3536,
+      "source_calibration": {
+        "raw_corners": [
+          [
+            785.714328289032,
+            2928.5714272409678
+          ],
+          [
+            2214.285671710968,
+            2928.5714272409678
+          ],
+          [
+            2214.285671710968,
+            71.42865657806396
+          ],
+          [
+            785.714328289032,
+            71.42865657806396
+          ]
+        ],
+        "size": 3000,
+        "axes": [
+          0,
+          2
+        ],
+        "bounds": [
+          -4.5,
+          -7.5,
+          3,
+          7.5
+        ]
+      },
+      "baked_source_plane_size": 2300,
+      "source_render_direction_native": [
+        0,
+        1,
+        0
+      ],
+      "historical_painted_pixels": 1252906
+    },
+    {
+      "region": "fin_1_1",
+      "triangle_ids_array": "fin_1_1_triangle_ids",
+      "count": 2506,
+      "source_calibration": {
+        "raw_corners": [
+          [
+            42.857157066464424,
+            1570.1316833496094
+          ],
+          [
+            1757.1428060531616,
+            1570.1316833496094
+          ],
+          [
+            1757.1428060531616,
+            229.87196445465088
+          ],
+          [
+            42.857157066464424,
+            229.87196445465088
+          ]
+        ],
+        "size": 1800,
+        "axes": [
+          0,
+          1
+        ],
+        "bounds": [
+          -6.5,
+          -0.2,
+          -1,
+          4.1
+        ]
+      },
+      "baked_source_plane_size": 1800,
+      "source_render_direction_native": [
+        0,
+        0,
+        -1
+      ],
+      "historical_painted_pixels": 311193
+    },
+    {
+      "region": "fin_1_-1",
+      "triangle_ids_array": "fin_1_-1_triangle_ids",
+      "count": 1742,
+      "source_calibration": {
+        "raw_corners": [
+          [
+            1757.1429133415222,
+            1570.1305568218231
+          ],
+          [
+            42.857230827212334,
+            1570.1308518648148
+          ],
+          [
+            42.857009544968605,
+            229.8711061477661
+          ],
+          [
+            1757.142698764801,
+            229.87089157104492
+          ]
+        ],
+        "size": 1800,
+        "axes": [
+          0,
+          1
+        ],
+        "bounds": [
+          -6.5,
+          -0.2,
+          -1,
+          4.1
+        ]
+      },
+      "baked_source_plane_size": 1800,
+      "source_render_direction_native": [
+        0,
+        0,
+        1
+      ],
+      "historical_painted_pixels": 281797
+    },
+    {
+      "region": "fin_-1_1",
+      "triangle_ids_array": "fin_-1_1_triangle_ids",
+      "count": 1864,
+      "source_calibration": {
+        "raw_corners": [
+          [
+            42.857157066464424,
+            1570.1316833496094
+          ],
+          [
+            1757.1428060531616,
+            1570.1316833496094
+          ],
+          [
+            1757.1428060531616,
+            229.87196445465088
+          ],
+          [
+            42.857157066464424,
+            229.87196445465088
+          ]
+        ],
+        "size": 1800,
+        "axes": [
+          0,
+          1
+        ],
+        "bounds": [
+          -6.5,
+          -0.2,
+          -1,
+          4.1
+        ]
+      },
+      "baked_source_plane_size": 1800,
+      "source_render_direction_native": [
+        0,
+        0,
+        -1
+      ],
+      "historical_painted_pixels": 287911
+    },
+    {
+      "region": "fin_-1_-1",
+      "triangle_ids_array": "fin_-1_-1_triangle_ids",
+      "count": 2602,
+      "source_calibration": {
+        "raw_corners": [
+          [
+            1757.1429133415222,
+            1570.1305568218231
+          ],
+          [
+            42.857230827212334,
+            1570.1308518648148
+          ],
+          [
+            42.857009544968605,
+            229.8711061477661
+          ],
+          [
+            1757.142698764801,
+            229.87089157104492
+          ]
+        ],
+        "size": 1800,
+        "axes": [
+          0,
+          1
+        ],
+        "bounds": [
+          -6.5,
+          -0.2,
+          -1,
+          4.1
+        ]
+      },
+      "baked_source_plane_size": 1800,
+      "source_render_direction_native": [
+        0,
+        0,
+        1
+      ],
+      "historical_painted_pixels": 311261
+    }
+  ],
+  "plane_sample_formula": "(xyz[axes]-[xmin,ymin])/[xmax-xmin,ymax-ymin]*baked_source_plane_size - .5; axes and bounds come from source_calibration; rasterize to native target UV",
+  "source_plane_reconstruction": "Render source view in stored direction and calibration; perspective-warp raw_corners to [0,0],[S-1,0],[S-1,S-1],[0,S-1]; extend outside opaque alpha by nearest visible sample.",
+  "detail_transfer": {
+    "triangle_ids_array": "detail_triangle_ids",
+    "source_uv_array": "detail_source_uv",
+    "selected_triangles": 7132,
+    "historical_rasterized_triangles": 2520,
+    "part_prefixes": [
+      "nozzle3",
+      "nozzle4"
+    ],
+    "max_mapping_error_m": 0.3,
+    "source_pixel_formula": "u*8192-.5, (1-v)*8192-.5",
+    "copy_channels": [
+      "color_RGB",
+      "normal_R",
+      "normal_B"
+    ],
+    "preserve_channels": [
+      "normal_G",
+      "normal_A"
+    ],
+    "historical_report_note": "intake_ramp_* is the historical field name in detail_finish.json. Use native part/geometry to identify the physical surface; selected and successfully rasterized triangle counts differ."
+  },
+  "native_detail_restore": {
+    "triangle_ids_array": "native_detail_restore_triangle_ids",
+    "resampling": "original native texture bicubic to 4096",
+    "purpose": "Protect native mechanical/optical details before separately normalizing blue gear coating."
+  },
+  "review_coating": {
+    "actual_mask_array": "review_coating_mask_packbits",
+    "mask_shape": [
+      4096,
+      4096
+    ],
+    "bitorder": "little",
+    "actual_mask_pixels": 241145,
+    "eligible_geometry": "gear_* parts, triangle UV area < .02",
+    "source_pixel_predicate": "B>R+8 and G>R+5 and G>80 and R<190 and max(RGB)<235",
+    "blend_weight": "Gaussian sigma .65; zero outside eligible geometry",
+    "neutral_formula": "clip(187 + (gray_luminance-165)*.75,130,215)",
+    "normal_RB": [
+      102,
+      178
+    ],
+    "normal_GA": "exactly preserved",
+    "repeat_policy": "Apply once to the saved pre-coating input, not repeatedly to an already repaired image; use stored mask to identify the reviewed scope."
+  },
+  "pipeline_order": [
+    "base part-aware source projection",
+    "wing/fin continuity projection",
+    "native component detail protection and restricted detail transfer",
+    "review coating cleanup",
+    "final identity and ENDFIELD-preservation recipe"
+  ],
+  "identity_recipe": "config/recipes/su30sm2_endfield_high_markings.json",
+  "limits": [
+    "Exact geometry hashes required for triangle indices.",
+    "These are artwork adaptation recipes, not native outline/UV modifications.",
+    "Fixed LOD0 static checks; no game/animation/damage/other LOD guarantee."
+  ],
+  "game_verified": false
+}
