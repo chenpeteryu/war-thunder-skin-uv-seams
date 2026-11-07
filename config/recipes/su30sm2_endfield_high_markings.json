@@ -1,0 +1,523 @@
+{
+  "schema_version": 1,
+  "profile": "ENDFIELD_HIGH",
+  "model": "su_30sm2",
+  "texture": "su_30sm2_c",
+  "geometry": "aircraft/su30sm2/su_30sm2_c/geometry.npz",
+  "geometry_sha256": "4bcc23ed9099d68f505e13e2ef2d2693f78a80a1221ae8b5473c114fd61d8132",
+  "native_triangle_count": 384192,
+  "guide_resolution": [
+    1536,
+    1536
+  ],
+  "authoring_resolution": [
+    4096,
+    4096
+  ],
+  "pixel_box_convention": "top-left image coordinates, half-open rectangles; round to nearest integer with ties-to-even",
+  "uv_conversion": "x=u*W, y=(1-v)*H; sample centers at x+0.5,y+0.5",
+  "reference": "J16 HIGH visual hierarchy only: large text / small producer badge / three-line wing-root text. Do not reuse Chinese manufacturers, aircraft numbers or dedicated identities.",
+  "regions": [
+    {
+      "id": "fuselage_number",
+      "action": "target_identity",
+      "text": "30SM2",
+      "style": "solid",
+      "rotation_pillow_degrees": 5,
+      "role": "model_or_identifier",
+      "guide_rectangle_xyxy": [
+        750,
+        224,
+        806,
+        252
+      ],
+      "authoring_rectangle_xyxy": [
+        2000,
+        597,
+        2149,
+        672
+      ],
+      "uv_bounds": [
+        0.48828125,
+        0.8359375,
+        0.524658203125,
+        0.854248046875
+      ],
+      "meaning": "本项目短型号标识，不是实际战术编号或生产序号",
+      "text_basis": "user_approved_project_design"
+    },
+    {
+      "id": "fin_inner_number",
+      "action": "target_identity",
+      "text": "30SM2",
+      "style": "solid",
+      "rotation_pillow_degrees": 180,
+      "role": "model_or_identifier",
+      "guide_rectangle_xyxy": [
+        1061,
+        319,
+        1121,
+        348
+      ],
+      "authoring_rectangle_xyxy": [
+        2829,
+        851,
+        2989,
+        928
+      ],
+      "uv_bounds": [
+        0.690673828125,
+        0.7734375,
+        0.729736328125,
+        0.792236328125
+      ],
+      "meaning": "本项目短型号标识，不是实际战术编号或生产序号",
+      "text_basis": "user_approved_project_design"
+    },
+    {
+      "id": "fin_outer_number",
+      "action": "target_identity",
+      "text": "30SM2",
+      "style": "solid",
+      "rotation_pillow_degrees": -8,
+      "role": "model_or_identifier",
+      "guide_rectangle_xyxy": [
+        1077,
+        1125,
+        1133,
+        1160
+      ],
+      "authoring_rectangle_xyxy": [
+        2872,
+        3000,
+        3021,
+        3093
+      ],
+      "uv_bounds": [
+        0.701171875,
+        0.244873046875,
+        0.737548828125,
+        0.267578125
+      ],
+      "meaning": "本项目短型号标识，不是实际战术编号或生产序号",
+      "text_basis": "user_approved_project_design"
+    },
+    {
+      "id": "stabilizer_number",
+      "action": "target_identity",
+      "text": "30SM2",
+      "style": "diagonal_hatch",
+      "rotation_pillow_degrees": 180,
+      "role": "model_or_identifier",
+      "guide_rectangle_xyxy": [
+        73,
+        864,
+        146,
+        901
+      ],
+      "authoring_rectangle_xyxy": [
+        195,
+        2304,
+        389,
+        2403
+      ],
+      "uv_bounds": [
+        0.047607421875,
+        0.413330078125,
+        0.094970703125,
+        0.4375
+      ],
+      "hatch": {
+        "period_authoring_pixels": 8,
+        "ink_pixels_per_period": 4,
+        "axis_in_atlas": "x+y",
+        "stage": "after text rotation and scaling"
+      },
+      "meaning": "本项目短型号标识，不是实际战术编号或生产序号",
+      "text_basis": "user_approved_project_design"
+    },
+    {
+      "id": "stabilizer_operator",
+      "action": "target_identity",
+      "text": "SU-30",
+      "style": "solid",
+      "rotation_pillow_degrees": 180,
+      "role": "model_or_identifier",
+      "guide_rectangle_xyxy": [
+        87,
+        902,
+        146,
+        917
+      ],
+      "authoring_rectangle_xyxy": [
+        232,
+        2405,
+        389,
+        2445
+      ],
+      "uv_bounds": [
+        0.056640625,
+        0.403076171875,
+        0.094970703125,
+        0.412841796875
+      ],
+      "meaning": "飞机系列或目标变型型号",
+      "text_basis": "https://rostec.ru/media/news/istrebitel-su-30sm2-gospodstvo-v-vozdukhe/"
+    },
+    {
+      "id": "wing_number",
+      "action": "target_identity",
+      "text": "30SM2",
+      "style": "solid",
+      "rotation_pillow_degrees": 90,
+      "role": "model_or_identifier",
+      "guide_rectangle_xyxy": [
+        337,
+        1328,
+        388,
+        1430
+      ],
+      "authoring_rectangle_xyxy": [
+        899,
+        3541,
+        1035,
+        3813
+      ],
+      "uv_bounds": [
+        0.219482421875,
+        0.069091796875,
+        0.252685546875,
+        0.135498046875
+      ],
+      "meaning": "本项目短型号标识，不是实际战术编号或生产序号",
+      "text_basis": "user_approved_project_design"
+    },
+    {
+      "id": "wing_source_code",
+      "action": "target_identity",
+      "text": "SU-30SM2",
+      "style": "solid",
+      "rotation_pillow_degrees": 90,
+      "role": "model_or_identifier",
+      "guide_rectangle_xyxy": [
+        310,
+        1364,
+        337,
+        1424
+      ],
+      "authoring_rectangle_xyxy": [
+        827,
+        3637,
+        899,
+        3797
+      ],
+      "uv_bounds": [
+        0.201904296875,
+        0.072998046875,
+        0.219482421875,
+        0.112060546875
+      ],
+      "meaning": "飞机系列或目标变型型号",
+      "text_basis": "https://rostec.ru/media/news/istrebitel-su-30sm2-gospodstvo-v-vozdukhe/"
+    },
+    {
+      "id": "nose_manufacturer",
+      "action": "target_identity",
+      "text": "SUKHOI",
+      "style": "diagonal_hatch",
+      "rotation_pillow_degrees": 180,
+      "role": "design_brand",
+      "guide_rectangle_xyxy": [
+        724,
+        82,
+        844,
+        122
+      ],
+      "authoring_rectangle_xyxy": [
+        1931,
+        219,
+        2251,
+        325
+      ],
+      "uv_bounds": [
+        0.471435546875,
+        0.920654296875,
+        0.549560546875,
+        0.946533203125
+      ],
+      "hatch": {
+        "period_authoring_pixels": 8,
+        "ink_pixels_per_period": 4,
+        "axis_in_atlas": "x+y",
+        "stage": "after text rotation and scaling"
+      },
+      "meaning": "设计品牌：苏霍伊",
+      "text_basis": "https://rostec.ru/media/news/istrebitel-su-30sm2-gospodstvo-v-vozdukhe/"
+    },
+    {
+      "id": "root_manufacturer",
+      "action": "target_identity",
+      "text": "IRKUTSK\nAVIATION\nPLANT",
+      "style": "solid",
+      "rotation_pillow_degrees": -90,
+      "role": "production_plant",
+      "guide_rectangle_xyxy": [
+        304,
+        262,
+        380,
+        350
+      ],
+      "authoring_rectangle_xyxy": [
+        811,
+        699,
+        1013,
+        933
+      ],
+      "uv_bounds": [
+        0.197998046875,
+        0.772216796875,
+        0.247314453125,
+        0.829345703125
+      ],
+      "meaning": "生产厂：伊尔库茨克航空厂",
+      "text_basis": "https://yakovlev.ru/press-centre/releases/irkutskomu-aviatsionnomu-zavodu-90-let/"
+    },
+    {
+      "id": "fin_manufacturer",
+      "action": "target_identity",
+      "text": "IRKUTSK\nAVIATION PLANT",
+      "style": "solid",
+      "rotation_pillow_degrees": 0,
+      "role": "production_plant",
+      "guide_rectangle_xyxy": [
+        1125,
+        483,
+        1192,
+        541
+      ],
+      "authoring_rectangle_xyxy": [
+        3000,
+        1288,
+        3179,
+        1443
+      ],
+      "uv_bounds": [
+        0.732421875,
+        0.647705078125,
+        0.776123046875,
+        0.685546875
+      ],
+      "meaning": "生产厂：伊尔库茨克航空厂",
+      "text_basis": "https://yakovlev.ru/press-centre/releases/irkutskomu-aviatsionnomu-zavodu-90-let/"
+    },
+    {
+      "id": "upper_signature",
+      "action": "target_identity",
+      "text": "30SM2",
+      "style": "solid",
+      "rotation_pillow_degrees": 180,
+      "role": "model_or_identifier",
+      "guide_rectangle_xyxy": [
+        777,
+        481,
+        806,
+        492
+      ],
+      "authoring_rectangle_xyxy": [
+        2072,
+        1283,
+        2149,
+        1312
+      ],
+      "uv_bounds": [
+        0.505859375,
+        0.6796875,
+        0.524658203125,
+        0.686767578125
+      ],
+      "meaning": "本项目短型号标识，不是实际战术编号或生产序号",
+      "text_basis": "user_approved_project_design"
+    },
+    {
+      "id": "lower_signature",
+      "action": "target_identity",
+      "text": "30SM2",
+      "style": "solid",
+      "rotation_pillow_degrees": 0,
+      "role": "model_or_identifier",
+      "guide_rectangle_xyxy": [
+        776,
+        980,
+        809,
+        998
+      ],
+      "authoring_rectangle_xyxy": [
+        2069,
+        2613,
+        2157,
+        2661
+      ],
+      "uv_bounds": [
+        0.505126953125,
+        0.350341796875,
+        0.526611328125,
+        0.362060546875
+      ],
+      "meaning": "本项目短型号标识，不是实际战术编号或生产序号",
+      "text_basis": "user_approved_project_design"
+    },
+    {
+      "id": "upper_manufacturer",
+      "action": "target_identity",
+      "text": "IRKUTSK",
+      "style": "solid",
+      "rotation_pillow_degrees": 180,
+      "role": "production_plant",
+      "guide_rectangle_xyxy": [
+        735,
+        482,
+        773,
+        521
+      ],
+      "authoring_rectangle_xyxy": [
+        1960,
+        1285,
+        2061,
+        1389
+      ],
+      "uv_bounds": [
+        0.478515625,
+        0.660888671875,
+        0.503173828125,
+        0.686279296875
+      ],
+      "meaning": "生产厂：伊尔库茨克航空厂",
+      "text_basis": "https://yakovlev.ru/press-centre/releases/irkutskomu-aviatsionnomu-zavodu-90-let/"
+    },
+    {
+      "id": "endfield_protected",
+      "action": "preserve_original",
+      "text": "ENDFIELD",
+      "style": "original",
+      "rotation_pillow_degrees": -90,
+      "role": "world_brand",
+      "guide_rectangle_xyxy": [
+        323,
+        16,
+        351,
+        92
+      ],
+      "authoring_rectangle_xyxy": [
+        861,
+        43,
+        936,
+        245
+      ],
+      "uv_bounds": [
+        0.210205078125,
+        0.940185546875,
+        0.228515625,
+        0.989501953125
+      ],
+      "meaning": "原涂装 ENDFIELD 世界观标识，保持原图",
+      "text_basis": "existing_artwork_preserved"
+    },
+    {
+      "id": "fin_large_manufacturer",
+      "action": "target_identity",
+      "text": "SU-30",
+      "style": "vertical_hatch",
+      "rotation_pillow_degrees": 58,
+      "role": "aircraft_family",
+      "guide_polygon_xy": [
+        [
+          1029,
+          543
+        ],
+        [
+          1174,
+          310
+        ],
+        [
+          1216,
+          339
+        ],
+        [
+          1073,
+          567
+        ]
+      ],
+      "authoring_polygon_xy": [
+        [
+          2744,
+          1448
+        ],
+        [
+          3131,
+          827
+        ],
+        [
+          3243,
+          904
+        ],
+        [
+          2861,
+          1512
+        ]
+      ],
+      "polygon_uv": [
+        [
+          0.669921875,
+          0.646484375
+        ],
+        [
+          0.764404296875,
+          0.798095703125
+        ],
+        [
+          0.791748046875,
+          0.779296875
+        ],
+        [
+          0.698486328125,
+          0.630859375
+        ]
+      ],
+      "clip_to_geometry": {
+        "parts": [
+          "tail",
+          "rudder*"
+        ],
+        "native_abs_centroid_z_gt": 1.6,
+        "native_centroid_y_gt": 0.2,
+        "native_cross_product_z_lt": 0,
+        "face_cross_product_uses_original_native_xyz_order": true
+      },
+      "background_repair": "Infer continuous two-tone substrate from clear original paint samples, retain panel edges, feather inside the clipped mask; do not use neighboring already-replaced text as clear paint.",
+      "hatch": {
+        "period_authoring_pixels": 8,
+        "ink_pixels_per_period": 4,
+        "axis_in_atlas": "x",
+        "stage": "after text rotation and scaling"
+      },
+      "meaning": "飞机系列或目标变型型号",
+      "text_basis": "https://rostec.ru/media/news/istrebitel-su-30sm2-gospodstvo-v-vozdukhe/"
+    }
+  ],
+  "rules": [
+    "Preserve all existing ENDFIELD graphics, both solid and hatched. The explicit protected rectangle is not an exhaustive list of every ENDFIELD logo.",
+    "SUKHOI appears in one texture inscription region only (nose); repeated UV may display it more than once on the aircraft.",
+    "Keep full SU-30SM / SU-30SM2 model labels and short 30SM / 30SM2 identifiers.",
+    "IRKUTSK AVIATION PLANT names the production plant; these markings are an artistic skin layout, not a claimed real service paint scheme.",
+    "Do not transfer rectangles or polygon clipping to other aircraft without checking physical surfaces.",
+    "Do not edit native XYZ, UV or structural normal channels G/A. R/B material changes require a separate scope and check.",
+    "For unknown locations, use a separate disposable multiscale color-block/number/direction probe and inspect all sides. Never leave probes in delivery textures."
+  ],
+  "review": "config/reviews/2026-11-07/su30_endfield_high.json",
+  "game_verified": false,
+  "identity_sources": {
+    "manufacturer_and_model": "https://rostec.ru/media/news/istrebitel-su-30sm2-gospodstvo-v-vozdukhe/",
+    "production_plant": "https://yakovlev.ru/press-centre/releases/irkutskomu-aviatsionnomu-zavodu-90-let/",
+    "short_identifiers": "User-approved artistic model identifiers: 30SM / 30SM2. Not real aircraft serial or tactical numbers."
+  }
+}

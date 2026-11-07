@@ -1,0 +1,17 @@
+{
+  "scope": "Two SM/SM2 marking recipes and referenced geometry only; not a full library validation.",
+  "models": [
+    {
+      "model": "su_30sm",
+      "regions": 15,
+      "geometry_sha256": "432aa2155ff69f3641d50a13423796fe61535f92c4c96dce926872748dc5291b"
+    },
+    {
+      "model": "su_30sm2",
+      "regions": 15,
+      "geometry_sha256": "4bcc23ed9099d68f505e13e2ef2d2693f78a80a1221ae8b5473c114fd61d8132"
+    }
+  ],
+  "checks_passed": true,
+  "game_verified": false
+}

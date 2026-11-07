@@ -219,6 +219,16 @@
       "file": "j16_j15t_upper_fold_triangles.npz",
       "source_sha256": "5178f5f7de4d1f301f9b5029a8ddec6a6d6a57ad2d4496037166569a932e6da1",
       "published_sha256": "5178f5f7de4d1f301f9b5029a8ddec6a6d6a57ad2d4496037166569a932e6da1"
+    },
+    {
+      "file": "su30sm_endfield_high_markings.json",
+      "source_sha256": "77cb9836f772b90f2054fd42362cc1454b646e781fa8ca0ffee770a73a98c82b",
+      "published_sha256": "77cb9836f772b90f2054fd42362cc1454b646e781fa8ca0ffee770a73a98c82b"
+    },
+    {
+      "file": "su30sm2_endfield_high_markings.json",
+      "source_sha256": "408c153f7b37d134776f8923b2118a948b2642c38f6401b3c7ef9f37eb843c7b",
+      "published_sha256": "408c153f7b37d134776f8923b2118a948b2642c38f6401b3c7ef9f37eb843c7b"
     }
   ],
   "mask_sources": [

@@ -12,7 +12,7 @@ config/                   配置文件、代码和证据
   catalog.csv
   tools/                  查询、映射、模拟渲染、建库和校验
   data/                   初版飞机数据库及导弹分贴图接缝数据库
-  recipes/                已制作的 J15T 修正配方
+  recipes/                J15T 修正配方与 SM/SM2 标识布局配方
   reviews/2026-11-06/      飞机复核数据库和原有证据
   evidence/               已制作导弹的来源、历史校验与代码
   docs/                   方法、限制和型号差异
@@ -45,6 +45,8 @@ python config/tools/validate_library.py
 `map_design.py --help` 提供图案到原生 UV 的映射，支持短型号名或原生型号名。`render_preview.py` 由 Blender 运行，读取所选布局的 `geometry.npz` 与指定诊断贴图；见 [模拟渲染说明](config/docs/rendering.md)。重建导弹短线库可运行 `python config/tools/build_missile_seams.py --model pl12a`，写入对应数据库，不修改轮廓或贴图。
 
 ## 验证范围
+
+- [SM/SM2 ENDFIELD HIGH 标识布局与复检](config/docs/su30_endfield_high_markings.md)：保留型号、短编号和 ENDFIELD，区分机鼻设计品牌、尾翼型号与生产厂、翼根工厂说明；提供两机独立坐标配方及栅格方向。此项不修改原生轮廓/接缝，也不代表实际游戏或全库 `_n` 已验证。可运行 `python config/tools/validate_marking_recipes.py` 检查这两份配方。
 
 - J15T 保留反复修正后的主贴图基准。J16/J10C 保留独立复核及已记录修正，不因曾用于参考而宣称整库像素级精准。
 - [SM/SM2 差异说明](config/docs/su30sm_sm2_layout_comparison.md)：机身、左右前缘缝翼和部分外挂有差异，保留两套。
