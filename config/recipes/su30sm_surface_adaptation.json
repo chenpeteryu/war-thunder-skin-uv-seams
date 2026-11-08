@@ -1,12 +1,12 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "model": "su_30sm",
   "geometry": "aircraft/su30sm/su_30sm_c/geometry.npz",
   "geometry_sha256": "432aa2155ff69f3641d50a13423796fe61535f92c4c96dce926872748dc5291b",
   "native_triangle_count": 383448,
   "native_geometry_and_uv_changed": false,
   "array_bundle": "config/recipes/su30sm_surface_adaptation.npz",
-  "array_bundle_sha256": "e02fa1c3305b7157bdb1097b1a53f79217b784b2040f8d4cffe5ea8734bde923",
+  "array_bundle_sha256": "53f57dcdea418f1e293502355da5f495791e3f43ad0829bd43ba3eba8afdd0ea",
   "authoring_resolution": [
     4096,
     4096
@@ -334,7 +334,8 @@
     "wing/fin continuity projection",
     "native component detail protection and restricted detail transfer",
     "review coating cleanup",
-    "final identity and ENDFIELD-preservation recipe"
+    "reference-slot ink replacement and ENDFIELD preservation",
+    "world-coordinate fin-joint blend with protected graphics and native GA"
   ],
   "identity_recipe": "config/recipes/su30sm_endfield_high_markings.json",
   "limits": [
@@ -342,5 +343,92 @@
     "These are artwork adaptation recipes, not native outline/UV modifications.",
     "Fixed LOD0 static checks; no game/animation/damage/other LOD guarantee."
   ],
-  "game_verified": false
+  "game_verified": false,
+  "fin_joint_repair": {
+    "date": "2026-11-08",
+    "weight_array": "fin_joint_weight_u8",
+    "shape": [
+      4096,
+      4096
+    ],
+    "divide_by": 255,
+    "generator": "config/tools/sm_fin_joint_weights.py",
+    "selected_triangles": 4910,
+    "weighted_pixels": 623205,
+    "parts": [
+      "tail",
+      "rudder*"
+    ],
+    "native_axes": "X nose, Y up, Z left",
+    "world_fades": {
+      "Y": [
+        -0.65,
+        -0.35,
+        0.65,
+        1.2
+      ],
+      "X": [
+        -7.05,
+        -6.65,
+        -1.1,
+        -0.8
+      ],
+      "abs_Z": [
+        1.65,
+        1.9
+      ]
+    },
+    "triangle_predicate": "part tail/rudder*, ANY vertex X overlaps [-7.1,-.8], Y overlaps [-.65,1.25], centroid absZ>1.6, abs normalized faceZ>.16",
+    "coverage": "Per-pixel barycentric native XYZ; include below-origin root vertices. Centroid-only or X<-3.1/Y>-.1 leaves triangular fragments.",
+    "protect": "Multiply by 1-new ink alpha, and smooth distance outside protected graphic boxes (0..24 pixels).",
+    "protected_guide_boxes": [
+      [
+        985,
+        945,
+        1205,
+        1160
+      ],
+      [
+        1010,
+        270,
+        1137,
+        323
+      ],
+      [
+        1061,
+        319,
+        1121,
+        348
+      ],
+      [
+        1077,
+        1125,
+        1133,
+        1160
+      ],
+      [
+        323,
+        16,
+        351,
+        92
+      ]
+    ],
+    "color": "Neutral coating level sampled from existing neutral coat: 170.0; native high-frequency mechanical detail only when native GA supports it, delta bounded [-16,+3].",
+    "normal_RB": [
+      102,
+      178
+    ],
+    "native_GA": "byte exact to freshly extracted current game normal, bicubic 4096",
+    "repeat_policy": "Always start from pre-root image, never repeat over already blended output.",
+    "quantized_weight_note": "Stored 8-bit weight is scope/review data. Regenerate float32 weights for exact blending."
+  },
+  "fin_large_text_island": {
+    "native_island": 6605,
+    "probe_guide": [
+      1140,
+      440
+    ],
+    "applies_to": "big text and substrate sampling only, not every operation on this fin"
+  },
+  "review": "config/reviews/2026-11-08/sm_sm2_repair.json"
 }

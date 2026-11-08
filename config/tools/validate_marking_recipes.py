@@ -20,13 +20,15 @@ def main():
         assert hashlib.sha256(geometry.read_bytes()).hexdigest() == data['geometry_sha256']
         with np.load(geometry) as native:
             assert len(native['triangle_uv']) == data['native_triangle_count']
+            native_islands = set(native['triangle_island'].tolist())
         assert data['authoring_resolution'] == [4096, 4096]
         assert data['guide_resolution'] == [1536, 1536]
         regions = data['regions']
-        assert len(regions) == 15 and len({r['id'] for r in regions}) == 15
-        assert sum(r['text'] == 'SUKHOI' for r in regions) == 1
-        assert next(r for r in regions if r['id'] == 'nose_manufacturer')['style'] == 'diagonal_hatch'
-        assert next(r for r in regions if r['id'] == 'fin_large_manufacturer')['text'] == 'SU-30'
+        assert data['schema_version'] == 2
+        assert len(regions) == 17 and len({r['id'] for r in regions}) == 17
+        assert sum(r['text'] == 'SUKHOI' for r in regions) == 3
+        assert next(r for r in regions if r['id'] == 'nose_manufacturer')['hatch']['direction'] == 'diagonal'
+        assert next(r for r in regions if r['id'] == 'fin_large_manufacturer')['text'] == 'IRKUTSK'
         protected = next(r for r in regions if r['id'] == 'endfield_protected')
         assert protected['action'] == 'preserve_original' and protected['text'] == 'ENDFIELD'
         for region in regions:
@@ -41,13 +43,17 @@ def main():
                 points = np.array(region['authoring_polygon_xy'])
                 assert np.array_equal(points, np.rint(np.array(region['guide_polygon_xy']) * 4096 / 1536))
                 assert np.all((points >= 0) & (points <= 4096))
-                assert np.allclose(region['polygon_uv'], np.column_stack([points[:, 0]/4096, 1-points[:, 1]/4096]), atol=1e-12)
-                assert region['clip_to_geometry']['parts'] == ['tail', 'rudder*']
-            if 'hatch' in region:
+                assert region['clip_to_geometry']['required_geometry_sha256'] == data['geometry_sha256']
+                assert region['clip_to_geometry']['native_island'] in native_islands
+            if isinstance(region.get('hatch'), dict):
                 assert 0 < region['hatch']['ink_pixels_per_period'] < region['hatch']['period_authoring_pixels']
         review = json.loads((ROOT / data['review']).read_text(encoding='utf-8'))
         assert review['models'][model]['geometry_sha256'] == data['geometry_sha256']
-        assert review['models'][model]['layout_validation']['normal_DDS_byte_identical']
+        assert review['models'][model]['native_GA_preserved']
+        assert review['models'][model]['outside_authorized_scope_changed'] == 0
+        forbidden = ['015','016','AVIC','NORINCO','WS10','TAIHANG','CAICD','61249','PLAAF']
+        assert not any(word in region['text'] for word in forbidden for region in regions)
+        assert sum(region['text'] == ('30SM2' if model.endswith('2') else '30SM') for region in regions) == 5
         counts.append({'model': model, 'regions': len(regions), 'geometry_sha256': data['geometry_sha256']})
     report = {'scope': 'Two SM/SM2 marking recipes and referenced geometry only; not a full library validation.', 'models': counts, 'checks_passed': True, 'game_verified': False}
     if args.report:

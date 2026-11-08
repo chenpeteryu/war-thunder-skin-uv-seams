@@ -36,6 +36,17 @@ def main():
                 assert data[name].dtype == np.uint8 and data[name].size * 8 == pixels
             coating = np.unpackbits(data['review_coating_mask_packbits'], bitorder='little')
             assert int(coating.sum()) == recipe['review_coating']['actual_mask_pixels']
+        from sm_fin_joint_weights import generate
+        with np.load(geometry) as native, np.load(bundle) as data:
+            meta=json.loads(geometry.with_name('metadata.json').read_text(encoding='utf-8'))
+            joint=recipe['fin_joint_repair']
+            weight, ids=generate(native,meta['part_names'],data['marking_ink_alpha_u8'],joint['protected_guide_boxes'])
+            expected=np.rint(weight*255).astype(np.uint8)
+            assert np.array_equal(expected,data['fin_joint_weight_u8'])
+            assert len(ids)==joint['selected_triangles']
+            assert joint['native_GA'].startswith('byte exact')
+            assert data['marking_restore_scope_packbits'].size*8==4096*4096
+            assert data['final_repair_scope_packbits'].size*8==4096*4096
         rows.append({'model': recipe['model'], 'continuity_groups': 6, 'selected_detail_triangles': count, 'coating_mask_pixels': int(coating.sum())})
     print(json.dumps({'scope': 'SM/SM2 artwork adaptation recipes only', 'checks_passed': True, 'models': rows, 'game_verified': False}, indent=2))
 

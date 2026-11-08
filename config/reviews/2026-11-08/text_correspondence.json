@@ -1,0 +1,74 @@
+{
+  "stage": "text correspondence before repair",
+  "references": [
+    "J16 HIGH",
+    "J15T HIGH",
+    "J10C HIGH"
+  ],
+  "rows": [
+    {
+      "source": "AVIC（机鼻、垂尾小厂标、机身小厂标）",
+      "sm": "SUKHOI",
+      "sm2": "SUKHOI",
+      "logic": "设计品牌一一对应；保留原位置、朝向、斜切与栅格，不与大厂名字重复替换"
+    },
+    {
+      "source": "NORINCO（垂尾大字）",
+      "sm": "IRKUTSK",
+      "sm2": "IRKUTSK",
+      "logic": "生产厂一一对应，保留大字斜向与细密栅格"
+    },
+    {
+      "source": "016 / 015（机身、主翼、平尾、尾翼）",
+      "sm": "30SM",
+      "sm2": "30SM2",
+      "logic": "参考机型短标识替换为目标短标识，保留所在铭牌和原装饰斜杠，不生成新底板"
+    },
+    {
+      "source": "HIDDEN / DRAGON / NORINCO（翼根三行）",
+      "sm": "SU-30 / SM / IRKUTSK",
+      "sm2": "SU-30 / SM2 / IRKUTSK",
+      "logic": "沿用机型名称/变型/生产方的三行层次与原字块尺度，不把长厂名任意塞满"
+    },
+    {
+      "source": "CAICD / 61249（翼面小字）",
+      "sm": "SUKHOI / SU-30SM",
+      "sm2": "SUKHOI / SU-30SM2",
+      "logic": "设计方及型号说明，对应两行小字；不编造设计院代号"
+    },
+    {
+      "source": "PLAAF（平尾小字）",
+      "sm": "SU-30",
+      "sm2": "SU-30",
+      "logic": "保留已采用的系列说明，不虚构具体服役单位或机号"
+    },
+    {
+      "source": "0724（细小签名编号）",
+      "sm": "SM",
+      "sm2": "SM2",
+      "logic": "型号变体提示，保留原细长字和方向"
+    },
+    {
+      "source": "ENDFIELD、01、世界观图形与通用技术标识",
+      "sm": "原样保留",
+      "sm2": "原样保留",
+      "logic": "不作为机型身份文字替换"
+    },
+    {
+      "source": "WS10B3 / AVIC TAIHANG ENGINE（两侧发动机罩）",
+      "sm": "AL-31FP / ENGINE SYSTEM",
+      "sm2": "AL-41F1S / ENGINE SYSTEM",
+      "logic": "原发动机身份位对应目标游戏机型的实际发动机，保留白字和斜杠装饰",
+      "sources": [
+        "https://wiki.warthunder.com/unit/su_30sm",
+        "https://wiki.warthunder.com/unit/su_30sm2"
+      ]
+    }
+  ],
+  "rules": [
+    "Use reference slot semantics, no arbitrary manufacturer redistribution",
+    "Only ink and necessary restoration masks; no rectangular paint or material plates",
+    "Preserve tilt, condensed/stencil geometry, solid vs hatched hierarchy",
+    "30SM/30SM2 are user-selected design model identifiers, not real tactical serials"
+  ]
+}

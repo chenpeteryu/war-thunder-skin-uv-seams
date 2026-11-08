@@ -222,33 +222,33 @@
     },
     {
       "file": "su30sm_endfield_high_markings.json",
-      "source_sha256": "77cb9836f772b90f2054fd42362cc1454b646e781fa8ca0ffee770a73a98c82b",
-      "published_sha256": "77cb9836f772b90f2054fd42362cc1454b646e781fa8ca0ffee770a73a98c82b"
+      "source_sha256": "d7d150b4bb6f0112364d1f7d1a8bff1c1d7d577706df68b5a29895c4d558c883",
+      "published_sha256": "d7d150b4bb6f0112364d1f7d1a8bff1c1d7d577706df68b5a29895c4d558c883"
     },
     {
       "file": "su30sm2_endfield_high_markings.json",
-      "source_sha256": "408c153f7b37d134776f8923b2118a948b2642c38f6401b3c7ef9f37eb843c7b",
-      "published_sha256": "408c153f7b37d134776f8923b2118a948b2642c38f6401b3c7ef9f37eb843c7b"
+      "source_sha256": "bf2c24725177cf7fb4c3dfe5e574eb1447abf1502d0dd8b3b1209b07d11ed81e",
+      "published_sha256": "bf2c24725177cf7fb4c3dfe5e574eb1447abf1502d0dd8b3b1209b07d11ed81e"
     },
     {
       "file": "su30sm_surface_adaptation.json",
-      "source_sha256": "e024db3c7a374a70278b23685fd419e206c575e0e3a5fb87728e738ef74451e3",
-      "published_sha256": "e024db3c7a374a70278b23685fd419e206c575e0e3a5fb87728e738ef74451e3"
+      "source_sha256": "f53add3a1a712473e634b649a9af1520e01784c2d50ddcddcf96064dde299606",
+      "published_sha256": "f53add3a1a712473e634b649a9af1520e01784c2d50ddcddcf96064dde299606"
     },
     {
       "file": "su30sm_surface_adaptation.npz",
-      "source_sha256": "e02fa1c3305b7157bdb1097b1a53f79217b784b2040f8d4cffe5ea8734bde923",
-      "published_sha256": "e02fa1c3305b7157bdb1097b1a53f79217b784b2040f8d4cffe5ea8734bde923"
+      "source_sha256": "53f57dcdea418f1e293502355da5f495791e3f43ad0829bd43ba3eba8afdd0ea",
+      "published_sha256": "53f57dcdea418f1e293502355da5f495791e3f43ad0829bd43ba3eba8afdd0ea"
     },
     {
       "file": "su30sm2_surface_adaptation.json",
-      "source_sha256": "9a2969564fc9b21644a1f14d08bcd6b2e992fb7efbcc5265f98e26e6da394614",
-      "published_sha256": "9a2969564fc9b21644a1f14d08bcd6b2e992fb7efbcc5265f98e26e6da394614"
+      "source_sha256": "a02c612d645483d0b61b0dd0cc69a10031a0440571a4812039c9720e0e680a2c",
+      "published_sha256": "a02c612d645483d0b61b0dd0cc69a10031a0440571a4812039c9720e0e680a2c"
     },
     {
       "file": "su30sm2_surface_adaptation.npz",
-      "source_sha256": "fca31252970a0014c8c962cd2ce60e0e5cda2ff0cb70a85b99e5b87109c11cf0",
-      "published_sha256": "fca31252970a0014c8c962cd2ce60e0e5cda2ff0cb70a85b99e5b87109c11cf0"
+      "source_sha256": "0cfadf82b0e4e00fa69934b57e3cc71e0ba76d2262e6d5c1979c6ddded9ff882",
+      "published_sha256": "0cfadf82b0e4e00fa69934b57e3cc71e0ba76d2262e6d5c1979c6ddded9ff882"
     }
   ],
   "mask_sources": [

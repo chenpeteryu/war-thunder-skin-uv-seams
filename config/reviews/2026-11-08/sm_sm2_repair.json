@@ -1,0 +1,127 @@
+{
+  "date": "2026-11-08",
+  "scope": "Two SM/SM2 HIGH main C/N pairs; actual geometry and native GA verified against current installed game. No native geometry/UV alteration.",
+  "models": {
+    "su_30sm": {
+      "changed_pixels": {
+        "c": 840528,
+        "n": 490488
+      },
+      "outside_authorized_scope_changed": 0,
+      "color_alpha_preserved": true,
+      "native_GA_preserved": true,
+      "GA_matches_current_game_native": true,
+      "DDS_PNG_roundtrip_exact": true,
+      "protected_ENDFIELD_exact": true,
+      "root_protected_graphics_exact": true,
+      "replacement_regions": 16,
+      "color_sha256": "753fd3e8d4a1782c01dea724c0a1e646aa751c2f3ff48f06991b96490d674f2a",
+      "normal_sha256": "dd8ae9e5e9e560762d0e07e0b548ceecaa590b37deaa3d37a4bf54b3df70af22",
+      "color_png_sha256": "de352a40ca762a6d313c43a5ec70eaccf246ccbe1ba91fc7fa9f82ca7cb75122",
+      "normal_png_sha256": "3dba4fcedd66210917dd7ed3ed14fff2d522b81a9bb50f82b5356d8e8dda7b57",
+      "geometry_sha256": "432aa2155ff69f3641d50a13423796fe61535f92c4c96dce926872748dc5291b",
+      "current_geometry": {
+        "current_resource_pack": "content/base/res/aircrafts/air.grp",
+        "current_asset": "su_30sm",
+        "current_main_triangles": 383448,
+        "XYZ_exactly_matches_library": true,
+        "UV_exactly_matches_library": true
+      },
+      "fin_joint": {
+        "selected_native_triangles": 4910,
+        "weighted_pixels": 623205,
+        "maximum_weight": 1.0,
+        "sampled_reference_coating_level": 170.0,
+        "native_GA_unchanged": true,
+        "treatment": "continuous world-position fade, native mechanical microdetail, reference coating R/B; no UV rectangle fill"
+      },
+      "marking_recipe": "config/recipes/su30sm_endfield_high_markings.json",
+      "adaptation_recipe": "config/recipes/su30sm_surface_adaptation.json"
+    },
+    "su_30sm2": {
+      "changed_pixels": {
+        "c": 839892,
+        "n": 490391
+      },
+      "outside_authorized_scope_changed": 0,
+      "color_alpha_preserved": true,
+      "native_GA_preserved": true,
+      "GA_matches_current_game_native": true,
+      "DDS_PNG_roundtrip_exact": true,
+      "protected_ENDFIELD_exact": true,
+      "root_protected_graphics_exact": true,
+      "replacement_regions": 16,
+      "color_sha256": "b7c1a698351a6b359582103317367385dab889ffa61fbb8e3dde4ae62afc338d",
+      "normal_sha256": "d31616cf9d94799d6f20979a1d327e19055d41aac8f93e092fae53c4adcf963a",
+      "color_png_sha256": "84b5a9eb214b1bb6e8ba88574423735c55087bd777bc88d1f4ab8423a1522273",
+      "normal_png_sha256": "a8f69fbdd1d2a61bab1ac9fd28185fe6d84523e9aba608cd69b83a72db452c0c",
+      "geometry_sha256": "4bcc23ed9099d68f505e13e2ef2d2693f78a80a1221ae8b5473c114fd61d8132",
+      "current_geometry": {
+        "current_resource_pack": "content/base/res/aircrafts/air.grp",
+        "current_asset": "su_30sm2",
+        "current_main_triangles": 384192,
+        "XYZ_exactly_matches_library": true,
+        "UV_exactly_matches_library": true
+      },
+      "fin_joint": {
+        "selected_native_triangles": 4910,
+        "weighted_pixels": 623194,
+        "maximum_weight": 1.0,
+        "sampled_reference_coating_level": 170.0,
+        "native_GA_unchanged": true,
+        "treatment": "continuous world-position fade, native mechanical microdetail, reference coating R/B; no UV rectangle fill"
+      },
+      "marking_recipe": "config/recipes/su30sm2_endfield_high_markings.json",
+      "adaptation_recipe": "config/recipes/su30sm2_surface_adaptation.json"
+    }
+  },
+  "game_verified": false,
+  "visual_review": {
+    "models": {
+      "su_30sm": {
+        "counts": {
+          "full_color": 84,
+          "root_close_color": 28,
+          "material_four_lights": 64
+        },
+        "total_images": 176,
+        "input_color_sha256": "de352a40ca762a6d313c43a5ec70eaccf246ccbe1ba91fc7fa9f82ca7cb75122",
+        "input_normal_sha256": "3dba4fcedd66210917dd7ed3ed14fff2d522b81a9bb50f82b5356d8e8dda7b57"
+      },
+      "su_30sm2": {
+        "counts": {
+          "full_color": 84,
+          "root_close_color": 28,
+          "material_four_lights": 64
+        },
+        "total_images": 176,
+        "input_color_sha256": "84b5a9eb214b1bb6e8ba88574423735c55087bd777bc88d1f4ab8423a1522273",
+        "input_normal_sha256": "a8f69fbdd1d2a61bab1ac9fd28185fe6d84523e9aba608cd69b83a72db452c0c"
+      }
+    },
+    "all_expected_views_present": true,
+    "visual_review_passed": true,
+    "game_verified": false,
+    "review_method": "Viewed final contact sheets for all 352 static images, with full-size checks of nose hatch, wing text, fin outer/inner faces, root joints and grazing-light tail. Compared matched-camera installed-before SM2 renders.",
+    "findings": [
+      "No new rectangular text backplates seen in reviewed final static views.",
+      "Fin-root triangle fragments removed from both models in current final views.",
+      "Reference slot hierarchy, short-model lettering and hatch treatments reviewed.",
+      "No abnormal colored patches observed in reviewed views; dynamic game shader remains unverified."
+    ]
+  },
+  "reference_sources": [
+    "https://wiki.warthunder.com/unit/su_30sm",
+    "https://wiki.warthunder.com/unit/su_30sm2",
+    "https://wiki.warthunder.com/cdk/creation_camo"
+  ],
+  "supersedes": [
+    "config/reviews/2026-11-07/sm_sm2_markings.json"
+  ],
+  "limits": [
+    "Blender comparative static lighting is not Dagor runtime proof.",
+    "No game launch; animation, damage and other LODs not verified.",
+    "Artwork and complete source textures are intentionally excluded from this library."
+  ],
+  "render_evidence": "config/reviews/2026-11-08/render_evidence.json"
+}

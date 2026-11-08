@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "profile": "ENDFIELD_HIGH",
   "model": "su_30sm",
   "texture": "su_30sm_c",
@@ -16,43 +16,127 @@
   ],
   "pixel_box_convention": "top-left image coordinates, half-open rectangles; round to nearest integer with ties-to-even",
   "uv_conversion": "x=u*W, y=(1-v)*H; sample centers at x+0.5,y+0.5",
-  "reference": "J16 HIGH visual hierarchy only: large text / small producer badge / three-line wing-root text. Do not reuse Chinese manufacturers, aircraft numbers or dedicated identities.",
+  "reference": "Preserve the original J16/J15T/J10C slot semantics, orientation, slanted lettering and hatch hierarchy. Replace original ink only, never add flat rectangular backplates.",
   "regions": [
     {
+      "id": "engine_left",
+      "action": "replace_original_ink",
+      "text": "AL-31FP\nENGINE SYSTEM",
+      "rotation_pillow_degrees": -90,
+      "style": "condensed",
+      "hatch": false,
+      "normal_RB": [
+        102.0,
+        178.0
+      ],
+      "guide_rectangle_xyxy": [
+        15,
+        64,
+        35,
+        110
+      ],
+      "authoring_rectangle_xyxy": [
+        40,
+        171,
+        93,
+        293
+      ],
+      "uv_bounds": [
+        0.009765625,
+        0.928466796875,
+        0.022705078125,
+        0.958251953125
+      ],
+      "ink_box_guide": [
+        16,
+        65,
+        34,
+        109
+      ]
+    },
+    {
+      "id": "engine_right",
+      "action": "replace_original_ink",
+      "text": "AL-31FP\nENGINE SYSTEM",
+      "rotation_pillow_degrees": -90,
+      "style": "condensed",
+      "hatch": false,
+      "normal_RB": [
+        102.0,
+        178.0
+      ],
+      "guide_rectangle_xyxy": [
+        14,
+        262,
+        35,
+        310
+      ],
+      "authoring_rectangle_xyxy": [
+        37,
+        699,
+        93,
+        827
+      ],
+      "uv_bounds": [
+        0.009033203125,
+        0.798095703125,
+        0.022705078125,
+        0.829345703125
+      ],
+      "ink_box_guide": [
+        15,
+        263,
+        34,
+        309
+      ]
+    },
+    {
       "id": "fuselage_number",
-      "action": "target_identity",
+      "action": "replace_original_ink",
       "text": "30SM",
-      "style": "solid",
       "rotation_pillow_degrees": 5,
-      "role": "model_or_identifier",
+      "style": "tech",
+      "hatch": false,
+      "normal_RB": [
+        102.0,
+        178.0
+      ],
       "guide_rectangle_xyxy": [
         750,
         224,
         806,
-        252
+        253
       ],
       "authoring_rectangle_xyxy": [
         2000,
         597,
         2149,
-        672
+        675
       ],
       "uv_bounds": [
         0.48828125,
-        0.8359375,
+        0.835205078125,
         0.524658203125,
         0.854248046875
       ],
-      "meaning": "本项目短型号标识，不是实际战术编号或生产序号",
-      "text_basis": "user_approved_project_design"
+      "ink_box_guide": [
+        753,
+        231,
+        805,
+        253
+      ]
     },
     {
       "id": "fin_inner_number",
-      "action": "target_identity",
+      "action": "replace_original_ink",
       "text": "30SM",
-      "style": "solid",
       "rotation_pillow_degrees": 180,
-      "role": "model_or_identifier",
+      "style": "tech",
+      "hatch": false,
+      "normal_RB": [
+        50.0,
+        88.0
+      ],
       "guide_rectangle_xyxy": [
         1061,
         319,
@@ -71,16 +155,24 @@
         0.729736328125,
         0.792236328125
       ],
-      "meaning": "本项目短型号标识，不是实际战术编号或生产序号",
-      "text_basis": "user_approved_project_design"
+      "ink_box_guide": [
+        1078,
+        325,
+        1121,
+        347
+      ]
     },
     {
       "id": "fin_outer_number",
-      "action": "target_identity",
+      "action": "replace_original_ink",
       "text": "30SM",
-      "style": "solid",
       "rotation_pillow_degrees": -8,
-      "role": "model_or_identifier",
+      "style": "tech",
+      "hatch": false,
+      "normal_RB": [
+        50.0,
+        88.0
+      ],
       "guide_rectangle_xyxy": [
         1077,
         1125,
@@ -99,16 +191,28 @@
         0.737548828125,
         0.267578125
       ],
-      "meaning": "本项目短型号标识，不是实际战术编号或生产序号",
-      "text_basis": "user_approved_project_design"
+      "ink_box_guide": [
+        1085,
+        1130,
+        1131,
+        1153
+      ]
     },
     {
       "id": "stabilizer_number",
-      "action": "target_identity",
+      "action": "replace_original_ink",
       "text": "30SM",
-      "style": "diagonal_hatch",
       "rotation_pillow_degrees": 180,
-      "role": "model_or_identifier",
+      "style": "tech",
+      "hatch": {
+        "direction": "diagonal",
+        "period_authoring_pixels": 6,
+        "ink_pixels_per_period": 2
+      },
+      "normal_RB": [
+        102.0,
+        178.0
+      ],
       "guide_rectangle_xyxy": [
         73,
         864,
@@ -127,22 +231,24 @@
         0.094970703125,
         0.4375
       ],
-      "hatch": {
-        "period_authoring_pixels": 8,
-        "ink_pixels_per_period": 4,
-        "axis_in_atlas": "x+y",
-        "stage": "after text rotation and scaling"
-      },
-      "meaning": "本项目短型号标识，不是实际战术编号或生产序号",
-      "text_basis": "user_approved_project_design"
+      "ink_box_guide": [
+        74,
+        869,
+        145,
+        901
+      ]
     },
     {
       "id": "stabilizer_operator",
-      "action": "target_identity",
+      "action": "replace_original_ink",
       "text": "SU-30",
-      "style": "solid",
       "rotation_pillow_degrees": 180,
-      "role": "model_or_identifier",
+      "style": "condensed",
+      "hatch": false,
+      "normal_RB": [
+        102.0,
+        178.0
+      ],
       "guide_rectangle_xyxy": [
         87,
         902,
@@ -161,16 +267,24 @@
         0.094970703125,
         0.412841796875
       ],
-      "meaning": "飞机系列或目标变型型号",
-      "text_basis": "https://rostec.ru/media/news/istrebitel-su-30sm2-gospodstvo-v-vozdukhe/"
+      "ink_box_guide": [
+        100,
+        903,
+        140,
+        914
+      ]
     },
     {
       "id": "wing_number",
-      "action": "target_identity",
+      "action": "replace_original_ink",
       "text": "30SM",
-      "style": "solid",
       "rotation_pillow_degrees": 90,
-      "role": "model_or_identifier",
+      "style": "tech",
+      "hatch": false,
+      "normal_RB": [
+        50.0,
+        88.0
+      ],
       "guide_rectangle_xyxy": [
         337,
         1328,
@@ -189,16 +303,24 @@
         0.252685546875,
         0.135498046875
       ],
-      "meaning": "本项目短型号标识，不是实际战术编号或生产序号",
-      "text_basis": "user_approved_project_design"
+      "ink_box_guide": [
+        340,
+        1331,
+        385,
+        1427
+      ]
     },
     {
       "id": "wing_source_code",
-      "action": "target_identity",
-      "text": "SU-30SM",
-      "style": "solid",
+      "action": "replace_original_ink",
+      "text": "SUKHOI\nSU-30SM",
       "rotation_pillow_degrees": 90,
-      "role": "model_or_identifier",
+      "style": "condensed",
+      "hatch": false,
+      "normal_RB": [
+        50.0,
+        88.0
+      ],
       "guide_rectangle_xyxy": [
         310,
         1364,
@@ -217,16 +339,28 @@
         0.219482421875,
         0.112060546875
       ],
-      "meaning": "飞机系列或目标变型型号",
-      "text_basis": "https://rostec.ru/media/news/istrebitel-su-30sm2-gospodstvo-v-vozdukhe/"
+      "ink_box_guide": [
+        316,
+        1367,
+        335,
+        1421
+      ]
     },
     {
       "id": "nose_manufacturer",
-      "action": "target_identity",
+      "action": "replace_original_ink",
       "text": "SUKHOI",
-      "style": "diagonal_hatch",
       "rotation_pillow_degrees": 180,
-      "role": "design_brand",
+      "style": "condensed",
+      "hatch": {
+        "direction": "diagonal",
+        "period_authoring_pixels": 6,
+        "ink_pixels_per_period": 2
+      },
+      "normal_RB": [
+        102.0,
+        178.0
+      ],
       "guide_rectangle_xyxy": [
         724,
         82,
@@ -245,22 +379,24 @@
         0.549560546875,
         0.946533203125
       ],
-      "hatch": {
-        "period_authoring_pixels": 8,
-        "ink_pixels_per_period": 4,
-        "axis_in_atlas": "x+y",
-        "stage": "after text rotation and scaling"
-      },
-      "meaning": "设计品牌：苏霍伊",
-      "text_basis": "https://rostec.ru/media/news/istrebitel-su-30sm2-gospodstvo-v-vozdukhe/"
+      "ink_box_guide": [
+        738,
+        83,
+        844,
+        121
+      ]
     },
     {
       "id": "root_manufacturer",
-      "action": "target_identity",
-      "text": "IRKUTSK\nAVIATION\nPLANT",
-      "style": "solid",
+      "action": "replace_original_ink",
+      "text": "SU-30\nSM\nIRKUTSK",
       "rotation_pillow_degrees": -90,
-      "role": "production_plant",
+      "style": "condensed",
+      "hatch": false,
+      "normal_RB": [
+        102.0,
+        178.0
+      ],
       "guide_rectangle_xyxy": [
         304,
         262,
@@ -279,16 +415,24 @@
         0.247314453125,
         0.829345703125
       ],
-      "meaning": "生产厂：伊尔库茨克航空厂",
-      "text_basis": "https://yakovlev.ru/press-centre/releases/irkutskomu-aviatsionnomu-zavodu-90-let/"
+      "ink_box_guide": [
+        315,
+        264,
+        380,
+        348
+      ]
     },
     {
       "id": "fin_manufacturer",
-      "action": "target_identity",
-      "text": "IRKUTSK\nAVIATION PLANT",
-      "style": "solid",
+      "action": "replace_original_ink",
+      "text": "SUKHOI",
       "rotation_pillow_degrees": 0,
-      "role": "production_plant",
+      "style": "condensed",
+      "hatch": false,
+      "normal_RB": [
+        50.0,
+        88.0
+      ],
       "guide_rectangle_xyxy": [
         1125,
         483,
@@ -307,16 +451,24 @@
         0.776123046875,
         0.685546875
       ],
-      "meaning": "生产厂：伊尔库茨克航空厂",
-      "text_basis": "https://yakovlev.ru/press-centre/releases/irkutskomu-aviatsionnomu-zavodu-90-let/"
+      "ink_box_guide": [
+        1130,
+        485,
+        1188,
+        536
+      ]
     },
     {
       "id": "upper_signature",
-      "action": "target_identity",
-      "text": "30SM",
-      "style": "solid",
+      "action": "replace_original_ink",
+      "text": "SM",
       "rotation_pillow_degrees": 180,
-      "role": "model_or_identifier",
+      "style": "condensed",
+      "hatch": false,
+      "normal_RB": [
+        102.0,
+        178.0
+      ],
       "guide_rectangle_xyxy": [
         777,
         481,
@@ -335,16 +487,24 @@
         0.524658203125,
         0.686767578125
       ],
-      "meaning": "本项目短型号标识，不是实际战术编号或生产序号",
-      "text_basis": "user_approved_project_design"
+      "ink_box_guide": [
+        777,
+        481,
+        806,
+        492
+      ]
     },
     {
       "id": "lower_signature",
-      "action": "target_identity",
-      "text": "30SM",
-      "style": "solid",
+      "action": "replace_original_ink",
+      "text": "SM",
       "rotation_pillow_degrees": 0,
-      "role": "model_or_identifier",
+      "style": "condensed",
+      "hatch": false,
+      "normal_RB": [
+        102.0,
+        178.0
+      ],
       "guide_rectangle_xyxy": [
         776,
         980,
@@ -363,16 +523,24 @@
         0.526611328125,
         0.362060546875
       ],
-      "meaning": "本项目短型号标识，不是实际战术编号或生产序号",
-      "text_basis": "user_approved_project_design"
+      "ink_box_guide": [
+        776,
+        980,
+        809,
+        998
+      ]
     },
     {
       "id": "upper_manufacturer",
-      "action": "target_identity",
-      "text": "IRKUTSK",
-      "style": "solid",
+      "action": "replace_original_ink",
+      "text": "SUKHOI",
       "rotation_pillow_degrees": 180,
-      "role": "production_plant",
+      "style": "condensed",
+      "hatch": false,
+      "normal_RB": [
+        102.0,
+        178.0
+      ],
       "guide_rectangle_xyxy": [
         735,
         482,
@@ -391,44 +559,28 @@
         0.503173828125,
         0.686279296875
       ],
-      "meaning": "生产厂：伊尔库茨克航空厂",
-      "text_basis": "https://yakovlev.ru/press-centre/releases/irkutskomu-aviatsionnomu-zavodu-90-let/"
-    },
-    {
-      "id": "endfield_protected",
-      "action": "preserve_original",
-      "text": "ENDFIELD",
-      "style": "original",
-      "rotation_pillow_degrees": -90,
-      "role": "world_brand",
-      "guide_rectangle_xyxy": [
-        323,
-        16,
-        351,
-        92
-      ],
-      "authoring_rectangle_xyxy": [
-        861,
-        43,
-        936,
-        245
-      ],
-      "uv_bounds": [
-        0.210205078125,
-        0.940185546875,
-        0.228515625,
-        0.989501953125
-      ],
-      "meaning": "原涂装 ENDFIELD 世界观标识，保持原图",
-      "text_basis": "existing_artwork_preserved"
+      "ink_box_guide": [
+        735,
+        482,
+        773,
+        521
+      ]
     },
     {
       "id": "fin_large_manufacturer",
-      "action": "target_identity",
-      "text": "SU-30",
-      "style": "vertical_hatch",
+      "action": "replace_original_ink",
+      "text": "IRKUTSK",
       "rotation_pillow_degrees": 58,
-      "role": "aircraft_family",
+      "style": "condensed",
+      "hatch": {
+        "direction": "vertical",
+        "period_authoring_pixels": 4,
+        "ink_pixels_per_period": 2
+      },
+      "normal_RB": [
+        80,
+        139
+      ],
       "guide_polygon_xy": [
         [
           1029,
@@ -465,43 +617,38 @@
           1512
         ]
       ],
-      "polygon_uv": [
-        [
-          0.669921875,
-          0.646484375
-        ],
-        [
-          0.764404296875,
-          0.798095703125
-        ],
-        [
-          0.791748046875,
-          0.779296875
-        ],
-        [
-          0.698486328125,
-          0.630859375
-        ]
-      ],
       "clip_to_geometry": {
-        "parts": [
-          "tail",
-          "rudder*"
+        "native_island": 6605,
+        "probe_guide": [
+          1140,
+          440
         ],
-        "native_abs_centroid_z_gt": 1.6,
-        "native_centroid_y_gt": 0.2,
-        "native_cross_product_z_lt": 0,
-        "face_cross_product_uses_original_native_xyz_order": true
-      },
-      "background_repair": "Infer continuous two-tone substrate from clear original paint samples, retain panel edges, feather inside the clipped mask; do not use neighboring already-replaced text as clear paint.",
-      "hatch": {
-        "period_authoring_pixels": 8,
-        "ink_pixels_per_period": 4,
-        "axis_in_atlas": "x",
-        "stage": "after text rotation and scaling"
-      },
-      "meaning": "飞机系列或目标变型型号",
-      "text_basis": "https://rostec.ru/media/news/istrebitel-su-30sm2-gospodstvo-v-vozdukhe/"
+        "required_geometry_sha256": "432aa2155ff69f3641d50a13423796fe61535f92c4c96dce926872748dc5291b",
+        "policy": "Rasterize only the island hit by the probe; exclude every neighboring fin face from ink AND substrate sampling."
+      }
+    },
+    {
+      "id": "endfield_protected",
+      "action": "preserve_original",
+      "text": "ENDFIELD",
+      "guide_rectangle_xyxy": [
+        323,
+        16,
+        351,
+        92
+      ],
+      "authoring_rectangle_xyxy": [
+        861,
+        43,
+        936,
+        245
+      ],
+      "uv_bounds": [
+        0.210205078125,
+        0.940185546875,
+        0.228515625,
+        0.989501953125
+      ]
     }
   ],
   "rules": [
@@ -513,11 +660,25 @@
     "Do not edit native XYZ, UV or structural normal channels G/A. R/B material changes require a separate scope and check.",
     "For unknown locations, use a separate disposable multiscale color-block/number/direction probe and inspect all sides. Never leave probes in delivery textures."
   ],
-  "review": "config/reviews/2026-11-07/su30_endfield_high.json",
+  "review": "config/reviews/2026-11-08/sm_sm2_repair.json",
   "game_verified": false,
   "identity_sources": {
     "manufacturer_and_model": "https://rostec.ru/media/news/istrebitel-su-30sm2-gospodstvo-v-vozdukhe/",
     "production_plant": "https://yakovlev.ru/press-centre/releases/irkutskomu-aviatsionnomu-zavodu-90-let/",
     "short_identifiers": "User-approved artistic model identifiers: 30SM / 30SM2. Not real aircraft serial or tactical numbers."
+  },
+  "supersedes": "2026-11-07 layout: one SUKHOI and big SU-30 was not the reference slot mapping.",
+  "inpainting": {
+    "small_slots": "Restore archived reference substrate, erase tight old-ink bounds with local closing/inpainting (opening for white engine ink), paste glyph alpha only. Joint C and R/B treatment. Never fill slot rectangles.",
+    "large_fin": "Recover macro light/dark field from hatch gaps inside the probed island; keep only largest dark connected component as upper band. Sample both classes outside old word polygon, sigma22 normalized convolution with median fallback, clamp p10-3 to p90+3.",
+    "type": "Angular slashed-zero number glyphs, condensed sheared manufacturer glyphs, preserve aspect ratio; hatch after final rotation/resize.",
+    "preserve": [
+      "native G/A",
+      "C alpha",
+      "ENDFIELD",
+      "01",
+      "world art",
+      "generic technical markings"
+    ]
   }
 }

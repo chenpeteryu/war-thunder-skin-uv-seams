@@ -30,3 +30,7 @@ NPZ 不包含原始涂装图片。它提供六组连续性三角形索引、受�
 轮廓错误应修正对应几何派生数据；图案移植、字号排版和涂层处理应保存为明确版本的适配配方。把后者写进原生 UV 会损坏后续其他涂装的定位基础。本次已确认的两机原生 XYZ / UV 无差异，因此补回适配配方，不改动原生轮廓、UV 或接缝坐标。
 
 此前提交 `2ca9754` 主要回写标识布局，本次补齐此前没有完整入库的表面投射、连续性、细节保护与涂层数据。验证范围仍是固定 LOD0 的静态模拟，不代表实际游戏、动画、损伤或其他 LOD 的全状态保证。
+
+## 2026-11-08 fin-joint and reference-slot correction
+
+The schema-2 recipes append per-pixel native-world fin-joint weights, ink protection and allowed repair scopes. See [current repair rules](su30_endfield_high_markings.md) and the geometry-bound arrays. The previous base projection and continuity data remain valid; the old identity layout is superseded. Native geometry and UV are unchanged.
