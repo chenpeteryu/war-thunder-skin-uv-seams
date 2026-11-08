@@ -1,0 +1,14 @@
+{
+  "canonical_model": "rafale_c_f3",
+  "alias_unit": "rafale_eg_greece",
+  "canonical_texture": "rafale_c_f3_c",
+  "alias_texture": "rafale_eg_greece_c",
+  "resolution": [
+    64,
+    64
+  ],
+  "identical_mapped_pixels": true,
+  "transparent_outside_coverage": true,
+  "identity_error_max_code_value": 1,
+  "passed": true
+}

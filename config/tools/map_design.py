@@ -62,7 +62,7 @@ def project_coordinates(xyz,view,image_size,rect=None,bounds=None):
 
 def run(args):
     catalog=json.loads((KIT/'catalog.json').read_text(encoding='utf8'))
-    entry=next(x for x in catalog['textures'] if args.model in (x['model'],x['id']) and args.texture==x['texture'])
+    entry=next(x for x in catalog['textures'] if args.model in [x['model'],x['id'],*x.get('unit_aliases',[])] and args.texture in [x['texture'],*x.get('texture_aliases',[])])
     folder=KIT.parent/entry['path']
     meta=json.loads((folder/'metadata.json').read_text(encoding='utf-8'))
     data=np.load(folder/'geometry.npz');uv=data['triangle_uv'];xyz=data['triangle_xyz']

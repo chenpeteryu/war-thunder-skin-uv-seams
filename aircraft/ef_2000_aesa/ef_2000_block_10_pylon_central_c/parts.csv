@@ -1,0 +1,2 @@
+﻿part_id,part_name,triangles,u_min,v_min,u_max,v_max,x_min_px,y_min_px,x_max_px,y_max_px,world_x_min,world_x_max,world_y_min,world_y_max,world_z_min,world_z_max
+240,pylon_9,5055,0.00390625,0.023193359375,0.99609375,0.978759765625,2.0,5.4375,510.0,250.0625,-2.8210787773132324,-0.6213700175285339,-1.098140835762024,-0.7196076512336731,-0.10533779859542847,0.10533611476421356

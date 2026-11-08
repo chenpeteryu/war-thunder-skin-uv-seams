@@ -11,4 +11,5 @@ jobs:
       - run: pip install -r config/requirements.txt
       - run: python config/tools/test_registration.py
       - run: python config/tools/validate_library.py
+      - run: python config/tools/validate_rafale_typhoon.py
       - run: python config/tools/validate_all_seams.py

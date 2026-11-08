@@ -1,0 +1,168 @@
+{
+  "source_batch": "2026-11-07-rafale-typhoon",
+  "units": [
+    {
+      "unit": "rafale_c_f3",
+      "model": "rafale_c_f3",
+      "config_sha256": "585df44acb42ab51139d31ebd33fe7b1267cc9487756c63ed63520357bdc0d58",
+      "replacements": [
+        {
+          "from": "rafale_c_f3_c*",
+          "to": null
+        },
+        {
+          "from": "rafale_c_f3_n*",
+          "to": null
+        }
+      ],
+      "canonical_model": "rafale_c_f3",
+      "canonical_folder": "aircraft/rafale_c_f3",
+      "merge_policy": "independent native geometry; do not merge whole layout with another model"
+    },
+    {
+      "unit": "rafale_m_f3r",
+      "model": "rafale_m_f3_r",
+      "config_sha256": "43ecdf0755ea851a066a2ecc8cbef3d759796bd84864d3e4f7c1a4410fc2a94f",
+      "replacements": [
+        {
+          "from": "rafale_m_f3_r_c*",
+          "to": null
+        },
+        {
+          "from": "rafale_m_f3_r_n*",
+          "to": null
+        }
+      ],
+      "canonical_model": "rafale_m_f3_r",
+      "canonical_folder": "aircraft/rafale_m_f3_r",
+      "merge_policy": "independent native geometry; do not merge whole layout with another model"
+    },
+    {
+      "unit": "rafale_eg_greece",
+      "model": "rafale_c_f3",
+      "config_sha256": "76cfbfae786b99e611403d089d8569800355b3f322990ed2ad5783f9084bc43f",
+      "replacements": [
+        {
+          "from": "rafale_c_f3_c*",
+          "to": "rafale_eg_greece_c*"
+        },
+        {
+          "from": "rafale_c_f3_n*",
+          "to": "rafale_eg_greece_n*"
+        }
+      ],
+      "canonical_model": "rafale_c_f3",
+      "canonical_folder": "aircraft/rafale_c_f3",
+      "merge_policy": "same model resource and 4096x4096 diffuse layout; preserve replacement texture name"
+    },
+    {
+      "unit": "ef_2000_block_10",
+      "model": "ef_2000_block_10",
+      "config_sha256": "4d13fc3685513ccbb3b70eb550a2519591e6e03b6b2e521d1bf9464128c51efb",
+      "replacements": [
+        {
+          "from": "ef_2000_block_10_c*",
+          "to": null
+        },
+        {
+          "from": "ef_2000_block_10_n*",
+          "to": null
+        }
+      ],
+      "canonical_model": "ef_2000_block_10",
+      "canonical_folder": "aircraft/ef_2000_block_10",
+      "merge_policy": "independent native geometry; do not merge whole layout with another model"
+    },
+    {
+      "unit": "ef_2000_aesa",
+      "model": "ef_2000_aesa",
+      "config_sha256": "e8f04fc7df7e345e183f1db2ba2311400728e2d074ada0cbbfffb730463205e0",
+      "replacements": [
+        {
+          "from": "ef_2000_aesa_c*",
+          "to": null
+        },
+        {
+          "from": "ef_2000_aesa_n*",
+          "to": null
+        }
+      ],
+      "canonical_model": "ef_2000_aesa",
+      "canonical_folder": "aircraft/ef_2000_aesa",
+      "merge_policy": "independent native geometry; do not merge whole layout with another model"
+    },
+    {
+      "unit": "ef_2000a",
+      "model": "f_2000a",
+      "config_sha256": "5a839dc2cd31a0716892568260c6e7664ca1c8a89bec8f9e49cdfe21cf9e8c70",
+      "replacements": [
+        {
+          "from": "f_2000a_c*",
+          "to": null
+        },
+        {
+          "from": "f_2000a_n*",
+          "to": null
+        }
+      ],
+      "canonical_model": "f_2000a",
+      "canonical_folder": "aircraft/f_2000a",
+      "merge_policy": "independent native geometry; do not merge whole layout with another model"
+    },
+    {
+      "unit": "ef_2000a_aesa",
+      "model": "f_2000a_aesa",
+      "config_sha256": "501cd72e557942f398bfe612bc9f9db3594294a486ee8c54c4ba9d9b1dbd5506",
+      "replacements": [
+        {
+          "from": "f_2000a_aesa_c*",
+          "to": null
+        },
+        {
+          "from": "f_2000a_aesa_n*",
+          "to": null
+        }
+      ],
+      "canonical_model": "f_2000a_aesa",
+      "canonical_folder": "aircraft/f_2000a_aesa",
+      "merge_policy": "independent native geometry; do not merge whole layout with another model"
+    },
+    {
+      "unit": "ef_2000_fgr4",
+      "model": "typhoon_fgr4",
+      "config_sha256": "2f05f3d91d5772374b3d315ead5fdf1816aaf3114434e206ad314e650b60c4a9",
+      "replacements": [
+        {
+          "from": "typhoon_fgr4_c*",
+          "to": null
+        },
+        {
+          "from": "typhoon_fgr4_n*",
+          "to": null
+        }
+      ],
+      "canonical_model": "typhoon_fgr4",
+      "canonical_folder": "aircraft/typhoon_fgr4",
+      "merge_policy": "independent native geometry; do not merge whole layout with another model"
+    },
+    {
+      "unit": "ef_2000_typhoon_aesa",
+      "model": "typhoon_aesa",
+      "config_sha256": "8959b78c13dfdfb262b3dcac1070430b018e76ac2bebc050c410f90d64fd3b3d",
+      "replacements": [
+        {
+          "from": "typhoon_aesa_c*",
+          "to": null
+        },
+        {
+          "from": "typhoon_aesa_n*",
+          "to": null
+        }
+      ],
+      "canonical_model": "typhoon_aesa",
+      "canonical_folder": "aircraft/typhoon_aesa",
+      "merge_policy": "independent native geometry; do not merge whole layout with another model"
+    }
+  ],
+  "scope": "Current local official vehicle-to-model and texture replacement bindings; Hawker Typhoon excluded. Normal layout is pending verification when used."
+}

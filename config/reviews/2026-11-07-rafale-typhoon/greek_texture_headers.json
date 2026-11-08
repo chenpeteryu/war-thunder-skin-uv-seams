@@ -1,0 +1,50 @@
+[
+  {
+    "texture": "rafale_eg_greece_c",
+    "resolution": [
+      64,
+      64
+    ],
+    "pack": "content/base/res/zzz-tq_pack.dxp.bin"
+  },
+  {
+    "texture": "rafale_eg_greece_c",
+    "resolution": [
+      512,
+      512
+    ],
+    "pack": "content/base/res/aircrafts/fr_air_bq.dxp.bin"
+  },
+  {
+    "texture": "rafale_eg_greece_c",
+    "resolution": [
+      4096,
+      4096
+    ],
+    "pack": "content.hq/hq_tex/res/hq_tex_aircrafts/rafale_eg_greece.dxp.bin"
+  },
+  {
+    "texture": "rafale_c_f3_c",
+    "resolution": [
+      64,
+      64
+    ],
+    "pack": "content/base/res/zzz-tq_pack.dxp.bin"
+  },
+  {
+    "texture": "rafale_c_f3_c",
+    "resolution": [
+      512,
+      512
+    ],
+    "pack": "content/base/res/aircrafts/fr_air_bq.dxp.bin"
+  },
+  {
+    "texture": "rafale_c_f3_c",
+    "resolution": [
+      4096,
+      4096
+    ],
+    "pack": "content.hq/hq_tex/res/hq_tex_aircrafts/rafale_c_f3.dxp.bin"
+  }
+]

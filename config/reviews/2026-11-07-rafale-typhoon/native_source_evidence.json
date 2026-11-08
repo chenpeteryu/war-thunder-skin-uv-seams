@@ -1,0 +1,90 @@
+{
+  "rafale_c_f3": {
+    "resource_pack": "content/base/res/aircrafts/fr_rafale.grp",
+    "entry": {
+      "name": "rafale_c_f3",
+      "class_id": 3031947716,
+      "offset": 149312,
+      "size": 2267648
+    },
+    "raw_entry_sha256": "8332c9318adf0a1771035172376d2da9834803213e6d8e3257e1437a204203ab",
+    "skinned_parts": []
+  },
+  "rafale_m_f3_r": {
+    "resource_pack": "content/base/res/aircrafts/fr_rafale.grp",
+    "entry": {
+      "name": "rafale_m_f3_r",
+      "class_id": 3031947716,
+      "offset": 2649856,
+      "size": 2464736
+    },
+    "raw_entry_sha256": "770290797069349bda4caedce2ec11aa2c9c911279dec8073453f54d968958cc",
+    "skinned_parts": []
+  },
+  "ef_2000_block_10": {
+    "resource_pack": "content/base/res/aircrafts/air.grp",
+    "entry": {
+      "name": "ef_2000_block_10",
+      "class_id": 3031947716,
+      "offset": 6054816,
+      "size": 2607952
+    },
+    "raw_entry_sha256": "f15050ee95b707b8678c56661d4051b5c5ee07d438de73fa698d06c562f90bd0",
+    "skinned_parts": []
+  },
+  "ef_2000_aesa": {
+    "resource_pack": "content/base/res/aircrafts/air.grp",
+    "entry": {
+      "name": "ef_2000_aesa",
+      "class_id": 3031947716,
+      "offset": 3205856,
+      "size": 2610608
+    },
+    "raw_entry_sha256": "4da16d0ef66e96fc6d7d8a47b7e44d6719a3552fd389a3bb27b2bef6ffaa637c",
+    "skinned_parts": []
+  },
+  "f_2000a": {
+    "resource_pack": "content/base/res/aircrafts/air.grp",
+    "entry": {
+      "name": "f_2000a",
+      "class_id": 3031947716,
+      "offset": 8900992,
+      "size": 2628016
+    },
+    "raw_entry_sha256": "22676d63f59c720a8cdfe83dcd29d763ea96b2a5a33d64b813793c6831c1cf17",
+    "skinned_parts": []
+  },
+  "f_2000a_aesa": {
+    "resource_pack": "content/base/res/aircrafts/air.grp",
+    "entry": {
+      "name": "f_2000a_aesa",
+      "class_id": 3031947716,
+      "offset": 11767968,
+      "size": 2631952
+    },
+    "raw_entry_sha256": "b9f0b7ddceba16f8cd760573af5f213b6a49e6fec138361e309ab828cea86ce2",
+    "skinned_parts": []
+  },
+  "typhoon_fgr4": {
+    "resource_pack": "content/base/res/aircrafts/air.grp",
+    "entry": {
+      "name": "typhoon_fgr4",
+      "class_id": 3031947716,
+      "offset": 17518432,
+      "size": 2639792
+    },
+    "raw_entry_sha256": "69f48b6ada1ab7dba0ec9572786ccd3260fc87fe38a6019684e2e8979b05cabb",
+    "skinned_parts": []
+  },
+  "typhoon_aesa": {
+    "resource_pack": "content/base/res/aircrafts/air.grp",
+    "entry": {
+      "name": "typhoon_aesa",
+      "class_id": 3031947716,
+      "offset": 14638352,
+      "size": 2641648
+    },
+    "raw_entry_sha256": "758f2aee3a12c93702503888bb393627031bfb5326cd64db696cc1ecbdac8ef9",
+    "skinned_parts": []
+  }
+}

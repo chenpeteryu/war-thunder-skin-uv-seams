@@ -1,0 +1,2 @@
+﻿part_id,part_name,triangles,u_min,v_min,u_max,v_max,x_min_px,y_min_px,x_max_px,y_max_px,world_x_min,world_x_max,world_y_min,world_y_max,world_z_min,world_z_max
+228,talios_pod,6311,0.0048828125,0.0048828125,0.986328125,0.9951171875,5.0,5.0,1010.0,1019.0,0.7455901503562927,3.187363862991333,-1.318787932395935,-0.7992824912071228,-1.3099919557571411,-0.8426781892776489

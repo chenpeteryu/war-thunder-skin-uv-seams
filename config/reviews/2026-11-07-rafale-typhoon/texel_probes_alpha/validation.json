@@ -1,0 +1,2376 @@
+{
+  "probes": [
+    {
+      "model": "rafale_c_f3",
+      "group": "wing",
+      "connection": 11,
+      "side": 0,
+      "source_triangle": 6435,
+      "integer_pixel": [
+        1261,
+        1669
+      ],
+      "resolution": [
+        4096,
+        4096
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        159.48056185232423,
+        224.48035509143114,
+        207.51435706137332
+      ],
+      "image": "rafale_c_f3_wing_11_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.3166003976142998,
+      "triangle_part": "wing_l",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        159.0,
+        224.0,
+        207.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.5143570613733175,
+      "passed": true
+    },
+    {
+      "model": "rafale_c_f3",
+      "group": "wing",
+      "connection": 11,
+      "side": 1,
+      "source_triangle": 6258,
+      "integer_pixel": [
+        2980,
+        433
+      ],
+      "resolution": [
+        4096,
+        4096
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        145.72912833807706,
+        224.99986239585942,
+        191.7351324821996
+      ],
+      "image": "rafale_c_f3_wing_11_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.3305211848518892,
+      "triangle_part": "wing_l",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        146.0,
+        225.0,
+        192.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.2708716619229392,
+      "passed": true
+    },
+    {
+      "model": "rafale_c_f3",
+      "group": "control",
+      "connection": 1,
+      "side": 0,
+      "source_triangle": 12678,
+      "integer_pixel": [
+        96,
+        357
+      ],
+      "resolution": [
+        4096,
+        4096
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        224.48035509143114,
+        133.1940189143336,
+        131.1290737684798
+      ],
+      "image": "rafale_c_f3_control_1_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.3229376257545272,
+      "triangle_part": "rudder",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        224.0,
+        133.0,
+        131.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.48035509143113586,
+      "passed": true
+    },
+    {
+      "model": "rafale_c_f3",
+      "group": "control",
+      "connection": 1,
+      "side": 1,
+      "source_triangle": 12738,
+      "integer_pixel": [
+        306,
+        825
+      ],
+      "resolution": [
+        4096,
+        4096
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        168.8698474547755,
+        131.1290737684798,
+        242.27287498732173
+      ],
+      "image": "rafale_c_f3_control_1_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.3229376257545271,
+      "triangle_part": "rudder",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        169.0,
+        131.0,
+        242.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.2728749873217282,
+      "passed": true
+    },
+    {
+      "model": "rafale_c_f3",
+      "group": "body",
+      "connection": 4,
+      "side": 0,
+      "source_triangle": 123727,
+      "integer_pixel": [
+        52,
+        2023
+      ],
+      "resolution": [
+        4096,
+        4096
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        239.4281416972557,
+        217.57713888064634,
+        165.81617063180107
+      ],
+      "image": "rafale_c_f3_body_4_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.3286621244967486,
+      "triangle_part": "fuse",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        239.0,
+        217.0,
+        166.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.5771388806463449,
+      "passed": true
+    },
+    {
+      "model": "rafale_c_f3",
+      "group": "body",
+      "connection": 4,
+      "side": 1,
+      "source_triangle": 114439,
+      "integer_pixel": [
+        523,
+        847
+      ],
+      "resolution": [
+        4096,
+        4096
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        131.1290737684798,
+        214.29173806436538,
+        191.0939329611245
+      ],
+      "image": "rafale_c_f3_body_4_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.29824561403511063,
+      "triangle_part": "fuse",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        131.0,
+        214.0,
+        191.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.29173806436537575,
+      "passed": true
+    },
+    {
+      "model": "rafale_c_f3",
+      "group": "nozzle",
+      "connection": 35,
+      "side": 0,
+      "source_triangle": 199795,
+      "integer_pixel": [
+        3852,
+        3082
+      ],
+      "resolution": [
+        4096,
+        4096
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        129.02216095019998,
+        142.02173491717437,
+        209.23576065258314
+      ],
+      "image": "rafale_c_f3_nozzle_35_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.31159420289855233,
+      "triangle_part": "nozzle1_5",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        129.0,
+        142.0,
+        209.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.2357606525831386,
+      "passed": true
+    },
+    {
+      "model": "rafale_c_f3",
+      "group": "nozzle",
+      "connection": 35,
+      "side": 1,
+      "source_triangle": 199494,
+      "integer_pixel": [
+        3893,
+        3120
+      ],
+      "resolution": [
+        4096,
+        4096
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        84.7061426369643,
+        162.6881194769716,
+        168.11314041336473
+      ],
+      "image": "rafale_c_f3_nozzle_35_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.29012345679012896,
+      "triangle_part": "nozzle1_5",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        85.0,
+        163.0,
+        168.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.31188052302840674,
+      "passed": true
+    },
+    {
+      "model": "rafale_m_f3_r",
+      "group": "wing",
+      "connection": 2495,
+      "side": 0,
+      "source_triangle": 6440,
+      "integer_pixel": [
+        1261,
+        1669
+      ],
+      "resolution": [
+        4096,
+        4096
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        159.48056185232423,
+        224.48035509143114,
+        207.51435706137332
+      ],
+      "image": "rafale_m_f3_r_wing_2495_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.3166003976142998,
+      "triangle_part": "wing_l",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        159.0,
+        224.0,
+        207.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.5143570613733175,
+      "passed": true
+    },
+    {
+      "model": "rafale_m_f3_r",
+      "group": "wing",
+      "connection": 2495,
+      "side": 1,
+      "source_triangle": 6263,
+      "integer_pixel": [
+        2980,
+        433
+      ],
+      "resolution": [
+        4096,
+        4096
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        145.72912833807706,
+        224.99986239585942,
+        191.7351324821996
+      ],
+      "image": "rafale_m_f3_r_wing_2495_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.3305211848518892,
+      "triangle_part": "wing_l",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        146.0,
+        225.0,
+        192.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.2708716619229392,
+      "passed": true
+    },
+    {
+      "model": "rafale_m_f3_r",
+      "group": "control",
+      "connection": 2485,
+      "side": 0,
+      "source_triangle": 12678,
+      "integer_pixel": [
+        96,
+        357
+      ],
+      "resolution": [
+        4096,
+        4096
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        224.48035509143114,
+        133.1940189143336,
+        131.1290737684798
+      ],
+      "image": "rafale_m_f3_r_control_2485_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.3229376257545272,
+      "triangle_part": "rudder",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        224.0,
+        133.0,
+        131.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.48035509143113586,
+      "passed": true
+    },
+    {
+      "model": "rafale_m_f3_r",
+      "group": "control",
+      "connection": 2485,
+      "side": 1,
+      "source_triangle": 12738,
+      "integer_pixel": [
+        306,
+        825
+      ],
+      "resolution": [
+        4096,
+        4096
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        168.8698474547755,
+        131.1290737684798,
+        242.27287498732173
+      ],
+      "image": "rafale_m_f3_r_control_2485_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.3229376257545271,
+      "triangle_part": "rudder",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        169.0,
+        131.0,
+        242.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.2728749873217282,
+      "passed": true
+    },
+    {
+      "model": "rafale_m_f3_r",
+      "group": "body",
+      "connection": 2488,
+      "side": 0,
+      "source_triangle": 78036,
+      "integer_pixel": [
+        52,
+        2023
+      ],
+      "resolution": [
+        4096,
+        4096
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        239.4281416972557,
+        217.57713888064634,
+        165.81617063180107
+      ],
+      "image": "rafale_m_f3_r_body_2488_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.3286621244967486,
+      "triangle_part": "fuse",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        239.0,
+        217.0,
+        166.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.5771388806463449,
+      "passed": true
+    },
+    {
+      "model": "rafale_m_f3_r",
+      "group": "body",
+      "connection": 2488,
+      "side": 1,
+      "source_triangle": 77072,
+      "integer_pixel": [
+        523,
+        847
+      ],
+      "resolution": [
+        4096,
+        4096
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        131.1290737684798,
+        214.29173806436538,
+        191.0939329611245
+      ],
+      "image": "rafale_m_f3_r_body_2488_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.29824561403511063,
+      "triangle_part": "fuse",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        131.0,
+        214.0,
+        191.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.29173806436537575,
+      "passed": true
+    },
+    {
+      "model": "rafale_m_f3_r",
+      "group": "nozzle",
+      "connection": 2518,
+      "side": 0,
+      "source_triangle": 35979,
+      "integer_pixel": [
+        3644,
+        3298
+      ],
+      "resolution": [
+        4096,
+        4096
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        183.84691687588995,
+        228.59299723585804,
+        107.6806471931167
+      ],
+      "image": "rafale_m_f3_r_nozzle_2518_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.30208333333333504,
+      "triangle_part": "nozzle2_5",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        184.0,
+        228.0,
+        108.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.5929972358580358,
+      "passed": true
+    },
+    {
+      "model": "rafale_m_f3_r",
+      "group": "nozzle",
+      "connection": 2518,
+      "side": 1,
+      "source_triangle": 35678,
+      "integer_pixel": [
+        3685,
+        3337
+      ],
+      "resolution": [
+        4096,
+        4096
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        161.89389683160496,
+        103.58093798086557,
+        228.59299723585804
+      ],
+      "image": "rafale_m_f3_r_nozzle_2518_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.29012345679012086,
+      "triangle_part": "nozzle2_5",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        162.0,
+        103.0,
+        228.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.5929972358580358,
+      "passed": true
+    },
+    {
+      "model": "ef_2000_block_10",
+      "group": "wing",
+      "connection": 5024,
+      "side": 0,
+      "source_triangle": 47493,
+      "integer_pixel": [
+        900,
+        922
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        202.23421701607103,
+        226.54897990711635,
+        207.51435706137332
+      ],
+      "image": "ef_2000_block_10_wing_5024_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.3292682926829252,
+      "triangle_part": "wing_r",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        202.0,
+        226.0,
+        207.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.5489799071163475,
+      "passed": true
+    },
+    {
+      "model": "ef_2000_block_10",
+      "group": "wing",
+      "connection": 5024,
+      "side": 1,
+      "source_triangle": 66872,
+      "integer_pixel": [
+        927,
+        941
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        102.1690207856811,
+        191.7351324821996,
+        215.39419506376325
+      ],
+      "image": "ef_2000_block_10_wing_5024_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.32454624027658074,
+      "triangle_part": "fuse",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        102.0,
+        192.0,
+        215.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.39419506376324875,
+      "passed": true
+    },
+    {
+      "model": "ef_2000_block_10",
+      "group": "control",
+      "connection": 5001,
+      "side": 0,
+      "source_triangle": 2520,
+      "integer_pixel": [
+        1458,
+        688
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        145.72912833807706,
+        192.37354674527202,
+        218.6578861260494
+      ],
+      "image": "ef_2000_block_10_control_5001_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.3333333333333257,
+      "triangle_part": "rudder",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        146.0,
+        192.0,
+        219.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.3735467452720229,
+      "passed": true
+    },
+    {
+      "model": "ef_2000_block_10",
+      "group": "control",
+      "connection": 5001,
+      "side": 1,
+      "source_triangle": 2244,
+      "integer_pixel": [
+        1515,
+        1155
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        183.84691687588995,
+        223.4365600320723,
+        174.7720796933591
+      ],
+      "image": "ef_2000_block_10_control_5001_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.2857142857143299,
+      "triangle_part": "rudder",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        184.0,
+        223.0,
+        175.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.4365600320722933,
+      "passed": true
+    },
+    {
+      "model": "ef_2000_block_10",
+      "group": "body",
+      "connection": 5002,
+      "side": 0,
+      "source_triangle": 95354,
+      "integer_pixel": [
+        81,
+        1248
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        149.31982014403192,
+        239.90536537978278,
+        196.76712162449894
+      ],
+      "image": "ef_2000_block_10_body_5002_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.2629310344827465,
+      "triangle_part": "fuse",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        149.0,
+        240.0,
+        197.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.3198201440319224,
+      "passed": true
+    },
+    {
+      "model": "ef_2000_block_10",
+      "group": "body",
+      "connection": 5002,
+      "side": 1,
+      "source_triangle": 95638,
+      "integer_pixel": [
+        568,
+        779
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        227.57401488218332,
+        167.352006252359,
+        227.57401488218332
+      ],
+      "image": "ef_2000_block_10_body_5002_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.27751196172245607,
+      "triangle_part": "fuse",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        227.0,
+        167.0,
+        227.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.5740148821833202,
+      "passed": true
+    },
+    {
+      "model": "ef_2000_block_10",
+      "group": "nozzle",
+      "connection": 5282,
+      "side": 0,
+      "source_triangle": 177707,
+      "integer_pixel": [
+        661,
+        2019
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        240.38133673674994,
+        217.0341080611371,
+        158.66559198920527
+      ],
+      "image": "ef_2000_block_10_nozzle_5282_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.2818181818181834,
+      "triangle_part": "nozzle1_73",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        240.0,
+        217.0,
+        159.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.38133673674994384,
+      "passed": true
+    },
+    {
+      "model": "ef_2000_block_10",
+      "group": "nozzle",
+      "connection": 5282,
+      "side": 1,
+      "source_triangle": 177879,
+      "integer_pixel": [
+        1824,
+        1862
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        176.20783174120498,
+        133.1940189143336,
+        142.02173491717437
+      ],
+      "image": "ef_2000_block_10_nozzle_5282_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.1000000000000248,
+      "triangle_part": "nozzle1_73",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        176.0,
+        133.0,
+        142.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.20783174120498416,
+      "passed": true
+    },
+    {
+      "model": "ef_2000_aesa",
+      "group": "wing",
+      "connection": 7177,
+      "side": 0,
+      "source_triangle": 74043,
+      "integer_pixel": [
+        900,
+        922
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        202.23421701607103,
+        226.54897990711635,
+        207.51435706137332
+      ],
+      "image": "ef_2000_aesa_wing_7177_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.3292682926829252,
+      "triangle_part": "wing_r",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        202.0,
+        226.0,
+        207.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.5489799071163475,
+      "passed": true
+    },
+    {
+      "model": "ef_2000_aesa",
+      "group": "wing",
+      "connection": 7177,
+      "side": 1,
+      "source_triangle": 93422,
+      "integer_pixel": [
+        927,
+        941
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        102.1690207856811,
+        191.7351324821996,
+        215.39419506376325
+      ],
+      "image": "ef_2000_aesa_wing_7177_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.32454624027658074,
+      "triangle_part": "fuse",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        102.0,
+        192.0,
+        215.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.39419506376324875,
+      "passed": true
+    },
+    {
+      "model": "ef_2000_aesa",
+      "group": "control",
+      "connection": 7154,
+      "side": 0,
+      "source_triangle": 2520,
+      "integer_pixel": [
+        1458,
+        688
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        145.72912833807706,
+        192.37354674527202,
+        218.6578861260494
+      ],
+      "image": "ef_2000_aesa_control_7154_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.3333333333333257,
+      "triangle_part": "rudder",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        146.0,
+        192.0,
+        219.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.3735467452720229,
+      "passed": true
+    },
+    {
+      "model": "ef_2000_aesa",
+      "group": "control",
+      "connection": 7154,
+      "side": 1,
+      "source_triangle": 2244,
+      "integer_pixel": [
+        1515,
+        1155
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        183.84691687588995,
+        223.4365600320723,
+        174.7720796933591
+      ],
+      "image": "ef_2000_aesa_control_7154_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.2857142857143299,
+      "triangle_part": "rudder",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        184.0,
+        223.0,
+        175.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.4365600320722933,
+      "passed": true
+    },
+    {
+      "model": "ef_2000_aesa",
+      "group": "body",
+      "connection": 7155,
+      "side": 0,
+      "source_triangle": 121904,
+      "integer_pixel": [
+        81,
+        1248
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        149.31982014403192,
+        239.90536537978278,
+        196.76712162449894
+      ],
+      "image": "ef_2000_aesa_body_7155_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.2629310344827465,
+      "triangle_part": "fuse",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        149.0,
+        240.0,
+        197.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.3198201440319224,
+      "passed": true
+    },
+    {
+      "model": "ef_2000_aesa",
+      "group": "body",
+      "connection": 7155,
+      "side": 1,
+      "source_triangle": 122188,
+      "integer_pixel": [
+        568,
+        779
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        227.57401488218332,
+        167.352006252359,
+        227.57401488218332
+      ],
+      "image": "ef_2000_aesa_body_7155_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.27751196172245607,
+      "triangle_part": "fuse",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        227.0,
+        167.0,
+        227.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.5740148821833202,
+      "passed": true
+    },
+    {
+      "model": "ef_2000_aesa",
+      "group": "nozzle",
+      "connection": 7438,
+      "side": 0,
+      "source_triangle": 204673,
+      "integer_pixel": [
+        661,
+        2019
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        240.38133673674994,
+        217.0341080611371,
+        158.66559198920527
+      ],
+      "image": "ef_2000_aesa_nozzle_7438_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.2818181818181834,
+      "triangle_part": "nozzle1_73",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        240.0,
+        217.0,
+        159.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.38133673674994384,
+      "passed": true
+    },
+    {
+      "model": "ef_2000_aesa",
+      "group": "nozzle",
+      "connection": 7438,
+      "side": 1,
+      "source_triangle": 204845,
+      "integer_pixel": [
+        1824,
+        1862
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        176.20783174120498,
+        133.1940189143336,
+        142.02173491717437
+      ],
+      "image": "ef_2000_aesa_nozzle_7438_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.1000000000000248,
+      "triangle_part": "nozzle1_73",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        176.0,
+        133.0,
+        142.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.20783174120498416,
+      "passed": true
+    },
+    {
+      "model": "f_2000a",
+      "group": "wing",
+      "connection": 9325,
+      "side": 0,
+      "source_triangle": 18791,
+      "integer_pixel": [
+        927,
+        941
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        102.1690207856811,
+        191.7351324821996,
+        215.39419506376325
+      ],
+      "image": "f_2000a_wing_9325_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.32454624027658074,
+      "triangle_part": "fuse",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        102.0,
+        192.0,
+        215.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.39419506376324875,
+      "passed": true
+    },
+    {
+      "model": "f_2000a",
+      "group": "wing",
+      "connection": 9325,
+      "side": 1,
+      "source_triangle": 210647,
+      "integer_pixel": [
+        900,
+        922
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        202.23421701607103,
+        226.54897990711635,
+        207.51435706137332
+      ],
+      "image": "f_2000a_wing_9325_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.3292682926829252,
+      "triangle_part": "wing_r",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        202.0,
+        226.0,
+        207.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.5489799071163475,
+      "passed": true
+    },
+    {
+      "model": "f_2000a",
+      "group": "control",
+      "connection": 9302,
+      "side": 0,
+      "source_triangle": 278873,
+      "integer_pixel": [
+        1458,
+        688
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        145.72912833807706,
+        192.37354674527202,
+        218.6578861260494
+      ],
+      "image": "f_2000a_control_9302_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.3333333333333257,
+      "triangle_part": "rudder",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        146.0,
+        192.0,
+        219.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.3735467452720229,
+      "passed": true
+    },
+    {
+      "model": "f_2000a",
+      "group": "control",
+      "connection": 9302,
+      "side": 1,
+      "source_triangle": 278597,
+      "integer_pixel": [
+        1515,
+        1155
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        183.84691687588995,
+        223.4365600320723,
+        174.7720796933591
+      ],
+      "image": "f_2000a_control_9302_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.2857142857143299,
+      "triangle_part": "rudder",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        184.0,
+        223.0,
+        175.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.4365600320722933,
+      "passed": true
+    },
+    {
+      "model": "f_2000a",
+      "group": "body",
+      "connection": 9303,
+      "side": 0,
+      "source_triangle": 47273,
+      "integer_pixel": [
+        81,
+        1248
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        149.31982014403192,
+        239.90536537978278,
+        196.76712162449894
+      ],
+      "image": "f_2000a_body_9303_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.2629310344827465,
+      "triangle_part": "fuse",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        149.0,
+        240.0,
+        197.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.3198201440319224,
+      "passed": true
+    },
+    {
+      "model": "f_2000a",
+      "group": "body",
+      "connection": 9303,
+      "side": 1,
+      "source_triangle": 47557,
+      "integer_pixel": [
+        568,
+        779
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        227.57401488218332,
+        167.352006252359,
+        227.57401488218332
+      ],
+      "image": "f_2000a_body_9303_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.27751196172245607,
+      "triangle_part": "fuse",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        227.0,
+        167.0,
+        227.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.5740148821833202,
+      "passed": true
+    },
+    {
+      "model": "f_2000a",
+      "group": "nozzle",
+      "connection": 9585,
+      "side": 0,
+      "source_triangle": 107892,
+      "integer_pixel": [
+        661,
+        2019
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        240.38133673674994,
+        217.0341080611371,
+        158.66559198920527
+      ],
+      "image": "f_2000a_nozzle_9585_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.2818181818181834,
+      "triangle_part": "nozzle1_73",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        240.0,
+        217.0,
+        159.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.38133673674994384,
+      "passed": true
+    },
+    {
+      "model": "f_2000a",
+      "group": "nozzle",
+      "connection": 9585,
+      "side": 1,
+      "source_triangle": 108064,
+      "integer_pixel": [
+        1824,
+        1862
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        176.20783174120498,
+        133.1940189143336,
+        142.02173491717437
+      ],
+      "image": "f_2000a_nozzle_9585_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.1000000000000248,
+      "triangle_part": "nozzle1_73",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        176.0,
+        133.0,
+        142.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.20783174120498416,
+      "passed": true
+    },
+    {
+      "model": "f_2000a_aesa",
+      "group": "wing",
+      "connection": 11476,
+      "side": 0,
+      "source_triangle": 18791,
+      "integer_pixel": [
+        927,
+        941
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        102.1690207856811,
+        191.7351324821996,
+        215.39419506376325
+      ],
+      "image": "f_2000a_aesa_wing_11476_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.32454624027658074,
+      "triangle_part": "fuse",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        102.0,
+        192.0,
+        215.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.39419506376324875,
+      "passed": true
+    },
+    {
+      "model": "f_2000a_aesa",
+      "group": "wing",
+      "connection": 11476,
+      "side": 1,
+      "source_triangle": 211063,
+      "integer_pixel": [
+        900,
+        922
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        202.23421701607103,
+        226.54897990711635,
+        207.51435706137332
+      ],
+      "image": "f_2000a_aesa_wing_11476_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.3292682926829252,
+      "triangle_part": "wing_r",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        202.0,
+        226.0,
+        207.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.5489799071163475,
+      "passed": true
+    },
+    {
+      "model": "f_2000a_aesa",
+      "group": "control",
+      "connection": 11453,
+      "side": 0,
+      "source_triangle": 279289,
+      "integer_pixel": [
+        1458,
+        688
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        145.72912833807706,
+        192.37354674527202,
+        218.6578861260494
+      ],
+      "image": "f_2000a_aesa_control_11453_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.3333333333333257,
+      "triangle_part": "rudder",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        146.0,
+        192.0,
+        219.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.3735467452720229,
+      "passed": true
+    },
+    {
+      "model": "f_2000a_aesa",
+      "group": "control",
+      "connection": 11453,
+      "side": 1,
+      "source_triangle": 279013,
+      "integer_pixel": [
+        1515,
+        1155
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        183.84691687588995,
+        223.4365600320723,
+        174.7720796933591
+      ],
+      "image": "f_2000a_aesa_control_11453_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.2857142857143299,
+      "triangle_part": "rudder",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        184.0,
+        223.0,
+        175.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.4365600320722933,
+      "passed": true
+    },
+    {
+      "model": "f_2000a_aesa",
+      "group": "body",
+      "connection": 11454,
+      "side": 0,
+      "source_triangle": 47273,
+      "integer_pixel": [
+        81,
+        1248
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        149.31982014403192,
+        239.90536537978278,
+        196.76712162449894
+      ],
+      "image": "f_2000a_aesa_body_11454_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.2629310344827465,
+      "triangle_part": "fuse",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        149.0,
+        240.0,
+        197.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.3198201440319224,
+      "passed": true
+    },
+    {
+      "model": "f_2000a_aesa",
+      "group": "body",
+      "connection": 11454,
+      "side": 1,
+      "source_triangle": 47557,
+      "integer_pixel": [
+        568,
+        779
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        227.57401488218332,
+        167.352006252359,
+        227.57401488218332
+      ],
+      "image": "f_2000a_aesa_body_11454_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.27751196172245607,
+      "triangle_part": "fuse",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        227.0,
+        167.0,
+        227.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.5740148821833202,
+      "passed": true
+    },
+    {
+      "model": "f_2000a_aesa",
+      "group": "nozzle",
+      "connection": 11737,
+      "side": 0,
+      "source_triangle": 108308,
+      "integer_pixel": [
+        661,
+        2019
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        240.38133673674994,
+        217.0341080611371,
+        158.66559198920527
+      ],
+      "image": "f_2000a_aesa_nozzle_11737_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.2818181818181834,
+      "triangle_part": "nozzle1_73",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        240.0,
+        217.0,
+        159.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.38133673674994384,
+      "passed": true
+    },
+    {
+      "model": "f_2000a_aesa",
+      "group": "nozzle",
+      "connection": 11737,
+      "side": 1,
+      "source_triangle": 108480,
+      "integer_pixel": [
+        1824,
+        1862
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        176.20783174120498,
+        133.1940189143336,
+        142.02173491717437
+      ],
+      "image": "f_2000a_aesa_nozzle_11737_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.1000000000000248,
+      "triangle_part": "nozzle1_73",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        176.0,
+        133.0,
+        142.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.20783174120498416,
+      "passed": true
+    },
+    {
+      "model": "typhoon_fgr4",
+      "group": "wing",
+      "connection": 13645,
+      "side": 0,
+      "source_triangle": 18791,
+      "integer_pixel": [
+        927,
+        941
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        102.1690207856811,
+        191.7351324821996,
+        215.39419506376325
+      ],
+      "image": "typhoon_fgr4_wing_13645_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.32454624027658074,
+      "triangle_part": "fuse",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        102.0,
+        192.0,
+        215.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.39419506376324875,
+      "passed": true
+    },
+    {
+      "model": "typhoon_fgr4",
+      "group": "wing",
+      "connection": 13645,
+      "side": 1,
+      "source_triangle": 210877,
+      "integer_pixel": [
+        900,
+        922
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        202.23421701607103,
+        226.54897990711635,
+        207.51435706137332
+      ],
+      "image": "typhoon_fgr4_wing_13645_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.3292682926829252,
+      "triangle_part": "wing_r",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        202.0,
+        226.0,
+        207.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.5489799071163475,
+      "passed": true
+    },
+    {
+      "model": "typhoon_fgr4",
+      "group": "control",
+      "connection": 13622,
+      "side": 0,
+      "source_triangle": 279103,
+      "integer_pixel": [
+        1458,
+        688
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        145.72912833807706,
+        192.37354674527202,
+        218.6578861260494
+      ],
+      "image": "typhoon_fgr4_control_13622_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.3333333333333257,
+      "triangle_part": "rudder",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        146.0,
+        192.0,
+        219.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.3735467452720229,
+      "passed": true
+    },
+    {
+      "model": "typhoon_fgr4",
+      "group": "control",
+      "connection": 13622,
+      "side": 1,
+      "source_triangle": 278827,
+      "integer_pixel": [
+        1515,
+        1155
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        183.84691687588995,
+        223.4365600320723,
+        174.7720796933591
+      ],
+      "image": "typhoon_fgr4_control_13622_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.2857142857143299,
+      "triangle_part": "rudder",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        184.0,
+        223.0,
+        175.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.4365600320722933,
+      "passed": true
+    },
+    {
+      "model": "typhoon_fgr4",
+      "group": "body",
+      "connection": 13623,
+      "side": 0,
+      "source_triangle": 47273,
+      "integer_pixel": [
+        81,
+        1248
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        149.31982014403192,
+        239.90536537978278,
+        196.76712162449894
+      ],
+      "image": "typhoon_fgr4_body_13623_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.2629310344827465,
+      "triangle_part": "fuse",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        149.0,
+        240.0,
+        197.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.3198201440319224,
+      "passed": true
+    },
+    {
+      "model": "typhoon_fgr4",
+      "group": "body",
+      "connection": 13623,
+      "side": 1,
+      "source_triangle": 47557,
+      "integer_pixel": [
+        568,
+        779
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        227.57401488218332,
+        167.352006252359,
+        227.57401488218332
+      ],
+      "image": "typhoon_fgr4_body_13623_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.27751196172245607,
+      "triangle_part": "fuse",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        227.0,
+        167.0,
+        227.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.5740148821833202,
+      "passed": true
+    },
+    {
+      "model": "typhoon_fgr4",
+      "group": "nozzle",
+      "connection": 13904,
+      "side": 0,
+      "source_triangle": 108122,
+      "integer_pixel": [
+        661,
+        2019
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        240.38133673674994,
+        217.0341080611371,
+        158.66559198920527
+      ],
+      "image": "typhoon_fgr4_nozzle_13904_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.2818181818181834,
+      "triangle_part": "nozzle1_73",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        240.0,
+        217.0,
+        159.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.38133673674994384,
+      "passed": true
+    },
+    {
+      "model": "typhoon_fgr4",
+      "group": "nozzle",
+      "connection": 13904,
+      "side": 1,
+      "source_triangle": 108294,
+      "integer_pixel": [
+        1824,
+        1862
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        176.20783174120498,
+        133.1940189143336,
+        142.02173491717437
+      ],
+      "image": "typhoon_fgr4_nozzle_13904_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.1000000000000248,
+      "triangle_part": "nozzle1_73",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        176.0,
+        133.0,
+        142.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.20783174120498416,
+      "passed": true
+    },
+    {
+      "model": "typhoon_aesa",
+      "group": "wing",
+      "connection": 15792,
+      "side": 0,
+      "source_triangle": 18791,
+      "integer_pixel": [
+        927,
+        941
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        102.1690207856811,
+        191.7351324821996,
+        215.39419506376325
+      ],
+      "image": "typhoon_aesa_wing_15792_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.32454624027658074,
+      "triangle_part": "fuse",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        102.0,
+        192.0,
+        215.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.39419506376324875,
+      "passed": true
+    },
+    {
+      "model": "typhoon_aesa",
+      "group": "wing",
+      "connection": 15792,
+      "side": 1,
+      "source_triangle": 211293,
+      "integer_pixel": [
+        900,
+        922
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        202.23421701607103,
+        226.54897990711635,
+        207.51435706137332
+      ],
+      "image": "typhoon_aesa_wing_15792_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.3292682926829252,
+      "triangle_part": "wing_r",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        202.0,
+        226.0,
+        207.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.5489799071163475,
+      "passed": true
+    },
+    {
+      "model": "typhoon_aesa",
+      "group": "control",
+      "connection": 15769,
+      "side": 0,
+      "source_triangle": 279519,
+      "integer_pixel": [
+        1458,
+        688
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        145.72912833807706,
+        192.37354674527202,
+        218.6578861260494
+      ],
+      "image": "typhoon_aesa_control_15769_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.3333333333333257,
+      "triangle_part": "rudder",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        146.0,
+        192.0,
+        219.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.3735467452720229,
+      "passed": true
+    },
+    {
+      "model": "typhoon_aesa",
+      "group": "control",
+      "connection": 15769,
+      "side": 1,
+      "source_triangle": 279243,
+      "integer_pixel": [
+        1515,
+        1155
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        183.84691687588995,
+        223.4365600320723,
+        174.7720796933591
+      ],
+      "image": "typhoon_aesa_control_15769_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.2857142857143299,
+      "triangle_part": "rudder",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        184.0,
+        223.0,
+        175.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.4365600320722933,
+      "passed": true
+    },
+    {
+      "model": "typhoon_aesa",
+      "group": "body",
+      "connection": 15770,
+      "side": 0,
+      "source_triangle": 47273,
+      "integer_pixel": [
+        81,
+        1248
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        149.31982014403192,
+        239.90536537978278,
+        196.76712162449894
+      ],
+      "image": "typhoon_aesa_body_15770_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.2629310344827465,
+      "triangle_part": "fuse",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        149.0,
+        240.0,
+        197.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.3198201440319224,
+      "passed": true
+    },
+    {
+      "model": "typhoon_aesa",
+      "group": "body",
+      "connection": 15770,
+      "side": 1,
+      "source_triangle": 47557,
+      "integer_pixel": [
+        568,
+        779
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        227.57401488218332,
+        167.352006252359,
+        227.57401488218332
+      ],
+      "image": "typhoon_aesa_body_15770_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.27751196172245607,
+      "triangle_part": "fuse",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        227.0,
+        167.0,
+        227.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.5740148821833202,
+      "passed": true
+    },
+    {
+      "model": "typhoon_aesa",
+      "group": "nozzle",
+      "connection": 16050,
+      "side": 0,
+      "source_triangle": 108538,
+      "integer_pixel": [
+        661,
+        2019
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        240.38133673674994,
+        217.0341080611371,
+        158.66559198920527
+      ],
+      "image": "typhoon_aesa_nozzle_16050_0.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.2818181818181834,
+      "triangle_part": "nozzle1_73",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        240.0,
+        217.0,
+        159.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.38133673674994384,
+      "passed": true
+    },
+    {
+      "model": "typhoon_aesa",
+      "group": "nozzle",
+      "connection": 16050,
+      "side": 1,
+      "source_triangle": 108710,
+      "integer_pixel": [
+        1824,
+        1862
+      ],
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sample_image_pixel": [
+        256,
+        256
+      ],
+      "expected_srgb": [
+        176.20783174120498,
+        133.1940189143336,
+        142.02173491717437
+      ],
+      "image": "typhoon_aesa_nozzle_16050_1.png",
+      "sample_rule": "independent integer texel centre strictly inside source triangle; does not replace short stub",
+      "barycentric_margin": 0.1000000000000248,
+      "triangle_part": "nozzle1_73",
+      "scope": "isolated triangle texture-coordinate probe; does not establish seam continuity, visibility or parser correctness by itself",
+      "actual_srgb": [
+        176.0,
+        133.0,
+        142.0
+      ],
+      "alpha": 255,
+      "max_code_error": 0.20783174120498416,
+      "passed": true
+    }
+  ],
+  "passed": 64,
+  "failed": 0,
+  "missing_groups": [],
+  "scope": "Readback of independently rendered texel colors at world-projected sample centres. Local samples only, not whole-library accuracy proof."
+}

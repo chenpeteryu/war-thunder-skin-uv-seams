@@ -1,0 +1,2 @@
+﻿part_id,part_name,triangles,u_min,v_min,u_max,v_max,x_min_px,y_min_px,x_max_px,y_max_px,world_x_min,world_x_max,world_y_min,world_y_max,world_z_min,world_z_max
+12,seat_01,23193,0.001953125,0.001953125,0.997314453125,0.998046875,2.0,2.0,1021.25,1022.0,3.505607843399048,4.8382039070129395,0.02245936170220375,1.201543927192688,-0.267111212015152,0.27077117562294006

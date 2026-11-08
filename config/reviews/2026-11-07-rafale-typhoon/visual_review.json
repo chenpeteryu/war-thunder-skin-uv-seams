@@ -1,0 +1,20 @@
+{
+  "native_models_reviewed": [
+    "ef_2000_aesa",
+    "ef_2000_block_10",
+    "f_2000a",
+    "f_2000a_aesa",
+    "rafale_c_f3",
+    "rafale_m_f3_r",
+    "typhoon_aesa",
+    "typhoon_fgr4"
+  ],
+  "full_body_views_per_model": 14,
+  "full_body_images_reviewed": 112,
+  "method": "Viewed all eight 14-view contact sheets; top, bottom, both sides, front/back and eight obliques. No gross stretched mesh, flying triangles or missing silhouette observed.",
+  "materials": "Main diffuse synthetic blocks; opaque accessories neutral. Glass/null/effects omitted.",
+  "per_attachment_visual_review": false,
+  "texture_precision": "64 isolated strictly interior texel-center controls passed; not a full-library pixel-perfect claim",
+  "issues_requiring_coordinate_correction": [],
+  "runtime_verified": false
+}

@@ -1,0 +1,778 @@
+{
+  "model": "typhoon_aesa",
+  "scene_sha256": "67dfd9197eff905d07c762cee4421f9f6b3520638589fe3cfc9b6858f982966c",
+  "body_geometry_sha256": "676c257ce3eadf88bd2fcb8cea1523dd8e6647aee44106f50e9837434c3642cd",
+  "materials": [
+    {
+      "id": 3,
+      "texture": "typhoon_aesa_c",
+      "triangles": 317975,
+      "color_blocks": true
+    },
+    {
+      "id": 6,
+      "texture": "eurofighter_typhoon_inside_c",
+      "triangles": 880,
+      "color_blocks": false
+    },
+    {
+      "id": 7,
+      "texture": "ef_2000_block_10_interior_c",
+      "triangles": 37155,
+      "color_blocks": false
+    },
+    {
+      "id": 12,
+      "texture": "eurofighter_typhoon_seat_c",
+      "triangles": 12313,
+      "color_blocks": false
+    },
+    {
+      "id": 17,
+      "texture": "eurofighter_typhoon_pylon2_c",
+      "triangles": 7770,
+      "color_blocks": false
+    },
+    {
+      "id": 18,
+      "texture": "eurofighter_typhoon_pylon1_c",
+      "triangles": 10184,
+      "color_blocks": false
+    },
+    {
+      "id": 19,
+      "texture": "litening_2_pod_c",
+      "triangles": 21100,
+      "color_blocks": false
+    },
+    {
+      "id": 22,
+      "texture": "mesh1_a",
+      "triangles": 36,
+      "color_blocks": false
+    },
+    {
+      "id": 23,
+      "texture": "itspl_launcher_c",
+      "triangles": 6606,
+      "color_blocks": false
+    },
+    {
+      "id": 24,
+      "texture": "mfrl_launcher_c",
+      "triangles": 5144,
+      "color_blocks": false
+    },
+    {
+      "id": 25,
+      "texture": "eurofighter_typhoon_pylon_central_c",
+      "triangles": 5055,
+      "color_blocks": false
+    },
+    {
+      "id": 26,
+      "texture": "eurofighter_typhoon_pylon3_c",
+      "triangles": 12468,
+      "color_blocks": false
+    },
+    {
+      "id": 27,
+      "texture": "de_1000l_ef2000_drop_tank_c",
+      "triangles": 8454,
+      "color_blocks": false
+    }
+  ],
+  "excluded_materials": [
+    {
+      "id": 0,
+      "shader": "aces_weapon_fire",
+      "triangles": 1176
+    },
+    {
+      "id": 1,
+      "shader": "aces_weapon_fire",
+      "triangles": 4
+    },
+    {
+      "id": 4,
+      "shader": "dynamic_glass_chrome",
+      "triangles": 542
+    },
+    {
+      "id": 5,
+      "shader": "dynamic_glass_chrome",
+      "triangles": 276
+    },
+    {
+      "id": 8,
+      "shader": "dynamic_glass_chrome",
+      "triangles": 132
+    },
+    {
+      "id": 9,
+      "shader": "dynamic_glass_chrome",
+      "triangles": 132
+    },
+    {
+      "id": 10,
+      "shader": "dynamic_glass_chrome",
+      "triangles": 26
+    },
+    {
+      "id": 11,
+      "shader": "propeller_front",
+      "triangles": 184
+    },
+    {
+      "id": 13,
+      "shader": "dynamic_glass_chrome",
+      "triangles": 15
+    },
+    {
+      "id": 14,
+      "shader": "dynamic_glass_chrome",
+      "triangles": 1040
+    },
+    {
+      "id": 15,
+      "shader": "dynamic_glass_chrome",
+      "triangles": 294
+    },
+    {
+      "id": 16,
+      "shader": "dynamic_glass_chrome",
+      "triangles": 1724
+    },
+    {
+      "id": 20,
+      "shader": "dynamic_glass_chrome",
+      "triangles": 32
+    },
+    {
+      "id": 21,
+      "shader": "dynamic_glass_chrome",
+      "triangles": 34
+    },
+    {
+      "id": 28,
+      "shader": "dynamic_glass_tone",
+      "triangles": 26
+    },
+    {
+      "id": 29,
+      "shader": "dynamic_glass_tone",
+      "triangles": 26
+    }
+  ],
+  "static_visibility": {
+    "scope": "static core-body centroid visibility against all selected opaque materials",
+    "source_triangles": 317975,
+    "blocker_triangles": 363015,
+    "visible_triangles": 89632,
+    "degenerate_or_named_interior_exclusions": 60920,
+    "occluded_triangles": 167423,
+    "ray_tolerance_m": 0.0002,
+    "directions": "both face normals plus 26 global directions",
+    "optional_material_ids": [
+      17,
+      18,
+      19,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "optional_part_ids": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      10,
+      11,
+      12,
+      13,
+      14,
+      17,
+      18,
+      19,
+      20,
+      25,
+      26,
+      129,
+      130,
+      137,
+      254,
+      255
+    ],
+    "glass_null_effects_excluded": true,
+    "per_texel_alpha_simulated": false,
+    "runtime_verified": false
+  },
+  "views": [
+    {
+      "view": "top",
+      "native_eye": [
+        0,
+        32,
+        0
+      ],
+      "native_target": [
+        0,
+        0,
+        0
+      ],
+      "scale": 24,
+      "matrix_world": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          0.0
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          32.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "view": "bottom",
+      "native_eye": [
+        0,
+        -32,
+        0
+      ],
+      "native_target": [
+        0,
+        0,
+        0
+      ],
+      "scale": 24,
+      "matrix_world": [
+        [
+          -1.0,
+          8.74227694680485e-08,
+          -8.742279078433057e-08,
+          0.0
+        ],
+        [
+          8.742277657347586e-08,
+          1.0,
+          -8.74227694680485e-08,
+          0.0
+        ],
+        [
+          8.742277657347586e-08,
+          -8.742277657347586e-08,
+          -1.0,
+          -32.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "view": "left",
+      "native_eye": [
+        0,
+        0,
+        32
+      ],
+      "native_target": [
+        0,
+        0,
+        0
+      ],
+      "scale": 24,
+      "matrix_world": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          -1.1399865765455465e-14,
+          0.0
+        ],
+        [
+          0.0,
+          7.549790126404332e-08,
+          1.0,
+          32.0
+        ],
+        [
+          1.5099580252808664e-07,
+          1.0,
+          -7.549790126404332e-08,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "view": "right",
+      "native_eye": [
+        0,
+        0,
+        -32
+      ],
+      "native_target": [
+        0,
+        0,
+        0
+      ],
+      "scale": 24,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.6292068494294654e-07,
+          -1.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          -1.6292068494294654e-07,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "view": "front",
+      "native_eye": [
+        32,
+        0,
+        0
+      ],
+      "native_target": [
+        0,
+        0,
+        0
+      ],
+      "scale": 24,
+      "matrix_world": [
+        [
+          -4.371138828673793e-08,
+          4.371138828673793e-08,
+          1.0,
+          32.0
+        ],
+        [
+          1.0,
+          1.910685676922942e-15,
+          4.371138828673793e-08,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "view": "back",
+      "native_eye": [
+        -32,
+        0,
+        0
+      ],
+      "native_target": [
+        0,
+        0,
+        0
+      ],
+      "scale": 24,
+      "matrix_world": [
+        [
+          -4.371138828673793e-08,
+          -4.371138828673793e-08,
+          -1.0,
+          -32.0
+        ],
+        [
+          -1.0,
+          1.910685676922942e-15,
+          4.371138828673793e-08,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "view": "oblique_-1_-1_-1",
+      "native_eye": [
+        -24,
+        -20,
+        -24
+      ],
+      "native_target": [
+        0,
+        0,
+        0
+      ],
+      "scale": 24,
+      "matrix_world": [
+        [
+          0.7071067094802856,
+          -0.35897913575172424,
+          -0.609207808971405,
+          -24.0
+        ],
+        [
+          -0.70710688829422,
+          -0.35897907614707947,
+          -0.6092075705528259,
+          -24.0
+        ],
+        [
+          -4.7717215068132646e-08,
+          0.8615497946739197,
+          -0.5076731443405151,
+          -20.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "view": "oblique_-1_-1_1",
+      "native_eye": [
+        -24,
+        -20,
+        24
+      ],
+      "native_target": [
+        0,
+        0,
+        0
+      ],
+      "scale": 24,
+      "matrix_world": [
+        [
+          -0.7071069478988647,
+          -0.3589789867401123,
+          -0.6092075705528259,
+          -24.0
+        ],
+        [
+          -0.7071065902709961,
+          0.3589792251586914,
+          0.609207808971405,
+          24.0
+        ],
+        [
+          3.4158549766516444e-08,
+          0.8615497946739197,
+          -0.5076731443405151,
+          -20.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "view": "oblique_-1_1_-1",
+      "native_eye": [
+        -24,
+        20,
+        -24
+      ],
+      "native_target": [
+        0,
+        0,
+        0
+      ],
+      "scale": 24,
+      "matrix_world": [
+        [
+          0.7071067094802856,
+          0.3589790463447571,
+          -0.609207808971405,
+          -24.0
+        ],
+        [
+          -0.70710688829422,
+          0.35897889733314514,
+          -0.6092076897621155,
+          -24.0
+        ],
+        [
+          -3.432955608673183e-08,
+          0.8615498542785645,
+          0.5076729655265808,
+          20.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "view": "oblique_-1_1_1",
+      "native_eye": [
+        -24,
+        20,
+        24
+      ],
+      "native_target": [
+        0,
+        0,
+        0
+      ],
+      "scale": 24,
+      "matrix_world": [
+        [
+          -0.7071067690849304,
+          0.35897916555404663,
+          -0.6092076301574707,
+          -24.0
+        ],
+        [
+          -0.7071067690849304,
+          -0.35897910594940186,
+          0.6092076897621155,
+          24.0
+        ],
+        [
+          6.498035531876667e-08,
+          0.8615497350692749,
+          0.5076731443405151,
+          20.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "view": "oblique_1_-1_-1",
+      "native_eye": [
+        24,
+        -20,
+        -24
+      ],
+      "native_target": [
+        0,
+        0,
+        0
+      ],
+      "scale": 24,
+      "matrix_world": [
+        [
+          0.7071067094802856,
+          0.35897913575172424,
+          0.609207808971405,
+          24.0
+        ],
+        [
+          0.70710688829422,
+          -0.35897907614707947,
+          -0.6092075705528259,
+          -24.0
+        ],
+        [
+          4.7717215068132646e-08,
+          0.8615497946739197,
+          -0.5076731443405151,
+          -20.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "view": "oblique_1_-1_1",
+      "native_eye": [
+        24,
+        -20,
+        24
+      ],
+      "native_target": [
+        0,
+        0,
+        0
+      ],
+      "scale": 24,
+      "matrix_world": [
+        [
+          -0.7071069478988647,
+          0.3589789867401123,
+          0.6092075705528259,
+          24.0
+        ],
+        [
+          0.7071065902709961,
+          0.3589792251586914,
+          0.609207808971405,
+          24.0
+        ],
+        [
+          -3.4158549766516444e-08,
+          0.8615497946739197,
+          -0.5076731443405151,
+          -20.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "view": "oblique_1_1_-1",
+      "native_eye": [
+        24,
+        20,
+        -24
+      ],
+      "native_target": [
+        0,
+        0,
+        0
+      ],
+      "scale": 24,
+      "matrix_world": [
+        [
+          0.7071067094802856,
+          -0.3589790463447571,
+          0.609207808971405,
+          24.0
+        ],
+        [
+          0.70710688829422,
+          0.35897889733314514,
+          -0.6092076897621155,
+          -24.0
+        ],
+        [
+          3.432955608673183e-08,
+          0.8615498542785645,
+          0.5076729655265808,
+          20.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "view": "oblique_1_1_1",
+      "native_eye": [
+        24,
+        20,
+        24
+      ],
+      "native_target": [
+        0,
+        0,
+        0
+      ],
+      "scale": 24,
+      "matrix_world": [
+        [
+          -0.7071067690849304,
+          -0.35897916555404663,
+          0.6092076301574707,
+          24.0
+        ],
+        [
+          0.7071067690849304,
+          -0.35897910594940186,
+          0.6092076897621155,
+          24.0
+        ],
+        [
+          -6.498035531876667e-08,
+          0.8615497350692749,
+          0.5076731443405151,
+          20.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "limitations": "2K synthetic grid on main texture; attachments shown neutral. Static opaque model, glass/effects omitted, no per-texel alpha, animation, engine material or universal pixel-precision claim."
+}
