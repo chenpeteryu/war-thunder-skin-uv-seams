@@ -1,3 +1,5 @@
+> Current material correction: [2026-11-09 raw-channel and physical-surface repair](su30_material_surfaces_20261109.md) supersedes earlier nonuniform R/B handling.
+
 # SM/SM2：原生轮廓与涂装微调的区别
 
 2026-11-07 回溯补录。调用轮廓库并不等于参考涂装自动 100% 贴合。两机实际使用的主几何 XYZ、UV 与库中数据完全一致，没有移动原生轮廓或 UV；修正的是 J-16 设计向不同机体的采样位置、连续性和涂层。

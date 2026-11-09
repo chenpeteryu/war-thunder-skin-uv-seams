@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "model": "su_30sm2",
+  "geometry": "aircraft/su30sm2/su_30sm2_c/geometry.npz",
+  "geometry_sha256": "4bcc23ed9099d68f505e13e2ef2d2693f78a80a1221ae8b5473c114fd61d8132",
+  "resolution": [
+    4096,
+    4096
+  ],
+  "mask_bitorder": "little",
+  "array_bundle": "config/recipes/su30sm2_material_surface_20261109.npz",
+  "array_bundle_sha256": "bf2e21478095aa3173b8eab22ed328f8f58ce6890ad3181cf0d09dc38f442f92",
+  "input_color_sha256": "84b5a9eb214b1bb6e8ba88574423735c55087bd777bc88d1f4ab8423a1522273",
+  "input_normal_sha256": "a8f69fbdd1d2a61bab1ac9fd28185fe6d84523e9aba608cd69b83a72db452c0c",
+  "masks": {
+    "airframe_coating_pixels": {
+      "array": "airframe_coating_pixels_packbits",
+      "pixels": 11251181
+    },
+    "lerx_substrate_pixels": {
+      "array": "lerx_substrate_pixels_packbits",
+      "pixels": 0
+    },
+    "lerx_material_pixels": {
+      "array": "lerx_material_pixels_packbits",
+      "pixels": 372770
+    },
+    "fin_both_faces_material_pixels": {
+      "array": "fin_both_faces_material_pixels_packbits",
+      "pixels": 1454694
+    },
+    "fin_root_tone_pixels": {
+      "array": "fin_root_tone_pixels_packbits",
+      "pixels": 0
+    },
+    "gear_c6_face-1_pixels": {
+      "array": "gear_c6_face-1_pixels_packbits",
+      "pixels": 5814
+    },
+    "gear_c6_face1_pixels": {
+      "array": "gear_c6_face1_pixels_packbits",
+      "pixels": 57868
+    },
+    "gear_l9_face-1_pixels": {
+      "array": "gear_l9_face-1_pixels_packbits",
+      "pixels": 33979
+    },
+    "gear_l9_face1_pixels": {
+      "array": "gear_l9_face1_pixels_packbits",
+      "pixels": 43070
+    },
+    "gear_r9_face-1_pixels": {
+      "array": "gear_r9_face-1_pixels_packbits",
+      "pixels": 33553
+    },
+    "gear_r9_face1_pixels": {
+      "array": "gear_r9_face1_pixels_packbits",
+      "pixels": 42714
+    },
+    "gear_l14_face-1_pixels": {
+      "array": "gear_l14_face-1_pixels_packbits",
+      "pixels": 40020
+    },
+    "gear_l14_face1_pixels": {
+      "array": "gear_l14_face1_pixels_packbits",
+      "pixels": 44846
+    },
+    "gear_r14_face-1_pixels": {
+      "array": "gear_r14_face-1_pixels_packbits",
+      "pixels": 40062
+    },
+    "gear_r14_face1_pixels": {
+      "array": "gear_r14_face1_pixels_packbits",
+      "pixels": 44757
+    },
+    "pgo_material_pixels": {
+      "array": "pgo_material_pixels_packbits",
+      "pixels": 195502
+    },
+    "pgo_art_preserve_pixels": {
+      "array": "pgo_art_preserve_pixels_packbits",
+      "pixels": 195502
+    },
+    "pgo_caption_erase_pixels": {
+      "array": "pgo_caption_erase_pixels_packbits",
+      "pixels": 1688
+    },
+    "nose_foreign_hardware_cleanup_pixels": {
+      "array": "nose_foreign_hardware_cleanup_pixels_packbits",
+      "pixels": 14308
+    },
+    "nose_native_detail_restore_pixels": {
+      "array": "nose_native_detail_restore_pixels_packbits",
+      "pixels": 6185
+    },
+    "nose_shared_mechanical_guard_pixels": {
+      "array": "nose_shared_mechanical_guard_pixels_packbits",
+      "pixels": 0
+    }
+  },
+  "reference_coating_RB": [
+    102,
+    178
+  ],
+  "reference_canard_source": "J15T HIGH raw material R/B; approved target canard artwork preserved",
+  "native_color_sha256": "31d70bf35e501f96246fefeedf274184f1671bb8428e1d530edb7140c71d554f",
+  "native_color_required": "Unmodified target main C, bicubic 4096: GA-supported microscopic LERX structure and door details only; no original camouflage or serial transfer.",
+  "canard_source_required_but_not_included": false,
+  "operations": [
+    "Set R/B directly to 102/178 on material masks; preserve G/A byte-exact. Never copy packed channel values from a color-managed render.",
+    "LERX: native GA-supported high-frequency native C detail, white base186; blend using stored weight/255. No foreign projected panel fragments. Preserve color accents and approved caption ink.",
+    "Fin C is preserved; material correction removes the root/fin R/B mismatch without introducing a new color band.",
+    "Door C: source physical-side weighted median + .25*(native_gray-Gaussian_sigma3(native_gray)), bounded to base-18..base+12.",
+    "Canards preserve dark band and yellow edge. Erase only the clipped original ENDFIELD caption onto white187, then place the complete same-font caption at chord fraction .16..66 and span .38..47. Correct outside readability per side and upper/lower face; ink105. R/B remains102/178 and native GA exact."
+  ],
+  "door_base_values": {
+    "gear_c6": {
+      "-1": 85,
+      "1": 85
+    },
+    "gear_l9": {
+      "-1": 18,
+      "1": 159
+    },
+    "gear_r9": {
+      "-1": 18,
+      "1": 159
+    },
+    "gear_l14": {
+      "-1": 18,
+      "1": 161
+    },
+    "gear_r14": {
+      "-1": 18,
+      "1": 161
+    }
+  },
+  "exclusions": [
+    "gear legs, actuators, wheels and optics are not painted by door operations",
+    "native geometry, UV, normal G/A and color alpha unchanged",
+    "all approved texts and ENDFIELD remain in existing slots"
+  ],
+  "nose_normal_policy": "N is not changed for screenshot brightness; nose correction is C artwork only. Optical hardware remains native.",
+  "repeat_policy": "Apply once to the exact input hashes. Do not run repeatedly over repaired output.",
+  "review": "config/reviews/2026-11-09/sm_sm2_material_surfaces.json",
+  "nose_reference_geometry": "aircraft/j16/j_16_c/geometry.npz",
+  "nose_reference_geometry_sha256": "f9b677482d5f1b148f490842b93ca1203232ef60d7469a6a7a8b7b5e53d6d701",
+  "nose_reference_color_sha256": "e577e615bb8aff00045e55822fe66553d487311ceb765d22d75ce281d07a4c49",
+  "nose_texture_mapping": {
+    "source_skin_end": 13.073578834533691,
+    "target_skin_end": 13.034591674804688,
+    "source_pitot_excluded_islands": [
+      4155
+    ],
+    "target_pitot_excluded_islands": [
+      5078
+    ],
+    "target_pixels": 424152,
+    "eligible": 410739,
+    "mapped": 409670,
+    "coverage_of_eligible": 0.9973973740014949,
+    "max_parameter_projection_error": 0.03499917038582294,
+    "C_changed_pixels": 112243,
+    "N_changed": false,
+    "source_sha256": "e577e615bb8aff00045e55822fe66553d487311ceb765d22d75ce281d07a4c49",
+    "method": "Native skin extent excluding pitot hardware; per-section ellipse-normalized angular mapping; source native triangle UV interpolation and bilinear source C only."
+  },
+  "replay_tool": "config/tools/apply_sm_material_surface_repair.py",
+  "game_verified": false
+}

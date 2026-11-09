@@ -1,0 +1,248 @@
+{
+  "date": "2026-11-09",
+  "models": {
+    "su_30sm": {
+      "geometry_sha256": "432aa2155ff69f3641d50a13423796fe61535f92c4c96dce926872748dc5291b",
+      "native_GA_preserved": true,
+      "GA_matches_fresh_current_native": true,
+      "outside_authorized_scope_changed": 0,
+      "color_alpha_preserved": true,
+      "DDS_PNG_exact": true,
+      "canard_C_design_preserved_outside_caption": true,
+      "canard_caption_complete_and_oriented": true,
+      "fin_C_preserved": true,
+      "material_groups": {
+        "airframe_coating_pixels": {
+          "pixels": 11457315,
+          "RB": [
+            102,
+            178
+          ],
+          "previous_non_reference_pixels": 3611240
+        },
+        "lerx_material_pixels": {
+          "pixels": 372770,
+          "RB": [
+            102,
+            178
+          ],
+          "previous_non_reference_pixels": 11785
+        },
+        "fin_both_faces_material_pixels": {
+          "pixels": 1454694,
+          "RB": [
+            102,
+            178
+          ],
+          "previous_non_reference_pixels": 964901
+        },
+        "pgo_material_pixels": {
+          "pixels": 195502,
+          "RB": [
+            102,
+            178
+          ],
+          "previous_non_reference_pixels": 0
+        }
+      },
+      "C_changed_pixels": 598960,
+      "N_changed_pixels": 3719750,
+      "color_sha256": "331ac2f2db8cb3dceac6f0be73373143fbc401d2aa08c28e56a9685db6a3afa2",
+      "normal_sha256": "63a74d1208254e8e8b5b831432b66c45c3627805273273e61dec8276fc5786ba",
+      "reusable_replay_difference_pixels": 0,
+      "nose_N_unchanged_by_artwork": true,
+      "nose_approved_marking_regions_preserved": true
+    },
+    "su_30sm2": {
+      "geometry_sha256": "4bcc23ed9099d68f505e13e2ef2d2693f78a80a1221ae8b5473c114fd61d8132",
+      "native_GA_preserved": true,
+      "GA_matches_fresh_current_native": true,
+      "outside_authorized_scope_changed": 0,
+      "color_alpha_preserved": true,
+      "DDS_PNG_exact": true,
+      "canard_C_design_preserved_outside_caption": true,
+      "canard_caption_complete_and_oriented": true,
+      "fin_C_preserved": true,
+      "material_groups": {
+        "airframe_coating_pixels": {
+          "pixels": 11251181,
+          "RB": [
+            102,
+            178
+          ],
+          "previous_non_reference_pixels": 3616998
+        },
+        "lerx_material_pixels": {
+          "pixels": 372770,
+          "RB": [
+            102,
+            178
+          ],
+          "previous_non_reference_pixels": 11785
+        },
+        "fin_both_faces_material_pixels": {
+          "pixels": 1454694,
+          "RB": [
+            102,
+            178
+          ],
+          "previous_non_reference_pixels": 964901
+        },
+        "pgo_material_pixels": {
+          "pixels": 195502,
+          "RB": [
+            102,
+            178
+          ],
+          "previous_non_reference_pixels": 0
+        }
+      },
+      "C_changed_pixels": 598219,
+      "N_changed_pixels": 3722631,
+      "color_sha256": "24d2b1fe9debf3e32e759d1d5333f8d3521037da1bb2260a4782789b80a874cf",
+      "normal_sha256": "ffee7080d29df185a043f6ce449e94defac34db9bb930d02d53c080cc4390d0c",
+      "reusable_replay_difference_pixels": 0,
+      "nose_N_unchanged_by_artwork": true,
+      "nose_approved_marking_regions_preserved": true
+    }
+  },
+  "source_reference_materials": "reference_physical_materials.json",
+  "game_verified": false,
+  "scope": "SM/SM2 raw material consistency, LERX substrate, gear door inner/exterior surfaces, canard caption fit/readability, and nose artwork alignment.",
+  "visual_review": {
+    "method": "Visual review of both models: 8 four-light whole-airframe material contact sheets, isolated two-face door material sheets, complete canard caption sheets, and six-angle nose color/four-light material sheets; preceding full-size key detail review retained. 520 images inventoried, not a claim of 520 independent full-resolution visual inspections.",
+    "findings": [
+      "No new substrate patches or displaced nose ring/warning patterns identified in reviewed views.",
+      "Canard ENDFIELD captions complete on both sides, original gray/yellow design preserved.",
+      "Door inner/exterior finishes separated; fin color artwork unchanged.",
+      "Nose brightness/gloss not adjusted in nose artwork stage."
+    ],
+    "limitations": "Blender approximate static material review only; Dagor shader, animation poses and actual game remain unverified."
+  },
+  "native_normals": [
+    {
+      "name": "su_30sm_n",
+      "source_pack": "content.hq/hq_tex/res/hq_tex_aircrafts/su_30.dxp.bin",
+      "offset": 1172088,
+      "native_size": [
+        2048,
+        2048
+      ],
+      "decoded_size": [
+        2048,
+        2048
+      ],
+      "format": "DXT5",
+      "flags": 573457,
+      "decoded_channels_min": [
+        0,
+        89,
+        0,
+        97
+      ],
+      "decoded_channels_max": [
+        255,
+        166,
+        255,
+        155
+      ],
+      "DDS_SHA256": "f1923f6709e19e301a9c90d29099ce970340778060ed5f137cdbb2eb2391dc58"
+    },
+    {
+      "name": "su_30sm2_n",
+      "source_pack": "content.hq/hq_tex/res/hq_tex_aircrafts/su_30sm2.dxp.bin",
+      "offset": 1095808,
+      "native_size": [
+        2048,
+        2048
+      ],
+      "decoded_size": [
+        2048,
+        2048
+      ],
+      "format": "DXT5",
+      "flags": 573457,
+      "decoded_channels_min": [
+        0,
+        89,
+        0,
+        97
+      ],
+      "decoded_channels_max": [
+        255,
+        166,
+        255,
+        155
+      ],
+      "DDS_SHA256": "b119c4e8e34756c33dd3dcbd1a08334d31b1e717441610021fc33a7bfafd15d9"
+    }
+  ],
+  "rejected_attempts": [
+    "Partial 3D nearest canard artwork transfer covered only 67 percent; rejected.",
+    "Full canard artwork transfer also changed the approved design; reverted. Final canard art is preserved outside the locally corrected clipped ENDFIELD caption.",
+    "Fin-root color boost introduced a band; reverted. Final fin C is byte-identical to baseline, with material correction only."
+  ],
+  "limits": [
+    "No game launch or Dagor runtime verification.",
+    "Static native closed-pose gear plus isolated inner/exterior face review; open/closed animation is not observed.",
+    "Geometry/UV are unchanged; normal GA and color alpha are preserved."
+  ],
+  "nose_texture_mapping": {
+    "su_30sm": {
+      "source_skin_end": 13.073578834533691,
+      "target_skin_end": 13.034591674804688,
+      "source_pitot_excluded_islands": [
+        4155
+      ],
+      "target_pitot_excluded_islands": [
+        5078
+      ],
+      "target_pixels": 424245,
+      "eligible": 410829,
+      "mapped": 409790,
+      "coverage_of_eligible": 0.9974709672394111,
+      "max_parameter_projection_error": 0.03499917038582294,
+      "C_changed_pixels": 112327,
+      "N_changed": false,
+      "source_sha256": "e577e615bb8aff00045e55822fe66553d487311ceb765d22d75ce281d07a4c49",
+      "method": "Native skin extent excluding pitot hardware; per-section ellipse-normalized angular mapping; source native triangle UV interpolation and bilinear source C only."
+    },
+    "su_30sm2": {
+      "source_skin_end": 13.073578834533691,
+      "target_skin_end": 13.034591674804688,
+      "source_pitot_excluded_islands": [
+        4155
+      ],
+      "target_pitot_excluded_islands": [
+        5078
+      ],
+      "target_pixels": 424152,
+      "eligible": 410739,
+      "mapped": 409670,
+      "coverage_of_eligible": 0.9973973740014949,
+      "max_parameter_projection_error": 0.03499917038582294,
+      "C_changed_pixels": 112243,
+      "N_changed": false,
+      "source_sha256": "e577e615bb8aff00045e55822fe66553d487311ceb765d22d75ce281d07a4c49",
+      "method": "Native skin extent excluding pitot hardware; per-section ellipse-normalized angular mapping; source native triangle UV interpolation and bilinear source C only."
+    }
+  },
+  "current_geometry": {
+    "su_30sm": {
+      "triangles": 383448,
+      "resource_pack": "content/base/res/aircrafts/air.grp",
+      "current_UV_exact": true,
+      "current_XYZ_exact": true
+    },
+    "su_30sm2": {
+      "triangles": 384192,
+      "resource_pack": "content/base/res/aircrafts/air.grp",
+      "current_UV_exact": true,
+      "current_XYZ_exact": true
+    }
+  },
+  "runtime_check": "No accessible running game window found by app/window inventory; game not launched. Runtime remains unverified.",
+  "user_clarification": "Nose screenshot brightness is lighting; nose work changes texture/pattern placement, not brightness or gloss.",
+  "visual_review_passed": true,
+  "render_inventory": "render_evidence.json"
+}

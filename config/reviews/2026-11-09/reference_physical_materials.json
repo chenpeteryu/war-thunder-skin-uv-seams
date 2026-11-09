@@ -1,0 +1,512 @@
+[
+  {
+    "source": "j16",
+    "surface": "fin",
+    "tone": "dark",
+    "triangles": 3772,
+    "C_RGB": [
+      73.0,
+      73.0,
+      73.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j16",
+    "surface": "fin",
+    "tone": "white",
+    "triangles": 889,
+    "C_RGB": [
+      164.0,
+      164.0,
+      164.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j16",
+    "surface": "lerx",
+    "tone": "dark",
+    "triangles": 1624,
+    "C_RGB": [
+      22.0,
+      22.0,
+      22.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j16",
+    "surface": "lerx",
+    "tone": "white",
+    "triangles": 4354,
+    "C_RGB": [
+      186.0,
+      186.0,
+      186.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j16",
+    "surface": "gear_c6-1",
+    "tone": "all",
+    "triangles": 1553,
+    "C_RGB": [
+      85.0,
+      85.0,
+      85.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j16",
+    "surface": "gear_c61",
+    "tone": "all",
+    "triangles": 1584,
+    "C_RGB": [
+      85.0,
+      85.0,
+      85.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j16",
+    "surface": "gear_c11-1",
+    "tone": "all",
+    "triangles": 1374,
+    "C_RGB": [
+      85.0,
+      85.0,
+      85.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j16",
+    "surface": "gear_c111",
+    "tone": "all",
+    "triangles": 1212,
+    "C_RGB": [
+      85.0,
+      85.0,
+      85.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j16",
+    "surface": "gear_l9-1",
+    "tone": "all",
+    "triangles": 1189,
+    "C_RGB": [
+      18.0,
+      18.0,
+      18.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j16",
+    "surface": "gear_l91",
+    "tone": "all",
+    "triangles": 684,
+    "C_RGB": [
+      159.0,
+      159.0,
+      159.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j16",
+    "surface": "gear_r9-1",
+    "tone": "all",
+    "triangles": 1175,
+    "C_RGB": [
+      18.0,
+      18.0,
+      18.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j16",
+    "surface": "gear_r91",
+    "tone": "all",
+    "triangles": 690,
+    "C_RGB": [
+      159.0,
+      159.0,
+      159.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j16",
+    "surface": "gear_l14-1",
+    "tone": "all",
+    "triangles": 2243,
+    "C_RGB": [
+      18.0,
+      18.0,
+      18.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j16",
+    "surface": "gear_l141",
+    "tone": "all",
+    "triangles": 827,
+    "C_RGB": [
+      161.0,
+      161.0,
+      161.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j16",
+    "surface": "gear_r14-1",
+    "tone": "all",
+    "triangles": 2236,
+    "C_RGB": [
+      18.0,
+      18.0,
+      18.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j16",
+    "surface": "gear_r141",
+    "tone": "all",
+    "triangles": 825,
+    "C_RGB": [
+      160.0,
+      160.0,
+      160.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j15t",
+    "surface": "fin",
+    "tone": "dark",
+    "triangles": 2646,
+    "C_RGB": [
+      77.0,
+      77.0,
+      77.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j15t",
+    "surface": "fin",
+    "tone": "white",
+    "triangles": 3121,
+    "C_RGB": [
+      171.0,
+      171.0,
+      171.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j15t",
+    "surface": "lerx",
+    "tone": "dark",
+    "triangles": 2033,
+    "C_RGB": [
+      35.0,
+      35.0,
+      35.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j15t",
+    "surface": "lerx",
+    "tone": "white",
+    "triangles": 2923,
+    "C_RGB": [
+      186.0,
+      186.0,
+      186.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j15t",
+    "surface": "canard",
+    "tone": "dark",
+    "triangles": 49,
+    "C_RGB": [
+      84.0,
+      84.0,
+      84.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j15t",
+    "surface": "canard",
+    "tone": "white",
+    "triangles": 188,
+    "C_RGB": [
+      187.0,
+      187.0,
+      187.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j15t",
+    "surface": "gear_c6-1",
+    "tone": "all",
+    "triangles": 949,
+    "C_RGB": [
+      85.0,
+      85.0,
+      85.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j15t",
+    "surface": "gear_c61",
+    "tone": "all",
+    "triangles": 746,
+    "C_RGB": [
+      85.0,
+      85.0,
+      85.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j15t",
+    "surface": "gear_c11-1",
+    "tone": "all",
+    "triangles": 954,
+    "C_RGB": [
+      85.0,
+      85.0,
+      85.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j15t",
+    "surface": "gear_c111",
+    "tone": "all",
+    "triangles": 745,
+    "C_RGB": [
+      85.0,
+      85.0,
+      85.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j15t",
+    "surface": "gear_l9-1",
+    "tone": "all",
+    "triangles": 1484,
+    "C_RGB": [
+      13.0,
+      13.0,
+      13.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j15t",
+    "surface": "gear_l91",
+    "tone": "all",
+    "triangles": 901,
+    "C_RGB": [
+      158.0,
+      158.0,
+      158.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j15t",
+    "surface": "gear_r9-1",
+    "tone": "all",
+    "triangles": 1491,
+    "C_RGB": [
+      13.0,
+      13.0,
+      13.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j15t",
+    "surface": "gear_r91",
+    "tone": "all",
+    "triangles": 894,
+    "C_RGB": [
+      158.0,
+      158.0,
+      158.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j15t",
+    "surface": "gear_l14-1",
+    "tone": "all",
+    "triangles": 2741,
+    "C_RGB": [
+      13.0,
+      13.0,
+      13.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j15t",
+    "surface": "gear_l141",
+    "tone": "all",
+    "triangles": 1390,
+    "C_RGB": [
+      161.0,
+      161.0,
+      161.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j15t",
+    "surface": "gear_r14-1",
+    "tone": "all",
+    "triangles": 2756,
+    "C_RGB": [
+      13.0,
+      13.0,
+      13.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  },
+  {
+    "source": "j15t",
+    "surface": "gear_r141",
+    "tone": "all",
+    "triangles": 1356,
+    "C_RGB": [
+      160.0,
+      160.0,
+      160.0
+    ],
+    "RB": [
+      102.0,
+      178.0
+    ]
+  }
+]

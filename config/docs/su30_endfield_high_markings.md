@@ -1,3 +1,5 @@
+> Current material correction: [2026-11-09 raw-channel and physical-surface repair](su30_material_surfaces_20261109.md) supersedes earlier nonuniform R/B handling.
+
 # Su-30SM/SM2 HIGH reference-slot repair — 2026-11-08
 
 This revision supersedes the 2026-11-07 identity layout. The user's in-game images showed actual rectangular label backgrounds and triangular fin-root fragments. The prior “one SUKHOI / large SU-30 / small plant name” layout did not reproduce reference slot semantics.

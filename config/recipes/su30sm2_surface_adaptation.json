@@ -17,9 +17,10 @@
   "base_projection": {
     "tool": "config/tools/prepare_sm_design_mapping.py",
     "nearest_source_candidates": 24,
-    "nose_projection_only": "x = 9 + (x-9)*(13.078754-9)/(13.797441-9) for x>9; sampling positions only, not native geometry",
+    "nose_projection_only": "Use native fuse skin extent after excluding narrow pitot islands; do not divide by whole-fuse max X. Apply final cylindrical nose artwork recipe.",
     "rudder_projection_only": "Normalize X/Y extent of rudder0/rudder1/rudder0_1/rudder1_1 to same source part before correspondence.",
-    "same_part_correspondence": true
+    "same_part_correspondence": true,
+    "historical_nose_rule_superseded": "13.078754/13.797441 extent ratio included the target pitot and distorted nose markings."
   },
   "continuity_groups": [
     {
@@ -63,7 +64,8 @@
         -1,
         0
       ],
-      "historical_painted_pixels": 1204172
+      "historical_painted_pixels": 1204172,
+      "normal_transfer_policy": "Raw reference R/B 102/178; rendered-plane normal RGB must not be reused as numeric material data."
     },
     {
       "region": "wing_-1",
@@ -106,7 +108,8 @@
         1,
         0
       ],
-      "historical_painted_pixels": 1252906
+      "historical_painted_pixels": 1252906,
+      "normal_transfer_policy": "Raw reference R/B 102/178; rendered-plane normal RGB must not be reused as numeric material data."
     },
     {
       "region": "fin_1_1",
@@ -149,7 +152,8 @@
         0,
         -1
       ],
-      "historical_painted_pixels": 311193
+      "historical_painted_pixels": 311193,
+      "normal_transfer_policy": "Raw reference R/B 102/178; rendered-plane normal RGB must not be reused as numeric material data."
     },
     {
       "region": "fin_1_-1",
@@ -192,7 +196,8 @@
         0,
         1
       ],
-      "historical_painted_pixels": 281797
+      "historical_painted_pixels": 281797,
+      "normal_transfer_policy": "Raw reference R/B 102/178; rendered-plane normal RGB must not be reused as numeric material data."
     },
     {
       "region": "fin_-1_1",
@@ -235,7 +240,8 @@
         0,
         -1
       ],
-      "historical_painted_pixels": 287911
+      "historical_painted_pixels": 287911,
+      "normal_transfer_policy": "Raw reference R/B 102/178; rendered-plane normal RGB must not be reused as numeric material data."
     },
     {
       "region": "fin_-1_-1",
@@ -278,7 +284,8 @@
         0,
         1
       ],
-      "historical_painted_pixels": 311261
+      "historical_painted_pixels": 311261,
+      "normal_transfer_policy": "Raw reference R/B 102/178; rendered-plane normal RGB must not be reused as numeric material data."
     }
   ],
   "plane_sample_formula": "(xyz[axes]-[xmin,ymin])/[xmax-xmin,ymax-ymin]*baked_source_plane_size - .5; axes and bounds come from source_calibration; rasterize to native target UV",
@@ -335,7 +342,8 @@
     "native component detail protection and restricted detail transfer",
     "review coating cleanup",
     "reference-slot ink replacement and ENDFIELD preservation",
-    "world-coordinate fin-joint blend with protected graphics and native GA"
+    "world-coordinate fin-joint blend with protected graphics and native GA",
+    "2026-11-09 direct raw reference R/B, LERX substrate, door physical faces and canard material consistency"
   ],
   "identity_recipe": "config/recipes/su30sm2_endfield_high_markings.json",
   "limits": [
@@ -430,5 +438,6 @@
     ],
     "applies_to": "big text and substrate sampling only, not every operation on this fin"
   },
-  "review": "config/reviews/2026-11-08/sm_sm2_repair.json"
+  "review": "config/reviews/2026-11-09/sm_sm2_material_surfaces.json",
+  "material_surface_correction": "config/recipes/su30sm2_material_surface_20261109.json"
 }

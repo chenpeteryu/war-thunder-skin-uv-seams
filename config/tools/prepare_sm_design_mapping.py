@@ -34,6 +34,17 @@ def match(sx,su,tx,k=24):
   out[take]=vals[take]
  return out,errors,align
 
+def fuse_skin_end(native, selected):
+    # Pitot hardware has its own narrow UV island and does not define radar-nose length.
+    values=[]
+    for island in np.unique(native['triangle_island'][selected]):
+        xyz=native['triangle_xyz'][selected & (native['triangle_island']==island)]
+        span=np.ptp(xyz,axis=(0,1))
+        if xyz[:,:,0].min()>12 and max(span[1:])<.2:
+            continue
+        values.append(float(xyz[:,:,0].max()))
+    return max(values)
+
 def run():
  import argparse
  parser=argparse.ArgumentParser(description='Rebuild artwork sampling coordinates without modifying native geometry')
@@ -52,8 +63,9 @@ def run():
    if not source.any():continue
    tx=t['triangle_xyz'][take].copy();sx=s['triangle_xyz'][source]
    if name=='fuse':
-    # Preserve the rear airframe, shorten only the longer SM radar nose.
-    x=tx[:,:,0];q=x>9.0;x[q]=9+(x[q]-9)*(13.078754-9)/(13.797441-9)
+    # Sampling coordinates only. Use skin extents, excluding the long SM pitot.
+    source_end=fuse_skin_end(s,source);target_end=fuse_skin_end(t,take)
+    x=tx[:,:,0];q=x>9.0;x[q]=9+(x[q]-9)*(source_end-9)/(target_end-9)
    if name in ['rudder0','rudder1','rudder0_1','rudder1_1']:
     for axis in [0,1]:
      lo,hi=tx[:,:,axis].min(),tx[:,:,axis].max();a,b=sx[:,:,axis].min(),sx[:,:,axis].max()

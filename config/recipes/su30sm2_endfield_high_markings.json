@@ -26,8 +26,8 @@
       "style": "condensed",
       "hatch": false,
       "normal_RB": [
-        102.0,
-        178.0
+        102,
+        178
       ],
       "guide_rectangle_xyxy": [
         15,
@@ -62,8 +62,8 @@
       "style": "condensed",
       "hatch": false,
       "normal_RB": [
-        102.0,
-        178.0
+        102,
+        178
       ],
       "guide_rectangle_xyxy": [
         14,
@@ -98,8 +98,8 @@
       "style": "tech",
       "hatch": false,
       "normal_RB": [
-        102.0,
-        178.0
+        102,
+        178
       ],
       "guide_rectangle_xyxy": [
         750,
@@ -134,8 +134,8 @@
       "style": "tech",
       "hatch": false,
       "normal_RB": [
-        50.0,
-        88.0
+        102,
+        178
       ],
       "guide_rectangle_xyxy": [
         1061,
@@ -170,8 +170,8 @@
       "style": "tech",
       "hatch": false,
       "normal_RB": [
-        50.0,
-        88.0
+        102,
+        178
       ],
       "guide_rectangle_xyxy": [
         1077,
@@ -210,8 +210,8 @@
         "ink_pixels_per_period": 2
       },
       "normal_RB": [
-        102.0,
-        178.0
+        102,
+        178
       ],
       "guide_rectangle_xyxy": [
         73,
@@ -246,8 +246,8 @@
       "style": "condensed",
       "hatch": false,
       "normal_RB": [
-        102.0,
-        178.0
+        102,
+        178
       ],
       "guide_rectangle_xyxy": [
         87,
@@ -282,8 +282,8 @@
       "style": "tech",
       "hatch": false,
       "normal_RB": [
-        50.0,
-        88.0
+        102,
+        178
       ],
       "guide_rectangle_xyxy": [
         337,
@@ -318,8 +318,8 @@
       "style": "condensed",
       "hatch": false,
       "normal_RB": [
-        50.0,
-        88.0
+        102,
+        178
       ],
       "guide_rectangle_xyxy": [
         310,
@@ -358,8 +358,8 @@
         "ink_pixels_per_period": 2
       },
       "normal_RB": [
-        102.0,
-        178.0
+        102,
+        178
       ],
       "guide_rectangle_xyxy": [
         724,
@@ -394,8 +394,8 @@
       "style": "condensed",
       "hatch": false,
       "normal_RB": [
-        102.0,
-        178.0
+        102,
+        178
       ],
       "guide_rectangle_xyxy": [
         304,
@@ -430,8 +430,8 @@
       "style": "condensed",
       "hatch": false,
       "normal_RB": [
-        50.0,
-        88.0
+        102,
+        178
       ],
       "guide_rectangle_xyxy": [
         1125,
@@ -466,8 +466,8 @@
       "style": "condensed",
       "hatch": false,
       "normal_RB": [
-        102.0,
-        178.0
+        102,
+        178
       ],
       "guide_rectangle_xyxy": [
         777,
@@ -502,8 +502,8 @@
       "style": "condensed",
       "hatch": false,
       "normal_RB": [
-        102.0,
-        178.0
+        102,
+        178
       ],
       "guide_rectangle_xyxy": [
         776,
@@ -538,8 +538,8 @@
       "style": "condensed",
       "hatch": false,
       "normal_RB": [
-        102.0,
-        178.0
+        102,
+        178
       ],
       "guide_rectangle_xyxy": [
         735,
@@ -578,8 +578,8 @@
         "ink_pixels_per_period": 2
       },
       "normal_RB": [
-        80,
-        139
+        102,
+        178
       ],
       "guide_polygon_xy": [
         [
@@ -660,7 +660,7 @@
     "Do not edit native XYZ, UV or structural normal channels G/A. R/B material changes require a separate scope and check.",
     "For unknown locations, use a separate disposable multiscale color-block/number/direction probe and inspect all sides. Never leave probes in delivery textures."
   ],
-  "review": "config/reviews/2026-11-08/sm_sm2_repair.json",
+  "review": "config/reviews/2026-11-09/sm_sm2_material_surfaces.json",
   "game_verified": false,
   "identity_sources": {
     "manufacturer_and_model": "https://rostec.ru/media/news/istrebitel-su-30sm2-gospodstvo-v-vozdukhe/",
@@ -680,5 +680,6 @@
       "world art",
       "generic technical markings"
     ]
-  }
+  },
+  "material_policy": "All paint and inscriptions retain raw reference R/B 102/178; glyphs alter C only. See 2026-11-09 correction."
 }
