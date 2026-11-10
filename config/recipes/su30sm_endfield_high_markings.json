@@ -499,7 +499,11 @@
         485,
         1188,
         536
-      ]
+      ],
+      "symbol": "config/symbols/sukhoi_official.svg",
+      "symbol_alpha": "config/symbols/sukhoi_stacked_155x136.png",
+      "logo_recipe": "config/recipes/su30sm_sukhoi_logo_20261110.json",
+      "layout": "Emblem above SUKHOI wordmark in the original manufacturer slot; solid gray 79, aspect ratio retained."
     },
     {
       "id": "upper_signature",
@@ -725,5 +729,6 @@
     ]
   },
   "material_policy": "All paint and inscriptions retain raw reference R/B 102/178; glyphs alter C only. See 2026-11-09 correction.",
-  "touchup_recipe": "config/recipes/su30sm_touchup_20261110.json"
+  "touchup_recipe": "config/recipes/su30sm_touchup_20261110.json",
+  "final_logo_recipe": "config/recipes/su30sm_sukhoi_logo_20261110.json"
 }

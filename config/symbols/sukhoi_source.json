@@ -1,0 +1,9 @@
+{
+  "source_page": "https://commons.wikimedia.org/wiki/File:Sukhoi_logo.svg",
+  "source_svg": "https://upload.wikimedia.org/wikipedia/commons/3/35/Sukhoi_logo.svg",
+  "source_svg_sha256": "0cf5d5136a2d2deb7543c95f4660f602799fd9c2ae6180e19e6845616458c4bd",
+  "commons_license_tag": "PD-textlogo; trademark notice retained on source page",
+  "adaptation": "Monochrome mask. Separate unchanged-proportion emblem and wordmark, stack in the existing reference AVIC manufacturer slot; this vertical stack is a skin adaptation, not a claim of an official lockup.",
+  "render": "Vector paths rasterized to 2048x436, glyph alpha only. Emblem 96x96 maximum at y=2, wordmark 140x25 maximum at y=106 in a 155x136 atlas slot.",
+  "ink_value": 79
+}

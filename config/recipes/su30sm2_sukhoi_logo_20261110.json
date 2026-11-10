@@ -1,0 +1,25 @@
+{
+  "C_changed_pixels": 9430,
+  "outside_logo_glyph_scope_changed": 0,
+  "N_byte_identical": true,
+  "alpha_unchanged": true,
+  "input_C_sha256": "9c3114c3de5d86a8c25bd4e64f9ae79662fc4056223eff902a12efc49ed69d74",
+  "output_C_sha256": "79d246e19805591401134cfb54a712bae2a3f39ee5f781ca03991c8723bf010c",
+  "box_authoring": [
+    3013,
+    1293,
+    3168,
+    1429
+  ],
+  "geometry": "aircraft/su30sm2/su_30sm2_c/geometry.npz",
+  "geometry_sha256": "4bcc23ed9099d68f505e13e2ef2d2693f78a80a1221ae8b5473c114fd61d8132",
+  "alpha_mask": "config/symbols/sukhoi_stacked_155x136.png",
+  "alpha_mask_sha256": "a37afed507faadc16329cf603c21ca96db1f4e8f2b32a3b2b336682eae6b27fe",
+  "source_vector": "config/symbols/sukhoi_official.svg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Sukhoi_logo.svg",
+  "source_original_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Sukhoi_logo.svg",
+  "layout": "Reference AVIC slot: emblem above wordmark, preserve source aspect ratios; monochrome small solid manufacturer mark. No background rectangle.",
+  "ink_value": 79,
+  "normal_policy": "N byte identical; no native XYZ/UV changes.",
+  "tool": "config/tools/apply_sm_sukhoi_logo.py"
+}

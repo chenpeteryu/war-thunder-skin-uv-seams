@@ -222,13 +222,13 @@
     },
     {
       "file": "su30sm_endfield_high_markings.json",
-      "source_sha256": "596f6dc61a8921572b5fcae4673b7a3921dd052f67e329ac3a0fd7a3ebaaa4e7",
-      "published_sha256": "596f6dc61a8921572b5fcae4673b7a3921dd052f67e329ac3a0fd7a3ebaaa4e7"
+      "source_sha256": "ef1206f5952ac149842f3a9edf3472c3db3fe70a69b02f56412f31a7dc8e9488",
+      "published_sha256": "ef1206f5952ac149842f3a9edf3472c3db3fe70a69b02f56412f31a7dc8e9488"
     },
     {
       "file": "su30sm2_endfield_high_markings.json",
-      "source_sha256": "d663f0f99dfe03634f92691e83037dea585a900348694d35cb355af3ccf2941b",
-      "published_sha256": "d663f0f99dfe03634f92691e83037dea585a900348694d35cb355af3ccf2941b"
+      "source_sha256": "6e579b14890726dfd8b121e888b407b266664830d2f9d3da1897338fd68a82e4",
+      "published_sha256": "6e579b14890726dfd8b121e888b407b266664830d2f9d3da1897338fd68a82e4"
     },
     {
       "file": "su30sm_surface_adaptation.json",
@@ -279,6 +279,16 @@
       "file": "su30sm_touchup_20261110.json",
       "source_sha256": "a88f8111a15208bc207998594bd0f966cf491b4db44d5752c9f2c4a3e1f8eb29",
       "published_sha256": "a88f8111a15208bc207998594bd0f966cf491b4db44d5752c9f2c4a3e1f8eb29"
+    },
+    {
+      "file": "su30sm2_sukhoi_logo_20261110.json",
+      "source_sha256": "4fa9821c5e613e4bcb25e59f050494dd61dbc9b5de22306a68e9f7fc7c61eba9",
+      "published_sha256": "4fa9821c5e613e4bcb25e59f050494dd61dbc9b5de22306a68e9f7fc7c61eba9"
+    },
+    {
+      "file": "su30sm_sukhoi_logo_20261110.json",
+      "source_sha256": "1d88d60174c452ce237ba111f225da2cfbdde44418fb31953601636eeabab51b",
+      "published_sha256": "1d88d60174c452ce237ba111f225da2cfbdde44418fb31953601636eeabab51b"
     }
   ],
   "mask_sources": [
