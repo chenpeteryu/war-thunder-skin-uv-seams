@@ -1,0 +1,38 @@
+{
+  "models": {
+    "su_30sm": {
+      "geometry_sha256": "432aa2155ff69f3641d50a13423796fe61535f92c4c96dce926872748dc5291b",
+      "changed_C_pixels": 314800,
+      "outside_authorized_scope_changed": 0,
+      "native_GA_preserved": true,
+      "N_byte_identical": true,
+      "colored_accents_unchanged": true,
+      "alpha_unchanged": true,
+      "DDS_PNG_exact": true,
+      "installed_C_sha256": "72541d35174b2a2d177af54ec895b8306d5a6fc154cad34c72debe19ca222daa",
+      "source_profile": "config/recipes/su30sm_touchup_20261110.json"
+    },
+    "su_30sm2": {
+      "geometry_sha256": "4bcc23ed9099d68f505e13e2ef2d2693f78a80a1221ae8b5473c114fd61d8132",
+      "changed_C_pixels": 315416,
+      "outside_authorized_scope_changed": 0,
+      "native_GA_preserved": true,
+      "N_byte_identical": true,
+      "colored_accents_unchanged": true,
+      "alpha_unchanged": true,
+      "DDS_PNG_exact": true,
+      "installed_C_sha256": "9c3114c3de5d86a8c25bd4e64f9ae79662fc4056223eff902a12efc49ed69d74",
+      "source_profile": "config/recipes/su30sm2_touchup_20261110.json"
+    }
+  },
+  "other_files_preserved": 132,
+  "archive_matches_installed": true,
+  "archive_entries": 34,
+  "game_verified": false,
+  "rejected": "Native-detail crossfade, partial triangular nearest-surface copy, and intermediate broken-line variants were rejected; only current continuous path generator is authoritative.",
+  "public_generator_replay_matches_DDS_byte_exact": {
+    "su_30sm": true,
+    "su_30sm2": true
+  },
+  "generator_output": "public_replay_chroma/candidate"
+}

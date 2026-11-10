@@ -428,7 +428,8 @@
     ],
     "native_GA": "byte exact to freshly extracted current game normal, bicubic 4096",
     "repeat_policy": "Always start from pre-root image, never repeat over already blended output.",
-    "quantized_weight_note": "Stored 8-bit weight is scope/review data. Regenerate float32 weights for exact blending."
+    "quantized_weight_note": "Stored 8-bit weight is scope/review data. Regenerate float32 weights for exact blending.",
+    "C_method_superseded_20261110": "Do not blend or fade original native C/rivets into root. Use continuous reference paths in final touchup generator."
   },
   "fin_large_text_island": {
     "native_island": 6605,
@@ -439,5 +440,6 @@
     "applies_to": "big text and substrate sampling only, not every operation on this fin"
   },
   "review": "config/reviews/2026-11-09/sm_sm2_material_surfaces.json",
-  "material_surface_correction": "config/recipes/su30sm_material_surface_20261109.json"
+  "material_surface_correction": "config/recipes/su30sm_material_surface_20261109.json",
+  "final_touchup_recipe": "config/recipes/su30sm_touchup_20261110.json"
 }

@@ -1,0 +1,40 @@
+{
+  "model": "su_30sm2",
+  "variant": "SM2",
+  "geometry": "aircraft/su30sm2/su_30sm2_c/geometry.npz",
+  "geometry_sha256": "4bcc23ed9099d68f505e13e2ef2d2693f78a80a1221ae8b5473c114fd61d8132",
+  "input_C_sha256": "24d2b1fe9debf3e32e759d1d5333f8d3521037da1bb2260a4782789b80a874cf",
+  "original_reference_C_sha256": "82b49a6539aec414f35e576cbd1cae646d9965b97cacaae27c65e582cbe0e024",
+  "J16_C_sha256": "e577e615bb8aff00045e55822fe66553d487311ceb765d22d75ce281d07a4c49",
+  "output_C_sha256": "9c3114c3de5d86a8c25bd4e64f9ae79662fc4056223eff902a12efc49ed69d74",
+  "generator": "config/tools/rebuild_sm_continuous_root_20261110.py",
+  "generated_mapping_bundle": "su30sm2_continuous_root_20261110.npz",
+  "generated_mapping_bundle_sha256": "5688c8e0ac8c87869ec092ce02010bdac857ff676925137930f8a08b0475d3ff",
+  "mapping_is_generated_from_native_geometry": true,
+  "source_artwork_not_included": true,
+  "root_method": "Four isolated native-side orthographic UV planes with depth selection; raw J16 structure-path extraction. Continuous long paths above Y=.45; raw lower technical stencils; exclude source logo. Uniform neutral coat, no native C/rivet blending. Preserve existing chromatic accents and approved glyph footprints.",
+  "plane_resolution": [
+    2400,
+    1200
+  ],
+  "plane_native_XY_bounds": [
+    -7.2,
+    -0.65,
+    -0.6,
+    1.65
+  ],
+  "long_line_detection": {
+    "rho": 1,
+    "theta_divisor": 1440,
+    "threshold": 70,
+    "min_length": 160,
+    "max_gap": 3,
+    "ink_width": 4
+  },
+  "normal_policy": "N byte identical; no native XYZ/UV changes.",
+  "glyph_changes": {
+    "root_manufacturer": "Remove SU-30 and variant lines, keep IRKUTSK in original position.",
+    "stabilizer_operator": "Remove trailing -30 only; retain SU original glyph position, type size and slant."
+  },
+  "game_verified": false
+}

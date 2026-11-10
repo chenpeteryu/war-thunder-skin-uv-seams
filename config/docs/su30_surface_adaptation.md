@@ -1,3 +1,5 @@
+> Current final C touchup: see [2026-11-10 continuous-root and label revision](su30_touchup_20261110.md). Older root native-C fades are superseded.
+
 > Current material correction: [2026-11-09 raw-channel and physical-surface repair](su30_material_surfaces_20261109.md) supersedes earlier nonuniform R/B handling.
 
 # SM/SM2：原生轮廓与涂装微调的区别

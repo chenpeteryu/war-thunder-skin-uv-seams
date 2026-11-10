@@ -241,7 +241,7 @@
     {
       "id": "stabilizer_operator",
       "action": "replace_original_ink",
-      "text": "SU-30",
+      "text": "SU",
       "rotation_pillow_degrees": 180,
       "style": "condensed",
       "hatch": false,
@@ -272,7 +272,21 @@
         903,
         140,
         914
-      ]
+      ],
+      "placement_override": {
+        "rule": "Retain SU glyphs from prior SU-30, remove only -30; preserve original placement and aspect.",
+        "original_ink_box_authoring": [
+          267,
+          2408,
+          373,
+          2437
+        ],
+        "removed_local_x_range": [
+          0,
+          54
+        ],
+        "rotation_pillow_degrees": 180
+      }
     },
     {
       "id": "wing_number",
@@ -389,7 +403,7 @@
     {
       "id": "root_manufacturer",
       "action": "replace_original_ink",
-      "text": "SU-30\nSM\nIRKUTSK",
+      "text": "IRKUTSK",
       "rotation_pillow_degrees": -90,
       "style": "condensed",
       "hatch": false,
@@ -420,7 +434,36 @@
         264,
         380,
         348
-      ]
+      ],
+      "previous_text": "SU-30\nSM\nIRKUTSK",
+      "placement_override": {
+        "rule": "Retain the third line of the prior three-line title at its exact original position; erase only first two glyph footprints. Do not center or resize the remaining word.",
+        "previous_ink_box_authoring": [
+          840,
+          704,
+          1013,
+          928
+        ],
+        "retained_local_x_span": [
+          9,
+          56
+        ],
+        "removed_local_x_spans": [
+          [
+            62,
+            110
+          ],
+          [
+            116,
+            163
+          ]
+        ],
+        "rotation_pillow_degrees": -90,
+        "original_glyph_generator": "Review_20261108 build_repair.py text_mask; original three-line condensed ARIALNB 150, shear .055, original fit retained",
+        "substrate": "Restore original reference substrate after existing local ink erasure, only where removed glyph alpha > 0. No rectangular fill.",
+        "normal": "No N changes.",
+        "date": "2026-11-10"
+      }
     },
     {
       "id": "fin_manufacturer",
@@ -660,7 +703,7 @@
     "Do not edit native XYZ, UV or structural normal channels G/A. R/B material changes require a separate scope and check.",
     "For unknown locations, use a separate disposable multiscale color-block/number/direction probe and inspect all sides. Never leave probes in delivery textures."
   ],
-  "review": "config/reviews/2026-11-09/sm_sm2_material_surfaces.json",
+  "review": "config/reviews/2026-11-10/root_model_removal.json",
   "game_verified": false,
   "identity_sources": {
     "manufacturer_and_model": "https://rostec.ru/media/news/istrebitel-su-30sm2-gospodstvo-v-vozdukhe/",
@@ -681,5 +724,6 @@
       "generic technical markings"
     ]
   },
-  "material_policy": "All paint and inscriptions retain raw reference R/B 102/178; glyphs alter C only. See 2026-11-09 correction."
+  "material_policy": "All paint and inscriptions retain raw reference R/B 102/178; glyphs alter C only. See 2026-11-09 correction.",
+  "touchup_recipe": "config/recipes/su30sm_touchup_20261110.json"
 }

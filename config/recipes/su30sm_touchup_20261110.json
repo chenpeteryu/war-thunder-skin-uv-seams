@@ -1,0 +1,40 @@
+{
+  "model": "su_30sm",
+  "variant": "SM",
+  "geometry": "aircraft/su30sm/su_30sm_c/geometry.npz",
+  "geometry_sha256": "432aa2155ff69f3641d50a13423796fe61535f92c4c96dce926872748dc5291b",
+  "input_C_sha256": "331ac2f2db8cb3dceac6f0be73373143fbc401d2aa08c28e56a9685db6a3afa2",
+  "original_reference_C_sha256": "f8fe2185b5112f494582cfa807deb8f50e2f69ec067b01610b83e308b88b40c9",
+  "J16_C_sha256": "e577e615bb8aff00045e55822fe66553d487311ceb765d22d75ce281d07a4c49",
+  "output_C_sha256": "72541d35174b2a2d177af54ec895b8306d5a6fc154cad34c72debe19ca222daa",
+  "generator": "config/tools/rebuild_sm_continuous_root_20261110.py",
+  "generated_mapping_bundle": "su30sm_continuous_root_20261110.npz",
+  "generated_mapping_bundle_sha256": "e9c89aed0023dfd953826228de4ae84849eba5a435762002463ec124e7d615fa",
+  "mapping_is_generated_from_native_geometry": true,
+  "source_artwork_not_included": true,
+  "root_method": "Four isolated native-side orthographic UV planes with depth selection; raw J16 structure-path extraction. Continuous long paths above Y=.45; raw lower technical stencils; exclude source logo. Uniform neutral coat, no native C/rivet blending. Preserve existing chromatic accents and approved glyph footprints.",
+  "plane_resolution": [
+    2400,
+    1200
+  ],
+  "plane_native_XY_bounds": [
+    -7.2,
+    -0.65,
+    -0.6,
+    1.65
+  ],
+  "long_line_detection": {
+    "rho": 1,
+    "theta_divisor": 1440,
+    "threshold": 70,
+    "min_length": 160,
+    "max_gap": 3,
+    "ink_width": 4
+  },
+  "normal_policy": "N byte identical; no native XYZ/UV changes.",
+  "glyph_changes": {
+    "root_manufacturer": "Remove SU-30 and variant lines, keep IRKUTSK in original position.",
+    "stabilizer_operator": "Remove trailing -30 only; retain SU original glyph position, type size and slant."
+  },
+  "game_verified": false
+}

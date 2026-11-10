@@ -1,3 +1,5 @@
+> Current final C touchup: see [2026-11-10 continuous-root and label revision](su30_touchup_20261110.md). Older root native-C fades are superseded.
+
 # SM/SM2 HIGH material follow-up — 2026-11-09
 
 The user's new in-game screenshots invalidate a claim that the earlier static review proved correct runtime materials. The actual issue is visible in raw packed-channel data: millions of painted SM/SM2 pixels contain R/B near 50/88, whereas the corresponding physical surfaces of the installed J16 and J15T references use 102/178. The difference affects wings, fixed fins and rudders relative to the body and canards. A clean albedo preview does not verify this.
